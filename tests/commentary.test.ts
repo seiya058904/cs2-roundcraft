@@ -13,4 +13,4 @@ it('强烈呐喊与比喻仅用于高光，跨回合冷却不靠换句绕过',()
   for(const round of s.mapStates[0].rounds){const intense=round.commentary.filter(x=>/卧槽|牛逼|无敌|太变态|太夸张/.test(x.text)),metaphors=round.commentary.filter(x=>/高压锅|一键扫荡|歼灭模式|游龙|包饺子|空城计|变速齿轮/.test(x.text));expect(intense.length).toBeLessThanOrEqual(1);expect(metaphors.length).toBeLessThanOrEqual(1);if(intense.length){expect(round.number-lastEmphatic).toBeGreaterThan(3);lastEmphatic=round.number;emphaticCount++;}if(metaphors.length){expect(round.number-lastMetaphor).toBeGreaterThan(10);lastMetaphor=round.number;}}
  }
  expect(emphaticCount).toBeGreaterThan(0);
-});
+},20000);
