@@ -14,4 +14,6 @@ Source attribution is not a blanket permission to reuse all material. Original u
 
 [Equipment provenance](src/assets/equipment/sources.json) pins each SVG to its source and SHA-256. Geometry is preserved; UI masks apply team colors. No real player portraits or club logos are bundled.
 
+The website favicon reuses the existing helmet geometry from `src/assets/equipment/helmet.svg`, recolored in the interface's gold on a dark background. The same Valve asset attribution above applies.
+
 The local `esm2026-extract/` reference package and bulk extracted symbol/content indexes are excluded from publication. Match rules are implemented in this project's own regional simulation; missing original functions are not represented as verified original mechanics.
