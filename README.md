@@ -1,6 +1,14 @@
 <h1 align="center">🎯 CS2 ROUNDCRAFT</h1>
 
 <p align="center">
+  <a href="https://seiya058904.github.io/cs2-roundcraft/">
+    <img src="docs/media/readme-hero.svg" width="100%" alt="CS2 Roundcraft illustrated tactical cover featuring five-on-five player markers, a stylized map, and broadcast graphics" />
+  </a>
+  <br>
+  <sub>ORIGINAL TACTICAL ILLUSTRATION · ACTUAL GAMEPLAY CAPTURES BELOW</sub>
+</p>
+
+<p align="center">
   <strong>Call the round. Read the play. Build the next advantage.</strong>
 </p>
 
@@ -11,6 +19,8 @@
 
 <p align="center">
   <a href="https://seiya058904.github.io/cs2-roundcraft/"><strong>▶ Play in Your Browser</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#choose-your-experience">🧭 Experiences</a>
   &nbsp;·&nbsp;
   <a href="#the-round-loop">🎮 How It Plays</a>
   &nbsp;·&nbsp;
@@ -42,6 +52,28 @@
 > **A round is more than a final score.**
 >
 > Choose where to commit, how to spend, and when to adapt. Then watch the simulation resolve its events: first contact, flashes, trades, rotations, saves and retakes. The commentary follows what happened—not a prewritten winner.
+
+<a id="choose-your-experience"></a>
+## 🧭 Choose Your Experience
+
+Different ways to use the same round engine, from a single quick decision to an entire fictional season.
+
+| Experience | Your role | Best for |
+| --- | --- | --- |
+| **Featured match** | Jump into the prepared Vitality vs FURIA series and make tactical decisions round by round. | Learning the observer, economy and commentary flow. |
+| **Sandbox series** | Set lineups, seed and series format; experiment with decisions and compare outcomes. | Trying alternative approaches under repeatable conditions. |
+| **Club career** | Manage a roster through simulated competitions, invitations, transfers and progression. | Building a longer story around your team. |
+| **Automatic rounds** | Let the AI supply later decisions and inspect what the engine actually recorded. | Watching outcomes without manually calling every round. |
+
+### Decisions in, evidence out
+
+| The manager chooses | The simulation resolves |
+| --- | --- |
+| Tactical preset, positioning and phase emphasis | Contacts, utility effects, trades and rotations |
+| Purchase policy, spending risk and timeout decisions | Round economy, casualties, survival and result |
+| Roster and match context | A dated, reproducible event trail and fictional season statistics |
+
+**The game does not ask you to aim or fire a weapon.** The experience is about giving the plan a chance, watching it succeed or fail, and deciding what to change next.
 
 <a id="the-round-loop"></a>
 ## 🎮 One Round at a Time
@@ -90,6 +122,23 @@ You control decisions, not individual mouse aim. **Automatic batches let the AI 
 The match engine models seven maps as connected tactical regions. Positioning, timing, visible information, utilities, weapon purchases and individual/team attributes influence the events that unfold. Match rules include MR12 halves, side changes and overtime.
 
 The model is **an abstraction of Counter-Strike**, not a recreation of exact movement, ballistics, grenade trajectories or recorded CS2 demos. Its tactical choices have modeled consequences, but it does not claim to predict professional results.
+
+<a id="round-anatomy"></a>
+## 🧩 Anatomy of a Simulated Round
+
+<p align="center"><code>PREPARE &nbsp;→&nbsp; OPENING &nbsp;→&nbsp; CONTACT &nbsp;→&nbsp; ROTATE &nbsp;→&nbsp; RESOLVE &nbsp;→&nbsp; REVIEW</code></p>
+
+The broadcast is not a random set of match-themed lines pasted over a scoreboard. The observer and the text commentary read from the same resolved event sequence.
+
+| Moment | What to look for |
+| --- | --- |
+| **Preparation** | Side, loadout, economy and the intent behind the chosen tactical call. |
+| **Opening moves** | Early positions, utility, information and the first engagement. |
+| **Mid-round** | Trades, rotations, numbers advantage and changing site pressure. |
+| **Resolution** | The modeled plant, retake, elimination, save or timer outcome. |
+| **Review** | Event ledger and tactical evidence to inform the next choice. |
+
+Because the event stream is the source of truth, pausing or replaying narration does not reroll the round. A seeded scenario remains reproducible only when its engine version, data and decisions match.
 
 <a id="visuals-and-commentary"></a>
 ## 🖥️ A Match You Can Actually Read
@@ -233,6 +282,36 @@ Further simulation experiments are available with `npm run sim:stress`, `npm run
 - **[Changelog](CHANGELOG.md)** · **[Contributing](CONTRIBUTING.md)** · **[Security](SECURITY.md)** · **[Support](SUPPORT.md)**.
 
 Areas still needing attention include broader player evidence, balance calibration, full real-world match physics and tournament rules, and testing on more browsers and physical devices. A passed automated test does not resolve those limitations.
+
+## ❓ Frequently Asked Questions
+
+<details>
+<summary><strong>Is this a playable first-person Counter-Strike game?</strong></summary>
+
+No. CS2 Roundcraft is a **browser-based tactical and team-management simulation**. You make decisions; the simulation resolves encounters and presents them as text, statistics and observer events.
+
+</details>
+
+<details>
+<summary><strong>Are the teams, ratings and match results official?</strong></summary>
+
+No. The starting identities and roster snapshot reference dated source material, but ability scores, team strengths, season outcomes and the CTM Rating are **game models**. They should not be read as official player rankings or real-world predictions.
+
+</details>
+
+<details>
+<summary><strong>Can I play offline or move my save to another computer?</strong></summary>
+
+An already loaded and cached production site can support offline refresh. For portability, **export your save as JSON** and import it on the other device or browser; local IndexedDB data does not synchronize between origins.
+
+</details>
+
+<details>
+<summary><strong>Why is the commentary in Chinese when this README is in English?</strong></summary>
+
+The game's current interface and narration are in Simplified Chinese. The English README documents how it works; it does not imply an English-language in-game mode.
+
+</details>
 
 ## 📜 Sources, Attribution & Rights
 
