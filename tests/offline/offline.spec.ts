@@ -10,6 +10,6 @@ test('生产版缓存完成后断网刷新、恢复、Worker 模拟',async({page
   const urls=(await (await caches.open(cacheName)).keys()).map(request=>request.url).filter(url=>url.endsWith('.svg'));
   return Promise.all(urls.map(async url=>{const response=await fetch(url);const img=new Image();img.src=url;await img.decode();return response.ok&&img.naturalWidth>0;}));
  });
- expect(equipment).toHaveLength(23);expect(equipment.every(Boolean)).toBe(true);
+ expect(equipment).toHaveLength(24);expect(equipment.every(Boolean)).toBe(true);
  await page.getByRole('button',{name:'模拟 BO3',exact:true}).click();await expect(page.getByText('系列赛结束',{exact:true})).toBeVisible({timeout:30000});expect(errors).toEqual([]);
 });
