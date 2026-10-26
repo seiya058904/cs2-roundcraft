@@ -1,129 +1,167 @@
-<h1 align="center">CS2 Roundcraft</h1>
+<h1 align="center">🎯 CS2 ROUNDCRAFT</h1>
 
-<p align="center"><strong>Call the round. Read the play. Build the next advantage.</strong></p>
-<p align="center">A CS2-inspired tactical manager that puts the command desk beside the broadcast.<br>Choose a plan, watch both teams, and trace each turning point back to the match events.</p>
-<p align="center"><a href="https://seiya058904.github.io/cs2-roundcraft/">Play CS2 Roundcraft</a> &nbsp;·&nbsp; <a href="#the-round-loop">The Round Loop</a> &nbsp;·&nbsp; <a href="#inside-the-game">Inside the Game</a> &nbsp;·&nbsp; <a href="#run-locally">Run Locally</a> &nbsp;·&nbsp; <a href="docs/publishing/AUDIT.md">Audit & Readiness</a></p>
-<p align="center"><sub>50 SNAPSHOT TEAMS · 250 STARTING SEATS · 7 MAPS · 12 PLAYER ABILITIES</sub></p>
-<p align="center"><img src="docs/media/match-desktop.png" width="1100" alt="Match command desk with tactics above mirrored five-player teams and source-backed equipment silhouettes" /></p>
+<p align="center">
+  <strong>Call the round. Read the play. Build the next advantage.</strong>
+</p>
 
-> **The game interface and commentary are Simplified Chinese.** This README and repository guidance are English. This is an unofficial fan-made regional simulation, not a CS2 client or demo parser.
+<p align="center">
+  A Counter-Strike 2-inspired tactical management game that puts you at the command desk.<br>
+  Shape the plan, follow an event-driven broadcast, and build a team across a simulated competitive season.
+</p>
 
-## The Round Loop
+<p align="center">
+  <a href="https://seiya058904.github.io/cs2-roundcraft/"><strong>▶ Play in Your Browser</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#the-round-loop">🎮 How It Plays</a>
+  &nbsp;·&nbsp;
+  <a href="#inside-the-game">⚡ Game Systems</a>
+  &nbsp;·&nbsp;
+  <a href="#visuals-and-commentary">🖥️ Screenshots</a>
+  &nbsp;·&nbsp;
+  <a href="#run-locally">⚙️ Run Locally</a>
+</p>
 
-<p align="center"><code>CHOOSE A PLAN → CALL THE ROUND → WATCH THE EVENTS → ADJUST</code></p>
+<p align="center">
+  <sub>50 SNAPSHOT TEAMS &nbsp;·&nbsp; 250 STARTING PLAYERS &nbsp;·&nbsp; 7 MAPS &nbsp;·&nbsp; 12 MODELED ABILITIES</sub>
+</p>
 
-1. **Take the desk.** Start Vitality vs FURIA, configure a seeded sandbox, or take over a club in career mode.
-2. **Set your intent.** Choose a preset and purchase strategy. Expand phase adjustments, positioning and risk controls when needed.
-3. **Execute one full round.** Read commentary as health, utility, equipment and casualties update at the same event boundary.
-4. **Review the evidence.** Inspect the event ledger and make the next decision. Playback speed and animation settings do not change the result.
+<p align="center">
+  <a href="https://github.com/seiya058904/cs2-roundcraft/actions/workflows/pages.yml">
+    <img src="https://github.com/seiya058904/cs2-roundcraft/actions/workflows/pages.yml/badge.svg" alt="Automated verification and GitHub Pages deployment status" />
+  </a>
+</p>
 
-Automatic batches hand tactical decisions to the AI; they do not repeat every manual instruction. Reproduction requires the same seed, engine version, roster and decisions.
+<p align="center">
+  <img src="docs/media/match-desktop.png" width="920" alt="Actual CS2 Roundcraft desktop match interface with tactical controls, mirrored five-player team boards, equipment and score" />
+  <br>
+  <sub>THE MATCH COMMAND DESK · ACTUAL GAMEPLAY CAPTURE</sub>
+</p>
 
-## Inside the Game
+---
+
+> **A round is more than a final score.**
+>
+> Choose where to commit, how to spend, and when to adapt. Then watch the simulation resolve its events: first contact, flashes, trades, rotations, saves and retakes. The commentary follows what happened—not a prewritten winner.
+
+<a id="the-round-loop"></a>
+## 🎮 One Round at a Time
+
+<p align="center"><code>SET THE PLAN &nbsp;→&nbsp; EXECUTE THE ROUND &nbsp;→&nbsp; READ THE EVENTS &nbsp;→&nbsp; ADAPT</code></p>
+
+1. **Take command.** Jump straight into a Vitality vs FURIA series, create a seeded sandbox match, or take charge of a club.
+2. **Make the call.** Choose a tactical preset, purchase policy and risk level. Expand positioning and phase controls when you want more detail.
+3. **Run the round.** Follow Chinese commentary alongside the evolving scoreboard, player health, equipment and event record.
+4. **Learn and adjust.** Review the tactical breakdown and event ledger, call a coach timeout when available, and plan the next round.
+
+You control decisions, not individual mouse aim. **Automatic batches let the AI make subsequent decisions**; they are not a recording of repeated manual commands. For reproducibility, keep the same engine, data, seed, roster and decisions.
+
+<a id="inside-the-game"></a>
+## ⚡ Inside the Game
 
 <table>
-<tr>
-<td width="50%" valign="top"><h3>Command & Economy</h3><p>Map-aware presets, phase overrides, purchase policies, tactical pools and coach timeouts. Plans resolve against equipment, travel, utility and available information.</p></td>
-<td width="50%" valign="top"><h3>Observe & Explain</h3><p>Two aligned five-player panels show weapons, utility, cash, health and deaths. Commentary cites revealed events, with detailed and brief reading modes.</p></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><h3>Scout & Compare</h3><p>Search professional aliases, inspect twelve modeled abilities and compare two players. Sourced statistics, estimates and missing evidence remain distinct.</p></td>
-<td width="50%" valign="top"><h3>Sandbox & Career</h3><p>Seeded BO1/BO3/BO5 series, map vetoes, custom lineups, seasonal events and player exchanges. Background simulation supports cancellation at safe boundaries.</p></td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 Tactical Command</h3>
+      <p><sub>PRESETS · PHASES · POSITIONS · ECONOMY</sub></p>
+      <p>Choose map-aware plans, assign opening positions, manage purchase strategies, and respond to the evolving round. Coach timeouts offer limited, explicit choices.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📡 Live Match Observer</h3>
+      <p><sub>10 PLAYERS · EQUIPMENT · EVENTS · REPLAY</sub></p>
+      <p>Follow both five-player teams in a synchronized observer view. Commentary, health, casualties and money are presented at the appropriate event boundary.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔍 Player Scouting</h3>
+      <p><sub>SEARCH · 12 ABILITIES · SIDE-BY-SIDE COMPARISON</sub></p>
+      <p>Browse professional identities, check player profiles and compare modeled abilities. Sourced evidence is distinguished from estimates and unverified information.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏆 Sandbox & Career</h3>
+      <p><sub>BO1 / BO3 / BO5 · VETO · SEASONS · TRANSFERS</sub></p>
+      <p>Try custom lineups and seeded series, then manage a club through simulated tournaments, invitations, roster exchanges and seasonal progression.</p>
+    </td>
+  </tr>
 </table>
 
-### A board you can read
+### 🎯 Tactical depth, without manual firefights
 
-Commands sit above the teams. Attacking gold and defending blue follow side changes while your team stays on the left. Advanced controls and technical details expand on demand.
+The match engine models seven maps as connected tactical regions. Positioning, timing, visible information, utilities, weapon purchases and individual/team attributes influence the events that unfold. Match rules include MR12 halves, side changes and overtime.
 
-Weapons use individually mapped SVGs. Armor, helmets, grenades, kits and C4 retain sourced silhouettes. Live cash and armor labels distinguish purchase-time information from settlement.
+The model is **an abstraction of Counter-Strike**, not a recreation of exact movement, ballistics, grenade trajectories or recorded CS2 demos. Its tactical choices have modeled consequences, but it does not claim to predict professional results.
 
-<p align="center"><img src="docs/media/match-mobile.png" width="390" alt="Mobile observer board with both five-player teams side by side" /></p>
+<a id="visuals-and-commentary"></a>
+## 🖥️ A Match You Can Actually Read
 
-GSAP handles shared motion; Lenis smooth scrolling can be disabled. Reduced-motion preferences are respected. Reading earlier commentary pauses automatic following.
+The observer interface is arranged around the decisions and their consequences: commands above the action, attacking and defending sides identified by color, and commentary supported by a replayable event trail. Your selected team stays on the left even after a side switch.
 
-## Run Locally
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/evidence/upgrade/player-1440.png" width="100%" alt="Actual player profile screen showing modeled abilities and sourced evidence" />
+      <p align="center"><sub>PLAYER PROFILES · TWELVE MODELED ABILITIES</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/evidence/upgrade/compare-1440.png" width="100%" alt="Actual side-by-side player comparison interface" />
+      <p align="center"><sub>SCOUTING · PLAYER COMPARISONS</sub></p>
+    </td>
+  </tr>
+</table>
 
-Use **Node.js 22.12+** and npm; CI targets Node 24. No API key, application account or backend is required.
+<details>
+<summary><strong>📱 View the narrow-screen match layout</strong></summary>
 
-```sh
+<p align="center">
+  <img src="docs/media/match-mobile.png" width="390" alt="Actual narrow-screen match observer with compact player panels and commentary" />
+</p>
+
+The layout was exercised in automated Chromium checks at 390, 1024, 1280 and 1440 pixels. This is not a claim of full physical-phone, Safari or Firefox certification.
+
+</details>
+
+### 🎙️ Commentary driven by the event ledger
+
+The Chinese-language broadcast is assembled from simulated match events, authored connective lines and attributed quotation material. **Detailed** and **brief** reading modes share the same underlying events. You can pause, step through a round or change playback speed without changing its result.
+
+- The observer waits to reveal later kills, health changes and results until the corresponding event boundary.
+- Source-backed quotations are constrained by their context; the game does not generate a false kill merely to fit a line.
+- Commentary nicknames can appear with formal player names in parentheses. Roster and statistics views retain the formal names.
+
+This is local text narration, **not recorded audio commentary or a live language-model service**.
+
+<a id="the-data"></a>
+## 📊 The Data Behind the Simulation
+
+| Layer | What it represents |
+| --- | --- |
+| **Teams & rosters** | A fixed snapshot derived from Valve's **October 5, 2026** regional standings: 50 teams and 250 starting seats, not a live transfer feed |
+| **Player evidence** | Dated identity, roles and selected performance sources; coverage differs substantially between players |
+| **Twelve abilities** | Interpretable **game estimates**, not official ratings, verified individual measurements or match predictions |
+| **Team & map strengths** | Simulated chemistry, preparation, tactical familiarity and region-level movement assumptions |
+| **Season & statistics** | Fictional career outcomes and a project-specific CTM Rating, **not** official tournament results or HLTV Rating |
+| **Narration** | Event-based Chinese commentary with original text and attributed quotation material |
+
+At the documented snapshot, **40 roles remain unverified** and **41 nationalities lack confirmed evidence**. The numerical evidence is especially concentrated among a smaller group of players. Missing source material is not silently promoted to fact.
+
+Read the [player evidence audit](docs/PLAYER_DATA_AUDIT.md), [data-source notes](docs/DATA_SOURCES.md) and [balance methodology](docs/GAME_BALANCE.md) for sources, limitations and formulas.
+
+<a id="run-locally"></a>
+## 🚀 Play or Run Locally
+
+### 🌐 Play online
+
+**[Open CS2 Roundcraft →](https://seiya058904.github.io/cs2-roundcraft/)**
+
+The game is client-side and does not need a login, API key or application backend. The **game interface and commentary are in Simplified Chinese**; the project README is written in English.
+
+### 💻 Run from source
+
+Requires **Node.js 22.12+** and npm. Clone the repository and run:
+
+```bash
 npm ci
 npm run dev
 ```
 
-Open the address printed by Vite, normally `http://127.0.0.1:5173/`.
-
-```sh
-npm run build
-npm run preview -- --port 4173
-```
-
-After the first online load finishes caching, production supports offline refresh and Worker simulation. Development mode does not install a service worker. Serve `dist/` over HTTP or HTTPS; do not open HTML directly from disk.
-
-**Keep a save backup.** Autosave and three manual slots live in browser IndexedDB. Export JSON before moving between localhost and the hosted site, changing browser profiles or clearing site data. Browser storage is not cloud backup.
-
-## What the Numbers Mean
-
-| Layer | Meaning |
-| --- | --- |
-| Roster | October 5, 2026 Valve VRS snapshot; not a live roster feed. |
-| Evidence | Dated player statistics and roles, with sample descriptions and gaps. |
-| Abilities | Twelve game estimates; not official ratings or predictions. |
-| Simulation | Regional topology, timing, sight lines, economy and event causality; not CS2 physics. |
-| Commentary | Local narration grounded in revealed events, attributed quotations and original connective text. |
-
-The current audit confirms **209 known nationalities**, **40 unverified roles**, and no sourced real transfer histories. Career transfers belong to the simulated world. Exact bullet physics, reloads, grenade bounces and real-demo playback are outside the model.
-
-## Development & Verification
-
-```sh
-npx playwright install chromium
-npm test -- --maxWorkers=2
-npm run data:validate
-npm run build
-npm run test:e2e
-npm run test:offline
-npm run test:pages
-```
-
-`test:pages` serves production beneath `/pages-preview/` without a development-server fallback, then checks offline restore, equipment loading and Worker simulation.
-
-<details>
-<summary><strong>Source map and deeper simulation checks</strong></summary>
-
-| Path | Responsibility |
-| --- | --- |
-| `src/domain/` | Deterministic matches, economy, careers and save validation |
-| `src/MatchView.tsx` | Replay and commentary |
-| `src/MatchCommand.tsx` · `src/BattlePlanEditor.tsx` | Commands and phase controls |
-| `src/MatchRoster.tsx` · `src/EquipmentIcon.tsx` | Observer display and equipment |
-| `src/simulation.worker.ts` | Background batches and cancellation |
-| `src/storage.ts` | Local save persistence and recovery |
-| `src/data/` · `data/source/` | Runtime data, snapshots and provenance |
-| `tests/` | Unit, browser, offline and deployment regressions |
-
-For engine changes, run `npm run sim:stress` (10,000 maps), `npm run sim:career` (two seasons), and relevant `sim:tactics`, `sim:matrix`, `sim:commentary` or `sim:timeouts` experiments. Historical reports are not fresh validation claims.
-
-`npm run data:import` rebuilds data from checked-in sources and writes generated files. It is maintenance, not normal startup.
-
-The optional `esm2026-extract/` reference package is local-only and excluded from Git. It is not required to build, test or play. Historical Chinese design notes remain in `docs/`.
-
-</details>
-
-## Deployment
-
-The [Pages workflow](.github/workflows/pages.yml) verifies the project before deploying only `dist/`. Relative URLs support repository subpaths; offline caches are isolated by deployment scope.
-
-[Play CS2 Roundcraft](https://seiya058904.github.io/cs2-roundcraft/) · [GitHub repository](https://github.com/seiya058904/cs2-roundcraft) · [Deployment notes](docs/publishing/DEPLOYMENT.md).
-
-## Sources & Rights
-
-See [Third-party notices](THIRD_PARTY_NOTICES.md) and the [equipment provenance manifest](src/assets/equipment/sources.json). Original attribution is preserved.
-
-No repository-wide open-source license is declared; see [licensing status](LICENSE.md). This project is not affiliated with Valve, tournament organizers or professional teams. Public source availability does not relicense third-party material.
-
-[Contributing](CONTRIBUTING.md) · [Support](SUPPORT.md) · [Security](SECURITY.md) · [Changelog](CHANGELOG.md)
-
----
-
-<p align="center"><sub>FIVE PLAYERS. ONE PLAN. ANOTHER ROUND TO GET IT RIGHT.</sub></p>
+Open the local URL printed by Vite, normally **http://127.0.0.1:5173
