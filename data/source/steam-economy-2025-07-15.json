@@ -1,0 +1,20 @@
+{
+  "endpoint": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=730&count=3&maxlength=0&enddate=1752710400",
+  "retrievedAt": "2026-10-26T07:09:51.5685455Z",
+  "article": {
+    "gid": "1805431065285705",
+    "title": "Counter-Strike 2 Update",
+    "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1805431065285705",
+    "is_external_url": true,
+    "author": "Piggles ULTRAPRO",
+    "contents": "[ Premier Season Three ]\n[list]\n[*]Premier Season Three is now open for business\n[*]Added Overpass to the Active Duty Map Pool\n[*]Removed Anubis from the Active Duty Map Pool\n[/list]\n[ GAMEPLAY ]\n[list]\n[*]Incendiary Grenade - incendiary grenade fire spreads more rapidly\n[*]MP9 - increased recoil magnitude and substantially reduced jumping accuracy\n[*]In Competitive modes, Counter-Terrorists now receive a $50 team award for each Terrorist eliminated in a round\n[/list]",
+    "feedlabel": "Community Announcements",
+    "date": 1752624090,
+    "feedname": "steam_community_announcements",
+    "feed_type": 1,
+    "appid": 730,
+    "tags": [
+      "patchnotes"
+    ]
+  }
+}

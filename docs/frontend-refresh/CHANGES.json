@@ -1,0 +1,144 @@
+{
+  "baseline": "docs/frontend-refresh/baseline.zip",
+  "baselineSha256": "f379cfbb3c259831cf9e1da6553037c4d955b69bb1e2be0c30c49ed33f64844c",
+  "gitRepository": false,
+  "changes": [
+    {
+      "file": "DESIGN.md",
+      "status": "modified",
+      "beforeSha256": "00f030f40359e8cf49e592b0d20698db5ee11e4671c50449fb1e735488f2d181",
+      "afterSha256": "98134f65456865d0cee866f748d318b48cc32c97b5b0ceab990d643443cf2212"
+    },
+    {
+      "file": "src/App.tsx",
+      "status": "modified",
+      "beforeSha256": "a3fdbc847d26401b08bed8101ff470c761234cd2f547eba83a70b8472d90a2c5",
+      "afterSha256": "ef65108e9a32181e76cd17d0a5c0c4ba7f66ded402e80cd10dc5eacaa076bd05"
+    },
+    {
+      "file": "src/BattlePlanEditor.tsx",
+      "status": "modified",
+      "beforeSha256": "f2afb46d78b5f3cf7fc31c4120fb9d444a221b80c546c8035e0dc7665fa38116",
+      "afterSha256": "3f2aa73289c00e35bcc3c99fc8a24923744b45a5c20a84ce23f69302417567ad"
+    },
+    {
+      "file": "src/EquipmentIcon.tsx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f33fc2134d7164b07a7da97f7ac41545ab2e78a0bdcb15c978972f361bdea8c2"
+    },
+    {
+      "file": "src/MatchCommand.tsx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "792a433322fbc2956f5aabc5a8c628b1d90b40ee3fbf598949132fdd58d9c683"
+    },
+    {
+      "file": "src/MatchRoster.tsx",
+      "status": "modified",
+      "beforeSha256": "7d16403d566d87ed77ff7648ceb121b1b0f8ffbe9186926db7c87d7b63411c8f",
+      "afterSha256": "eda62149fded6b06731c4a38032faf8b6587b79ecb21e0c9688b20ac99335d0e"
+    },
+    {
+      "file": "src/MatchView.tsx",
+      "status": "modified",
+      "beforeSha256": "5e4dbb58e3de91dc1d71549a3876499aeb2c4d548eee539e4614f97de6eee5d0",
+      "afterSha256": "2054983896ca0260b3ec236b96b5781de8d5d8d49c8937f11420282c640d41db"
+    },
+    {
+      "file": "src/NavIcon.tsx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "bb5a6ebfb84729c9ac7beaa60d64cbad99a372fb33857f7bd79b1c23a0b2e981"
+    },
+    {
+      "file": "src/domain/replay.ts",
+      "status": "modified",
+      "beforeSha256": "6e1473e65824e7c139929368feba913a547171c23b0220e050ffee4e26f41505",
+      "afterSha256": "e6f2e0cd29f4e7d8e3d63869b2ce32580ef37ad43d0bbc679ffa95fe982dc336"
+    },
+    {
+      "file": "src/motion.tsx",
+      "status": "modified",
+      "beforeSha256": "c2bd33ca2656d780308579782a91367e8f44b9866667474fdcfcc80b66a1d665",
+      "afterSha256": "8974720395ca0eb8790fb6e6333b588762b4959c7a738ff42e7cb113accb3286"
+    },
+    {
+      "file": "src/ui.tsx",
+      "status": "modified",
+      "beforeSha256": "41455e8dd1006e281d029e7db30f35aac1eaaa7f26f194126895ec3c69d8c462",
+      "afterSha256": "9e99615b0f5c482b2d6ee58c74ad71ea9e46ca18b395f69b03a38bdbc155ce44"
+    },
+    {
+      "file": "src/upgrade.css",
+      "status": "modified",
+      "beforeSha256": "5a56be370773ca7d430c974fc27735403dd8a565994d8ce2c9c5e746e131017d",
+      "afterSha256": "54bb518ab8629682d587bbd176eaf36118c364e22044a903e5764e0eac6bceb6"
+    },
+    {
+      "file": "tests/e2e/battle-plan.spec.ts",
+      "status": "modified",
+      "beforeSha256": "846664d5db69599ce128c0778512e960c805a86617b9237c4b69aef4081ded3f",
+      "afterSha256": "15e54798ca6ca12d3a2f17621faf13346ff2b2c3cbedd7c6f7b10ccc2743abad"
+    },
+    {
+      "file": "tests/e2e/frontend-refresh.spec.ts",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "798350c18ea279674262bbc2e97f94c9d84c039f6bd23862f0de88dbcff2ebef"
+    },
+    {
+      "file": "tests/e2e/game.spec.ts",
+      "status": "modified",
+      "beforeSha256": "d39a93a4cbb524e44ef618a8dae16b6a3d1cc10bee9aea30242a2787898ccaf2",
+      "afterSha256": "d0070fa75b3a04b05cdef995dcef147f9d06c3a6843989d947bdf27aaa33d55f"
+    },
+    {
+      "file": "tests/e2e/match-scroll.spec.ts",
+      "status": "modified",
+      "beforeSha256": "1037cc4b06a75b65c05682211c897f0a0903f8f520e531bc6703d917f64ac5d6",
+      "afterSha256": "b2e36079f2720877d44b99a4707654aebdf26edf2746110ff8701f501c444c2b"
+    },
+    {
+      "file": "tests/observer-display.test.ts",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "97444be1c1131a3bf00e258e7e20ee1ab585c9dc27d7ef25406fd182af30146c"
+    }
+  ],
+  "protectedUnchanged": true,
+  "protectedFiles": [
+    "src/simulation.worker.ts",
+    "src/data/commentary.json",
+    "src/data/index.ts",
+    "src/data/nicknames.json",
+    "src/data/quotes.json",
+    "src/data/refreshProfiles.ts",
+    "src/data/world.json",
+    "src/domain/battlePlan.ts",
+    "src/domain/career.ts",
+    "src/domain/coach.ts",
+    "src/domain/commentaryBeats.ts",
+    "src/domain/economy.ts",
+    "src/domain/engine.ts",
+    "src/domain/invariants.ts",
+    "src/domain/maps.ts",
+    "src/domain/names.ts",
+    "src/domain/narrative.ts",
+    "src/domain/random.ts",
+    "src/domain/realQuotes.ts",
+    "src/domain/rules.ts",
+    "src/domain/save.ts",
+    "src/domain/saveValidation.ts",
+    "src/domain/series.ts",
+    "src/domain/statistics.ts",
+    "src/domain/tactics.ts",
+    "src/domain/types.ts",
+    "package.json",
+    "package-lock.json"
+  ],
+  "evidenceScripts": [
+    "scripts/frontend-capture.mjs",
+    "scripts/frontend-states.mjs"
+  ]
+}

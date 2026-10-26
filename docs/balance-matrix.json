@@ -1,0 +1,242 @@
+{
+  "generatedAt": "2026-10-26T10:09:30.739Z",
+  "simulationSourceSha256": "e8273d1c38800dc90882868e97e503e1c273f60af5ce5d94580298db5a23f5be",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "method": "Equal ability 75 and mirrored roles, controlled second-round $6000, fixed T route and reactive CT, paired seeds. Only named factor changes; descriptive game estimates.",
+  "reports": [
+    {
+      "map": "dust2",
+      "config": "equal-full",
+      "samples": 300,
+      "tWins": 147,
+      "tKills": 864,
+      "tTrades": 248,
+      "plants": 153,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "dust2",
+      "config": "t-eco-ct-full",
+      "samples": 300,
+      "tWins": 0,
+      "tKills": 0,
+      "tTrades": 0,
+      "plants": 0,
+      "tSpend": 0,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "dust2",
+      "config": "t-full-ct-eco",
+      "samples": 300,
+      "tWins": 299,
+      "tKills": 1498,
+      "tTrades": 34,
+      "plants": 299,
+      "tSpend": 7665000,
+      "ctSpend": 0
+    },
+    {
+      "map": "dust2",
+      "config": "t-aim-95",
+      "samples": 300,
+      "tWins": 184,
+      "tKills": 1002,
+      "tTrades": 253,
+      "plants": 187,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "dust2",
+      "config": "t-aim-55",
+      "samples": 300,
+      "tWins": 103,
+      "tKills": 684,
+      "tTrades": 233,
+      "plants": 106,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "dust2",
+      "config": "t-chemistry-95",
+      "samples": 300,
+      "tWins": 140,
+      "tKills": 817,
+      "tTrades": 260,
+      "plants": 145,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "dust2",
+      "config": "t-chemistry-35",
+      "samples": 300,
+      "tWins": 133,
+      "tKills": 812,
+      "tTrades": 236,
+      "plants": 139,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "mirage",
+      "config": "equal-full",
+      "samples": 300,
+      "tWins": 130,
+      "tKills": 785,
+      "tTrades": 218,
+      "plants": 133,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "mirage",
+      "config": "t-eco-ct-full",
+      "samples": 300,
+      "tWins": 0,
+      "tKills": 0,
+      "tTrades": 0,
+      "plants": 0,
+      "tSpend": 0,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "mirage",
+      "config": "t-full-ct-eco",
+      "samples": 300,
+      "tWins": 298,
+      "tKills": 1497,
+      "tTrades": 68,
+      "plants": 299,
+      "tSpend": 7665000,
+      "ctSpend": 0
+    },
+    {
+      "map": "mirage",
+      "config": "t-aim-95",
+      "samples": 300,
+      "tWins": 170,
+      "tKills": 903,
+      "tTrades": 225,
+      "plants": 171,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "mirage",
+      "config": "t-aim-55",
+      "samples": 300,
+      "tWins": 79,
+      "tKills": 551,
+      "tTrades": 174,
+      "plants": 82,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "mirage",
+      "config": "t-chemistry-95",
+      "samples": 300,
+      "tWins": 131,
+      "tKills": 811,
+      "tTrades": 247,
+      "plants": 134,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "mirage",
+      "config": "t-chemistry-35",
+      "samples": 300,
+      "tWins": 116,
+      "tKills": 725,
+      "tTrades": 186,
+      "plants": 119,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "nuke",
+      "config": "equal-full",
+      "samples": 300,
+      "tWins": 83,
+      "tKills": 633,
+      "tTrades": 189,
+      "plants": 87,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "nuke",
+      "config": "t-eco-ct-full",
+      "samples": 300,
+      "tWins": 0,
+      "tKills": 1,
+      "tTrades": 1,
+      "plants": 0,
+      "tSpend": 0,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "nuke",
+      "config": "t-full-ct-eco",
+      "samples": 300,
+      "tWins": 288,
+      "tKills": 1461,
+      "tTrades": 110,
+      "plants": 288,
+      "tSpend": 7665000,
+      "ctSpend": 0
+    },
+    {
+      "map": "nuke",
+      "config": "t-aim-95",
+      "samples": 300,
+      "tWins": 128,
+      "tKills": 814,
+      "tTrades": 222,
+      "plants": 134,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "nuke",
+      "config": "t-aim-55",
+      "samples": 300,
+      "tWins": 22,
+      "tKills": 333,
+      "tTrades": 104,
+      "plants": 27,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "nuke",
+      "config": "t-chemistry-95",
+      "samples": 300,
+      "tWins": 77,
+      "tKills": 585,
+      "tTrades": 181,
+      "plants": 86,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    },
+    {
+      "map": "nuke",
+      "config": "t-chemistry-35",
+      "samples": 300,
+      "tWins": 77,
+      "tKills": 614,
+      "tTrades": 167,
+      "plants": 86,
+      "tSpend": 7665000,
+      "ctSpend": 8505000
+    }
+  ]
+}

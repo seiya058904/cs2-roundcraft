@@ -1,0 +1,139 @@
+[
+  {
+    "file": "ak47.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/ak47.svg",
+    "gameId": "AK-47",
+    "sha256": "84d1b71bde033e9a8ab1b88c2cf0d79ed70e1f1850378ad2a072fe324fc88f87"
+  },
+  {
+    "file": "m4a1_silencer.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/m4a1_silencer.svg",
+    "gameId": "M4A1-S",
+    "sha256": "5d4815bf8872ab35a098fcf480fd59903a6b26ed6198d39558a7b9d9e582db36"
+  },
+  {
+    "file": "awp.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/awp.svg",
+    "gameId": "AWP",
+    "sha256": "657bed7ff72ca13cf46e3da80b6fc6c46a5cd1419a9c1d9d6e090ed1c957bdeb"
+  },
+  {
+    "file": "famas.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/famas.svg",
+    "gameId": "FAMAS",
+    "sha256": "be64ef89670272c27b46145a0419aa26ac6f32dca4c1281ce155164799aabdfd"
+  },
+  {
+    "file": "galilar.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/galilar.svg",
+    "gameId": "Galil",
+    "sha256": "889d8fc588b268bf9e30baf1ce4f009d5db690997bf3b49a94cb3df6983049da"
+  },
+  {
+    "file": "mp9.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/mp9.svg",
+    "gameId": "MP9",
+    "sha256": "a1c0548c94ca029226ceb61d520caec6ff41dd5c65ac5c1cfc46e3225fa28b36"
+  },
+  {
+    "file": "mac10.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/mac10.svg",
+    "gameId": "MAC-10",
+    "sha256": "c32684ac72e0234aa8f2cc2506b1a9154bb021cebfb0fca2bb5d03abe39f5b63"
+  },
+  {
+    "file": "glock.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/glock.svg",
+    "gameId": "Glock",
+    "sha256": "3ad98fb02a07b53aea41701b00bf2c0cb0e2adb57276b47a19aac9161d0e030c"
+  },
+  {
+    "file": "usp_silencer.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/usp_silencer.svg",
+    "gameId": "USP-S",
+    "sha256": "9099b86264da3d13e746458792226346767cad7d886acbe0db5261b5a98b5da6"
+  },
+  {
+    "file": "p250.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/p250.svg",
+    "gameId": "P250",
+    "sha256": "9619303790194090cb800a82eb81fbd7ca82b29b32f3eec7146477b82fec306c"
+  },
+  {
+    "file": "fiveseven.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/fiveseven.svg",
+    "gameId": "Five-SeveN",
+    "sha256": "16de3c04ea4bcaf3b1a20bcbd7107b123d21d9d3f2a7fb64562c57b289ca8035"
+  },
+  {
+    "file": "tec9.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/tec9.svg",
+    "gameId": "Tec-9",
+    "sha256": "ff3833b6d762b4c975dfea62c583441669c1db784fc71f846513f530ba2c4765"
+  },
+  {
+    "file": "deagle.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/weapons/deagle.svg",
+    "gameId": "Deagle",
+    "sha256": "6e279f9806019ba46b0efb4b4b0c8e2183ddef9eeda7d01b99cd09871f901e5d"
+  },
+  {
+    "file": "kevlar.svg",
+    "source": "https://github.com/Juknum/counter-strike-icons/blob/92fa323cb5f954f310b8d653a7c280f5d1335163/cs2/panorama/images/icons/equipment/kevlar.svg",
+    "upstreamBuild": "26144732",
+    "sha256": "638c0e932eab72aa92fba417cd04c20157b4d31a54cd0f4f84123a6fb6fc54b9"
+  },
+  {
+    "file": "helmet.svg",
+    "source": "https://github.com/Juknum/counter-strike-icons/blob/92fa323cb5f954f310b8d653a7c280f5d1335163/cs2/panorama/images/icons/equipment/helmet.svg",
+    "upstreamBuild": "26144732",
+    "sha256": "6adf51799844d87c8518549b9b47fd25028e5eacf0d4a329003227241bb8d10a"
+  },
+  {
+    "file": "defuser.svg",
+    "source": "https://github.com/Juknum/counter-strike-icons/blob/92fa323cb5f954f310b8d653a7c280f5d1335163/cs2/panorama/images/icons/equipment/defuser.svg",
+    "upstreamBuild": "26144732",
+    "sha256": "0c955e98704ee817d01df2cf1a85e468d2a760ae084016146fe1ec8fc79256dc"
+  },
+  {
+    "file": "flashbang.svg",
+    "source": "https://github.com/Juknum/counter-strike-icons/blob/92fa323cb5f954f310b8d653a7c280f5d1335163/cs2/panorama/images/icons/equipment/flashbang.svg",
+    "upstreamBuild": "26144732",
+    "sha256": "5e16f7f243170998e292b2883e98d6a37acd824005ab15b2454534b8bd941b2c"
+  },
+  {
+    "file": "smokegrenade.svg",
+    "source": "https://github.com/Juknum/counter-strike-icons/blob/92fa323cb5f954f310b8d653a7c280f5d1335163/cs2/panorama/images/icons/equipment/smokegrenade.svg",
+    "upstreamBuild": "26144732",
+    "sha256": "7c0af8b0613e859639378ba1812893e6759364e00958cc4dc6703c550dca9248"
+  },
+  {
+    "file": "hegrenade.svg",
+    "source": "https://github.com/Juknum/counter-strike-icons/blob/92fa323cb5f954f310b8d653a7c280f5d1335163/cs2/panorama/images/icons/equipment/hegrenade.svg",
+    "upstreamBuild": "26144732",
+    "sha256": "62c1368df87da700e6b4236d2abc29158ac875d53a7447ba4b8fe536760dc1b1"
+  },
+  {
+    "file": "molotov.svg",
+    "source": "https://github.com/Juknum/counter-strike-icons/blob/92fa323cb5f954f310b8d653a7c280f5d1335163/cs2/panorama/images/icons/equipment/molotov.svg",
+    "upstreamBuild": "26144732",
+    "sha256": "bafbc4380accf3c9223a43788e171c094d92542d3b406bb510a624278fe29c92"
+  },
+  {
+    "file": "incgrenade.svg",
+    "source": "https://github.com/Juknum/counter-strike-icons/blob/92fa323cb5f954f310b8d653a7c280f5d1335163/cs2/panorama/images/icons/equipment/incgrenade.svg",
+    "upstreamBuild": "26144732",
+    "sha256": "a5455ba30115c984eb941564601141e596c87d4e03dad4958a0a96223bd1602a"
+  },
+  {
+    "file": "c4.svg",
+    "source": "https://github.com/Juknum/counter-strike-icons/blob/92fa323cb5f954f310b8d653a7c280f5d1335163/cs2/panorama/images/icons/equipment/c4.svg",
+    "upstreamBuild": "26144732",
+    "sha256": "1b9516c8bc8a125c461a8cce0fd9e77126c515d6778983c2974eb99c23171e6d"
+  },
+  {
+    "file": "dead.svg",
+    "source": "https://github.com/lexogrine/cs2-react-hud/blob/7874750c97fcecd8f72eb3fad382917e035ec651/src/assets/images/icon_skull_default.svg",
+    "sha256": "c1c2011f39c5b532f9f2208cda599a92f576c5d95f792e81243162abf7cd7026"
+  }
+]

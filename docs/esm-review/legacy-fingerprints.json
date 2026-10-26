@@ -1,0 +1,32 @@
+[
+  {
+    "version": "legacy",
+    "seed": 1,
+    "hash": "a5acf40267f50bc705227e42e86c0cd7b2bd0c5f64acab7db776b8d5577d5750"
+  },
+  {
+    "version": "legacy",
+    "seed": 224,
+    "hash": "619a9658d36d6096c3a435743995f86590b12ed412eef24a9d7d624dd7882353"
+  },
+  {
+    "version": "legacy",
+    "seed": 732,
+    "hash": "b477fe9fc308df34176685ff4591829746e5c0df2da8c4b842faf92f97ecb56c"
+  },
+  {
+    "version": "causal-2026-10-v3",
+    "seed": 1,
+    "hash": "36e95f842f2cf0c0ecb97ae549b73faa38f2fbd998ab356ea921cf2ed1cb0725"
+  },
+  {
+    "version": "causal-2026-10-v3",
+    "seed": 224,
+    "hash": "86a8f3eec46bc05f81d4307411955d51ebf54b23b19d444856ee9a18426f0c7c"
+  },
+  {
+    "version": "causal-2026-10-v3",
+    "seed": 732,
+    "hash": "fc73793c00bc3877ffaf8dbbc4998215576f4f74a3455be11f01b8b31f550fa6"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "recordedAt": "2026-10-26T10:14:49.103861+00:00",
+  "simulationSourceSha256": "e8273d1c38800dc90882868e97e503e1c273f60af5ce5d94580298db5a23f5be",
+  "gitRepository": false,
+  "published": false,
+  "localUrl": "http://127.0.0.1:5173/",
+  "checks": [
+    {
+      "command": "npm run build",
+      "result": "pass",
+      "modules": 72
+    },
+    {
+      "command": "npm test",
+      "result": "pass",
+      "files": 14,
+      "tests": 134
+    },
+    {
+      "command": "npm run test:e2e",
+      "result": "pass",
+      "tests": 15
+    },
+    {
+      "command": "npm run test:offline",
+      "result": "pass",
+      "tests": 1
+    },
+    {
+      "command": "npm run data:validate",
+      "result": "pass",
+      "teams": 50,
+      "players": 250,
+      "sourcedRoles": 210,
+      "unknownRoles": 40
+    },
+    {
+      "command": "npm run data:import",
+      "result": "pass",
+      "worldHashUnchanged": true
+    },
+    {
+      "command": "npm run sim:stress",
+      "result": "pass",
+      "maps": 10000,
+      "rounds": 201513
+    },
+    {
+      "command": "npm run sim:career",
+      "result": "pass",
+      "seasons": 2,
+      "events": 24,
+      "matches": 894
+    },
+    {
+      "command": "npm run sim:commentary",
+      "result": "pass",
+      "rounds": 2857,
+      "segments": 23218
+    }
+  ],
+  "currentFingerprintReports": {
+    "stress-report.json": true,
+    "career-smoke.json": true,
+    "commentary-validation.json": true,
+    "balance-matrix.json": true,
+    "tactic-experiments.json": true,
+    "upgrade-causal-comparison.json": true,
+    "calibration.json": true,
+    "timeout-validation.json": true
+  },
+  "reviewedCommentaryRounds": 32,
+  "browserAudit": "upgrade-browser-audit.json",
+  "designAudit": "SKILLS_AND_DESIGN_REVIEW.md",
+  "limitations": [
+    "Physical touch-device QA not performed",
+    "Hallmark static format findings remain documented",
+    "Not every dynamically generated button state exhaustively enumerated",
+    "Controlled-side balance bias remains",
+    "Before match screenshot not archived; source baseline is available"
+  ]
+}

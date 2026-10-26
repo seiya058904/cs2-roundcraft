@@ -1,0 +1,101 @@
+{
+  "generatedAt": "2026-10-26T10:10:04.428Z",
+  "simulationSourceSha256": "e8273d1c38800dc90882868e97e503e1c273f60af5ce5d94580298db5a23f5be",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "method": "Equal attributes and mirrored roles, 200 paired seeds per map/side; same fixed full-buy tactics, second-round $6000. Legacy and current engine, same current player data.",
+  "rows": [
+    {
+      "map": "dust2",
+      "side": "T",
+      "samples": 200,
+      "legacy": {
+        "ctWins": 80,
+        "trades": 225,
+        "plants": 127
+      },
+      "current": {
+        "ctWins": 101,
+        "trades": 300,
+        "plants": 102
+      }
+    },
+    {
+      "map": "dust2",
+      "side": "CT",
+      "samples": 200,
+      "legacy": {
+        "ctWins": 113,
+        "trades": 232,
+        "plants": 93
+      },
+      "current": {
+        "ctWins": 161,
+        "trades": 246,
+        "plants": 43
+      }
+    },
+    {
+      "map": "mirage",
+      "side": "T",
+      "samples": 200,
+      "legacy": {
+        "ctWins": 87,
+        "trades": 204,
+        "plants": 117
+      },
+      "current": {
+        "ctWins": 125,
+        "trades": 291,
+        "plants": 80
+      }
+    },
+    {
+      "map": "mirage",
+      "side": "CT",
+      "samples": 200,
+      "legacy": {
+        "ctWins": 107,
+        "trades": 246,
+        "plants": 99
+      },
+      "current": {
+        "ctWins": 157,
+        "trades": 252,
+        "plants": 47
+      }
+    },
+    {
+      "map": "nuke",
+      "side": "T",
+      "samples": 200,
+      "legacy": {
+        "ctWins": 106,
+        "trades": 188,
+        "plants": 100
+      },
+      "current": {
+        "ctWins": 149,
+        "trades": 214,
+        "plants": 57
+      }
+    },
+    {
+      "map": "nuke",
+      "side": "CT",
+      "samples": 200,
+      "legacy": {
+        "ctWins": 117,
+        "trades": 180,
+        "plants": 91
+      },
+      "current": {
+        "ctWins": 150,
+        "trades": 182,
+        "plants": 51
+      }
+    }
+  ]
+}

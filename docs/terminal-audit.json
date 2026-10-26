@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-10-26T07:54:57.508Z",
+  "simulationSourceSha256": "64db96dd443c386ce6ee0726bd63d3862af28ec3ff6a9cae78dfdafe7f4cde0c",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "samples": 3000,
+  "rounds": 61320,
+  "findings": []
+}

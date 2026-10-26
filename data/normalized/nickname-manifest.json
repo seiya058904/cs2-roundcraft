@@ -1,0 +1,16 @@
+{
+  "players": 42,
+  "teams": 12,
+  "matchedPlayers": 37,
+  "notInSnapshot": [
+    "SunPayus",
+    "HObbit",
+    "electroNic",
+    "broky",
+    "snow"
+  ],
+  "policy": "首选绰号（真实英文名）",
+  "caseInsensitiveIdentity": true,
+  "unmappedNames": "保留原英文，不编绰号",
+  "excluded": "空白、待核对、小夫"
+}

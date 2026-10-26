@@ -1,0 +1,5 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+const inputs=['commentary-lines-v1.jsonl','commentary-lines-expanded.jsonl'];
+const lines=inputs.flatMap(file=>readFileSync(`data/source/${file}`,'utf8').trim().split('\n').map(line=>{const r=JSON.parse(line);if(r.verified_spoken_quote!==false||!(r.provenance==='original_for_simulator'||r.source_type==='original_template'))throw new Error('仅导入标明原创的素材');return{id:r.id,family:r.event_family??r.category_id,trigger:r.trigger_hint??r.trigger,intensity:r.intensity??r.energy,text:r.text,sourceFile:file,provenance:'user-supplied-original-template',verifiedSpokenQuote:false};}));
+if(lines.length!==360||new Set(lines.map(l=>l.id)).size!==360)throw new Error('语料数量或 ID 不符');
+writeFileSync('src/data/commentary.json',JSON.stringify(lines));writeFileSync('data/normalized/commentary-manifest.json',JSON.stringify({count:lines.length,files:inputs,originalTemplates:360,verifiedSpokenQuotes:0,policy:'按结构化事件和逐句前置条件激活；不满足条件的素材不随机投放。'},null,2));console.log(`已导入 ${lines.length} 条用户授权原创台词，保留来源与触发条件。`);

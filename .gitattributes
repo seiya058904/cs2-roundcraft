@@ -1,0 +1,16 @@
+* text=auto eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.mts text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.svg -text -whitespace
+*.png binary
+*.zip binary
+# Preserve verbatim source snapshots and upstream notices, including whitespace.
+/data/source/** -text -whitespace
+/docs/COMMENTARY_MATERIAL_V1.md -text -whitespace
+/docs/PRODUCT_TARGET.md -text -whitespace
+/src/assets/equipment/*LICENSE* -text -whitespace

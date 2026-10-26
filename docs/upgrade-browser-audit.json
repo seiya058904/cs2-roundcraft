@@ -1,0 +1,169 @@
+{
+  "generatedAt": "2026-10-26T10:10:18.486Z",
+  "browser": "Chromium headless",
+  "deviceScaleFactor": 1,
+  "captures": [
+    {
+      "name": "home-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "match-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "match-1280",
+      "viewport": {
+        "width": 1280,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "match-1024",
+      "viewport": {
+        "width": 1024,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "match-390",
+      "viewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "player-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "compare-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "page-总览",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "page-赛事中心",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "page-转会窗口",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "page-沙盒",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "page-存档",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "page-数据与规则",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    },
+    {
+      "name": "reduced-motion",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:5173/",
+      "title": "CS Tactics Manager · 战术经理",
+      "overflow": false,
+      "meaningful": true
+    }
+  ],
+  "errors": [],
+  "keyboardFocus": true,
+  "frameSample": {
+    "count": 89,
+    "meanMs": 16.66629213483145,
+    "p95Ms": 16.799999999999272
+  },
+  "limitations": "Synthetic desktop wheel/rAF sample, not a physical touch device or universal FPS guarantee. Hallmark Puppeteer renderer unavailable; Playwright used for visual checks."
+}

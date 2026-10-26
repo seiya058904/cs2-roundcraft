@@ -1,0 +1,45 @@
+{
+  "name": "cs-tactics-manager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "data:import": "tsx scripts/import-data.mts",
+    "data:validate": "tsx scripts/validate-data.mts",
+    "sim:calibrate": "tsx scripts/calibrate.mts",
+    "sim:career": "tsx scripts/smoke-career.mts",
+    "sim:commentary": "tsx scripts/validate-commentary.mts",
+    "sim:timeouts": "tsx scripts/validate-timeouts.mts",
+    "sim:stress": "tsx scripts/stress.mts",
+    "sim:tactics": "tsx scripts/tactic-experiments.mts",
+    "test:offline": "playwright test --config playwright.offline.config.ts",
+    "sim:matrix": "tsx scripts/balance-matrix.mts",
+    "test:pages": "playwright test --config playwright.pages.config.ts"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.27",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

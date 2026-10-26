@@ -1,0 +1,10 @@
+{
+  "count": 360,
+  "files": [
+    "commentary-lines-v1.jsonl",
+    "commentary-lines-expanded.jsonl"
+  ],
+  "originalTemplates": 360,
+  "verifiedSpokenQuotes": 0,
+  "policy": "按结构化事件和逐句前置条件激活；不满足条件的素材不随机投放。"
+}

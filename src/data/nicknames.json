@@ -1,0 +1,337 @@
+{
+  "source": "nickname-map.md",
+  "format": "首选绰号（真实英文名）",
+  "players": [
+    {
+      "canonical": "ZyWoo",
+      "aliases": [
+        "载物",
+        "大番薯"
+      ]
+    },
+    {
+      "canonical": "apEX",
+      "aliases": [
+        "憨豆"
+      ]
+    },
+    {
+      "canonical": "flameZ",
+      "aliases": [
+        "火仔"
+      ]
+    },
+    {
+      "canonical": "mezii",
+      "aliases": [
+        "英一手"
+      ]
+    },
+    {
+      "canonical": "magixx",
+      "aliases": [
+        "马西西"
+      ]
+    },
+    {
+      "canonical": "zont1x",
+      "aliases": [
+        "宗主"
+      ]
+    },
+    {
+      "canonical": "torzsi",
+      "aliases": [
+        "托神",
+        "托子"
+      ]
+    },
+    {
+      "canonical": "Jimpphat",
+      "aliases": [
+        "吉米"
+      ]
+    },
+    {
+      "canonical": "Brollan",
+      "aliases": [
+        "宝蓝"
+      ]
+    },
+    {
+      "canonical": "NiKo",
+      "aliases": [
+        "老尼"
+      ]
+    },
+    {
+      "canonical": "m0NESY",
+      "aliases": [
+        "小孩儿",
+        "孩神",
+        "黄色闪光"
+      ]
+    },
+    {
+      "canonical": "kyxsan",
+      "aliases": [
+        "京介"
+      ]
+    },
+    {
+      "canonical": "TeSeS",
+      "aliases": [
+        "龙哥"
+      ]
+    },
+    {
+      "canonical": "kyousuke",
+      "aliases": [
+        "京芥"
+      ]
+    },
+    {
+      "canonical": "FalleN",
+      "aliases": [
+        "教父"
+      ]
+    },
+    {
+      "canonical": "KSCERATO",
+      "aliases": [
+        "卡神"
+      ]
+    },
+    {
+      "canonical": "YEKINDAR",
+      "aliases": [
+        "狂哥"
+      ]
+    },
+    {
+      "canonical": "w0nderful",
+      "aliases": [
+        "王德发"
+      ]
+    },
+    {
+      "canonical": "b1t",
+      "aliases": [
+        "大B哥"
+      ]
+    },
+    {
+      "canonical": "huNter-",
+      "aliases": [
+        "表哥"
+      ]
+    },
+    {
+      "canonical": "malbsMd",
+      "aliases": [
+        "马尔布斯"
+      ]
+    },
+    {
+      "canonical": "SunPayus",
+      "aliases": [
+        "太阳神"
+      ]
+    },
+    {
+      "canonical": "HeavyGod",
+      "aliases": [
+        "重神"
+      ]
+    },
+    {
+      "canonical": "XANTARES",
+      "aliases": [
+        "狠人"
+      ]
+    },
+    {
+      "canonical": "woxic",
+      "aliases": [
+        "左手"
+      ]
+    },
+    {
+      "canonical": "Wicadia",
+      "aliases": [
+        "维卡地亚"
+      ]
+    },
+    {
+      "canonical": "Jame",
+      "aliases": [
+        "詹姆"
+      ]
+    },
+    {
+      "canonical": "BELCHONOKK",
+      "aliases": [
+        "KK"
+      ]
+    },
+    {
+      "canonical": "zweih",
+      "aliases": [
+        "哲尾"
+      ]
+    },
+    {
+      "canonical": "HObbit",
+      "aliases": [
+        "霍比特"
+      ]
+    },
+    {
+      "canonical": "s1mple",
+      "aliases": [
+        "森破",
+        "老猪"
+      ]
+    },
+    {
+      "canonical": "electroNic",
+      "aliases": [
+        "电子哥"
+      ]
+    },
+    {
+      "canonical": "karrigan",
+      "aliases": [
+        "大表哥"
+      ]
+    },
+    {
+      "canonical": "frozen",
+      "aliases": [
+        "寒王"
+      ]
+    },
+    {
+      "canonical": "broky",
+      "aliases": [
+        "箱哥"
+      ]
+    },
+    {
+      "canonical": "EliGE",
+      "aliases": [
+        "鸡哥"
+      ]
+    },
+    {
+      "canonical": "HooXi",
+      "aliases": [
+        "呼吸"
+      ]
+    },
+    {
+      "canonical": "jabbi",
+      "aliases": [
+        "蛇"
+      ]
+    },
+    {
+      "canonical": "rain",
+      "aliases": [
+        "雨神"
+      ]
+    },
+    {
+      "canonical": "arT",
+      "aliases": [
+        "艺术哥"
+      ]
+    },
+    {
+      "canonical": "dumau",
+      "aliases": [
+        "杜毛"
+      ]
+    },
+    {
+      "canonical": "snow",
+      "aliases": [
+        "小雪"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "canonical": "Vitality",
+      "aliases": [
+        "小蜜蜂"
+      ]
+    },
+    {
+      "canonical": "Spirit",
+      "aliases": [
+        "绿龙"
+      ]
+    },
+    {
+      "canonical": "MOUZ",
+      "aliases": [
+        "老鼠"
+      ]
+    },
+    {
+      "canonical": "Falcons",
+      "aliases": [
+        "猎鹰"
+      ]
+    },
+    {
+      "canonical": "FURIA",
+      "aliases": [
+        "黑豹"
+      ]
+    },
+    {
+      "canonical": "TYLOO",
+      "aliases": [
+        "天禄"
+      ]
+    },
+    {
+      "canonical": "Astralis",
+      "aliases": [
+        "A队"
+      ]
+    },
+    {
+      "canonical": "PARIVISION",
+      "aliases": [
+        "PV"
+      ]
+    },
+    {
+      "canonical": "BetBoom",
+      "aliases": [
+        "BB"
+      ]
+    },
+    {
+      "canonical": "Liquid",
+      "aliases": [
+        "液体"
+      ]
+    },
+    {
+      "canonical": "The MongolZ",
+      "aliases": [
+        "蒙古"
+      ]
+    },
+    {
+      "canonical": "100 Thieves",
+      "aliases": [
+        "100T"
+      ]
+    }
+  ]
+}

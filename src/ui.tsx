@@ -1,0 +1,9 @@
+import {usePanelMotion} from './motion';
+import {PlayerEvidence} from './PlayerEvidence';
+import {ROLE_LABELS,nationalityLabel} from './labels';
+import type {ReactNode} from 'react';
+import type {Player,Team,Attribute} from './domain/types';
+export const ATTR_NAMES:Record<Attribute,string>={aim:'枪法',entry:'突破',awp:'狙击',defense:'防守',utility:'道具',gameSense:'战术意识',positioning:'站位',teamwork:'团队协作',clutch:'残局',consistency:'稳定性',composure:'关键局抗压',peakPotential:'爆发潜质'};
+export function Panel({title,children,extra,className=""}:{title:string;children:ReactNode;extra?:ReactNode;className?:string}){const ref=usePanelMotion();return <section ref={ref} className={`panel ${className}`}><header className="panel-heading"><h2>{title}</h2>{extra}</header><div className="panel-content">{children}</div></section>;}
+export function TeamSelect({teams,value,onChange,label}:{teams:Team[];value:string;onChange:(id:string)=>void;label:string}){return <label>{label}<select value={value} onChange={e=>onChange(e.target.value)}>{teams.map(t=><option key={t.id} value={t.id}>#{t.initialRank} {t.name}</option>)}</select></label>;}
+export function PlayerCard({player}:{player:Player}){return <div className="player-detail"><h3>{player.nickname} <span className="muted">{nationalityLabel(player.nationality)}</span></h3><p>{ROLE_LABELS[player.role]} · {player.roleConfidence==='verified'?'有来源角色':player.roleConfidence==='user-assigned'?'玩家指定职责':'具体职责待核实'} · 能力为游戏平衡估值，非官方职业测评</p><h4 className="attribute-heading">全部 12 项游戏能力</h4><div className="attribute-grid">{Object.entries(player.attributes).map(([key,value])=><div key={key}><span>{ATTR_NAMES[key as Attribute]}</span><strong>{value}</strong><meter min={0} max={100} value={value}/></div>)}</div><PlayerEvidence player={player}/><p>已核实历史：{player.history.length?player.history.join(' → '):'资料暂缺，不推测真实转会履历'}</p><a href={player.source.identityUrl??player.source.url} target="_blank" rel="noreferrer">查看资料来源 ↗</a></div>;}

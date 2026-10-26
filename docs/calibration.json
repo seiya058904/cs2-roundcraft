@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-10-26T10:10:37.526Z",
+  "simulationSourceSha256": "e8273d1c38800dc90882868e97e503e1c273f60af5ce5d94580298db5a23f5be",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "sample": 500,
+  "wins": 387,
+  "firstTeamWinRate": 0.774,
+  "totalRounds": 9608,
+  "ctWinRate": 0.35876353039134057,
+  "plants": 6334,
+  "defuses": 287,
+  "explodes": 6047,
+  "ots": 41,
+  "reasons": {
+    "elimination": 3123,
+    "explode": 6047,
+    "time": 151,
+    "defuse": 287
+  },
+  "durationSeconds": 13.8863079
+}

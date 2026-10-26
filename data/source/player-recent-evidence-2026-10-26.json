@@ -1,0 +1,510 @@
+{
+  "checkedAt": "2026-10-26",
+  "note": "滚动窗口摘录，非固定阵容快照当日状态；画像分数不是游戏能力或命中率。",
+  "players": [
+    {
+      "nickname": "Wicadia",
+      "maps": 64,
+      "metrics": [
+        {
+          "key": "recentRating",
+          "label": "Rating 3.0",
+          "value": 1.11,
+          "scope": "个人页面过去三个月 / 64 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21243/wicadia"
+        },
+        {
+          "key": "firepower",
+          "label": "HLTV 火力画像",
+          "value": 80,
+          "scope": "个人页面过去三个月 / 64 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21243/wicadia"
+        },
+        {
+          "key": "entrying",
+          "label": "HLTV 冲锋画像",
+          "value": 27,
+          "scope": "个人页面过去三个月 / 64 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21243/wicadia"
+        },
+        {
+          "key": "trading",
+          "label": "HLTV 交易击杀画像",
+          "value": 57,
+          "scope": "个人页面过去三个月 / 64 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21243/wicadia"
+        },
+        {
+          "key": "opening",
+          "label": "HLTV 首杀画像",
+          "value": 50,
+          "scope": "个人页面过去三个月 / 64 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21243/wicadia"
+        },
+        {
+          "key": "closing",
+          "label": "HLTV 收尾画像",
+          "value": 60,
+          "scope": "个人页面过去三个月 / 64 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21243/wicadia"
+        },
+        {
+          "key": "sniping",
+          "label": "HLTV 狙击画像",
+          "value": 25,
+          "scope": "个人页面过去三个月 / 64 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21243/wicadia"
+        },
+        {
+          "key": "utilityProfile",
+          "label": "HLTV 道具画像",
+          "value": 34,
+          "scope": "个人页面过去三个月 / 64 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21243/wicadia"
+        }
+      ]
+    },
+    {
+      "nickname": "MartinezSa",
+      "maps": 77,
+      "metrics": [
+        {
+          "key": "recentRating",
+          "label": "Rating 3.0",
+          "value": 1.13,
+          "scope": "个人页面过去三个月 / 77 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21239/martinezsa"
+        },
+        {
+          "key": "firepower",
+          "label": "HLTV 火力画像",
+          "value": 54,
+          "scope": "个人页面过去三个月 / 77 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21239/martinezsa"
+        },
+        {
+          "key": "entrying",
+          "label": "HLTV 冲锋画像",
+          "value": 57,
+          "scope": "个人页面过去三个月 / 77 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21239/martinezsa"
+        },
+        {
+          "key": "trading",
+          "label": "HLTV 交易击杀画像",
+          "value": 37,
+          "scope": "个人页面过去三个月 / 77 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21239/martinezsa"
+        },
+        {
+          "key": "opening",
+          "label": "HLTV 首杀画像",
+          "value": 24,
+          "scope": "个人页面过去三个月 / 77 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21239/martinezsa"
+        },
+        {
+          "key": "closing",
+          "label": "HLTV 收尾画像",
+          "value": 78,
+          "scope": "个人页面过去三个月 / 77 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21239/martinezsa"
+        },
+        {
+          "key": "sniping",
+          "label": "HLTV 狙击画像",
+          "value": 92,
+          "scope": "个人页面过去三个月 / 77 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21239/martinezsa"
+        },
+        {
+          "key": "utilityProfile",
+          "label": "HLTV 道具画像",
+          "value": 53,
+          "scope": "个人页面过去三个月 / 77 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21239/martinezsa"
+        }
+      ]
+    },
+    {
+      "nickname": "apEX",
+      "maps": 54,
+      "metrics": [
+        {
+          "key": "recentRating",
+          "label": "Rating 3.0",
+          "value": 0.93,
+          "scope": "个人页面过去三个月 / 54 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/7322/apex"
+        },
+        {
+          "key": "firepower",
+          "label": "HLTV 火力画像",
+          "value": 56,
+          "scope": "个人页面过去三个月 / 54 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/7322/apex"
+        },
+        {
+          "key": "entrying",
+          "label": "HLTV 冲锋画像",
+          "value": 40,
+          "scope": "个人页面过去三个月 / 54 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/7322/apex"
+        },
+        {
+          "key": "trading",
+          "label": "HLTV 交易击杀画像",
+          "value": 66,
+          "scope": "个人页面过去三个月 / 54 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/7322/apex"
+        },
+        {
+          "key": "opening",
+          "label": "HLTV 首杀画像",
+          "value": 47,
+          "scope": "个人页面过去三个月 / 54 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/7322/apex"
+        },
+        {
+          "key": "closing",
+          "label": "HLTV 收尾画像",
+          "value": 53,
+          "scope": "个人页面过去三个月 / 54 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/7322/apex"
+        },
+        {
+          "key": "sniping",
+          "label": "HLTV 狙击画像",
+          "value": 2,
+          "scope": "个人页面过去三个月 / 54 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/7322/apex"
+        },
+        {
+          "key": "utilityProfile",
+          "label": "HLTV 道具画像",
+          "value": 41,
+          "scope": "个人页面过去三个月 / 54 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/7322/apex"
+        }
+      ]
+    },
+    {
+      "nickname": "ZywOo",
+      "maps": 58,
+      "metrics": [
+        {
+          "key": "recentRating",
+          "label": "Rating 3.0",
+          "value": 1.39,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11893/zywoo"
+        },
+        {
+          "key": "firepower",
+          "label": "HLTV 火力画像",
+          "value": 93,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11893/zywoo"
+        },
+        {
+          "key": "entrying",
+          "label": "HLTV 冲锋画像",
+          "value": 63,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11893/zywoo"
+        },
+        {
+          "key": "trading",
+          "label": "HLTV 交易击杀画像",
+          "value": 52,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11893/zywoo"
+        },
+        {
+          "key": "opening",
+          "label": "HLTV 首杀画像",
+          "value": 66,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11893/zywoo"
+        },
+        {
+          "key": "closing",
+          "label": "HLTV 收尾画像",
+          "value": 53,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11893/zywoo"
+        },
+        {
+          "key": "sniping",
+          "label": "HLTV 狙击画像",
+          "value": 87,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11893/zywoo"
+        },
+        {
+          "key": "utilityProfile",
+          "label": "HLTV 道具画像",
+          "value": 47,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11893/zywoo"
+        }
+      ]
+    },
+    {
+      "nickname": "donk",
+      "maps": 65,
+      "metrics": [
+        {
+          "key": "recentRating",
+          "label": "Rating 3.0",
+          "value": 1.33,
+          "scope": "个人页面过去三个月 / 65 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21167/donk"
+        },
+        {
+          "key": "firepower",
+          "label": "HLTV 火力画像",
+          "value": 98,
+          "scope": "个人页面过去三个月 / 65 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21167/donk"
+        },
+        {
+          "key": "entrying",
+          "label": "HLTV 冲锋画像",
+          "value": 62,
+          "scope": "个人页面过去三个月 / 65 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21167/donk"
+        },
+        {
+          "key": "trading",
+          "label": "HLTV 交易击杀画像",
+          "value": 74,
+          "scope": "个人页面过去三个月 / 65 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21167/donk"
+        },
+        {
+          "key": "opening",
+          "label": "HLTV 首杀画像",
+          "value": 88,
+          "scope": "个人页面过去三个月 / 65 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21167/donk"
+        },
+        {
+          "key": "closing",
+          "label": "HLTV 收尾画像",
+          "value": 25,
+          "scope": "个人页面过去三个月 / 65 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21167/donk"
+        },
+        {
+          "key": "sniping",
+          "label": "HLTV 狙击画像",
+          "value": 1,
+          "scope": "个人页面过去三个月 / 65 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21167/donk"
+        },
+        {
+          "key": "utilityProfile",
+          "label": "HLTV 道具画像",
+          "value": 36,
+          "scope": "个人页面过去三个月 / 65 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/21167/donk"
+        }
+      ]
+    },
+    {
+      "nickname": "ropz",
+      "maps": 58,
+      "metrics": [
+        {
+          "key": "recentRating",
+          "label": "Rating 3.0",
+          "value": 1.14,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11816/ropz"
+        },
+        {
+          "key": "firepower",
+          "label": "HLTV 火力画像",
+          "value": 71,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11816/ropz"
+        },
+        {
+          "key": "entrying",
+          "label": "HLTV 冲锋画像",
+          "value": 21,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11816/ropz"
+        },
+        {
+          "key": "trading",
+          "label": "HLTV 交易击杀画像",
+          "value": 66,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11816/ropz"
+        },
+        {
+          "key": "opening",
+          "label": "HLTV 首杀画像",
+          "value": 31,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11816/ropz"
+        },
+        {
+          "key": "closing",
+          "label": "HLTV 收尾画像",
+          "value": 74,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11816/ropz"
+        },
+        {
+          "key": "sniping",
+          "label": "HLTV 狙击画像",
+          "value": 11,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11816/ropz"
+        },
+        {
+          "key": "utilityProfile",
+          "label": "HLTV 道具画像",
+          "value": 22,
+          "scope": "个人页面过去三个月 / 58 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/11816/ropz"
+        }
+      ]
+    },
+    {
+      "nickname": "m0NESY",
+      "maps": 43,
+      "metrics": [
+        {
+          "key": "recentRating",
+          "label": "Rating 3.0",
+          "value": 1.34,
+          "scope": "个人页面过去三个月 / 43 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/19230/m0nesy"
+        },
+        {
+          "key": "firepower",
+          "label": "HLTV 火力画像",
+          "value": 89,
+          "scope": "个人页面过去三个月 / 43 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/19230/m0nesy"
+        },
+        {
+          "key": "entrying",
+          "label": "HLTV 冲锋画像",
+          "value": 60,
+          "scope": "个人页面过去三个月 / 43 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/19230/m0nesy"
+        },
+        {
+          "key": "trading",
+          "label": "HLTV 交易击杀画像",
+          "value": 44,
+          "scope": "个人页面过去三个月 / 43 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/19230/m0nesy"
+        },
+        {
+          "key": "opening",
+          "label": "HLTV 首杀画像",
+          "value": 63,
+          "scope": "个人页面过去三个月 / 43 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/19230/m0nesy"
+        },
+        {
+          "key": "closing",
+          "label": "HLTV 收尾画像",
+          "value": 70,
+          "scope": "个人页面过去三个月 / 43 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/19230/m0nesy"
+        },
+        {
+          "key": "sniping",
+          "label": "HLTV 狙击画像",
+          "value": 93,
+          "scope": "个人页面过去三个月 / 43 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/19230/m0nesy"
+        },
+        {
+          "key": "utilityProfile",
+          "label": "HLTV 道具画像",
+          "value": 65,
+          "scope": "个人页面过去三个月 / 43 张地图",
+          "period": "2026-10-26 核查时滚动窗口",
+          "url": "https://www.hltv.org/player/19230/m0nesy"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "nickname": "MartinezSa",
+      "role": "AWPer",
+      "asOf": "2026-07-13",
+      "url": "https://heroic.gg/atc/the-future-of-heroic"
+    },
+    {
+      "nickname": "Brollan",
+      "role": "Rifler",
+      "asOf": "2026-07-13",
+      "url": "https://heroic.gg/atc/the-future-of-heroic"
+    }
+  ]
+}

@@ -1,0 +1,1278 @@
+{
+  "checkedAt": "2026-10-26",
+  "ranked": 20,
+  "roleVerified": 210,
+  "unverified": 40,
+  "players": [
+    {
+      "nickname": "donk",
+      "role": "Entry",
+      "basis": "ranked",
+      "rank": 2
+    },
+    {
+      "nickname": "magixx",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "sh1ro",
+      "role": "AWPer",
+      "basis": "ranked",
+      "rank": 5
+    },
+    {
+      "nickname": "tN1R",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "zont1x",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "arT",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "dumau",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "latto",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "n1ssim",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "try",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "apEX",
+      "role": "IGL",
+      "basis": "sampled"
+    },
+    {
+      "nickname": "flameZ",
+      "role": "Entry",
+      "basis": "ranked",
+      "rank": 7
+    },
+    {
+      "nickname": "mezii",
+      "role": "Anchor",
+      "basis": "ranked",
+      "rank": 12
+    },
+    {
+      "nickname": "ropz",
+      "role": "Lurker",
+      "basis": "ranked",
+      "rank": 3
+    },
+    {
+      "nickname": "ZywOo",
+      "role": "AWPer",
+      "basis": "ranked",
+      "rank": 1
+    },
+    {
+      "nickname": "PR",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Spinx",
+      "role": "Lurker",
+      "basis": "ranked",
+      "rank": 10
+    },
+    {
+      "nickname": "torzsi",
+      "role": "AWPer",
+      "basis": "ranked",
+      "rank": 17
+    },
+    {
+      "nickname": "xelex",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "xertioN",
+      "role": "IGL",
+      "basis": "ranked",
+      "rank": 16
+    },
+    {
+      "nickname": "HeavyGod",
+      "role": "Anchor",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "huNter-",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "MATYS",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "NertZ",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "r1nkle",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "karrigan",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "kyousuke",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "m0NESY",
+      "role": "AWPer",
+      "basis": "ranked",
+      "rank": 4
+    },
+    {
+      "nickname": "NiKo",
+      "role": "Entry",
+      "basis": "ranked",
+      "rank": 18
+    },
+    {
+      "nickname": "TeSeS",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "FalleN",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "KSCERATO",
+      "role": "Lurker",
+      "basis": "ranked",
+      "rank": 9
+    },
+    {
+      "nickname": "molodoy",
+      "role": "AWPer",
+      "basis": "ranked",
+      "rank": 6
+    },
+    {
+      "nickname": "YEKINDAR",
+      "role": "Entry",
+      "basis": "ranked",
+      "rank": 15
+    },
+    {
+      "nickname": "yuurih",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "cmtry",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "dem0n",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "dziugss",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Krabeni",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "xfl0ud",
+      "role": "Support",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Jimpphat",
+      "role": "Support",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "kyxsan",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Wicadia",
+      "role": "Rifler",
+      "basis": "sampled"
+    },
+    {
+      "nickname": "woxic",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "XANTARES",
+      "role": "Entry",
+      "basis": "ranked",
+      "rank": 14
+    },
+    {
+      "nickname": "HooXi",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "jabbi",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "phzy",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "ryu",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Staehr",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Boombl4",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "d1Ledez",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Magnojez",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "S1ren",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "zorte",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "insani",
+      "role": "Support",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "LNZ",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "nqz",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "tomaszin",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "venomzera",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "alex666",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "esenthial",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "kensizor",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "npl",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "s1zzi",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "KaiR0N-",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "khaN",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "robo",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "syph0",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Xant3r",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Brollan",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Chr1zN",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "MartinezSa",
+      "role": "AWPer",
+      "basis": "sampled"
+    },
+    {
+      "nickname": "nilo",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "susp",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "afro",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "AZUWU",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "lux",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Rainwaker",
+      "role": "Lurker",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "yxngstxr",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "dgt",
+      "role": "Lurker",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "HUASOPEEK",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "luchov",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "max",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "meyern",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "adamb",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Krimbo",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "sjuush",
+      "role": "Support",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "stavn",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "xKacpersky",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "EliGE",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Jorko",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "JT",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "malbsMd",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "NAF",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "cptkurtka023",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Dawy",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "headtr1ck",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "onic",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "zeRRoFIX",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Graviti",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Kursy",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Lucky",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Maka",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "misutaaa",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "JBa",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Lake",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "s1n",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "slaxz-",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Swisher",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "AW",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "MaSvAl",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "mo0N",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "sFade8",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "tenzy",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "avid",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "bobeksde",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "eraa",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "twist",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "upE",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "blameF",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "faveN",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "gr1ks",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "JDC",
+      "role": "Support",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "tabseN",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "frozen",
+      "role": "Rifler",
+      "basis": "ranked",
+      "rank": 8
+    },
+    {
+      "nickname": "JBOEN",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "jcobbb",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Neityu",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Twistzz",
+      "role": "IGL",
+      "basis": "ranked",
+      "rank": 11
+    },
+    {
+      "nickname": "FL4MUS",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "hypex",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "REZ",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Snax",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Tauson",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "device",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Gizmy",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "poiii",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "rain",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "sirah",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "mag1k3Y",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "r3salt",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Sdaim",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "SELLTER",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "tex1y",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "0SAMAS",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Bibu",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "CacaNito",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "m1N1",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "sinnopsyy",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "dwushka",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "frontales",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "kade0",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "mizu",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "n0rb3r7",
+      "role": "Support",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "clax",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "kashl1d",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "qw1nk1",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "X5G7V",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "xeedo",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "jottAAA",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Kvem",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "MisteM",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "regali",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "soulfly",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Aleksib",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "b1t",
+      "role": "Anchor",
+      "basis": "ranked",
+      "rank": 20
+    },
+    {
+      "nickname": "iM",
+      "role": "Entry",
+      "basis": "ranked",
+      "rank": 19
+    },
+    {
+      "nickname": "makazze",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "w0nderful",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "cairne",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "fEAR",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "jackasmo",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "jambo",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "mazay",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "FL1T",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Jame",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "slaxejezzz",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "xiELO",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "zweih",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Boye",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "IceBerg",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "leakz",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "NickyB",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "salazar",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "ArtFr0st",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Ax1Le",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "BELCHONOKK",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "fame",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "nafany",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "doc",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "gafolo",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "koala",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "maxxkor",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "rdnzao",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "adamS",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "bnox",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Joey",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "puuha",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "R4DYX",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "beastik",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "kisserek",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "MoDo",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "SHOCK",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "stressarN",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "ewjerkz",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "krazy",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "MUTiRiS",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "NOPEEj",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "story",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "dex",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "JW",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "KRIMZ",
+      "role": "Support",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "maxster",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Ro1f",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "JamYoung",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Jee",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Mercury",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Moseyuh",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Zero",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Demho",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "ex1st",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Prism",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Qlocuu",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "ultimate",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "ayuki",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Djon8",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "flouzer",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "senka",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "tronic",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Grim",
+      "role": "Entry",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "hallzerk",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Jeorge",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "nitr0",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Sonic",
+      "role": "Lurker",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Banjo",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "jocab",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Matheos",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "podi",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "ztr",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "910",
+      "role": "AWPer",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "bLitz",
+      "role": "IGL",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "DarkMeister",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Techno",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "tikuak",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "asap",
+      "role": "Rifler",
+      "basis": "baseline"
+    },
+    {
+      "nickname": "Magisk",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "mzinho",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "s1mple",
+      "role": "Rifler",
+      "basis": "role-only"
+    },
+    {
+      "nickname": "Senzu",
+      "role": "Rifler",
+      "basis": "ranked",
+      "rank": 13
+    }
+  ]
+}

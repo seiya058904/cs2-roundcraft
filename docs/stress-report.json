@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-10-26T11:36:44.068Z",
+  "simulationSourceSha256": "6b3300614b01071f766019f614a573903bca648b2bf4c75587ea50e807bc46e4",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "samples": 10000,
+  "rounds": 202469,
+  "fireDamage": 2954592,
+  "extinguishes": 24760,
+  "donations": 16288,
+  "posthumousFireKills": 3402,
+  "maps": {
+    "dust2": {
+      "maps": 1429,
+      "rounds": 28717,
+      "ctWins": 13647,
+      "plants": 16325,
+      "defuses": 1411,
+      "overtime": 108
+    },
+    "mirage": {
+      "maps": 1429,
+      "rounds": 29050,
+      "ctWins": 12108,
+      "plants": 18209,
+      "defuses": 1434,
+      "overtime": 140
+    },
+    "inferno": {
+      "maps": 1429,
+      "rounds": 29275,
+      "ctWins": 11750,
+      "plants": 18720,
+      "defuses": 1325,
+      "overtime": 127
+    },
+    "nuke": {
+      "maps": 1429,
+      "rounds": 29272,
+      "ctWins": 12133,
+      "plants": 18584,
+      "defuses": 1542,
+      "overtime": 126
+    },
+    "ancient": {
+      "maps": 1428,
+      "rounds": 28498,
+      "ctWins": 12465,
+      "plants": 17216,
+      "defuses": 1334,
+      "overtime": 122
+    },
+    "anubis": {
+      "maps": 1428,
+      "rounds": 28845,
+      "ctWins": 11782,
+      "plants": 18117,
+      "defuses": 1242,
+      "overtime": 128
+    },
+    "cache": {
+      "maps": 1428,
+      "rounds": 28812,
+      "ctWins": 11991,
+      "plants": 17936,
+      "defuses": 1265,
+      "overtime": 108
+    }
+  },
+  "durationSeconds": 254.02978699999997
+}

@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-26T11:38:13.265Z",
+  "simulationSourceSha256": "6b3300614b01071f766019f614a573903bca648b2bf4c75587ea50e807bc46e4",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "note": "相同 seeds，三种实际机制；单局胜率仅描述，不能单独推断暂停因果收益。",
+  "sample": 100,
+  "report": {
+    "position": {
+      "used": 100,
+      "rounds": 100,
+      "wins": 69,
+      "cash": 1717900
+    },
+    "belief": {
+      "used": 100,
+      "rounds": 100,
+      "wins": 43,
+      "cash": 1475700
+    },
+    "economy": {
+      "used": 100,
+      "rounds": 100,
+      "wins": 43,
+      "cash": 1467000
+    }
+  }
+}

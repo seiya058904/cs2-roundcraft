@@ -1,0 +1,21 @@
+import {test,expect} from '@playwright/test';
+for(const width of [1440,1280,1024,390])test(`回合计划选择、调整与复盘 ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:1000});const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('/');await page.getByRole('button',{name:'快速开赛 · Vitality vs FURIA →'}).click();
+ await page.getByLabel('战术池',{exact:true}).selectOption('patient');
+ await page.getByText('阶段调整',{exact:true}).click();
+ await page.getByLabel('烟雾处理',{exact:true}).selectOption('respect');
+ await page.getByLabel('道具节奏',{exact:true}).selectOption('reserve');
+ await expect(page.getByLabel('道具节奏',{exact:true})).toHaveValue('reserve');
+ await page.getByRole('button',{name:'恢复预设阶段规则'}).click();
+ await expect(page.getByLabel('道具节奏',{exact:true})).toHaveValue('');
+ await page.getByLabel('播报速度').selectOption('0');
+ await page.getByRole('button',{name:'执行下一回合 →',exact:true}).click();
+ await expect(page.getByTestId('live-state')).toContainText('回合结束');
+ await page.getByRole('button',{name:'战术复盘',exact:true}).click();
+ await page.getByText('本回合实际计划与执行记录',{exact:true}).click();
+ await expect(page.getByText('稳健控制 · 规则版本 plans-1')).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ expect(errors).toEqual([]);
+ await page.screenshot({path:test.info().outputPath(`match-plan-${width}.png`),fullPage:true});
+});

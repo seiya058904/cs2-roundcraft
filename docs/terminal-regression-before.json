@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-26T07:52:40.436Z",
+  "simulationSourceSha256": "a82d9f7b6ecf2b2857d222da58627110bbfccd103f05003d9b7cc52f6bd763b6",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "samples": 3000,
+  "rounds": 61384,
+  "findings": [
+    {
+      "seed": 224,
+      "map": "inferno",
+      "round": 5,
+      "terminalKill": {
+        "id": "r5-e194",
+        "at": 64,
+        "kind": "kill",
+        "causes": [
+          "r5-e193"
+        ],
+        "detail": {},
+        "actor": "team-7-p4",
+        "target": "team-3-p4",
+        "team": 1,
+        "zone": "inferno-3",
+        "weapon": "HE",
+        "alive": [
+          0,
+          3
+        ]
+      },
+      "later": [
+        {
+          "id": "r5-e196",
+          "at": 64,
+          "kind": "damage",
+          "causes": [
+            "r5-e171"
+          ],
+          "detail": {},
+          "actor": "team-3-p4",
+          "target": "team-7-p4",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "fire",
+          "damage": 1,
+          "hpBefore": 1,
+          "hpAfter": 0
+        },
+        {
+          "id": "r5-e197",
+          "at": 64,
+          "kind": "kill",
+          "causes": [
+            "r5-e196"
+          ],
+          "detail": {},
+          "actor": "team-3-p4",
+          "target": "team-7-p4",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "fire",
+          "alive": [
+            0,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}

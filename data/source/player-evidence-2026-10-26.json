@@ -1,0 +1,870 @@
+{
+  "checkedAt": "2026-10-26",
+  "rosterCutoff": "2026-10-05",
+  "notes": [
+    "事实摘录，不复制文章正文或评论区观点。",
+    "2025 为截至核查日最新完整年度 Top 20；不能冒充 2026 实时排名。",
+    "各项统计保留独立范围，不把不同赛事样本混为全年度。",
+    "Liquipedia 实时页面返回 403，沿用已许可且保留修订号的 2026-07-26 身份快照。"
+  ],
+  "players": [
+    {
+      "nickname": "ZywOo",
+      "ranking": {
+        "year": 2025,
+        "rank": 1,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.38,
+          "scope": "Major 赛事",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43610/top-20-players-of-2025-zywoo-1"
+        },
+        {
+          "key": "playoffRating",
+          "label": "关键阶段 Rating 3.0",
+          "value": 1.34,
+          "scope": "季后赛",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43610/top-20-players-of-2025-zywoo-1"
+        },
+        {
+          "key": "mvp",
+          "label": "MVP 次数",
+          "value": 8,
+          "scope": "全年 MVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43610/top-20-players-of-2025-zywoo-1"
+        }
+      ],
+      "nationality": "France"
+    },
+    {
+      "nickname": "donk",
+      "ranking": {
+        "year": 2025,
+        "rank": 2,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "kpr",
+          "label": "每回合击杀",
+          "value": 0.93,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43609/top-20-players-of-2025-donk-2"
+        },
+        {
+          "key": "adr",
+          "label": "每回合伤害",
+          "value": 97.1,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43609/top-20-players-of-2025-donk-2"
+        },
+        {
+          "key": "kast",
+          "label": "贡献回合率（%）",
+          "value": 77.6,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43609/top-20-players-of-2025-donk-2"
+        },
+        {
+          "key": "dpr",
+          "label": "每回合死亡",
+          "value": 0.66,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43609/top-20-players-of-2025-donk-2"
+        }
+      ],
+      "nationality": "Russia"
+    },
+    {
+      "nickname": "ropz",
+      "ranking": {
+        "year": 2025,
+        "rank": 3,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "overallRating",
+          "label": "总体 Rating 3.0",
+          "value": 1.16,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43608/top-20-players-of-2025-ropz-3"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.26,
+          "scope": "Major 赛事",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43608/top-20-players-of-2025-ropz-3"
+        },
+        {
+          "key": "evp",
+          "label": "EVP 次数",
+          "value": 8,
+          "scope": "全年 EVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43608/top-20-players-of-2025-ropz-3"
+        }
+      ],
+      "nationality": "Estonia"
+    },
+    {
+      "nickname": "m0NESY",
+      "ranking": {
+        "year": 2025,
+        "rank": 4,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.26,
+          "scope": "大型赛事",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43585/top-20-players-of-2025-m0nesy-4"
+        },
+        {
+          "key": "playoffRating",
+          "label": "关键阶段 Rating 3.0",
+          "value": 1.21,
+          "scope": "重大对局",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43585/top-20-players-of-2025-m0nesy-4"
+        },
+        {
+          "key": "mvp",
+          "label": "MVP 次数",
+          "value": 2,
+          "scope": "全年 MVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43585/top-20-players-of-2025-m0nesy-4"
+        }
+      ],
+      "nationality": "Russia"
+    },
+    {
+      "nickname": "sh1ro",
+      "ranking": {
+        "year": 2025,
+        "rank": 5,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "overallRating",
+          "label": "总体 Rating 3.0",
+          "value": 1.2,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43588/top-20-players-of-2025-sh1ro-5"
+        },
+        {
+          "key": "kpr",
+          "label": "每回合击杀",
+          "value": 0.79,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43588/top-20-players-of-2025-sh1ro-5"
+        },
+        {
+          "key": "survival",
+          "label": "存活率（%）",
+          "value": 46.2,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43588/top-20-players-of-2025-sh1ro-5"
+        }
+      ],
+      "nationality": "Russia"
+    },
+    {
+      "nickname": "molodoy",
+      "ranking": {
+        "year": 2025,
+        "rank": 6,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "kpr",
+          "label": "每回合击杀",
+          "value": 0.76,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43576/top-20-players-of-2025-molodoy-6"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.18,
+          "scope": "对世界前五队伍",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43576/top-20-players-of-2025-molodoy-6"
+        },
+        {
+          "key": "maps",
+          "label": "地图样本数",
+          "value": 162,
+          "scope": "值得关注赛事样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43576/top-20-players-of-2025-molodoy-6"
+        }
+      ],
+      "nationality": "Kazakhstan"
+    },
+    {
+      "nickname": "flameZ",
+      "ranking": {
+        "year": 2025,
+        "rank": 7,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "playoffRating",
+          "label": "关键阶段 Rating 3.0",
+          "value": 1.1,
+          "scope": "重大对局（97 图）",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43573/top-20-players-of-2025-flamez-7"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.11,
+          "scope": "总决赛（42 图）",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43573/top-20-players-of-2025-flamez-7"
+        },
+        {
+          "key": "evp",
+          "label": "EVP 次数",
+          "value": 4,
+          "scope": "全年 EVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43573/top-20-players-of-2025-flamez-7"
+        }
+      ],
+      "nationality": "Israel"
+    },
+    {
+      "nickname": "frozen",
+      "ranking": {
+        "year": 2025,
+        "rank": 8,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "overallRating",
+          "label": "总体 Rating 3.0",
+          "value": 1.17,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43558/top-20-players-of-2025-frozen-8"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.2,
+          "scope": "对世界前五队伍",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43558/top-20-players-of-2025-frozen-8"
+        },
+        {
+          "key": "floor",
+          "label": "稳定表现比例（%）",
+          "value": 85.6,
+          "scope": "单图 Rating 高于 0.85 的比例",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43558/top-20-players-of-2025-frozen-8"
+        }
+      ],
+      "nationality": "Slovakia"
+    },
+    {
+      "nickname": "KSCERATO",
+      "ranking": {
+        "year": 2025,
+        "rank": 9,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "overallRating",
+          "label": "总体 Rating 3.0",
+          "value": 1.2,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43559/top-20-players-of-2025-kscerato-9"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.15,
+          "scope": "对世界前十队伍",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43559/top-20-players-of-2025-kscerato-9"
+        },
+        {
+          "key": "damageDiff",
+          "label": "伤害差",
+          "value": 13.6,
+          "scope": "每回合伤害差",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43559/top-20-players-of-2025-kscerato-9"
+        }
+      ],
+      "nationality": "Brazil"
+    },
+    {
+      "nickname": "Spinx",
+      "ranking": {
+        "year": 2025,
+        "rank": 10,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.09,
+          "scope": "对世界前五队伍",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43547/top-20-players-of-2025-spinx-10"
+        },
+        {
+          "key": "playoffRating",
+          "label": "关键阶段 Rating 3.0",
+          "value": 1.05,
+          "scope": "季后赛",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43547/top-20-players-of-2025-spinx-10"
+        },
+        {
+          "key": "evp",
+          "label": "EVP 次数",
+          "value": 4,
+          "scope": "全年 EVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43547/top-20-players-of-2025-spinx-10"
+        }
+      ],
+      "nationality": "Israel"
+    },
+    {
+      "nickname": "Twistzz",
+      "ranking": {
+        "year": 2025,
+        "rank": 11,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "overallRating",
+          "label": "总体 Rating 3.0",
+          "value": 1.17,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43533/top-20-players-of-2025-twistzz-11"
+        },
+        {
+          "key": "playoffRating",
+          "label": "关键阶段 Rating 3.0",
+          "value": 1.22,
+          "scope": "季后赛",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43533/top-20-players-of-2025-twistzz-11"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.23,
+          "scope": "淘汰风险对局",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43533/top-20-players-of-2025-twistzz-11"
+        }
+      ],
+      "nationality": "Canada"
+    },
+    {
+      "nickname": "mezii",
+      "ranking": {
+        "year": 2025,
+        "rank": 12,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.18,
+          "scope": "两届 Major",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43534/top-20-players-of-2025-mezii-12"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.17,
+          "scope": "四项超级精英赛事",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43534/top-20-players-of-2025-mezii-12"
+        },
+        {
+          "key": "evp",
+          "label": "EVP 次数",
+          "value": 3,
+          "scope": "全年 EVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43534/top-20-players-of-2025-mezii-12"
+        }
+      ],
+      "nationality": "United Kingdom"
+    },
+    {
+      "nickname": "Senzu",
+      "ranking": {
+        "year": 2025,
+        "rank": 13,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "kpr",
+          "label": "每回合击杀",
+          "value": 0.73,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43528/top-20-players-of-2025-senzu-13"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.3,
+          "scope": "Major 样本；未参加布达佩斯",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43528/top-20-players-of-2025-senzu-13"
+        },
+        {
+          "key": "evp",
+          "label": "EVP 次数",
+          "value": 4,
+          "scope": "全年 EVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43528/top-20-players-of-2025-senzu-13"
+        }
+      ],
+      "nationality": "Mongolia"
+    },
+    {
+      "nickname": "XANTARES",
+      "ranking": {
+        "year": 2025,
+        "rank": 14,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "overallRating",
+          "label": "总体 Rating 3.0",
+          "value": 1.16,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43524/top-20-players-of-2025-xantares-14"
+        },
+        {
+          "key": "kpr",
+          "label": "每回合击杀",
+          "value": 0.75,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43524/top-20-players-of-2025-xantares-14"
+        },
+        {
+          "key": "adr",
+          "label": "每回合伤害",
+          "value": 85.2,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43524/top-20-players-of-2025-xantares-14"
+        }
+      ],
+      "nationality": "Turkey"
+    },
+    {
+      "nickname": "YEKINDAR",
+      "ranking": {
+        "year": 2025,
+        "rank": 15,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "playoffRating",
+          "label": "关键阶段 Rating 3.0",
+          "value": 1.1,
+          "scope": "重大对局",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43518/top-20-players-of-2025-yekindar-15"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.1,
+          "scope": "竞技场对局",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43518/top-20-players-of-2025-yekindar-15"
+        },
+        {
+          "key": "evp",
+          "label": "EVP 次数",
+          "value": 3,
+          "scope": "全年 EVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43518/top-20-players-of-2025-yekindar-15"
+        }
+      ],
+      "nationality": "Latvia"
+    },
+    {
+      "nickname": "xertioN",
+      "ranking": {
+        "year": 2025,
+        "rank": 16,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "adr",
+          "label": "每回合伤害",
+          "value": 82.1,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43512/top-20-players-of-2025-xertion-16"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.12,
+          "scope": "Major 赛事",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43512/top-20-players-of-2025-xertion-16"
+        },
+        {
+          "key": "evp",
+          "label": "EVP 次数",
+          "value": 3,
+          "scope": "全年 EVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43512/top-20-players-of-2025-xertion-16"
+        }
+      ],
+      "nationality": "Israel"
+    },
+    {
+      "nickname": "torzsi",
+      "ranking": {
+        "year": 2025,
+        "rank": 17,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "evp",
+          "label": "EVP 次数",
+          "value": 4,
+          "scope": "全年 EVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43509/top-20-players-of-2025-torzsi-17"
+        },
+        {
+          "key": "top10Share",
+          "label": "强敌比赛比例（%）",
+          "value": 63,
+          "scope": "对世界前十队伍的比赛比例",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43509/top-20-players-of-2025-torzsi-17"
+        }
+      ],
+      "nationality": "Hungary"
+    },
+    {
+      "nickname": "NiKo",
+      "ranking": {
+        "year": 2025,
+        "rank": 18,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "overallRating",
+          "label": "总体 Rating 3.0",
+          "value": 1.13,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43505/top-20-players-of-2025-niko-18"
+        },
+        {
+          "key": "kpr",
+          "label": "每回合击杀",
+          "value": 0.72,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43505/top-20-players-of-2025-niko-18"
+        },
+        {
+          "key": "adr",
+          "label": "每回合伤害",
+          "value": 81.0,
+          "scope": "年度文章总体样本",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43505/top-20-players-of-2025-niko-18"
+        }
+      ],
+      "nationality": "Bosnia and Herzegovina"
+    },
+    {
+      "nickname": "iM",
+      "ranking": {
+        "year": 2025,
+        "rank": 19,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.16,
+          "scope": "四项超级精英赛事",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43503/top-20-players-of-2025-im-19"
+        },
+        {
+          "key": "playoffRating",
+          "label": "关键阶段 Rating 3.0",
+          "value": 1.05,
+          "scope": "季后赛（38 图）",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43503/top-20-players-of-2025-im-19"
+        }
+      ],
+      "nationality": "Romania"
+    },
+    {
+      "nickname": "b1t",
+      "ranking": {
+        "year": 2025,
+        "rank": 20,
+        "url": "https://www.hltv.org/players/top20/2025"
+      },
+      "metrics": [
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.14,
+          "scope": "淘汰风险对局",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43502/top-20-players-of-2025-b1t-20"
+        },
+        {
+          "key": "rating",
+          "label": "Rating 3.0",
+          "value": 1.1,
+          "scope": "精英赛事季后赛",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43502/top-20-players-of-2025-b1t-20"
+        },
+        {
+          "key": "evp",
+          "label": "EVP 次数",
+          "value": 3,
+          "scope": "全年 EVP 数",
+          "period": "2025",
+          "url": "https://www.hltv.org/news/43502/top-20-players-of-2025-b1t-20"
+        }
+      ],
+      "nationality": "Ukraine"
+    }
+  ],
+  "awards": [
+    {
+      "nickname": "apEX",
+      "label": "2025 年度指挥：获奖",
+      "category": "指挥",
+      "place": 1,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "FalleN",
+      "label": "2025 年度指挥：第 2 名",
+      "category": "指挥",
+      "place": 2,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "bLitz",
+      "label": "2025 年度指挥：第 3 名",
+      "category": "指挥",
+      "place": 3,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "ZywOo",
+      "label": "2025 年度狙击手：获奖",
+      "category": "狙击手",
+      "place": 1,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "m0NESY",
+      "label": "2025 年度狙击手：第 2 名",
+      "category": "狙击手",
+      "place": 2,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "sh1ro",
+      "label": "2025 年度狙击手：第 3 名",
+      "category": "狙击手",
+      "place": 3,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "mezii",
+      "label": "2025 年度守点选手：获奖",
+      "category": "守点选手",
+      "place": 1,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "HeavyGod",
+      "label": "2025 年度守点选手：第 2 名",
+      "category": "守点选手",
+      "place": 2,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "b1t",
+      "label": "2025 年度守点选手：第 3 名",
+      "category": "守点选手",
+      "place": 3,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "ropz",
+      "label": "2025 年度收尾选手：获奖",
+      "category": "收尾选手",
+      "place": 1,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "KSCERATO",
+      "label": "2025 年度收尾选手：第 2 名",
+      "category": "收尾选手",
+      "place": 2,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "frozen",
+      "label": "2025 年度收尾选手：第 3 名",
+      "category": "收尾选手",
+      "place": 3,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "donk",
+      "label": "2025 年度突破选手：获奖",
+      "category": "突破选手",
+      "place": 1,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "flameZ",
+      "label": "2025 年度突破选手：第 2 名",
+      "category": "突破选手",
+      "place": 2,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    },
+    {
+      "nickname": "YEKINDAR",
+      "label": "2025 年度突破选手：第 3 名",
+      "category": "突破选手",
+      "place": 3,
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10"
+    }
+  ],
+  "roleOverrides": [
+    {
+      "nickname": "donk",
+      "role": "Entry",
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10",
+      "note": "年度专家评审的功能定位；与已有步枪手/辅助大类兼容"
+    },
+    {
+      "nickname": "mezii",
+      "role": "Anchor",
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10",
+      "note": "年度专家评审的功能定位；与已有步枪手/辅助大类兼容"
+    },
+    {
+      "nickname": "HeavyGod",
+      "role": "Anchor",
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10",
+      "note": "年度专家评审的功能定位；与已有步枪手/辅助大类兼容"
+    },
+    {
+      "nickname": "b1t",
+      "role": "Anchor",
+      "url": "https://www.hltv.org/news/43614/all-the-hltv-awards-winners",
+      "asOf": "2026-01-10",
+      "note": "年度专家评审的功能定位；与已有步枪手/辅助大类兼容"
+    }
+  ],
+  "roleCorroboration": [
+    {
+      "nickname": "xertioN",
+      "url": "https://www.hltv.org/news/44904/sycrone-im-set-on-xertion-as-an-igl",
+      "asOf": "2026-06-14",
+      "note": "教练确认现任指挥；不被 2025 年突破职责覆盖"
+    },
+    {
+      "nickname": "Twistzz",
+      "url": "https://www.hltv.org/news/44481/navi-move-past-new-look-faze-to-make-playoffs",
+      "asOf": "2026-04-30",
+      "note": "FaZe 新任指挥首秀；保留 2026 年指挥定位"
+    }
+  ]
+}

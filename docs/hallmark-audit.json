@@ -1,0 +1,1501 @@
+{
+  "summary": {
+    "fails": 18,
+    "reflex": 143,
+    "warns": 4,
+    "waived": 0,
+    "rejected": 0,
+    "answered": 0,
+    "dismissed": 0,
+    "notes": 0,
+    "files": 11,
+    "render": "not run: no puppeteer-core found locally, globally or via HALLMARK_PUPPETEER"
+  },
+  "findings": [
+    {
+      "gate": "19",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\App.tsx",
+      "line": 55,
+      "evidence": "dash \"—\" in copy",
+      "fix": "A comma, a colon, a full stop or parentheses; never a dash"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\MatchView.tsx",
+      "line": 43,
+      "evidence": "eyebrow \"正在回放 R · 结算比分尚未揭示 :\" before <div>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\MatchView.tsx",
+      "line": 62,
+      "evidence": "eyebrow \"经济观察：\" before <div>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "54",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\ui.tsx",
+      "line": 9,
+      "evidence": "eyebrow \"· · 能力为游戏平衡估值，非官方职业测评\" before <h4>",
+      "fix": "Cut it; the heading already says this (craft.md § 7 has twelve other openings)"
+    },
+    {
+      "gate": "56",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\style.css",
+      "line": 117,
+      "evidence": "two sticky top:0 elements: .notice.progress + thead th + .sidebar + .career-st…",
+      "fix": "Offset the second sticky by banner height"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\App.tsx",
+      "line": 50,
+      "evidence": "arrow glued to the label \"→\"",
+      "fix": "A verb as the label; the link already says it goes somewhere"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\App.tsx",
+      "line": 55,
+      "evidence": "arrow glued to the label \"进入下一赛季 →\"",
+      "fix": "A verb as the label; the link already says it goes somewhere"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\App.tsx",
+      "line": 65,
+      "evidence": "middle-dot meta string \"系列赛制 BO1 · 单图 BO3 · 三图两胜 BO5 · 五图三胜 比赛 seed\"",
+      "fix": "Line breaks, columns or hairlines; one dot in a byline at most"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\App.tsx",
+      "line": 65,
+      "evidence": "arrow glued to the label \"进入地图禁选 →\"",
+      "fix": "A verb as the label; the link already says it goes somewhere"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\App.tsx",
+      "line": 81,
+      "evidence": "middle-dot meta string \"第 季 · 第 周 · ↔\"",
+      "fix": "Line breaks, columns or hairlines; one dot in a byline at most"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\MatchView.tsx",
+      "line": 44,
+      "evidence": "middle-dot meta string \"七张地图 · 双方轮流禁选 · 地图强项为游戏准备度\"",
+      "fix": "Line breaks, columns or hairlines; one dot in a byline at most"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\MatchView.tsx",
+      "line": 54,
+      "evidence": "middle-dot meta string \"秒 · 存活 · 比分\"",
+      "fix": "Line breaks, columns or hairlines; one dot in a byline at most"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\MatchView.tsx",
+      "line": 59,
+      "evidence": "middle-dot meta string \"· 区域 战术自动分配 · 架点方式 由战术决定 掩体近角 · 放弃远处视野 常规枪线 · 保持区…\"",
+      "fix": "Line breaks, columns or hairlines; one dot in a byline at most"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\MatchView.tsx",
+      "line": 60,
+      "evidence": "arrow glued to the label \"执行下一回合 →\"",
+      "fix": "A verb as the label; the link already says it goes somewhere"
+    },
+    {
+      "gate": "67",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\App.tsx",
+      "line": 45,
+      "evidence": "\"TACTICS MANAGER\" typed in capitals at 12px (<span>)",
+      "fix": "Sentence case in the body face; capitals survive only as a wordmark or as the display voice"
+    },
+    {
+      "gate": "67",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\App.tsx",
+      "line": 57,
+      "evidence": "\"导出 JSON 导出最近恢复备份 导入 JSON\" typed in capitals at 13px (<div class=\"button-row\">)",
+      "fix": "Sentence case in the body face; capitals survive only as a wordmark or as the display voice"
+    },
+    {
+      "gate": "67",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\App.tsx",
+      "line": 65,
+      "evidence": "\"系列赛制 BO1 · 单图 BO3 · 三图两胜 BO5 · …\" typed in capitals at 12px (<label>)",
+      "fix": "Sentence case in the body face; capitals survive only as a wordmark or as the display voice"
+    },
+    {
+      "gate": "67",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src\\style.css",
+      "line": 63,
+      "evidence": ".page-heading>p:first-child: letter-spaced tracked 0.15384615384615385em at 13px in a label role",
+      "fix": "Labels, captions, table heads, nav links and meta are the body face (or the theme's label face), a step smaller, sentence case, untracked"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 41,
+      "evidence": "pure #fff: color: var(--legacy-22) (.sidebar nav button:hover)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 9,
+      "evidence": "padding: 10px 16px (off the 4px scale) on button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 16,
+      "evidence": "padding: 10px 12px (off the 4px scale) on input,select",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 18,
+      "evidence": "margin-bottom: 18px (off the 4px scale) on label",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 19,
+      "evidence": "margin-top: 7px (off the 4px scale) on label>input,label>select",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 21,
+      "evidence": "gap: 10px (off the 4px scale) on .checkbox",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 36,
+      "evidence": "padding: 22px 27px 25px (off the 4px scale) on .brand",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 40,
+      "evidence": "gap: 15px (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 40,
+      "evidence": "padding: 14px 21px (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 49,
+      "evidence": "padding-top: 18px (off the 4px scale) on .page-footer",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 50,
+      "evidence": "margin-bottom: 18px (off the 4px scale) on .panel",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 51,
+      "evidence": "gap: 14px (off the 4px scale) on .panel-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 51,
+      "evidence": "padding: 15px 18px (off the 4px scale) on .panel-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 52,
+      "evidence": "padding: 5px 8px (off the 4px scale) on .panel-heading select",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 53,
+      "evidence": "padding: 5px 9px (off the 4px scale) on .panel-heading button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 54,
+      "evidence": "padding: 18px (off the 4px scale) on .panel-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 56,
+      "evidence": "gap: 10px (off the 4px scale) on .button-row",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 57,
+      "evidence": "padding: 10px 14px (off the 4px scale) on .notice",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 58,
+      "evidence": "padding: 4px 10px (off the 4px scale) on .notice button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 62,
+      "evidence": "padding: 44px 10px 48px (off the 4px scale) on .page-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 67,
+      "evidence": "margin: 8px 0 25px (off the 4px scale) on .facts",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 70,
+      "evidence": "margin: 32px 0 26px (off the 4px scale) on .section-title",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 73,
+      "evidence": "gap: 15px (off the 4px scale) on .breadcrumb",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 75,
+      "evidence": "padding: 18px 10px 24px (off the 4px scale) on .scoreboard",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 76,
+      "evidence": "margin: 0 0 9px (off the 4px scale) on .scoreboard h1",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 83,
+      "evidence": "margin-bottom: 18px (off the 4px scale) on .map-strip",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 84,
+      "evidence": "padding: 11px 14px (off the 4px scale) on .map-strip>div",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 89,
+      "evidence": "gap: 18px (off the 4px scale) on .command-grid",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 93,
+      "evidence": "margin-bottom: 22px (off the 4px scale) on .tactics-column .fine",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 94,
+      "evidence": "gap: 10px (off the 4px scale) on .action-stack",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 94,
+      "evidence": "margin: 22px 0 (off the 4px scale) on .action-stack",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 95,
+      "evidence": "padding: 14px 16px (off the 4px scale) on .action-stack .primary",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 96,
+      "evidence": "margin-bottom: 18px (off the 4px scale) on .tabs",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 97,
+      "evidence": "padding: 7px 12px (off the 4px scale) on .tabs button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 99,
+      "evidence": "gap: 15px (off the 4px scale) on .round-picker",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 100,
+      "evidence": "padding: 5px 8px (off the 4px scale) on .round-picker select",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 101,
+      "evidence": "padding: 4px 4px 10px (off the 4px scale) on .commentary",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 109,
+      "evidence": "padding: 45px 24px (off the 4px scale) on .empty-state",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 112,
+      "evidence": "margin-bottom: 10px (off the 4px scale) on .large-number",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 116,
+      "evidence": "padding: 11px 12px (off the 4px scale) on th,td",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 123,
+      "evidence": "padding-top: 14px (off the 4px scale) on .positions",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 124,
+      "evidence": "margin-top: 10px (off the 4px scale) on .positions label",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 126,
+      "evidence": "padding: 15px 18px (off the 4px scale) on .economy-ledger",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 128,
+      "evidence": "padding-top: 15px (off the 4px scale) on .timeout-options",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 129,
+      "evidence": "margin: 10px 0 (off the 4px scale) on .timeout-options button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 132,
+      "evidence": "margin: 6px 0 (off the 4px scale) on .timeout-options small",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 134,
+      "evidence": "padding-top: 15px (off the 4px scale) on .result",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 136,
+      "evidence": "padding: 25px 16px (off the 4px scale) on .map-grid button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 140,
+      "evidence": "gap: 15px (off the 4px scale) on .veto-history",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 141,
+      "evidence": "gap: 5px 24px (off the 4px scale) on .form-grid",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 143,
+      "evidence": "gap: 7px (off the 4px scale) on .attribute-grid>div",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 153,
+      "evidence": "padding: 15px 0 (off the 4px scale) on .roster-row",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 160,
+      "evidence": "margin-top: 18px (off the 4px scale) on .tournament-details",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 160,
+      "evidence": "padding-top: 10px (off the 4px scale) on .tournament-details",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 161,
+      "evidence": "gap: 8px 30px (off the 4px scale) on .standings-grid",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 161,
+      "evidence": "margin: 15px 0 (off the 4px scale) on .standings-grid",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 162,
+      "evidence": "padding: 5px (off the 4px scale) on .standings-grid>div",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 163,
+      "evidence": "gap: 15px (off the 4px scale) on .save-slots",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 165,
+      "evidence": "padding: 10px 16px (off the 4px scale) on .file-label",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 169,
+      "evidence": "padding-left: 38px (off the 4px scale) on .main-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 169,
+      "evidence": "padding-right: 38px (off the 4px scale) on .main-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 176,
+      "evidence": "padding: 13px 15px (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 176,
+      "evidence": "gap: 10px (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 177,
+      "evidence": "padding: 24px 18px (off the 4px scale) on .brand",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 180,
+      "evidence": "padding: 14px (off the 4px scale) on .panel-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 181,
+      "evidence": "padding: 15px (off the 4px scale) on .tactics-column .panel-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 183,
+      "evidence": "gap: 25px (off the 4px scale) on .facts",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 190,
+      "evidence": "gap: 10px 20px (off the 4px scale) on .tactics-column .panel-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 202,
+      "evidence": "gap: 15px (off the 4px scale) on .brand",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 202,
+      "evidence": "padding: 12px 18px (off the 4px scale) on .brand",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 206,
+      "evidence": "padding: 10px 14px (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 209,
+      "evidence": "padding: 0 14px 20px (off the 4px scale) on .main-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 210,
+      "evidence": "margin-bottom: 14px (off the 4px scale) on .statusbar",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 212,
+      "evidence": "gap: 9px (off the 4px scale) on .breadcrumb",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 214,
+      "evidence": "padding: 18px 0 (off the 4px scale) on .scoreboard",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 214,
+      "evidence": "gap: 6px (off the 4px scale) on .scoreboard",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 219,
+      "evidence": "gap: 6px (off the 4px scale) on .map-strip",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 227,
+      "evidence": "gap: 5px 12px (off the 4px scale) on .tactics-column .panel-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 228,
+      "evidence": "margin-bottom: 10px (off the 4px scale) on .tactics-column label",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 231,
+      "evidence": "padding: 9px (off the 4px scale) on .tactics-column .action-stack button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 232,
+      "evidence": "padding: 7px 9px (off the 4px scale) on .tabs button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 235,
+      "evidence": "padding: 35px 4px 24px (off the 4px scale) on .page-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 239,
+      "evidence": "margin: 24px 0 18px (off the 4px scale) on .section-title",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 245,
+      "evidence": "gap: 6px (off the 4px scale) on .roster-row",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 246,
+      "evidence": "padding: 7px (off the 4px scale) on .roster-row select",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 252,
+      "evidence": "padding: 30px 10px (off the 4px scale) on .empty-state",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 253,
+      "evidence": "padding: 65px 10px (off the 4px scale) on .standalone",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 254,
+      "evidence": "gap: 15px (off the 4px scale) on .facts",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 263,
+      "evidence": "padding: 7px 12px (off the 4px scale) on .live-state",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 270,
+      "evidence": "padding: 12px 18px (off the 4px scale) on .map-guide",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 279,
+      "evidence": "gap: 10px (off the 4px scale) on .roster-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 291,
+      "evidence": "gap: 3px 10px (off the 4px scale) on .player-meta",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 293,
+      "evidence": "margin-top: 7px (off the 4px scale) on .player-gear",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 298,
+      "evidence": "margin-top: 14px (off the 4px scale) on .roster-note",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 300,
+      "evidence": "gap: 14px (off the 4px scale) on .match-rosters",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 306,
+      "evidence": "margin: 18px 0 (off the 4px scale) on .player-evidence",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\style.css",
+      "line": 307,
+      "evidence": "gap: 8px 18px (off the 4px scale) on .evidence-links",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 27,
+      "evidence": "padding: 28px 22px (off the 4px scale) on .brand",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 29,
+      "evidence": "padding: 20px 10px (off the 4px scale) on .sidebar nav",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 29,
+      "evidence": "margin: 3px 0 (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 29,
+      "evidence": "padding: 12px 10px (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 29,
+      "evidence": "gap: 10px (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 31,
+      "evidence": "padding: 18px (off the 4px scale) on .sidebar-footer",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 33,
+      "evidence": "gap: 6px (off the 4px scale) on .motion-settings",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 33,
+      "evidence": "padding: 5px 8px (off the 4px scale) on .motion-settings button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 38,
+      "evidence": "padding: 17px 20px (off the 4px scale) on .panel-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 41,
+      "evidence": "padding: 22px 28px (off the 4px scale) on .scoreboard",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 42,
+      "evidence": "margin-bottom: 6px (off the 4px scale) on .scoreboard h1",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 42,
+      "evidence": "gap: 18px (off the 4px scale) on .score-center strong",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 45,
+      "evidence": "margin-bottom: 14px (off the 4px scale) on .map-guide",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 50,
+      "evidence": "padding: 13px 11px (off the 4px scale) on .match-player",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 51,
+      "evidence": "gap: 4px 7px (off the 4px scale) on .player-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 53,
+      "evidence": "gap: 3px 7px (off the 4px scale) on .player-meta",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 55,
+      "evidence": "padding: 13px 16px (off the 4px scale) on .match-main .panel-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 55,
+      "evidence": "padding: 14px (off the 4px scale) on .match-main .panel-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 56,
+      "evidence": "padding: 5px (off the 4px scale) on .match-main .panel-heading select",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 56,
+      "evidence": "padding: 7px 8px (off the 4px scale) on .tabs button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 57,
+      "evidence": "margin-bottom: 10px (off the 4px scale) on .broadcast-controls",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 58,
+      "evidence": "padding: 5px 8px (off the 4px scale) on .broadcast-controls button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 60,
+      "evidence": "padding-right: 10px (off the 4px scale) on .commentary-feed",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 61,
+      "evidence": "padding: 13px 0 (off the 4px scale) on .segment",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 62,
+      "evidence": "margin-bottom: 5px (off the 4px scale) on .segment-meta",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 63,
+      "evidence": "margin-bottom: 6px (off the 4px scale) on .live-state",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 65,
+      "evidence": "padding: 18px 20px (off the 4px scale) on .tactics-column .panel-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 68,
+      "evidence": "padding: 11px 14px (off the 4px scale) on .action-stack .primary",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 70,
+      "evidence": "padding: 13px 12px (off the 4px scale) on th,td",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 72,
+      "evidence": "margin: 24px 0 14px (off the 4px scale) on .attribute-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 74,
+      "evidence": "padding: 14px (off the 4px scale) on .compare-bar",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 74,
+      "evidence": "padding: 3px 6px (off the 4px scale) on .comparison-action",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 75,
+      "evidence": "padding: 5px 0 (off the 4px scale) on .event-overview",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 78,
+      "evidence": "padding: 0 18px 24px (off the 4px scale) on .main-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 78,
+      "evidence": "padding: 10px (off the 4px scale) on .roster-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 78,
+      "evidence": "padding: 12px 6px (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 79,
+      "evidence": "padding: 8px 10px (off the 4px scale) on .match-player",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 80,
+      "evidence": "padding: 4px 6px (off the 4px scale) on .sidebar nav",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 80,
+      "evidence": "padding: 10px (off the 4px scale) on .sidebar nav button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 80,
+      "evidence": "padding: 4px 6px (off the 4px scale) on .motion-settings button",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 80,
+      "evidence": "padding: 26px 0 (off the 4px scale) on .page-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 80,
+      "evidence": "padding: 14px (off the 4px scale) on .panel-heading,.panel-content",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 80,
+      "evidence": "padding: 18px 12px (off the 4px scale) on .scoreboard",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 80,
+      "evidence": "gap: 10px (off the 4px scale) on .score-center strong",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 80,
+      "evidence": "padding: 9px (off the 4px scale) on .roster-heading",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "24b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src\\upgrade.css",
+      "line": 84,
+      "evidence": "padding: 10px 0 14px (off the 4px scale) on .match-toolbar",
+      "fix": "Use the 4px spacing scale"
+    },
+    {
+      "gate": "41",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src\\style.css",
+      "line": 50,
+      "evidence": "dark surface (L 22%) on .panel sets no text colour",
+      "fix": "Swap text to paper in the same rule"
+    },
+    {
+      "gate": "F3",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src\\style.css",
+      "line": 24,
+      "evidence": "no text-wrap: balance on any display head (14 head rule(s), e.g. h1,h2,h3,p)",
+      "fix": "Add text-wrap: balance to h1/h2-level heads"
+    },
+    {
+      "gate": "F4",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src\\App.tsx",
+      "line": 50,
+      "evidence": "two filled buttons side by side in the hero: \"→\" and \"配置沙盒\"",
+      "fix": "One filled primary per screen; the second action is outlined or a typographic link"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src\\style.css",
+      "line": 112,
+      "evidence": "numeric selector .large-number at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.log
+e2e-test-results/
+offline-test-results/
+pages-test-results/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+# User-supplied reference package: local only, never publish.
+/esm2026-extract/
+# Historical bulk review evidence and local backups, not runtime inputs.
+/docs/baseline-cs2-upgrade/
+/docs/frontend-refresh/baseline.zip
+/docs/frontend-refresh/review.patch
+/docs/upgrade-source.diff
+/docs/esm-review/*.json
+/docs/esm-review/*.zip
+
+!/docs/esm-review/legacy-fingerprints.json
+/artifacts/

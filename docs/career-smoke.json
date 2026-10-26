@@ -1,0 +1,161 @@
+{
+  "generatedAt": "2026-10-26T11:37:05.009Z",
+  "simulationSourceSha256": "6b3300614b01071f766019f614a573903bca648b2bf4c75587ea50e807bc46e4",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "seasons": 2,
+  "events": 24,
+  "matches": 894,
+  "archivedSeasons": 1,
+  "playersWithStats": 225,
+  "durationSeconds": 47.2409659,
+  "saveBytes": 966852,
+  "champions": [
+    {
+      "season": 1,
+      "name": "地区挑战杯 1",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "公开巡回赛 2",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "Masters 大师赛 3",
+      "champion": "team-7",
+      "mvpId": "team-7-p3"
+    },
+    {
+      "season": 1,
+      "name": "Premier 精英赛 4",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "公开巡回赛 5",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "Major 世界锦标赛 6",
+      "champion": "team-1",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "地区挑战杯 7",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "Masters 大师赛 8",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "公开巡回赛 9",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "Premier 精英赛 10",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "地区挑战杯 11",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 1,
+      "name": "Major 世界锦标赛 12",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "地区挑战杯 1",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "公开巡回赛 2",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "Masters 大师赛 3",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "Premier 精英赛 4",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "公开巡回赛 5",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "Major 世界锦标赛 6",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "地区挑战杯 7",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "Masters 大师赛 8",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "公开巡回赛 9",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "Premier 精英赛 10",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "地区挑战杯 11",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    },
+    {
+      "season": 2,
+      "name": "Major 世界锦标赛 12",
+      "champion": "team-3",
+      "mvpId": "team-3-p5"
+    }
+  ]
+}

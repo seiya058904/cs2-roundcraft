@@ -1,0 +1,272 @@
+[
+  {
+    "id": "team-3-p1",
+    "role": "IGL",
+    "attributes": {
+      "aim": 81,
+      "entry": 73,
+      "awp": 87,
+      "defense": 84,
+      "utility": 88,
+      "gameSense": 84,
+      "positioning": 88,
+      "teamwork": 81,
+      "clutch": 86,
+      "consistency": 78,
+      "composure": 92,
+      "peakPotential": 86
+    },
+    "mapProficiency": {
+      "dust2": 84,
+      "mirage": 76,
+      "inferno": 72,
+      "nuke": 75,
+      "ancient": 76,
+      "anubis": 85,
+      "cache": 82
+    }
+  },
+  {
+    "id": "team-3-p2",
+    "role": "Entry",
+    "attributes": {
+      "aim": 83,
+      "entry": 80,
+      "awp": 85,
+      "defense": 77,
+      "utility": 80,
+      "gameSense": 87,
+      "positioning": 76,
+      "teamwork": 73,
+      "clutch": 89,
+      "consistency": 84,
+      "composure": 75,
+      "peakPotential": 73
+    },
+    "mapProficiency": {
+      "dust2": 84,
+      "mirage": 81,
+      "inferno": 76,
+      "nuke": 74,
+      "ancient": 85,
+      "anubis": 90,
+      "cache": 78
+    }
+  },
+  {
+    "id": "team-3-p3",
+    "role": "AWPer",
+    "attributes": {
+      "aim": 88,
+      "entry": 87,
+      "awp": 81,
+      "defense": 82,
+      "utility": 80,
+      "gameSense": 81,
+      "positioning": 91,
+      "teamwork": 87,
+      "clutch": 84,
+      "consistency": 77,
+      "composure": 76,
+      "peakPotential": 77
+    },
+    "mapProficiency": {
+      "dust2": 86,
+      "mirage": 89,
+      "inferno": 72,
+      "nuke": 71,
+      "ancient": 84,
+      "anubis": 75,
+      "cache": 84
+    }
+  },
+  {
+    "id": "team-3-p4",
+    "role": "Support",
+    "attributes": {
+      "aim": 75,
+      "entry": 79,
+      "awp": 73,
+      "defense": 80,
+      "utility": 86,
+      "gameSense": 76,
+      "positioning": 77,
+      "teamwork": 87,
+      "clutch": 82,
+      "consistency": 73,
+      "composure": 73,
+      "peakPotential": 74
+    },
+    "mapProficiency": {
+      "dust2": 73,
+      "mirage": 90,
+      "inferno": 73,
+      "nuke": 84,
+      "ancient": 72,
+      "anubis": 82,
+      "cache": 87
+    }
+  },
+  {
+    "id": "team-3-p5",
+    "role": "AWPer",
+    "attributes": {
+      "aim": 82,
+      "entry": 78,
+      "awp": 88,
+      "defense": 75,
+      "utility": 75,
+      "gameSense": 80,
+      "positioning": 80,
+      "teamwork": 76,
+      "clutch": 93,
+      "consistency": 80,
+      "composure": 74,
+      "peakPotential": 75
+    },
+    "mapProficiency": {
+      "dust2": 84,
+      "mirage": 79,
+      "inferno": 75,
+      "nuke": 73,
+      "ancient": 88,
+      "anubis": 83,
+      "cache": 84
+    }
+  },
+  {
+    "id": "team-7-p1",
+    "role": "IGL",
+    "attributes": {
+      "aim": 73,
+      "entry": 86,
+      "awp": 82,
+      "defense": 85,
+      "utility": 79,
+      "gameSense": 81,
+      "positioning": 84,
+      "teamwork": 81,
+      "clutch": 72,
+      "consistency": 84,
+      "composure": 87,
+      "peakPotential": 86
+    },
+    "mapProficiency": {
+      "dust2": 84,
+      "mirage": 86,
+      "inferno": 78,
+      "nuke": 79,
+      "ancient": 72,
+      "anubis": 79,
+      "cache": 73
+    }
+  },
+  {
+    "id": "team-7-p2",
+    "role": "Entry",
+    "attributes": {
+      "aim": 82,
+      "entry": 86,
+      "awp": 85,
+      "defense": 83,
+      "utility": 85,
+      "gameSense": 82,
+      "positioning": 87,
+      "teamwork": 83,
+      "clutch": 81,
+      "consistency": 84,
+      "composure": 80,
+      "peakPotential": 85
+    },
+    "mapProficiency": {
+      "dust2": 88,
+      "mirage": 88,
+      "inferno": 72,
+      "nuke": 71,
+      "ancient": 73,
+      "anubis": 85,
+      "cache": 81
+    }
+  },
+  {
+    "id": "team-7-p3",
+    "role": "AWPer",
+    "attributes": {
+      "aim": 83,
+      "entry": 75,
+      "awp": 89,
+      "defense": 76,
+      "utility": 79,
+      "gameSense": 72,
+      "positioning": 84,
+      "teamwork": 80,
+      "clutch": 87,
+      "consistency": 76,
+      "composure": 84,
+      "peakPotential": 78
+    },
+    "mapProficiency": {
+      "dust2": 76,
+      "mirage": 81,
+      "inferno": 75,
+      "nuke": 75,
+      "ancient": 72,
+      "anubis": 72,
+      "cache": 81
+    }
+  },
+  {
+    "id": "team-7-p4",
+    "role": "Support",
+    "attributes": {
+      "aim": 79,
+      "entry": 74,
+      "awp": 87,
+      "defense": 81,
+      "utility": 92,
+      "gameSense": 77,
+      "positioning": 74,
+      "teamwork": 92,
+      "clutch": 83,
+      "consistency": 88,
+      "composure": 81,
+      "peakPotential": 72
+    },
+    "mapProficiency": {
+      "dust2": 88,
+      "mirage": 72,
+      "inferno": 75,
+      "nuke": 70,
+      "ancient": 80,
+      "anubis": 88,
+      "cache": 86
+    }
+  },
+  {
+    "id": "team-7-p5",
+    "role": "Lurker",
+    "attributes": {
+      "aim": 76,
+      "entry": 82,
+      "awp": 86,
+      "defense": 80,
+      "utility": 86,
+      "gameSense": 94,
+      "positioning": 87,
+      "teamwork": 73,
+      "clutch": 91,
+      "consistency": 83,
+      "composure": 87,
+      "peakPotential": 85
+    },
+    "mapProficiency": {
+      "dust2": 82,
+      "mirage": 86,
+      "inferno": 89,
+      "nuke": 85,
+      "ancient": 83,
+      "anubis": 74,
+      "cache": 87
+    }
+  }
+]

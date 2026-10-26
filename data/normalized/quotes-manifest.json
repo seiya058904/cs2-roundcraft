@@ -1,0 +1,7 @@
+{
+  "count": 364,
+  "sourceFile": "quotes_draft.md",
+  "priority": "最高：情境匹配且未处于重复冷却的原始语录优先于原创模板",
+  "verification": "AI 字幕整理稿，未经本项目逐字听录核验",
+  "sourceNotes": "保留原文、比赛出处与绰号。未确认绰号不绑定选手；未实现的动作不触发相关语录。"
+}
