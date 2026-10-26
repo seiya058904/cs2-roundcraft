@@ -1,8 +1,8 @@
-<h1 align="center">CS Tactics Manager</h1>
+<h1 align="center">CS2 Roundcraft</h1>
 
 <p align="center"><strong>Call the round. Read the play. Build the next advantage.</strong></p>
 <p align="center">A CS2-inspired tactical manager that puts the command desk beside the broadcast.<br>Choose a plan, watch both teams, and trace each turning point back to the match events.</p>
-<p align="center"><a href="#the-round-loop">The Round Loop</a> &nbsp;·&nbsp; <a href="#inside-the-game">Inside the Game</a> &nbsp;·&nbsp; <a href="#run-locally">Run Locally</a> &nbsp;·&nbsp; <a href="docs/publishing/AUDIT.md">Audit & Readiness</a></p>
+<p align="center"><a href="https://seiya058904.github.io/cs2-roundcraft/">Play CS2 Roundcraft</a> &nbsp;·&nbsp; <a href="#the-round-loop">The Round Loop</a> &nbsp;·&nbsp; <a href="#inside-the-game">Inside the Game</a> &nbsp;·&nbsp; <a href="#run-locally">Run Locally</a> &nbsp;·&nbsp; <a href="docs/publishing/AUDIT.md">Audit & Readiness</a></p>
 <p align="center"><sub>50 SNAPSHOT TEAMS · 250 STARTING SEATS · 7 MAPS · 12 PLAYER ABILITIES</sub></p>
 <p align="center"><img src="docs/media/match-desktop.png" width="1100" alt="Match command desk with tactics above mirrored five-player teams and source-backed equipment silhouettes" /></p>
 
@@ -114,7 +114,7 @@ The optional `esm2026-extract/` reference package is local-only and excluded fro
 
 The [Pages workflow](.github/workflows/pages.yml) verifies the project before deploying only `dist/`. Relative URLs support repository subpaths; offline caches are isolated by deployment scope.
 
-**Publication is prepared locally; repository name and public URL await owner approval.** No live badge is shown before deployment succeeds. See [deployment notes](docs/publishing/DEPLOYMENT.md).
+[Play CS2 Roundcraft](https://seiya058904.github.io/cs2-roundcraft/) · [GitHub repository](https://github.com/seiya058904/cs2-roundcraft) · [Deployment notes](docs/publishing/DEPLOYMENT.md).
 
 ## Sources & Rights
 

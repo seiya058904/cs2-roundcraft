@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 import {readFile} from 'node:fs/promises';
 test('快速 BO3 手动与自动、暂停、存档恢复及证据',async({page})=>{
- const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');await expect(page).toHaveTitle(/CS Tactics Manager/);
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');await expect(page).toHaveTitle(/CS2 Roundcraft/);
  await page.getByRole('button',{name:'快速开赛 · Vitality vs FURIA →'}).click();await expect(page.getByRole('heading',{name:'Vitality',exact:true,level:1})).toBeVisible();
  await page.getByRole('button',{name:'执行下一回合 →'}).click();await expect(page.getByText('回放第 1 回合',{exact:true})).toBeVisible();
  await page.getByLabel('播报速度').selectOption('0');await expect(page.locator('.segment.conclusion')).toContainText('比分来到');

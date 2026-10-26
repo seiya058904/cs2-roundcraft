@@ -1,6 +1,6 @@
 # Deployment
 
-Status: prepared locally; remote creation and publication await owner approval of the repository name.
+Approved name: **CS2 Roundcraft**. Repository: [cs2-roundcraft](https://github.com/seiya058904/cs2-roundcraft). Website: [Play](https://seiya058904.github.io/cs2-roundcraft/). Deployment verification is recorded in the publication audit.
 
 ## Hosting contract
 

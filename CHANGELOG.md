@@ -10,4 +10,4 @@
 - Publication preparation: relative production assets, scoped offline caches, React renderer chunk separation and a tested subdirectory deployment host.
 - English repository guidance and a verification-gated GitHub Pages workflow.
 
-Public release, repository name and hosted URL are pending owner approval. This entry is not a deployment record.
+The approved product name is CS2 Roundcraft; the repository and package name are `cs2-roundcraft`. Deployment evidence is recorded separately.
