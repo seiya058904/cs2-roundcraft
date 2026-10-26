@@ -164,4 +164,87 @@ npm ci
 npm run dev
 ```
 
-Open the local URL printed by Vite, normally **http://127.0.0.1:5173
+Open the local URL printed by Vite, normally **http://127.0.0.1:5173/**.
+
+For a production build and local preview:
+
+```bash
+npm run build
+npm run preview -- --port 4173
+```
+
+After the production site's first complete online load and caching, the app can support offline refresh and Worker-based simulation. Serve the built files over HTTP or HTTPS; do not open `dist/index.html` directly from disk.
+
+> [!IMPORTANT]
+> **Back up your progress.** Autosave and three manual slots use browser IndexedDB. Export a JSON save before clearing site data, changing browsers or switching between localhost and the hosted site. Different origins do not share saves automatically.
+
+<a id="for-developers"></a>
+## 🛠️ For Developers
+
+**React 19 · TypeScript · Vite · Vitest · Playwright · GSAP · Lenis**
+
+The deterministic simulation, user interface, event narration and local persistence are separated so presentation changes need not rewrite past match outcomes.
+
+<details>
+<summary><strong>⚙️ Expand verification commands and repository map</strong></summary>
+
+### Verification
+
+```bash
+npm test -- --maxWorkers=2
+npm run data:validate
+npm run build
+
+npx playwright install chromium
+npm run test:e2e
+npm run test:offline
+npm run test:pages
+```
+
+The [GitHub Pages workflow](.github/workflows/pages.yml) runs verification before deployment. Browser checks cover gameplay and a production subpath; the badge at the top links to the **current** workflow state rather than promising that every future commit passes.
+
+Further simulation experiments are available with `npm run sim:stress`, `npm run sim:career`, `npm run sim:commentary`, `npm run sim:tactics` and `npm run sim:matrix`. Reports in `docs/` are historical evidence from their recorded versions, not automatic proof of the current checkout's balance.
+
+### Repository map
+
+| Path | Purpose |
+| --- | --- |
+| [`src/domain/`](src/domain/) | Match rules, tactics, economy, careers, replay and save validation |
+| [`src/MatchCommand.tsx`](src/MatchCommand.tsx) | Tactical commands and round execution |
+| [`src/MatchView.tsx`](src/MatchView.tsx) | Observer, narration and replay |
+| [`src/MatchRoster.tsx`](src/MatchRoster.tsx) | Mirrored player/equipment display |
+| [`src/simulation.worker.ts`](src/simulation.worker.ts) | Background simulation and safe cancellation |
+| [`src/storage.ts`](src/storage.ts) | IndexedDB saves and recovery |
+| [`src/data/`](src/data/) · [`data/source/`](data/source/) | Runtime datasets and their provenance |
+| [`tests/`](tests/) · [`scripts/`](scripts/) | Regressions, importers and simulation experiments |
+
+`npm run data:import` regenerates derived data from checked-in sources; it is **not** part of normal gameplay startup.
+
+</details>
+
+## 📚 Documentation & Known Limits
+
+- **[Play guide](docs/PLAY_GUIDE.md)** — a practical walkthrough of the Chinese game interface.
+- **[Engine rules](docs/ENGINE_RULES.md)** — the simulation's rule boundaries.
+- **[Map topology](docs/MAP_TOPOLOGY.md)** — modeled regions, routes and sight lines.
+- **[Data provenance](docs/DATA_SOURCES.md)** — rosters, identities, statistics and estimated abilities.
+- **[Latest upgrade report](docs/UPGRADE_REPORT.md)** — implemented scope, sampled verification and remaining work.
+- **[Deployment notes](docs/publishing/DEPLOYMENT.md)** — GitHub Pages, relative asset paths and offline cache behavior.
+- **[Changelog](CHANGELOG.md)** · **[Contributing](CONTRIBUTING.md)** · **[Security](SECURITY.md)** · **[Support](SUPPORT.md)**.
+
+Areas still needing attention include broader player evidence, balance calibration, full real-world match physics and tournament rules, and testing on more browsers and physical devices. A passed automated test does not resolve those limitations.
+
+## 📜 Sources, Attribution & Rights
+
+This is an **unofficial, fan-made CS2-inspired simulation**, not a Counter-Strike client, match-demo parser or product endorsed by Valve, tournament organizers, teams or players.
+
+The project contains material with different upstream terms, including equipment artwork, identity data and commentary quotations. See [Third-party notices](THIRD_PARTY_NOTICES.md) and the [equipment source manifest](src/assets/equipment/sources.json) for provenance. Some quotation rights have **not** been independently cleared for unrestricted reuse.
+
+**No repository-wide open-source license is currently granted.** Read the [licensing status](LICENSE.md) before reusing, redistributing or publishing parts of the code or assets.
+
+---
+
+<p align="center">
+  <sub>FIVE PLAYERS. ONE PLAN. ONE MORE ROUND TO GET IT RIGHT.</sub><br>
+  <sub>CS2 Roundcraft · The decisions are yours. The simulation tells the story.</sub>
+</p>
