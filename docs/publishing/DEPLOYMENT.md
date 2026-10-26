@@ -1,6 +1,6 @@
 # Deployment
 
-Approved name: **CS2 Roundcraft**. Repository: [cs2-roundcraft](https://github.com/seiya058904/cs2-roundcraft). Website: [Play](https://seiya058904.github.io/cs2-roundcraft/). Deployment verification is recorded in the publication audit.
+Approved name: **CS2 Roundcraft**. Repository: [cs2-roundcraft](https://github.com/seiya058904/cs2-roundcraft). Website: [Play](https://seiya058904.github.io/cs2-roundcraft/). Exact-commit verification and deployment results are available in [GitHub Actions](https://github.com/seiya058904/cs2-roundcraft/actions/workflows/pages.yml); the publication audit preserves the preceding local checks.
 
 ## Hosting contract
 

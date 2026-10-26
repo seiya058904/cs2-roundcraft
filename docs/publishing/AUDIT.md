@@ -1,4 +1,8 @@
-# Publication readiness audit
+# Pre-publication readiness audit
+
+The owner subsequently approved **CS2 Roundcraft** (`cs2-roundcraft`). The game brand, browser title, package, README and repository description use this identity; the original browser storage keys remain unchanged for save compatibility. This document preserves the local audit below as a dated record, not a statement that publication is still awaiting naming approval. Current delivery status is available in [GitHub Actions](https://github.com/seiya058904/cs2-roundcraft/actions/workflows/pages.yml) and at the [website](https://seiya058904.github.io/cs2-roundcraft/).
+
+The first hosted run exposed two test-duration limits: the multi-event Major test took approximately 27 seconds against 20 seconds, and the 40-seed commentary test took 5.3 seconds against 5 seconds. Their bounded timeouts were changed to 60 and 20 seconds respectively; all simulation samples and assertions remain intact. Both tests passed locally after the adjustment; hosted results remain recorded per commit in Actions.
 
 Date: October 26, 2026. Scope: current application, repository hygiene, public documentation and static deployment. This is a release-readiness audit, not a claim that every engine line or third-party right has been independently certified.
 
