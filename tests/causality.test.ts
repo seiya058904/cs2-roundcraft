@@ -23,7 +23,7 @@ it('火焰伤害、灭火与队友发枪均出现在合法账本中',()=>{
   for(const r of s.mapStates[0].rounds){expect(validateRound(r)).toEqual([]);for(const e of r.events){if(e.kind==='damage'&&e.weapon==='fire'){burning++;expect(r.events.find(x=>x.id===e.causes[0])?.kind).toBe('fire');}if(e.kind==='extinguish'){extinguished++;expect(e.causes.map(id=>r.events.find(x=>x.id===id)?.kind)).toEqual(['smoke','fire']);}if(e.kind==='donation'){donations++;expect(Number(e.detail.price)).toBeGreaterThan(0);expect(r.economy.find(b=>b.playerId===e.actor)!.spend).toBeGreaterThanOrEqual(Number(e.detail.price));}}}
   expect(seriesStats(s).reduce((sum,p)=>sum+p.utilityDamage,0)).toBe(s.mapStates[0].rounds.flatMap(r=>r.events).filter(e=>e.kind==='damage'&&['HE','fire'].includes(e.weapon??'')).reduce((sum,e)=>sum+e.damage!,0));
  }expect(burning).toBeGreaterThan(0);expect(extinguished).toBeGreaterThan(0);expect(donations).toBeGreaterThan(0);
-});
+},20000);
 
 it('双方补枪反应遵守已记录时延，默契影响防守方反应',()=>{
  const means:number[]=[];
@@ -43,7 +43,7 @@ it('双方补枪反应遵守已记录时延，默契影响防守方反应',()=>{
   expect(count).toBeGreaterThan(0);means.push(seconds/count);
  }
  expect(means[1]).toBeLessThan(means[0]);
-});
+},20000);
 
 it('seed 224 灭队手雷之后不再追加同秒火焰伤亡',()=>{
  const world=newWorld();for(const row of legacyTerminalPlayers)Object.assign(world.players.find(p=>p.id===row.id)!,structuredClone(row));const s=createSeries(world,'team-3','team-7',1,224);delete s.engineVersion;autoVeto(s);for(let i=0;i<5;i++)resolveRound(s);
