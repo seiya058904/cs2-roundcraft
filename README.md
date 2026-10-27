@@ -6,16 +6,6 @@ A browser-based tactical manager where your decisions shape a simulated Counter-
 
 *Illustration based on the simulation model, not a screenshot.*
 
-## Contents
-
-- [Features](#features)
-- [Play a round](#play-a-round)
-- [Simulation and data](#simulation-and-data)
-- [Run locally](#run-locally)
-- [Development and testing](#development-and-testing)
-- [Documentation](#documentation)
-- [Rights and attribution](#rights-and-attribution)
-
 ## Features
 
 - **Make the calls:** choose tactics, opening positions, purchase policy, and a limited coach timeout before adapting to the next round.
