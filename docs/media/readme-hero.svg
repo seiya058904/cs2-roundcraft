@@ -1,24 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">CS2 Roundcraft</title>
-  <desc id="desc">An original tactical board showing two teams, routes, and a round timeline.</desc>
-  <rect width="1200" height="320" fill="#111d24"/>
-  <path d="M0 250H650M0 269H650" stroke="#33464a" stroke-width="1"/>
-  <path d="M0 0h13v320H0z" fill="#f1b85f"/>
-  <path d="M64 77h74" stroke="#70cbbd" stroke-width="6"/>
-  <text x="62" y="177" fill="#f4f3e9" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">CS2 ROUNDCRAFT</text>
-  <path d="M65 221h52m10 0h13m10 0h13" stroke="#f1b85f" stroke-width="5"/>
-  <g transform="translate(706 31)">
-    <path d="M0 0h428v258H0z" fill="#1b2b31" stroke="#52666a" stroke-width="2"/>
-    <path d="M21 22h116v54h50v-54h91v45h129v95h-51v71h-109v-47h-88v47H21v-85h50v-35H21z" fill="#293c40" stroke="#52666a" stroke-width="2"/>
-    <path d="M71 76h64v38H71zm117-54v91h89V67m-30 119v-35h109M136 151h74v35" fill="none" stroke="#718481" stroke-width="2"/>
-    <path d="M68 201C120 198 124 166 168 153S224 129 258 104" fill="none" stroke="#f1b85f" stroke-width="4" stroke-dasharray="9 8"/>
-    <path d="M360 52c-32 22-49 51-48 83s-19 45-46 52" fill="none" stroke="#70cbbd" stroke-width="4" stroke-dasharray="9 8"/>
-    <g fill="#f1b85f" stroke="#111d24" stroke-width="4"><circle cx="68" cy="201" r="10"/><circle cx="105" cy="210" r="10"/><circle cx="79" cy="168" r="10"/><circle cx="137" cy="188" r="10"/><circle cx="158" cy="151" r="10"/></g>
-    <g fill="#70cbbd" stroke="#111d24" stroke-width="4"><circle cx="360" cy="52" r="10"/><circle cx="328" cy="68" r="10"/><circle cx="378" cy="87" r="10"/><circle cx="315" cy="116" r="10"/><circle cx="282" cy="169" r="10"/></g>
-    <circle cx="217" cy="130" r="22" fill="none" stroke="#f4f3e9" stroke-width="2" opacity=".65"/>
-    <path d="M217 96v68m-34-34h68" stroke="#f4f3e9" stroke-width="1" opacity=".5"/>
-  </g>
-  <path d="M65 288h1040" stroke="#52666a" stroke-width="2"/>
-  <g fill="#f1b85f"><circle cx="65" cy="288" r="4"/><circle cx="160" cy="288" r="4"/><circle cx="245" cy="288" r="4"/></g>
-  <g fill="#70cbbd"><circle cx="315" cy="288" r="4"/><circle cx="405" cy="288" r="4"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-labelledby="title desc">
+<title id="title">CS2 Roundcraft — tactical simulation cover</title>
+<desc id="desc">Original dark navy tactical artwork with a round planning map, player markers, event trails and broadcast-style typography. This is an illustration, not a gameplay capture.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07101C"/><stop offset=".56" stop-color="#0A1B2D"/><stop offset="1" stop-color="#092D36"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#1DE0B1" stop-opacity=".22"/><stop offset="1" stop-color="#1DE0B1" stop-opacity="0"/></radialGradient>
+  <linearGradient id="cut" x1="0" x2="1"><stop stop-color="#8DF9E0"/><stop offset="1" stop-color="#17CFB7"/></linearGradient>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#8BC6D2" stroke-opacity=".075"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  <clipPath id="round"><circle cx="1226" cy="299" r="221"/></clipPath>
+</defs>
+<rect width="1600" height="600" fill="url(#bg)"/>
+<rect width="1600" height="600" fill="url(#grid)"/>
+<circle cx="1225" cy="295" r="435" fill="url(#halo)"/>
+<path d="M0 548L690 548 818 600H0Z" fill="#12BCA2" opacity=".06"/>
+<path d="M0 1H1600M0 599H1600" stroke="#A7D7E5" stroke-opacity=".19"/>
+<path d="M64 48V552M64 48H112M64 552H112" stroke="#54E5CF" stroke-width="3" opacity=".72"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<rect x="99" y="82" width="342" height="39" rx="19" fill="#102E3C" stroke="#326F76"/>
+<circle cx="121" cy="101" r="5" fill="#54E5CF"/>
+<text x="138" y="107" font-size="17" font-weight="700" letter-spacing="2.6" fill="#B5E9E9">TACTICAL MANAGEMENT / CS2</text>
+<text x="91" y="278" font-size="133" font-weight="900" letter-spacing="-7" fill="#F5F9F8">ROUND</text>
+<text x="91" y="406" font-size="133" font-weight="900" letter-spacing="-7" fill="url(#cut)">CRAFT</text>
+<text x="100" y="455" font-size="29" font-weight="500" letter-spacing=".6" fill="#C7DBE2">Call the round. Read the play.</text>
+<path d="M101 494H711" stroke="#70ACBA" stroke-opacity=".35"/>
+<text x="101" y="532" font-size="18" font-weight="650" letter-spacing="2.6" fill="#8DB9C9">50 TEAMS</text>
+<circle cx="265" cy="525" r="3" fill="#55E4C8"/>
+<text x="285" y="532" font-size="18" font-weight="650" letter-spacing="2.6" fill="#8DB9C9">250 PLAYERS</text>
+<circle cx="472" cy="525" r="3" fill="#55E4C8"/>
+<text x="493" y="532" font-size="18" font-weight="650" letter-spacing="2.6" fill="#8DB9C9">7 MAPS</text>
+</g>
+<g>
+<circle cx="1226" cy="299" r="236" fill="none" stroke="#83AFC0" stroke-opacity=".2" stroke-width="2"/>
+<circle cx="1226" cy="299" r="221" fill="#0A1D2B" stroke="#5ABFBC" stroke-opacity=".5" stroke-width="3"/>
+<g clip-path="url(#round)">
+<path d="M1000 78H1470V532H1000Z" fill="#0B2130"/>
+<path d="M1010 176L1145 176 1145 117 1290 117 1290 195 1460 195M1041 392L1126 392 1126 478 1336 478 1336 420 1460 420" stroke="#21495A" stroke-width="50" fill="none" stroke-linejoin="round"/>
+<path d="M1093 110V252H1184V373H1360V256H1450" stroke="#2B5A69" stroke-width="49" fill="none" stroke-linejoin="round"/>
+<path d="M1080 266H1273V154M1228 475V373" stroke="#21495A" stroke-width="34" fill="none"/>
+<path d="M1010 176L1145 176 1145 117 1290 117 1290 195 1460 195M1041 392L1126 392 1126 478 1336 478 1336 420 1460 420M1093 110V252H1184V373H1360V256H1450" stroke="#6C9EA9" stroke-opacity=".4" stroke-width="2" fill="none" stroke-dasharray="9 10"/>
+<path d="M1104 373Q1196 310 1280 283T1403 196" stroke="#FFA867" stroke-width="5" fill="none" stroke-dasharray="11 10"/>
+<path d="M1132 231L1194 302 1262 315 1341 250" stroke="#54E5CF" stroke-width="5" fill="none" stroke-dasharray="11 10"/>
+<g fill="#FFA66A" stroke="#0F222C" stroke-width="5"><circle cx="1103" cy="374" r="14"/><circle cx="1158" cy="335" r="14"/><circle cx="1220" cy="305" r="14"/><circle cx="1279" cy="285" r="14"/><circle cx="1398" cy="201" r="14"/></g>
+<g fill="#5AE7D0" stroke="#0F222C" stroke-width="5"><circle cx="1129" cy="230" r="14"/><circle cx="1194" cy="302" r="14"/><circle cx="1259" cy="313" r="14"/><circle cx="1343" cy="252" r="14"/><circle cx="1384" cy="329" r="14"/></g>
+<g font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="800" text-anchor="middle"><circle cx="1114" cy="156" r="40" fill="#0C3440" stroke="#55CFBD" stroke-width="3"/><text x="1114" y="169" fill="#88F5E6">A</text><circle cx="1390" cy="420" r="40" fill="#33312A" stroke="#E7A36D" stroke-width="3"/><text x="1390" y="434" fill="#FFC699">B</text></g>
+</g>
+<g font-family="Segoe UI,Arial,sans-serif">
+<rect x="1032" y="39" width="395" height="49" rx="13" fill="#0A1B29" stroke="#466778"/>
+<text x="1051" y="70" font-size="17" font-weight="700" letter-spacing="2" fill="#8BD5CD">ROUND OBSERVER</text><text x="1351" y="70" font-size="18" font-weight="700" fill="#EDF6F7">05 : 04</text>
+<rect x="1102" y="532" width="251" height="36" rx="18" fill="#0E2834" stroke="#317781"/>
+<circle cx="1124" cy="550" r="5" fill="#55E5CB"/>
+<text x="1141" y="556" font-size="16" font-weight="700" letter-spacing="2" fill="#A2DFDA">EVENT-DRIVEN</text>
+</g>
+</g>
+<g opacity=".75" stroke="#5CCBBF" fill="none"><circle cx="1540" cy="75" r="15"/><path d="M1520 75h40M1540 55v40"/><path d="M770 80h25m-12-12v24"/></g>
 </svg>
