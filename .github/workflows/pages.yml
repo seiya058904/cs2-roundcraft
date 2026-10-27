@@ -35,7 +35,12 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - run: |
+          for i in 1 2 3; do
+            timeout 180 npx playwright install --with-deps chromium && break
+            [ "$i" = 3 ] && exit 1
+            sleep 5
+          done
       - run: npm test -- --maxWorkers=2
       - run: npm run data:validate
       - run: npm run build
