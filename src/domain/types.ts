@@ -132,7 +132,7 @@ export interface Fighter {
     blindedUntil: number;
     hasBomb: boolean;
 }
-export type EventKind = 'buy' | 'position' | 'move' | 'sight' | 'info' | 'misread' | 'flash' | 'smoke' | 'fire' | 'he' | 'blind' | 'duel' | 'damage' | 'kill' | 'trade' | 'plant' | 'defuse' | 'save' | 'explode' | 'timerEnd' | 'roundEnd' | 'tactic' | 'coachTimeout' | 'pickup' | 'donation' | 'extinguish';
+export type EventKind = 'buy' | 'position' | 'move' | 'sight' | 'info' | 'misread' | 'flash' | 'smoke' | 'fire' | 'he' | 'blind' | 'duel' | 'damage' | 'kill' | 'trade' | 'plant' | 'defuseStart' | 'defuseStop' | 'defuse' | 'save' | 'explode' | 'timerEnd' | 'roundEnd' | 'tactic' | 'coachTimeout' | 'pickup' | 'donation' | 'extinguish';
 export interface RoundEvent {
     id: string;
     at: number;
@@ -188,6 +188,8 @@ export interface TimeoutRecord {
     reason: string;
 }
 export interface CommentarySegment {
+    /** Original factual phrasing appended to a sourced quote, with independent provenance/cooldown. */
+    supportTemplateId?: string;
     stage?: '开局部署' | '接触交锋' | '道具配合' | '局势变化' | '回合结算';
     at?: number;
     briefText?: string;

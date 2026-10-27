@@ -11,6 +11,8 @@ import {MAPS} from '../src/domain/maps.ts';
 import {writeFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
 const samples=Number(process.argv.find(x=>x.startsWith('--samples='))?.split('=')[1]??10000);
+const iteration=process.argv.find(x=>x.startsWith('--iteration='))?.split('=')[1];
+if(iteration&&!/^\d+$/.test(iteration))throw new Error('迭代编号必须为数字');
 const started=performance.now(),world=newWorld();
 const maps=Object.fromEntries(MAPS.map(m=>[m.id,{maps:0,rounds:0,ctWins:0,plants:0,defuses:0,overtime:0}]));
 let rounds=0,fireDamage=0,extinguishes=0,donations=0,posthumousFireKills=0;
@@ -29,7 +31,7 @@ for(let index=0;index<samples;index++){
   }
   const stats=seriesStats(s);assert.equal(stats.reduce((sum,p)=>sum+p.kills,0),stats.reduce((sum,p)=>sum+p.deaths,0));assert.ok(stats.every(p=>p.kast>=0&&p.kast<=100));
   if(index%100===0)validateSave(makeSave(null,s,null));
- }catch(error){writeFileSync('docs/stress-failure.json',JSON.stringify({index,seed,map:map.id,series:s,error:String(error)},null,2));throw error;}
+ }catch(error){writeFileSync(iteration?`docs/stress-failure-iteration${iteration}.json`:'docs/stress-failure.json',JSON.stringify({index,seed,map:map.id,series:s,error:String(error)},null,2));throw error;}
  if((index+1)%500===0)console.log(`已验证 ${index+1}/${samples} 地图 · ${rounds} 回合`);
 }
-const report={...metadata,samples,rounds,fireDamage,extinguishes,donations,posthumousFireKills,maps,durationSeconds:(performance.now()-started)/1000};writeFileSync('docs/stress-report.json',JSON.stringify(report,null,2));console.log(report);
+const report={...metadata,samples,rounds,fireDamage,extinguishes,donations,posthumousFireKills,maps,durationSeconds:(performance.now()-started)/1000};writeFileSync(iteration?`docs/stress-report-iteration${iteration}.json`:'docs/stress-report.json',JSON.stringify(report,null,2));console.log(report);

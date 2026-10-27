@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-10-26T17:32:21.795Z",
+  "simulationSourceSha256": "63f0ec0c38b631250c8bb3204cbd35c0162f257d6ae014915fbfe31bd49110c6",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "matches": 150,
+  "rounds": 2875,
+  "genericLongOpeners": 974,
+  "activatedContextTemplates": 0,
+  "contextTemplateIds": [],
+  "averageChars": 367.75895652173915,
+  "samples": []
+}

@@ -1,0 +1,710 @@
+{
+  "generatedAt": "2026-10-26T17:23:07.340Z",
+  "simulationSourceSha256": "63f0ec0c38b631250c8bb3204cbd35c0162f257d6ae014915fbfe31bd49110c6",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "matches": 72,
+  "rounds": 1399,
+  "segments": 11570,
+  "phaseSegments": 1892,
+  "phaseShare": 0.16352636127917028,
+  "rawLogSegments": 0,
+  "briefRawLogSegments": 0,
+  "redundantStartPairs": 0,
+  "averageChars": 361.67905646890637,
+  "generated": {
+    "regroup:waiting": 64,
+    "regroup:executing": 804,
+    "execution:executing": 1395,
+    "smoke:waiting": 1896,
+    "smoke:completed": 1717,
+    "interrupted:death": 746,
+    "utility:waiting": 1412,
+    "utility:released": 935,
+    "smoke:interrupted": 295,
+    "rotation:held": 30,
+    "smoke:crossing": 909,
+    "retake:executing": 770,
+    "clear:waiting": 205,
+    "clear:completed": 9
+  },
+  "emitted": {
+    "execution:executing": 981,
+    "smoke:completed": 138,
+    "regroup:waiting": 10,
+    "smoke:interrupted": 158,
+    "retake:executing": 403,
+    "rotation:held": 1,
+    "smoke:crossing": 5,
+    "smoke:waiting": 3,
+    "utility:released": 42,
+    "clear:waiting": 142,
+    "clear:completed": 9
+  },
+  "activatedPhaseTemplates": 55,
+  "phaseTemplateIds": [
+    "PH-001",
+    "PH-002",
+    "PH-007",
+    "PH-008",
+    "PH-009",
+    "PH-010",
+    "PH-011",
+    "PH-012",
+    "PH-013",
+    "PH-015",
+    "PH-016",
+    "PH-018",
+    "PH-019",
+    "PH-020",
+    "PH-021",
+    "PH-022",
+    "PH-023",
+    "PH-024",
+    "PH-025",
+    "PH-026",
+    "PH-027",
+    "PH-028",
+    "PH-029",
+    "PH-030",
+    "PH-037",
+    "PH-038",
+    "PH-039",
+    "PH-040",
+    "PH-041",
+    "PH-042",
+    "PH-049",
+    "PH-050",
+    "PH-051",
+    "PH-052",
+    "PH-053",
+    "PH-054",
+    "PH-060",
+    "PH-061",
+    "PH-062",
+    "PH-063",
+    "PH-064",
+    "PH-065",
+    "PH-066",
+    "PH-067",
+    "PH-068",
+    "PH-069",
+    "PH-070",
+    "PH-071",
+    "PH-072",
+    "PH-073",
+    "PH-074",
+    "PH-075",
+    "PH-076",
+    "PH-077",
+    "PH-078"
+  ],
+  "factDigest": "5beb235a6d87eac24739cfad699b3b92e7d36d8749a7f892e064aca5cf344ea0",
+  "samples": [
+    {
+      "profile": "auto",
+      "seed": 1,
+      "map": "inferno",
+      "round": 1,
+      "state": "execution:executing",
+      "text": "然后他们就直接启动了这局战术。 小蜜蜂启动了，往B 包点走！",
+      "id": "RB-9-24",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r1-e119",
+          "at": 39,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "execution",
+            "status": "executing",
+            "reason": "进攻队伍开始向目标包点推进",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "zone": "inferno-3"
+        }
+      ],
+      "roundText": "我们继续看手枪局吧！ Inferno，小蜜蜂进攻，黑豹防守。\n\nOK这把T准备直接慢慢控中路。 小蜜蜂选择争夺关键通道，黑豹用标准 2-1-2应对。\n\n首杀给得还是非常致命！ 香蕉道先交火！教父（FalleN）用USP-S拿下英一手（mezii），场上变成4打5。\n\n第二时间自己就老老实实的去打补枪啊。 火仔（flameZ）只隔1秒就把枪补上，场上是4打4。\n\n这就是爆头游戏啊，就是爆头好吧！ 卡神（KSCERATO）爆头带走火仔（flameZ）！\n\n然后他们就直接启动了这局战术。 小蜜蜂启动了，往B 包点走！\n\n能拖吗？拖够时间就行！ 憨豆（apEX）把包下在B 包点，40 秒回防倒计时开始。\n\n只能说，最终可能残局是差一点。 狂哥（YEKINDAR）已经打掉1个，可这个一打2还是没能拿下来。\n\n哦哦这个我我我跟他拖时间了啊。 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到1:0。"
+    },
+    {
+      "profile": "auto",
+      "seed": 1,
+      "map": "inferno",
+      "round": 2,
+      "state": "execution:executing",
+      "text": "来了，小蜜蜂开始往B 包点压。",
+      "id": "PH-038",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r2-e89",
+          "at": 60,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "execution",
+            "status": "executing",
+            "reason": "进攻队伍开始向目标包点推进",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "zone": "inferno-3"
+        }
+      ],
+      "roundText": "这就是枪械跟道具优势！ 小蜜蜂装备占优，黑豹装备明显落后，得靠近点和补枪争取交换。\n\n这一把的分量可不低啊，双方每一个关键残局，最后可能都会影响整张图的走向。 当前比分1比0。 小蜜蜂选择分散抓单，黑豹用前探后收应对。\n\n啊，正常队伍五打四都可老实了啊！ B 包点先交火！火仔（flameZ）用AK-47爆头拿下教父（FalleN），场上变成5打4。\n\n兄弟们，来了一个动态防守，好吧！ 黑豹收到香蕉道的情报，卡神（KSCERATO）开始支援；这段轮转得实实在在跑9秒。\n\n来了，小蜜蜂开始往B 包点压。\n\n包终于下去了，小蜜蜂先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。\n\n这个残局比想象中更难打！ 只剩狂哥（YEKINDAR），一打5。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到2:0。"
+    },
+    {
+      "profile": "auto",
+      "seed": 1,
+      "map": "inferno",
+      "round": 8,
+      "state": "smoke:completed",
+      "text": "憨豆（apEX）不用再等这一步了，继续往前。",
+      "id": "PH-009",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r8-e97",
+          "at": 52,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "smoke",
+            "status": "completed",
+            "reason": "当前路线不再受烟雾阻挡，恢复推进",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p1",
+          "zone": "inferno-2"
+        }
+      ],
+      "roundText": "这一把的分量可不低啊，双方每一个关键残局，最后可能都会影响整张图的走向。 当前比分7比0。 小蜜蜂选择双路夹 A，黑豹用重兵防 B应对。\n\n来了，小蜜蜂开始往A 包点压。\n\n啊，正常队伍五打四都可老实了啊！ 中路上段先交火！火仔（flameZ）用M4A1-S爆头拿下molodoy，场上变成5打4。\n\n憨豆（apEX）不用再等这一步了，继续往前。\n\n看兄弟们的精妙配合！ 闪给到了！狂哥（YEKINDAR）先把憨豆（apEX）闪白，教父（FalleN）第二时间接上击杀。 这一枪是隔着烟打的。\n\n包终于下去了，小蜜蜂先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。\n\nyuurih选择撤退保枪：人数劣势，保留长枪。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到8:0。"
+    },
+    {
+      "profile": "auto",
+      "seed": 1,
+      "map": "inferno",
+      "round": 9,
+      "state": "smoke:completed",
+      "text": "中路上段这条路能接着走，yuurih开始动。",
+      "id": "PH-011",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r9-e117",
+          "at": 56,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "smoke",
+            "status": "completed",
+            "reason": "当前路线不再受烟雾阻挡，恢复推进",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p5",
+          "zone": "inferno-4"
+        }
+      ],
+      "roundText": "正常开局控图！ Inferno，小蜜蜂进攻，黑豹防守。\n\n终究是要围绕着缓慢的默认去打！ 小蜜蜂选择默认控图，黑豹用情报快速轮转应对。\n\n这就是爆头游戏啊，就是爆头好吧！ A 包点先交火！ropz用M4A1-S爆头拿下molodoy，场上变成5打4。 对面这把大狙也掉了。\n\n小蜜蜂这波动了，目标就是A 包点。\n\n兄弟们，这个道具支援也非常给力！ 闪给到了！载物（ZywOo）先把狂哥（YEKINDAR）闪白，ropz第二时间接上击杀。\n\n中路上段这条路能接着走，yuurih开始动。\n\n把狙秒了就能下包了！ 憨豆（apEX）把包下在A 包点，40 秒回防倒计时开始。\n\n教父（FalleN）选择撤退保枪：人数劣势，保留长枪。\n\n时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到9:0。"
+    },
+    {
+      "profile": "auto",
+      "seed": 2,
+      "map": "inferno",
+      "round": 1,
+      "state": "regroup:waiting",
+      "text": "等一手队友，小蜜蜂暂时没一起启动。",
+      "id": "PH-028",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r1-e102",
+          "at": 55,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "regroup",
+            "status": "waiting",
+            "reason": "等待分路队友就位，当前 1/3",
+            "version": "plans-1"
+          },
+          "team": 0
+        }
+      ],
+      "roundText": "我们继续看手枪局吧！ Inferno，小蜜蜂进攻，黑豹防守。 小蜜蜂选择佯攻 A 转 B，黑豹用A 区前顶应对。\n\n这就是爆头游戏啊，就是爆头好吧！ 中路上段先交火！yuurih用USP-S爆头拿下火仔（flameZ），场上变成4打5。\n\n兄弟们，来了一个动态防守，好吧！ 黑豹收到香蕉道的情报，卡神（KSCERATO）开始支援；这段轮转得实实在在跑9秒。\n\n等一手队友，小蜜蜂暂时没一起启动。\n\n首杀拿不到，不耽误后续进攻！ 好，小蜜蜂不再等了，B 包点这边开始进。\n\n直接打残局了啊！ 只剩英一手（mezii），一打5。\n\n太猛了，兄弟们！ 卡神（KSCERATO）！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n手枪局该杀人的兄弟们都在杀人！ 对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。"
+    },
+    {
+      "profile": "auto",
+      "seed": 2,
+      "map": "inferno",
+      "round": 14,
+      "state": "smoke:interrupted",
+      "text": "没那么多时间，憨豆（apEX）得顶着烟继续走。",
+      "id": "PH-023",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r14-e117",
+          "at": 91,
+          "kind": "tactic",
+          "causes": [
+            "r14-e82"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "interrupted",
+            "reason": "剩余时间不足以等烟，立即推进",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p1",
+          "zone": "inferno-2"
+        }
+      ],
+      "roundText": "好，进到这一分。先别急着看谁先开枪，看看两边第一颗烟、第一颗闪是怎么交的。 当前比分9比4。 黑豹选择慢速控 A，小蜜蜂用放点回防应对。\n\n教父（FalleN）把包下在A 包点，40 秒回防倒计时开始。\n\n首杀给得还是非常致命！ A 包点先交火！英一手（mezii）用M4A1-S爆头拿下教父（FalleN），场上变成4打5。 这一枪是隔着烟打的。\n\n没那么多时间，憨豆（apEX）得顶着烟继续走。\n\n看兄弟们的精妙配合！ 闪给到了！火仔（flameZ）先把狂哥（YEKINDAR）闪白，载物（ZywOo）第二时间接上击杀。\n\n不是这人打得真的太变态了！ 英一手（mezii）！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n这一分这个拆包的时间也是恰到好处啊。 拆掉了！火仔（flameZ）没钳，这一拆用了10秒，离爆炸还剩3秒。\n\n小蜜蜂拿下这一分，比分来到10:4。"
+    },
+    {
+      "profile": "auto",
+      "seed": 3,
+      "map": "inferno",
+      "round": 1,
+      "state": "regroup:waiting",
+      "text": "你看小蜜蜂，先把人往一起等。",
+      "id": "PH-029",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r1-e111",
+          "at": 55,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "regroup",
+            "status": "waiting",
+            "reason": "等待分路队友就位，当前 2/4",
+            "version": "plans-1"
+          },
+          "team": 0
+        }
+      ],
+      "roundText": "OK，我们来看一下手枪局啊！ Inferno，小蜜蜂进攻，黑豹防守。 小蜜蜂选择佯攻 A 转 B，黑豹用标准 2-1-2应对。\n\n兄弟们，来了一个动态防守，好吧！ 黑豹收到香蕉道的情报，molodoy开始支援；这段轮转得实实在在跑3秒。\n\n漏就死，漏就爆头！ 香蕉道先交火！卡神（KSCERATO）用USP-S爆头拿下英一手（mezii），场上变成4打5。\n\n你看小蜜蜂，先把人往一起等。\n\n然后他们就直接启动了这局战术。 好，小蜜蜂不再等了，B 包点这边开始进。\n\n残局谁打谁享福，千万别上头！ 只剩火仔（flameZ），一打4。\n\n手枪局该杀人的兄弟们都在杀人！ 对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。"
+    },
+    {
+      "profile": "auto",
+      "seed": 3,
+      "map": "inferno",
+      "round": 8,
+      "state": "smoke:interrupted",
+      "text": "没那么多时间，卡神（KSCERATO）得顶着烟继续走。",
+      "id": "PH-023",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r8-e196",
+          "at": 64,
+          "kind": "tactic",
+          "causes": [
+            "r8-e189"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "interrupted",
+            "reason": "剩余时间不足以等烟，立即推进",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p2",
+          "zone": "inferno-2"
+        }
+      ],
+      "roundText": "这一把的分量可不低啊，双方每一个关键残局，最后可能都会影响整张图的走向。 当前比分5比2。 小蜜蜂选择快速 A 爆弹，黑豹用重兵防 A应对。\n\n首杀给得还是非常致命！ A 包点先交火！火仔（flameZ）用M4A1-S爆头拿下molodoy，场上变成5打4。\n\n幸好这主要是第二个补枪的人！ 狂哥（YEKINDAR）只隔4秒就把枪补上，场上是4打4。 yuurih这颗闪先限制住了对手的视野。 这一枪是隔着烟打的。\n\nropz把包下在A 包点，40 秒回防倒计时开始。\n\n没那么多时间，卡神（KSCERATO）得顶着烟继续走。\n\n这个回防太有思路了！ 拆掉了！卡神（KSCERATO）没钳，这一拆用了10秒，离爆炸还剩4秒。\n\n只能说，最终可能残局是差一点。 ropz已经打掉2个，可这个一打3还是没能拿下来。\n\n黑豹拿下这一分，比分来到5:3。"
+    },
+    {
+      "profile": "auto",
+      "seed": 4,
+      "map": "inferno",
+      "round": 11,
+      "state": "retake:executing",
+      "text": "教父（FalleN）还要回！人少也得往A 包点靠。",
+      "id": "PH-061",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r11-e163",
+          "at": 70,
+          "kind": "tactic",
+          "causes": [
+            "r11-e63"
+          ],
+          "detail": {
+            "rule": "retake",
+            "status": "executing",
+            "reason": "人数不利，按指令继续回防",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p1",
+          "zone": "inferno-2"
+        }
+      ],
+      "roundText": "Inferno，小蜜蜂进攻，黑豹防守。 当前比分1比9。 小蜜蜂选择双路夹 A，黑豹用放点回防应对。\n\n包终于下去了，小蜜蜂先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。\n\n啊，正常队伍五打四都可老实了啊！ A 包点先交火！ropz用AK-47拿下molodoy，场上变成5打4。 对面这把大狙也掉了。 这一枪是隔着烟打的。\n\n还能打出这个爆头，还是挺难得的！ ropz爆头带走狂哥（YEKINDAR）！\n\n教父（FalleN）这边来不及等烟散了，要往前赶。\n\n兄弟们，这个道具支援也非常给力！ 闪给到了！憨豆（apEX）先把yuurih闪白，英一手（mezii）第二时间接上击杀。\n\n教父（FalleN）还要回！人少也得往A 包点靠。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到2:9。"
+    },
+    {
+      "profile": "auto",
+      "seed": 5,
+      "map": "inferno",
+      "round": 3,
+      "state": "retake:executing",
+      "text": "教父（FalleN）还要回！人少也得往A 包点靠。",
+      "id": "PH-061",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r3-e134",
+          "at": 91,
+          "kind": "tactic",
+          "causes": [
+            "r3-e62"
+          ],
+          "detail": {
+            "rule": "retake",
+            "status": "executing",
+            "reason": "人数不利，按指令继续回防",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p1",
+          "zone": "inferno-2"
+        }
+      ],
+      "roundText": "好，进到这一分。先别急着看谁先开枪，看看两边第一颗烟、第一颗闪是怎么交的。 当前比分0比2。\n\n终究是要围绕着缓慢的默认去打！ 小蜜蜂选择慢速控 A，黑豹用放点回防应对。\n\n小蜜蜂启动了，往A 包点走！\n\n能拖吗？拖够时间就行！ 憨豆（apEX）把包下在A 包点，40 秒回防倒计时开始。\n\n首杀给得还是非常致命！ A 包点先交火！载物（ZywOo）用AK-47拿下molodoy，场上变成5打4。\n\n烟里面有人！哦，他真的给混死了一个！这个信息火仔（flameZ）到底是怎么判断的？ 还是个爆头。\n\n教父（FalleN）还要回！人少也得往A 包点靠。\n\n一波突破再补枪，人头就这么拿！ ropz只隔4秒就把枪补上，场上是4打0。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到1:2。"
+    },
+    {
+      "profile": "auto",
+      "seed": 8,
+      "map": "inferno",
+      "round": 1,
+      "state": "rotation:held",
+      "text": "先别一起走，黑豹这边选择继续留守。",
+      "id": "PH-060",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r1-e66",
+          "at": 15,
+          "kind": "tactic",
+          "causes": [
+            "r1-e65"
+          ],
+          "detail": {
+            "rule": "rotation",
+            "status": "held",
+            "reason": "接到接触报告，按指令保持当前防区",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "zone": "inferno-4"
+        }
+      ],
+      "roundText": "我们继续看手枪局吧！ Inferno，小蜜蜂进攻，黑豹防守。 小蜜蜂选择快速 A 爆弹，黑豹用近点埋伏应对。\n\n先别一起走，黑豹这边选择继续留守。\n\n他们是直接抢了第一拍去打的。 中路先交火！憨豆（apEX）用Glock爆头拿下yuurih，场上变成5打4。\n\n然后他们就直接启动了这局战术。 小蜜蜂启动了，往A 包点走！\n\n说白了，补枪就行了！ 狂哥（YEKINDAR）只隔4秒就把枪补上，场上是3打3。\n\n这个残局比想象中更难打！ 只剩ropz，一打3。\n\n卧槽，是不是太变态了！ 狂哥（YEKINDAR）！这一回合已经拿到5杀，关键枪线接连被他打穿。\n\n好，第一分拿下。你看这个结果还只是一个回合，真正要看的是下一分双方怎么买枪。 黑豹拿下这一分，比分来到0:1。"
+    },
+    {
+      "profile": "auto",
+      "seed": 11,
+      "map": "inferno",
+      "round": 8,
+      "state": "smoke:crossing",
+      "text": "不是等烟的打法，火仔（flameZ）这边直接要过。",
+      "id": "PH-016",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r8-e87",
+          "at": 21,
+          "kind": "tactic",
+          "causes": [
+            "r8-e76"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "crossing",
+            "reason": "按指令穿过烟区，继续当前路线",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p2",
+          "zone": "inferno-2"
+        }
+      ],
+      "roundText": "好，进到这一分。先别急着看谁先开枪，看看两边第一颗烟、第一颗闪是怎么交的。 当前比分5比2。 小蜜蜂选择快速 A 爆弹，黑豹用近点埋伏应对。\n\n大狙直架，不给一点机会！ molodoy的 AWP 先响，爆头击杀憨豆（apEX），防守方收下首杀，场上变成4打5。\n\n然后他们就直接启动了这局战术。 好，小蜜蜂不再等了，A 包点这边开始进。\n\n不是等烟的打法，火仔（flameZ）这边直接要过。\n\n看兄弟们的精妙配合！ 闪给到了！英一手（mezii）先把molodoy闪白，载物（ZywOo）第二时间接上击杀。 对面这把大狙也掉了。 这一枪是隔着烟打的。\n\n把狙秒了就能下包了！ 火仔（flameZ）把包下在A 包点，40 秒回防倒计时开始。\n\n只剩你了，这可怎么办呢？ 只剩卡神（KSCERATO），一打3。\n\n行了呀，兄弟们，六分了呀！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到6:2。"
+    },
+    {
+      "profile": "auto",
+      "seed": 14,
+      "map": "inferno",
+      "round": 2,
+      "state": "smoke:waiting",
+      "text": "憨豆（apEX）先忍一手，B 包点这颗烟还在，好吧。",
+      "id": "PH-001",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r2-e75",
+          "at": 68,
+          "kind": "tactic",
+          "causes": [
+            "r2-e60"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p1",
+          "zone": "inferno-3"
+        }
+      ],
+      "roundText": "这就是枪械跟道具优势！ 小蜜蜂装备占优，黑豹装备明显落后，得靠近点和补枪争取交换。\n\n这一把的分量可不低啊，双方每一个关键残局，最后可能都会影响整张图的走向。 当前比分1比0。\n\n终究是要围绕着缓慢的默认去打！ 小蜜蜂选择慢速控 B，黑豹用标准 2-1-2应对。\n\n这一拍开始打，小蜜蜂往B 包点靠！\n\n憨豆（apEX）先忍一手，B 包点这颗烟还在，好吧。\n\n憨豆（apEX）这边能继续走了，先把B 包点这段路接上。\n\n其实我觉得五打四可以稳啊！ B 包点先交火！卡神（KSCERATO）用USP-S拿下英一手（mezii），场上变成4打5。 这一枪是隔着烟打的。\n\n漏就死，漏就爆头！ 载物（ZywOo）爆头带走卡神（KSCERATO）！\n\n看兄弟们的精妙配合！ 闪给到了！yuurih先把憨豆（apEX）闪白，molodoy第二时间接上击杀。\n\nOK，好补枪，一波稳健的人换人！ 教父（FalleN）只隔4秒就把枪补上，场上是2打4。\n\n还是被翻，太伤了呀！ 黑豹在装备明显落后的情况下拿下回合！\n\n时间到了，进攻方没能下包。黑豹拿下这一分，比分来到1:1。"
+    },
+    {
+      "profile": "auto",
+      "seed": 16,
+      "map": "inferno",
+      "round": 11,
+      "state": "utility:released",
+      "text": "这一波允许交道具，先看憨豆（apEX）怎么接。",
+      "id": "PH-052",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r11-e103",
+          "at": 57,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "utility",
+            "status": "released",
+            "reason": "进入执行阶段或近点交火，允许使用道具",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p1",
+          "zone": "inferno-3"
+        }
+      ],
+      "roundText": "Inferno，小蜜蜂进攻，黑豹防守。 当前比分6比4。 小蜜蜂选择静步接触，黑豹用重兵防 B应对。\n\n其实我觉得五打四可以稳啊！ B 包点先交火！火仔（flameZ）用AWP拿下教父（FalleN），场上变成5打4。\n\n这一拍开始打，小蜜蜂往B 包点靠！\n\n这一波允许交道具，先看憨豆（apEX）怎么接。\n\n看兄弟们的精妙配合！ ropz只隔1秒就把枪补上，场上是4打1。\n\n能拖吗？拖够时间就行！ 憨豆（apEX）把包下在B 包点，40 秒回防倒计时开始。\n\n我的建议是立即保枪好吧！ 狂哥（YEKINDAR）选择撤退保枪：人数劣势，保留长枪。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到7:4。"
+    },
+    {
+      "profile": "auto",
+      "seed": 21,
+      "map": "inferno",
+      "round": 9,
+      "state": "utility:released",
+      "text": "火仔（flameZ）不再按刚才那个留道具的节奏打了。",
+      "id": "PH-051",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r9-e81",
+          "at": 57,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "utility",
+            "status": "released",
+            "reason": "进入执行阶段或近点交火，允许使用道具",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p2",
+          "zone": "inferno-3"
+        }
+      ],
+      "roundText": "Inferno，小蜜蜂进攻，黑豹防守。 当前比分8比0。 小蜜蜂选择静步接触，黑豹用重兵防 B应对。\n\n这个暂停叫得很有经验啊！ 黑豹刚刚暂停，下一步重点是缩小临场波动；效果还要看这一回合实际执行。\n\n小蜜蜂启动了，往B 包点走！\n\n火仔（flameZ）不再按刚才那个留道具的节奏打了。\n\n其实我觉得五打四可以稳啊！ B 包点先交火！教父（FalleN）用FAMAS拿下憨豆（apEX），场上变成4打5。 对面这把大狙也掉了。\n\nmolodoy隔着烟带走了对手，这一枪穿得漂亮！ 还是个爆头。\n\n看兄弟们的精妙配合！ 闪给到了！卡神（KSCERATO）先把英一手（mezii）闪白，教父（FalleN）第二时间接上击杀。\n\n对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到8:1。"
+    },
+    {
+      "profile": "auto",
+      "seed": 22,
+      "map": "inferno",
+      "round": 4,
+      "state": "smoke:crossing",
+      "text": "A 包点还封着，但憨豆（apEX）这边要继续走。",
+      "id": "PH-018",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r4-e75",
+          "at": 21,
+          "kind": "tactic",
+          "causes": [
+            "r4-e62"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "crossing",
+            "reason": "按指令穿过烟区，继续当前路线",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p1",
+          "zone": "inferno-2"
+        }
+      ],
+      "roundText": "打这种局最怕的就是单走送枪。黑豹现在要做的反而是把阵型站稳。\n\nInferno，小蜜蜂进攻，黑豹防守。 当前比分2比1。 小蜜蜂选择快速 A 爆弹，黑豹用情报快速轮转应对。\n\n这个暂停叫得很有经验啊！ 黑豹刚刚暂停，下一步重点是缩小临场波动；效果还要看这一回合实际执行。\n\n小蜜蜂启动了，往A 包点走！\n\nA 包点还封着，但憨豆（apEX）这边要继续走。\n\n首杀给得还是非常致命！ A 包点先交火！狂哥（YEKINDAR）用M4A1-S拿下憨豆（apEX），场上变成4打5。 这一枪是隔着烟打的。\n\n但是火仔（flameZ）的补枪也太快了！ 火仔（flameZ）只隔2秒就把枪补上，场上是4打4。 补上的还是个爆头。\n\nyuurih这一拍接上了，往中路上段继续靠。\n\n包终于下去了，小蜜蜂先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。\n\n兄弟们，这都打回来了哇！ 小蜜蜂在装备明显落后的情况下拿下回合！\n\n时间已经拖够了，人头拿到了，但这一分没有到手！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到3:1。"
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "dust2",
+      "round": 5,
+      "state": "clear:waiting",
+      "text": "包点已经到了，教父（FalleN）还得先清对手。",
+      "id": "PH-068",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r5-e149",
+          "at": 53,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "clear",
+            "status": "waiting",
+            "reason": "已到达包点，按指令先清除剩余对手再拆包",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p1",
+          "zone": "dust2-2"
+        }
+      ],
+      "roundText": "Dust II，小蜜蜂进攻，黑豹防守。 当前比分0比4。 小蜜蜂选择快速 A 爆弹，黑豹用标准 2-1-2应对。\n\nA 大道先交火！molodoy用M4A1-S爆头拿下英一手（mezii），场上变成4打5。\n\n第二时间这个人换人非常激烈！ 载物（ZywOo）只隔2秒就把枪补上，场上是4打4。 ropz这颗闪先限制住了对手的视野。\n\n能拖吗？拖够时间就行！ 憨豆（apEX）把包下在A 平台，40 秒回防倒计时开始。\n\n教父（FalleN）这把不退，准备把A 平台的回防打下去。\n\n包点已经到了，教父（FalleN）还得先清对手。\n\n载物（ZywOo）再补一个，你可以针对我的阵型，但你针对不了载物（ZywOo）！ 载物（ZywOo）！这一回合已经拿到4杀，关键枪线接连被他打穿。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到1:4。"
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "dust2",
+      "round": 10,
+      "state": "clear:waiting",
+      "text": "yuurih先不拆，先把还活着的人处理掉。",
+      "id": "PH-069",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r10-e153",
+          "at": 58,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "clear",
+            "status": "waiting",
+            "reason": "已到达包点，按指令先清除剩余对手再拆包",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p5",
+          "zone": "dust2-2"
+        }
+      ],
+      "roundText": "Dust II，小蜜蜂进攻，黑豹防守。 当前比分5比4。 小蜜蜂选择快速 A 爆弹，黑豹用标准 2-1-2应对。\n\n兄弟们，来了一个动态防守，好吧！ 黑豹收到A 大道的情报，卡神（KSCERATO）开始支援；这段轮转得实实在在跑3秒。\n\n这就是爆头游戏啊，就是爆头好吧！ A 平台先交火！火仔（flameZ）用AWP爆头拿下molodoy，场上变成5打4。 这一枪是隔着烟打的。\n\n憨豆（apEX）把包下在A 平台，40 秒回防倒计时开始。\n\n那接下来就是残局舞台！ 只剩yuurih，一打5。\n\nyuurih先不拆，先把还活着的人处理掉。\n\n这把还有一个很大的问题，是没有拆包烟！ 人少也得试一手，好吧，yuurih还是要回。\n\n行了呀，兄弟们，六分了呀！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到6:4。"
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "mirage",
+      "round": 20,
+      "state": "clear:completed",
+      "text": "人清完了，载物（ZywOo）接下来可以处理这个包。",
+      "id": "PH-076",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r20-e169",
+          "at": 57,
+          "kind": "tactic",
+          "causes": [
+            "r20-e168"
+          ],
+          "detail": {
+            "rule": "clear",
+            "status": "completed",
+            "reason": "对手已经清空，可以开始拆包",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p5",
+          "zone": "mirage-2"
+        }
+      ],
+      "roundText": "好，进到这一分。先别急着看谁先开枪，看看两边第一颗烟、第一颗闪是怎么交的。 当前比分9比10。 黑豹选择快速 A 爆弹，小蜜蜂用标准 2-1-2应对。\n\n大狙直架，不给一点机会！ 火仔（flameZ）的 AWP 先响，击杀教父（FalleN），防守方收下首杀，场上变成4打5。\n\n这个补枪补的确实漂亮！ molodoy只隔2秒就把枪补上，场上是3打4。 对面这把大狙也掉了。 补上的还是个爆头。\n\n把狙秒了就能下包了！ 狂哥（YEKINDAR）把包下在A 包点，40 秒回防倒计时开始。\n\n这波选择先清人，载物（ZywOo）没有直接低头。\n\n人清完了，载物（ZywOo）接下来可以处理这个包。\n\n这个回防太有思路了！ 拆掉了！载物（ZywOo）有钳，这一拆用了5秒，离爆炸还剩17秒。\n\n小蜜蜂拿下这一分，比分来到10:10。"
+    },
+    {
+      "profile": "clear",
+      "seed": 76,
+      "map": "mirage",
+      "round": 6,
+      "state": "clear:completed",
+      "text": "好，先清人的这一拍结束，yuurih准备拆包。",
+      "id": "PH-075",
+      "stage": "局势变化",
+      "events": [
+        {
+          "id": "r6-e189",
+          "at": 66,
+          "kind": "tactic",
+          "causes": [
+            "r6-e188"
+          ],
+          "detail": {
+            "rule": "clear",
+            "status": "completed",
+            "reason": "对手已经清空，可以开始拆包",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p5",
+          "zone": "mirage-2"
+        }
+      ],
+      "roundText": "Mirage，小蜜蜂进攻，黑豹防守。 当前比分1比4。 小蜜蜂选择快速 A 爆弹，黑豹用标准 2-1-2应对。\n\n兄弟们记住这把狙好吧！ molodoy的 AWP 先响，击杀憨豆（apEX），防守方收下首杀，场上变成4打5。\n\n但队友的补枪那是随便补补了！ 载物（ZywOo）只隔3秒就把枪补上，场上是2打4。 对面这把大狙也掉了。\n\n能拖吗？拖够时间就行！ ropz把包下在A 包点，40 秒回防倒计时开始。\n\n包点已经到了，yuurih还得先清对手。\n\n好，先清人的这一拍结束，yuurih准备拆包。\n\n这个回防太有思路了！ 拆掉了！yuurih有钳，这一拆用了5秒，离爆炸还剩15秒。\n\n黑豹拿下这一分，比分来到1:5。"
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "nuke",
+      "round": 4,
+      "state": "smoke:waiting",
+      "text": "别急，卡神（KSCERATO）先在烟外等一等。",
+      "id": "PH-002",
+      "stage": "道具配合",
+      "events": [
+        {
+          "id": "r4-e133",
+          "at": 34,
+          "kind": "tactic",
+          "causes": [
+            "r4-e126"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p2",
+          "zone": "nuke-2"
+        }
+      ],
+      "roundText": "Nuke，小蜜蜂进攻，黑豹防守。 当前比分0比3。 小蜜蜂选择快速 A 爆弹，黑豹用标准 2-1-2应对。\n\n首杀给得还是非常致命！ 小屋先交火！狂哥（YEKINDAR）用M4A1-S爆头拿下憨豆（apEX），场上变成4打5。\n\n小蜜蜂启动了，往A 上层走！\n\n看兄弟们的精妙配合！ 闪给到了！molodoy先把火仔（flameZ）闪白，yuurih第二时间接上击杀。 这一枪是隔着烟打的。\n\n别急，卡神（KSCERATO）先在烟外等一等。\n\n这人太吊了，无敌了！ 狂哥（YEKINDAR）！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n残局谁打谁享福，千万别上头！ 只剩载物（ZywOo），一打5。\n\n对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:4。"
+    }
+  ]
+}

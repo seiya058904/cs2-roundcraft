@@ -1,0 +1,5499 @@
+{
+  "generatedAt": "2026-10-27T02:16:08.682Z",
+  "simulationSourceSha256": "1eda73d6d8eeeba04f3216d1dc395a7a2f174078ee1f6df38f8108e774c2ad8c",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "scope": "240场预先固定队列：七图普通AI、四图三人中区争夺、Nuke全员外场争夺；每组种子1至20。定向站位是合法用户决策，不计入原150种子或210场普通矩阵覆盖。",
+  "matches": 240,
+  "rounds": 5198,
+  "counts": {
+    "RD-2-17": {
+      "generatedBeats": 511,
+      "eligibleBeats": 0,
+      "selectedBeats": 0,
+      "spoken": 0
+    },
+    "RF-6-7": {
+      "generatedBeats": 12488,
+      "eligibleBeats": 314,
+      "selectedBeats": 101,
+      "spoken": 41
+    }
+  },
+  "evenConditions": {
+    "generated": 511,
+    "tKill": 294,
+    "targetAtMid": 93,
+    "tStillAtMid": 88,
+    "noCtAtMid": 0
+  },
+  "evenNearMisses": [
+    {
+      "map": "mirage",
+      "profile": "ordinary",
+      "seed": 4,
+      "round": 1,
+      "kill": {
+        "id": "r1-e127",
+        "at": 58,
+        "kind": "kill",
+        "causes": [
+          "r1-e126"
+        ],
+        "detail": {},
+        "actor": "team-3-p4",
+        "target": "team-7-p1",
+        "team": 0,
+        "zone": "mirage-6",
+        "weapon": "Glock",
+        "alive": [
+          3,
+          3
+        ]
+      },
+      "survivors": [
+        {
+          "id": "team-3-p3",
+          "team": 0,
+          "zone": "mirage-4"
+        },
+        {
+          "id": "team-3-p4",
+          "team": 0,
+          "zone": "mirage-7"
+        },
+        {
+          "id": "team-3-p5",
+          "team": 0,
+          "zone": "mirage-7"
+        },
+        {
+          "id": "team-7-p2",
+          "team": 1,
+          "zone": "mirage-5"
+        },
+        {
+          "id": "team-7-p4",
+          "team": 1,
+          "zone": "mirage-2"
+        },
+        {
+          "id": "team-7-p5",
+          "team": 1,
+          "zone": "mirage-2"
+        }
+      ]
+    },
+    {
+      "map": "mirage",
+      "profile": "ordinary",
+      "seed": 5,
+      "round": 21,
+      "kill": {
+        "id": "r21-e93",
+        "at": 35,
+        "kind": "kill",
+        "causes": [
+          "r21-e92"
+        ],
+        "detail": {},
+        "actor": "team-7-p2",
+        "target": "team-3-p1",
+        "team": 1,
+        "zone": "mirage-6",
+        "weapon": "AWP",
+        "alive": [
+          3,
+          3
+        ]
+      },
+      "survivors": [
+        {
+          "id": "team-3-p2",
+          "team": 0,
+          "zone": "mirage-4"
+        },
+        {
+          "id": "team-3-p3",
+          "team": 0,
+          "zone": "mirage-2"
+        },
+        {
+          "id": "team-3-p5",
+          "team": 0,
+          "zone": "mirage-4"
+        },
+        {
+          "id": "team-7-p1",
+          "team": 1,
+          "zone": "mirage-5"
+        },
+        {
+          "id": "team-7-p2",
+          "team": 1,
+          "zone": "mirage-8"
+        },
+        {
+          "id": "team-7-p4",
+          "team": 1,
+          "zone": "mirage-5"
+        }
+      ]
+    },
+    {
+      "map": "cache",
+      "profile": "ordinary",
+      "seed": 1,
+      "round": 11,
+      "kill": {
+        "id": "r11-e103",
+        "at": 57,
+        "kind": "kill",
+        "causes": [
+          "r11-e102"
+        ],
+        "detail": {},
+        "actor": "team-3-p5",
+        "target": "team-7-p1",
+        "team": 0,
+        "zone": "cache-6",
+        "weapon": "AWP",
+        "alive": [
+          3,
+          3
+        ]
+      },
+      "survivors": [
+        {
+          "id": "team-3-p1",
+          "team": 0,
+          "zone": "cache-4"
+        },
+        {
+          "id": "team-3-p3",
+          "team": 0,
+          "zone": "cache-4"
+        },
+        {
+          "id": "team-3-p5",
+          "team": 0,
+          "zone": "cache-7"
+        },
+        {
+          "id": "team-7-p2",
+          "team": 1,
+          "zone": "cache-5"
+        },
+        {
+          "id": "team-7-p4",
+          "team": 1,
+          "zone": "cache-4"
+        },
+        {
+          "id": "team-7-p5",
+          "team": 1,
+          "zone": "cache-4"
+        }
+      ]
+    },
+    {
+      "map": "cache",
+      "profile": "ordinary",
+      "seed": 16,
+      "round": 17,
+      "kill": {
+        "id": "r17-e100",
+        "at": 37,
+        "kind": "kill",
+        "causes": [
+          "r17-e99"
+        ],
+        "detail": {},
+        "actor": "team-7-p3",
+        "target": "team-3-p5",
+        "team": 1,
+        "zone": "cache-6",
+        "weapon": "fire",
+        "alive": [
+          3,
+          3
+        ]
+      },
+      "survivors": [
+        {
+          "id": "team-3-p1",
+          "team": 0,
+          "zone": "cache-3"
+        },
+        {
+          "id": "team-3-p2",
+          "team": 0,
+          "zone": "cache-4"
+        },
+        {
+          "id": "team-3-p3",
+          "team": 0,
+          "zone": "cache-2"
+        },
+        {
+          "id": "team-7-p1",
+          "team": 1,
+          "zone": "cache-5"
+        },
+        {
+          "id": "team-7-p2",
+          "team": 1,
+          "zone": "cache-8"
+        },
+        {
+          "id": "team-7-p4",
+          "team": 1,
+          "zone": "cache-5"
+        }
+      ]
+    }
+  ],
+  "eligibleIds": [
+    "RB-10-16",
+    "RB-11-13",
+    "RB-11-19",
+    "RB-11-2",
+    "RB-11-21",
+    "RB-11-24",
+    "RB-11-27",
+    "RB-11-38",
+    "RB-11-39",
+    "RB-11-40",
+    "RB-11-43",
+    "RB-12-36",
+    "RB-12-42",
+    "RB-12-5",
+    "RB-12-6",
+    "RB-2-2",
+    "RB-2-30",
+    "RB-2-34",
+    "RB-2-35",
+    "RB-2-42",
+    "RB-2-7",
+    "RB-2-8",
+    "RB-3-16",
+    "RB-3-18",
+    "RB-3-21",
+    "RB-3-3",
+    "RB-3-30",
+    "RB-3-34",
+    "RB-3-37",
+    "RB-3-42",
+    "RB-3-6",
+    "RB-3-9",
+    "RB-4-13",
+    "RB-4-15",
+    "RB-4-16",
+    "RB-4-18",
+    "RB-4-23",
+    "RB-4-6",
+    "RB-5-1",
+    "RB-5-15",
+    "RB-5-16",
+    "RB-5-18",
+    "RB-5-24",
+    "RB-5-29",
+    "RB-5-4",
+    "RB-6-30",
+    "RB-6-44",
+    "RB-7-10",
+    "RB-7-14",
+    "RB-7-2",
+    "RB-7-20",
+    "RB-8-33",
+    "RB-8-4",
+    "RB-8-9",
+    "RB-9-16",
+    "RB-9-24",
+    "RD-1-2",
+    "RD-1-6",
+    "RD-10-1",
+    "RD-10-13",
+    "RD-10-3",
+    "RD-10-8",
+    "RD-10-9",
+    "RD-11-6",
+    "RD-11-8",
+    "RD-12-10",
+    "RD-12-7",
+    "RD-2-1",
+    "RD-2-3",
+    "RD-2-6",
+    "RD-3-1",
+    "RD-3-11",
+    "RD-3-12",
+    "RD-3-2",
+    "RD-3-5",
+    "RD-3-7",
+    "RD-4-1",
+    "RD-4-10",
+    "RD-4-13",
+    "RD-4-2",
+    "RD-4-3",
+    "RD-5-2",
+    "RD-5-5",
+    "RD-6-16",
+    "RD-6-5",
+    "RD-6-6",
+    "RD-6-8",
+    "RD-6-9",
+    "RD-7-4",
+    "RD-7-5",
+    "RD-8-8",
+    "RD-9-18",
+    "RD-9-22",
+    "RD-9-6",
+    "RD-9-8",
+    "RF-1-3",
+    "RF-1-5",
+    "RF-1-6",
+    "RF-10-1",
+    "RF-10-4",
+    "RF-11-3",
+    "RF-11-9",
+    "RF-12-1",
+    "RF-12-10",
+    "RF-12-14",
+    "RF-12-5",
+    "RF-12-7",
+    "RF-12-9",
+    "RF-2-10",
+    "RF-2-11",
+    "RF-2-14",
+    "RF-2-15",
+    "RF-2-16",
+    "RF-2-3",
+    "RF-2-8",
+    "RF-3-14",
+    "RF-3-15",
+    "RF-3-7",
+    "RF-3-8",
+    "RF-3-9",
+    "RF-4-1",
+    "RF-4-3",
+    "RF-4-4",
+    "RF-6-11",
+    "RF-6-5",
+    "RF-6-7",
+    "RF-6-8",
+    "RF-6-9",
+    "RF-7-2",
+    "RF-7-3",
+    "RF-8-2",
+    "RF-8-4",
+    "RF-9-2",
+    "RQ-1-12",
+    "RQ-1-14",
+    "RQ-1-8",
+    "RQ-10-1",
+    "RQ-10-10",
+    "RQ-10-11",
+    "RQ-10-12",
+    "RQ-10-13",
+    "RQ-10-14",
+    "RQ-10-2",
+    "RQ-10-22",
+    "RQ-10-25",
+    "RQ-10-27",
+    "RQ-10-32",
+    "RQ-10-7",
+    "RQ-10-9",
+    "RQ-2-10",
+    "RQ-2-14",
+    "RQ-2-15",
+    "RQ-2-2",
+    "RQ-2-24",
+    "RQ-2-25",
+    "RQ-2-27",
+    "RQ-2-30",
+    "RQ-2-33",
+    "RQ-2-35",
+    "RQ-2-4",
+    "RQ-2-8",
+    "RQ-3-10",
+    "RQ-3-12",
+    "RQ-3-15",
+    "RQ-3-5",
+    "RQ-3-8",
+    "RQ-3-9",
+    "RQ-4-10",
+    "RQ-4-11",
+    "RQ-4-13",
+    "RQ-4-14",
+    "RQ-4-15",
+    "RQ-4-32",
+    "RQ-4-33",
+    "RQ-4-36",
+    "RQ-4-38",
+    "RQ-4-5",
+    "RQ-5-1",
+    "RQ-5-11",
+    "RQ-5-13",
+    "RQ-5-14",
+    "RQ-5-15",
+    "RQ-5-2",
+    "RQ-5-27",
+    "RQ-6-1",
+    "RQ-6-20",
+    "RQ-6-29",
+    "RQ-6-30",
+    "RQ-7-1",
+    "RQ-7-12",
+    "RQ-7-13",
+    "RQ-7-2",
+    "RQ-7-20",
+    "RQ-7-23",
+    "RQ-7-27",
+    "RQ-7-33",
+    "RQ-7-34",
+    "RQ-7-36",
+    "RQ-7-6",
+    "RQ-7-8",
+    "RQ-8-16",
+    "RQ-8-26",
+    "RQ-8-29",
+    "RQ-9-32",
+    "RQ-9-33",
+    "RQ-9-34",
+    "RQ-9-35",
+    "RW-1-1",
+    "RW-1-2",
+    "RW-10-1",
+    "RW-10-3",
+    "RW-10-8",
+    "RW-10-9",
+    "RW-11-1",
+    "RW-11-2",
+    "RW-11-5",
+    "RW-12-3",
+    "RW-2-1",
+    "RW-2-10",
+    "RW-2-11",
+    "RW-2-12",
+    "RW-2-5",
+    "RW-3-4",
+    "RW-3-5",
+    "RW-3-6",
+    "RW-4-4",
+    "RW-6-12",
+    "RW-6-14",
+    "RW-6-15",
+    "RW-6-17",
+    "RW-6-19",
+    "RW-6-3",
+    "RW-6-6",
+    "RW-8-1",
+    "RW-8-3",
+    "RW-8-4",
+    "RW-8-7",
+    "RW-9-8"
+  ],
+  "usedIds": [
+    "C017",
+    "C075",
+    "C091",
+    "C120",
+    "C122",
+    "C168",
+    "CX-001",
+    "CX-002",
+    "CX-003",
+    "CX-004",
+    "CX-005",
+    "CX-006",
+    "CX-007",
+    "CX-008",
+    "CX-009",
+    "CX-010",
+    "CX-011",
+    "CX-012",
+    "CX-013",
+    "CX-014",
+    "CX-015",
+    "CX-016",
+    "CX-017",
+    "CX-018",
+    "CX-019",
+    "CX-020",
+    "CX-021",
+    "CX-022",
+    "CX-023",
+    "CX-024",
+    "PH-001",
+    "PH-002",
+    "PH-003",
+    "PH-004",
+    "PH-005",
+    "PH-006",
+    "PH-007",
+    "PH-008",
+    "PH-009",
+    "PH-010",
+    "PH-011",
+    "PH-012",
+    "PH-013",
+    "PH-014",
+    "PH-015",
+    "PH-016",
+    "PH-017",
+    "PH-018",
+    "PH-019",
+    "PH-020",
+    "PH-021",
+    "PH-022",
+    "PH-023",
+    "PH-024",
+    "PH-025",
+    "PH-026",
+    "PH-029",
+    "PH-030",
+    "PH-037",
+    "PH-038",
+    "PH-039",
+    "PH-040",
+    "PH-041",
+    "PH-042",
+    "PH-050",
+    "PH-051",
+    "PH-055",
+    "PH-056",
+    "PH-061",
+    "PH-062",
+    "PH-063",
+    "PH-064",
+    "PH-065",
+    "PH-066",
+    "RB-10-16",
+    "RB-11-13",
+    "RB-11-19",
+    "RB-11-2",
+    "RB-11-21",
+    "RB-11-24",
+    "RB-11-27",
+    "RB-11-38",
+    "RB-11-39",
+    "RB-11-40",
+    "RB-11-43",
+    "RB-12-36",
+    "RB-12-42",
+    "RB-12-5",
+    "RB-12-6",
+    "RB-2-2",
+    "RB-2-30",
+    "RB-2-34",
+    "RB-2-35",
+    "RB-2-42",
+    "RB-2-7",
+    "RB-2-8",
+    "RB-3-16",
+    "RB-3-18",
+    "RB-3-21",
+    "RB-3-3",
+    "RB-3-30",
+    "RB-3-34",
+    "RB-3-37",
+    "RB-3-6",
+    "RB-3-9",
+    "RB-4-13",
+    "RB-4-15",
+    "RB-4-16",
+    "RB-4-18",
+    "RB-4-6",
+    "RB-5-1",
+    "RB-5-15",
+    "RB-5-16",
+    "RB-5-18",
+    "RB-5-24",
+    "RB-5-29",
+    "RB-5-4",
+    "RB-6-30",
+    "RB-6-44",
+    "RB-7-10",
+    "RB-7-14",
+    "RB-7-2",
+    "RB-7-20",
+    "RB-8-33",
+    "RB-8-4",
+    "RB-8-9",
+    "RB-9-16",
+    "RB-9-24",
+    "RD-1-2",
+    "RD-1-6",
+    "RD-10-1",
+    "RD-10-13",
+    "RD-10-3",
+    "RD-10-8",
+    "RD-10-9",
+    "RD-11-6",
+    "RD-11-8",
+    "RD-12-10",
+    "RD-12-7",
+    "RD-2-1",
+    "RD-2-3",
+    "RD-2-6",
+    "RD-3-1",
+    "RD-3-11",
+    "RD-3-12",
+    "RD-3-2",
+    "RD-3-5",
+    "RD-4-1",
+    "RD-4-10",
+    "RD-4-2",
+    "RD-4-3",
+    "RD-5-2",
+    "RD-5-5",
+    "RD-6-16",
+    "RD-6-5",
+    "RD-6-6",
+    "RD-6-8",
+    "RD-6-9",
+    "RD-7-4",
+    "RD-7-5",
+    "RD-9-18",
+    "RD-9-22",
+    "RD-9-6",
+    "RD-9-8",
+    "RF-1-3",
+    "RF-1-5",
+    "RF-1-6",
+    "RF-10-1",
+    "RF-10-4",
+    "RF-11-3",
+    "RF-11-9",
+    "RF-12-1",
+    "RF-12-10",
+    "RF-12-5",
+    "RF-12-7",
+    "RF-12-9",
+    "RF-2-10",
+    "RF-2-11",
+    "RF-2-14",
+    "RF-2-15",
+    "RF-2-16",
+    "RF-2-3",
+    "RF-2-8",
+    "RF-3-14",
+    "RF-3-15",
+    "RF-3-7",
+    "RF-3-9",
+    "RF-4-3",
+    "RF-6-11",
+    "RF-6-7",
+    "RF-6-8",
+    "RF-6-9",
+    "RF-7-2",
+    "RF-7-3",
+    "RF-8-2",
+    "RF-8-4",
+    "RF-9-2",
+    "RQ-1-12",
+    "RQ-1-14",
+    "RQ-1-8",
+    "RQ-10-1",
+    "RQ-10-10",
+    "RQ-10-11",
+    "RQ-10-12",
+    "RQ-10-13",
+    "RQ-10-14",
+    "RQ-10-2",
+    "RQ-10-22",
+    "RQ-10-25",
+    "RQ-10-27",
+    "RQ-10-7",
+    "RQ-10-9",
+    "RQ-2-10",
+    "RQ-2-14",
+    "RQ-2-15",
+    "RQ-2-2",
+    "RQ-2-24",
+    "RQ-2-25",
+    "RQ-2-27",
+    "RQ-2-30",
+    "RQ-2-33",
+    "RQ-2-35",
+    "RQ-2-4",
+    "RQ-2-8",
+    "RQ-3-10",
+    "RQ-3-12",
+    "RQ-3-5",
+    "RQ-3-8",
+    "RQ-3-9",
+    "RQ-4-10",
+    "RQ-4-11",
+    "RQ-4-13",
+    "RQ-4-14",
+    "RQ-4-32",
+    "RQ-4-33",
+    "RQ-4-5",
+    "RQ-5-1",
+    "RQ-5-11",
+    "RQ-5-13",
+    "RQ-5-14",
+    "RQ-5-15",
+    "RQ-5-2",
+    "RQ-5-27",
+    "RQ-6-1",
+    "RQ-6-20",
+    "RQ-6-29",
+    "RQ-6-30",
+    "RQ-7-1",
+    "RQ-7-12",
+    "RQ-7-13",
+    "RQ-7-2",
+    "RQ-7-20",
+    "RQ-7-23",
+    "RQ-7-27",
+    "RQ-7-34",
+    "RQ-7-36",
+    "RQ-7-6",
+    "RQ-7-8",
+    "RQ-8-16",
+    "RQ-8-26",
+    "RQ-8-29",
+    "RQ-9-32",
+    "RQ-9-33",
+    "RQ-9-34",
+    "RQ-9-35",
+    "RW-1-1",
+    "RW-1-2",
+    "RW-10-1",
+    "RW-10-3",
+    "RW-10-8",
+    "RW-10-9",
+    "RW-11-1",
+    "RW-11-2",
+    "RW-11-5",
+    "RW-12-3",
+    "RW-2-1",
+    "RW-2-10",
+    "RW-2-11",
+    "RW-2-12",
+    "RW-2-5",
+    "RW-3-5",
+    "RW-3-6",
+    "RW-6-12",
+    "RW-6-14",
+    "RW-6-15",
+    "RW-6-17",
+    "RW-6-19",
+    "RW-6-3",
+    "RW-6-6",
+    "RW-8-3",
+    "RW-8-4",
+    "RW-8-7",
+    "RW-9-8",
+    "WJ-016",
+    "WJ-023",
+    "WJ-037",
+    "WJ-038",
+    "WJ-046",
+    "WJ-076",
+    "WJ-109",
+    "WJ-116",
+    "WJ-124",
+    "WJ-125",
+    "WJ-176"
+  ],
+  "samples": [
+    {
+      "id": "RF-6-7",
+      "map": "nuke",
+      "profile": "split-contest",
+      "seed": 1,
+      "round": 10,
+      "score": [
+        5,
+        5
+      ],
+      "decisions": [
+        {
+          "tactic": "midControl",
+          "buy": "fullBuy",
+          "risk": "balanced",
+          "adaptive": false,
+          "phases": {
+            "utility": "normal",
+            "smoke": "cross",
+            "execution": "regroup"
+          },
+          "positions": {
+            "team-3-p1": "nuke-6",
+            "team-3-p2": "nuke-6",
+            "team-3-p3": "nuke-6",
+            "team-3-p4": "nuke-2",
+            "team-3-p5": "nuke-3"
+          }
+        },
+        {
+          "tactic": "midContest",
+          "buy": "fullBuy",
+          "risk": "balanced",
+          "adaptive": false,
+          "phases": {
+            "utility": "normal",
+            "smoke": "cross",
+            "postPlant": "retake"
+          },
+          "positions": {
+            "team-7-p1": "nuke-6",
+            "team-7-p2": "nuke-6",
+            "team-7-p3": "nuke-6",
+            "team-7-p4": "nuke-2",
+            "team-7-p5": "nuke-3"
+          }
+        }
+      ],
+      "initial": [
+        {
+          "id": "team-3-p1",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 3850,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": true,
+            "kit": false,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": true
+        },
+        {
+          "id": "team-3-p2",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 4850,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": true,
+            "kit": false,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p3",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 2750,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": true,
+            "kit": false,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p4",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 3300,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": true,
+            "kit": false,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p5",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 8600,
+          "equipment": {
+            "weapon": "AWP",
+            "pistol": "Glock",
+            "armor": 95,
+            "helmet": true,
+            "kit": false,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p1",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 2100,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 85,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p2",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 1750,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 95,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p3",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 2400,
+          "equipment": {
+            "weapon": "FAMAS",
+            "pistol": "USP-S",
+            "armor": 100,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p4",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 2050,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 90,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p5",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 50,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 100,
+            "helmet": false,
+            "kit": false,
+            "utility": []
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        }
+      ],
+      "beat": {
+        "id": "nuke-r10-smoke-kill-8",
+        "at": 30,
+        "category": "smoke-kill",
+        "priority": 83,
+        "eventIds": [
+          "r10-e89",
+          "r10-e90",
+          "r10-e91"
+        ],
+        "candidates": [
+          "WJ-116"
+        ],
+        "facts": {
+          "T": "小蜜蜂",
+          "CT": "黑豹",
+          "MAP": "Nuke",
+          "地图": "Nuke",
+          "攻方": "小蜜蜂",
+          "守方": "黑豹",
+          "获胜队": "黑豹",
+          "失败队": "小蜜蜂",
+          "比分": "5:4",
+          "actorName": "molodoy",
+          "targetName": "flameZ",
+          "actorTeamName": "FURIA",
+          "选手A": "molodoy"
+        },
+        "fallback": "molodoy隔着烟带走了对手，这一枪穿得漂亮！",
+        "emphasis": "hype"
+      },
+      "eventPrefix": [
+        {
+          "id": "r10-e1",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 8750,
+            "spend": 4900,
+            "cashAfter": 3850,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e2",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 9750,
+            "spend": 4900,
+            "cashAfter": 4850,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e3",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 7650,
+            "spend": 4900,
+            "cashAfter": 2750,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e4",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 8200,
+            "spend": 4900,
+            "cashAfter": 3300,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e5",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 8600,
+            "spend": 0,
+            "cashAfter": 8600,
+            "armor": 95,
+            "helmet": true
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r10-e6",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3800,
+            "spend": 1700,
+            "cashAfter": 2100,
+            "armor": 85,
+            "helmet": true
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e7",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3450,
+            "spend": 1700,
+            "cashAfter": 1750,
+            "armor": 95,
+            "helmet": true
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e8",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 4100,
+            "spend": 1700,
+            "cashAfter": 2400,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "weapon": "FAMAS"
+        },
+        {
+          "id": "r10-e9",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3750,
+            "spend": 1700,
+            "cashAfter": 2050,
+            "armor": 90,
+            "helmet": true
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e10",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3600,
+            "spend": 3550,
+            "cashAfter": 50,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e11",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "midControl",
+            "name": "争夺关键通道",
+            "side": "T",
+            "target": "A"
+          },
+          "team": 0
+        },
+        {
+          "id": "r10-e12",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "midContest",
+            "name": "关键通道前压",
+            "side": "CT",
+            "target": "adaptive"
+          },
+          "team": 1
+        },
+        {
+          "id": "r10-e13",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e14",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e15",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e16",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e17",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e18",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e19",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e20",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e21",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e22",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e23",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e24",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e25",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e26",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-2",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e27",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-2",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r10-e28",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r10-e23"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e29",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r10-e24"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e30",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r10-e25"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e31",
+          "at": 6,
+          "kind": "position",
+          "causes": [
+            "r10-e26"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r10-e32",
+          "at": 6,
+          "kind": "position",
+          "causes": [
+            "r10-e27"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r10-e33",
+          "at": 6,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-9",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r10-e34",
+          "at": 10,
+          "kind": "position",
+          "causes": [
+            "r10-e33"
+          ],
+          "detail": {
+            "from": "nuke-2",
+            "departAt": 6,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-9"
+        },
+        {
+          "id": "r10-e35",
+          "at": 10,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-9"
+        },
+        {
+          "id": "r10-e36",
+          "at": 14,
+          "kind": "position",
+          "causes": [
+            "r10-e35"
+          ],
+          "detail": {
+            "from": "nuke-9",
+            "departAt": 10,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-3"
+        },
+        {
+          "id": "r10-e37",
+          "at": 17,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e38",
+          "at": 17,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-4",
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e39",
+          "at": 17,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-5",
+            "travelSeconds": 10
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e40",
+          "at": 19,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e41",
+          "at": 19,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r10-e42",
+          "at": 24,
+          "kind": "position",
+          "causes": [
+            "r10-e37"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 17,
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e43",
+          "at": 24,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e44",
+          "at": 24,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.5913314588250668,
+            "aim": 0.05,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": -0.008571428571428572,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0.12
+          },
+          "actor": "team-3-p1",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e45",
+          "at": 24,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.94,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.044,
+            "tactical": 0.04,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0,
+            "headshot": true
+          },
+          "actor": "team-7-p2",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e46",
+          "at": 24,
+          "kind": "damage",
+          "causes": [
+            "r10-e45"
+          ],
+          "detail": {},
+          "actor": "team-7-p2",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S",
+          "damage": 80,
+          "hpBefore": 100,
+          "hpAfter": 20
+        },
+        {
+          "id": "r10-e47",
+          "at": 24,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.7184247969599477,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0
+          },
+          "actor": "team-7-p1",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e48",
+          "at": 24,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.7706382397793993,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.044444444444444446,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0,
+            "headshot": false
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "FAMAS"
+        },
+        {
+          "id": "r10-e49",
+          "at": 24,
+          "kind": "damage",
+          "causes": [
+            "r10-e48"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "FAMAS",
+          "damage": 20,
+          "hpBefore": 20,
+          "hpAfter": 0
+        },
+        {
+          "id": "r10-e50",
+          "at": 24,
+          "kind": "kill",
+          "causes": [
+            "r10-e49"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "FAMAS",
+          "alive": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "r10-e51",
+          "at": 25,
+          "kind": "position",
+          "causes": [
+            "r10-e38"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 17,
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-4"
+        },
+        {
+          "id": "r10-e52",
+          "at": 25,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-2",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-4"
+        },
+        {
+          "id": "r10-e53",
+          "at": 25,
+          "kind": "pickup",
+          "causes": [
+            "r10-e50"
+          ],
+          "detail": {
+            "fromPlayer": "team-3-p1"
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e54",
+          "at": 26,
+          "kind": "position",
+          "causes": [
+            "r10-e40"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 19,
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e55",
+          "at": 26,
+          "kind": "pickup",
+          "causes": [],
+          "detail": {
+            "item": "bomb"
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e56",
+          "at": 26,
+          "kind": "position",
+          "causes": [
+            "r10-e41"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 19,
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e57",
+          "at": 26,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.719999999999985
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e58",
+          "at": 26,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.34584467237534944,
+            "aim": 0.11875,
+            "role": 0,
+            "positioning": 0.042,
+            "tactical": 0,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 2,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0.12,
+            "headshot": false
+          },
+          "actor": "team-3-p3",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e59",
+          "at": 26,
+          "kind": "damage",
+          "causes": [
+            "r10-e58"
+          ],
+          "detail": {},
+          "actor": "team-3-p3",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "AK-47",
+          "damage": 28,
+          "hpBefore": 100,
+          "hpAfter": 72
+        },
+        {
+          "id": "r10-e60",
+          "at": 26,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.4581871535176131,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.044,
+            "tactical": 0.04,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0
+          },
+          "actor": "team-7-p2",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e61",
+          "at": 26,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.3420204589056504,
+            "aim": 0.13125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 2,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0.12
+          },
+          "actor": "team-3-p2",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e62",
+          "at": 26,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.47070635509411163,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.044444444444444446,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e63",
+          "at": 26,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.34484390254077485,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0
+          },
+          "actor": "team-7-p1",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e64",
+          "at": 27,
+          "kind": "position",
+          "causes": [
+            "r10-e39"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 17,
+            "travelSeconds": 10
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-5"
+        },
+        {
+          "id": "r10-e65",
+          "at": 27,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-3",
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-5"
+        },
+        {
+          "id": "r10-e66",
+          "at": 27,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.719999999999985
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e67",
+          "at": 27,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.719999999999985
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e68",
+          "at": 27,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.719999999999985
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e69",
+          "at": 28,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.4034446723753494,
+            "aim": 0.11875,
+            "role": 0,
+            "positioning": 0.042,
+            "tactical": 0,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 2,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0
+          },
+          "actor": "team-3-p3",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e70",
+          "at": 28,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.3996204589056504,
+            "aim": 0.13125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 2,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0
+          },
+          "actor": "team-3-p2",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e71",
+          "at": 28,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.47070635509411163,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.044444444444444446,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e72",
+          "at": 28,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.4581871535176131,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.044,
+            "tactical": 0.04,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0
+          },
+          "actor": "team-7-p2",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e73",
+          "at": 28,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.34484390254077485,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0,
+            "headshot": true
+          },
+          "actor": "team-7-p1",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e74",
+          "at": 28,
+          "kind": "damage",
+          "causes": [
+            "r10-e73"
+          ],
+          "detail": {},
+          "actor": "team-7-p1",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S",
+          "damage": 80,
+          "hpBefore": 100,
+          "hpAfter": 20
+        },
+        {
+          "id": "r10-e75",
+          "at": 29,
+          "kind": "position",
+          "causes": [
+            "r10-e52"
+          ],
+          "detail": {
+            "from": "nuke-4",
+            "departAt": 25,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r10-e76",
+          "at": 29,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 3
+          },
+          "actor": "team-3-p4",
+          "team": 1,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r10-e77",
+          "at": 29,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.719999999999985
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e78",
+          "at": 29,
+          "kind": "flash",
+          "causes": [],
+          "detail": {
+            "item": "flash",
+            "familiarity": 60.719999999999985
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e79",
+          "at": 29,
+          "kind": "blind",
+          "causes": [
+            "r10-e78"
+          ],
+          "detail": {
+            "until": 33.125
+          },
+          "actor": "team-7-p1",
+          "target": "team-3-p2",
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e80",
+          "at": 29,
+          "kind": "blind",
+          "causes": [
+            "r10-e78"
+          ],
+          "detail": {
+            "until": 33.125
+          },
+          "actor": "team-7-p1",
+          "target": "team-3-p3",
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e81",
+          "at": 29,
+          "kind": "flash",
+          "causes": [],
+          "detail": {
+            "item": "flash",
+            "familiarity": 60.719999999999985
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e82",
+          "at": 29,
+          "kind": "blind",
+          "causes": [
+            "r10-e81"
+          ],
+          "detail": {
+            "until": 32.875
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p2",
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e83",
+          "at": 29,
+          "kind": "blind",
+          "causes": [
+            "r10-e81"
+          ],
+          "detail": {
+            "until": 32.875
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p3",
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r10-e84",
+          "at": 29,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.906262398243875,
+            "aim": 0.1125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.035555555555555556,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.03,
+            "movingPenalty": 0,
+            "headshot": false
+          },
+          "actor": "team-7-p4",
+          "target": "team-3-p4",
+          "team": 1,
+          "zone": "nuke-2",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e85",
+          "at": 29,
+          "kind": "damage",
+          "causes": [
+            "r10-e84"
+          ],
+          "detail": {},
+          "actor": "team-7-p4",
+          "target": "team-3-p4",
+          "team": 1,
+          "zone": "nuke-2",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r10-e86",
+          "at": 29,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.5271916524770014,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.05,
+            "tactical": 0,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.26249999999999996,
+            "movingPenalty": 0.12
+          },
+          "actor": "team-3-p4",
+          "target": "team-7-p4",
+          "team": 0,
+          "zone": "nuke-2",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e87",
+          "at": 30,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.719999999999985
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r10-e88",
+          "at": 30,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.34484390254077485,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0
+          },
+          "actor": "team-7-p1",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r10-e89",
+          "at": 30,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.47070635509411163,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.044444444444444446,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0,
+            "headshot": false
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r10-e90",
+          "at": 30,
+          "kind": "damage",
+          "causes": [
+            "r10-e89"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47",
+          "damage": 20,
+          "hpBefore": 20,
+          "hpAfter": 0
+        },
+        {
+          "id": "r10-e91",
+          "at": 30,
+          "kind": "kill",
+          "causes": [
+            "r10-e90"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47",
+          "alive": [
+            3,
+            5
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "text": "好，下一分开始，先看小蜜蜂怎么铺这一波。 当前比分5比4。 小蜜蜂选择争夺关键通道，黑豹用关键通道前压应对。",
+          "briefText": "Nuke，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r10-e11",
+            "r10-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r10-setup-0",
+            "nuke-r10-plan-1"
+          ],
+          "templateId": "CX-003"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ 外场先交火！molodoy用FAMAS拿下憨豆（apEX），场上变成4打5。",
+          "briefText": "外场先交火！molodoy用FAMAS拿下憨豆（apEX），场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 24,
+          "sourceType": "quote",
+          "eventIds": [
+            "r10-e50"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r10-opening-2"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "外场 AK47 混烟，好吧！ 闪给到了！第一时间教父（FalleN）把火仔（flameZ）闪白，molodoy第二时间接上击杀。 这一枪是隔着烟打的。",
+          "briefText": "闪给到了！第一时间教父（FalleN）把火仔（flameZ）闪白，molodoy第二时间接上击杀。 这一枪是隔着烟打的。",
+          "stage": "道具配合",
+          "at": 30,
+          "sourceType": "quote",
+          "eventIds": [
+            "r10-e79",
+            "r10-e78",
+            "r10-e91",
+            "r10-e89",
+            "r10-e90"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r10-flash-conversion-7",
+            "nuke-r10-smoke-kill-8"
+          ],
+          "templateId": "RF-6-7",
+          "quoteSource": "IEM 里约总决赛 Vitality vs Spirit 图二Nuke"
+        },
+        {
+          "text": "还能打出这个爆头，还是挺难得的！ 卡神（KSCERATO）爆头带走英一手（mezii）！",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 32,
+          "sourceType": "quote",
+          "eventIds": [
+            "r10-e102",
+            "r10-e103",
+            "r10-e104"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "nuke-r10-headshot-9"
+          ],
+          "templateId": "RD-4-10",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        },
+        {
+          "text": "来了，小蜜蜂开始往A 上层压。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 37,
+          "sourceType": "template",
+          "eventIds": [
+            "r10-e115"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r10-phase-execution-12"
+          ],
+          "templateId": "PH-038"
+        },
+        {
+          "text": "第二时间的道具炸死一个！ 这颗雷直接带走ropz，道具伤害转成了击杀。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 39,
+          "sourceType": "quote",
+          "eventIds": [
+            "r10-e122",
+            "r10-e123",
+            "r10-e124"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r10-grenade-13"
+          ],
+          "templateId": "RD-6-6",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图三 Overpass"
+        },
+        {
+          "text": "兄弟们，尽力了，尽力了！ 载物（ZywOo）已经打掉1个，可这个一打5还是没能拿下来。",
+          "briefText": "载物（ZywOo）已经打掉1个，可这个一打5还是没能拿下来。",
+          "stage": "回合结算",
+          "at": 115,
+          "sourceType": "quote",
+          "eventIds": [
+            "r10-e124",
+            "r10-e138",
+            "r10-e145",
+            "r10-e139"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r10-clutch-loss-16"
+          ],
+          "templateId": "RD-3-12",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs Aurora 图二 Mirage"
+        },
+        {
+          "text": "时间到了，进攻方没能下包。黑豹拿下这一分，比分来到5:5。",
+          "briefText": "时间到了，进攻方没能下包。黑豹拿下这一分，比分来到5:5。",
+          "stage": "回合结算",
+          "at": 115,
+          "sourceType": "original",
+          "eventIds": [
+            "r10-e145",
+            "r10-e139"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "nuke-r10-close-17"
+          ]
+        }
+      ],
+      "brief": "Nuke，小蜜蜂进攻，黑豹防守。\n外场先交火！molodoy用FAMAS拿下憨豆（apEX），场上变成4打5。\n闪给到了！第一时间教父（FalleN）把火仔（flameZ）闪白，molodoy第二时间接上击杀。 这一枪是隔着烟打的。\n载物（ZywOo）已经打掉1个，可这个一打5还是没能拿下来。\n时间到了，进攻方没能下包。黑豹拿下这一分，比分来到5:5。"
+    },
+    {
+      "id": "RF-6-7",
+      "map": "nuke",
+      "profile": "split-contest",
+      "seed": 1,
+      "round": 20,
+      "score": [
+        13,
+        7
+      ],
+      "decisions": [
+        {
+          "tactic": "midContest",
+          "buy": "fullBuy",
+          "risk": "balanced",
+          "adaptive": false,
+          "phases": {
+            "utility": "normal",
+            "smoke": "cross",
+            "postPlant": "retake"
+          },
+          "positions": {
+            "team-3-p1": "nuke-6",
+            "team-3-p2": "nuke-6",
+            "team-3-p3": "nuke-6",
+            "team-3-p4": "nuke-2",
+            "team-3-p5": "nuke-3"
+          }
+        },
+        {
+          "tactic": "midControl",
+          "buy": "fullBuy",
+          "risk": "balanced",
+          "adaptive": false,
+          "phases": {
+            "utility": "normal",
+            "smoke": "cross",
+            "execution": "regroup"
+          },
+          "positions": {
+            "team-7-p1": "nuke-6",
+            "team-7-p2": "nuke-6",
+            "team-7-p3": "nuke-6",
+            "team-7-p4": "nuke-2",
+            "team-7-p5": "nuke-3"
+          }
+        }
+      ],
+      "initial": [
+        {
+          "id": "team-3-p1",
+          "team": 0,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 12900,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 90,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "he",
+              "fire",
+              "smoke",
+              "flash"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p2",
+          "team": 0,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 14700,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 95,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "fire",
+              "smoke",
+              "flash",
+              "he"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p3",
+          "team": 0,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 16000,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 90,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "smoke",
+              "fire",
+              "flash",
+              "he"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p4",
+          "team": 0,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 13900,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 95,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "flash",
+              "he",
+              "fire",
+              "smoke"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p5",
+          "team": 0,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 16000,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 65,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p1",
+          "team": 1,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 100,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": false,
+            "kit": false,
+            "utility": []
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": true
+        },
+        {
+          "id": "team-7-p2",
+          "team": 1,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 150,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": false,
+            "kit": false,
+            "utility": []
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p3",
+          "team": 1,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 100,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": false,
+            "kit": false,
+            "utility": []
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p4",
+          "team": 1,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 50,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": false,
+            "kit": false,
+            "utility": []
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p5",
+          "team": 1,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 100,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": false,
+            "kit": false,
+            "utility": []
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        }
+      ],
+      "beat": {
+        "id": "nuke-r20-smoke-kill-4",
+        "at": 25,
+        "category": "smoke-kill",
+        "priority": 83,
+        "eventIds": [
+          "r20-e56",
+          "r20-e57",
+          "r20-e58"
+        ],
+        "candidates": [
+          "WJ-116"
+        ],
+        "facts": {
+          "T": "黑豹",
+          "CT": "小蜜蜂",
+          "MAP": "Nuke",
+          "地图": "Nuke",
+          "攻方": "黑豹",
+          "守方": "小蜜蜂",
+          "获胜队": "小蜜蜂",
+          "失败队": "黑豹",
+          "比分": "12:7",
+          "actorName": "KSCERATO",
+          "targetName": "apEX",
+          "actorTeamName": "FURIA",
+          "选手A": "卡神（KSCERATO）"
+        },
+        "fallback": "卡神（KSCERATO）隔着烟带走了对手，这一枪穿得漂亮！",
+        "emphasis": "hype"
+      },
+      "eventPrefix": [
+        {
+          "id": "r20-e1",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 13400,
+            "spend": 500,
+            "cashAfter": 12900,
+            "armor": 90,
+            "helmet": true
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r20-e2",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 15500,
+            "spend": 800,
+            "cashAfter": 14700,
+            "armor": 95,
+            "helmet": true
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r20-e3",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 16000,
+            "spend": 0,
+            "cashAfter": 16000,
+            "armor": 90,
+            "helmet": true
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r20-e4",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 14200,
+            "spend": 300,
+            "cashAfter": 13900,
+            "armor": 95,
+            "helmet": true
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r20-e5",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 16000,
+            "spend": 0,
+            "cashAfter": 16000,
+            "armor": 65,
+            "helmet": true
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r20-e6",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3450,
+            "spend": 3350,
+            "cashAfter": 100,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r20-e7",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3500,
+            "spend": 3350,
+            "cashAfter": 150,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r20-e8",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3450,
+            "spend": 3350,
+            "cashAfter": 100,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r20-e9",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3400,
+            "spend": 3350,
+            "cashAfter": 50,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r20-e10",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3450,
+            "spend": 3350,
+            "cashAfter": 100,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r20-e11",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "midContest",
+            "name": "关键通道前压",
+            "side": "CT",
+            "target": "adaptive"
+          },
+          "team": 0
+        },
+        {
+          "id": "r20-e12",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "midControl",
+            "name": "争夺关键通道",
+            "side": "T",
+            "target": "B"
+          },
+          "team": 1
+        },
+        {
+          "id": "r20-e13",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e14",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e15",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e16",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e17",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e18",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e19",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e20",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e21",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e22",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e23",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e24",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e25",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e26",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-2",
+            "travelSeconds": 5
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e27",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-2",
+            "travelSeconds": 5
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r20-e28",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r20-e23"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r20-e29",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r20-e24"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r20-e30",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r20-e25"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r20-e31",
+          "at": 6,
+          "kind": "position",
+          "causes": [
+            "r20-e26"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 5
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r20-e32",
+          "at": 6,
+          "kind": "position",
+          "causes": [
+            "r20-e27"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 5
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r20-e33",
+          "at": 6,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-9",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r20-e34",
+          "at": 10,
+          "kind": "position",
+          "causes": [
+            "r20-e33"
+          ],
+          "detail": {
+            "from": "nuke-2",
+            "departAt": 6,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-9"
+        },
+        {
+          "id": "r20-e35",
+          "at": 10,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-9"
+        },
+        {
+          "id": "r20-e36",
+          "at": 14,
+          "kind": "position",
+          "causes": [
+            "r20-e35"
+          ],
+          "detail": {
+            "from": "nuke-9",
+            "departAt": 10,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-3"
+        },
+        {
+          "id": "r20-e37",
+          "at": 16,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-4",
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e38",
+          "at": 16,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-5",
+            "travelSeconds": 10
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e39",
+          "at": 17,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e40",
+          "at": 18,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e41",
+          "at": 19,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r20-e42",
+          "at": 24,
+          "kind": "position",
+          "causes": [
+            "r20-e39"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 17,
+            "travelSeconds": 7
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r20-e43",
+          "at": 24,
+          "kind": "position",
+          "causes": [
+            "r20-e37"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 16,
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-4"
+        },
+        {
+          "id": "r20-e44",
+          "at": 24,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-2",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-4"
+        },
+        {
+          "id": "r20-e45",
+          "at": 24,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-7-p3",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r20-e46",
+          "at": 24,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.55999999999999
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r20-e47",
+          "at": 24,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.3674584847924815,
+            "aim": 0.05,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.0022222222222222222,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0
+          },
+          "actor": "team-3-p1",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r20-e48",
+          "at": 24,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.3420325292568972,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.045714285714285714,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 1,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0.12,
+            "headshot": true
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r20-e49",
+          "at": 24,
+          "kind": "damage",
+          "causes": [
+            "r20-e48"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47",
+          "damage": 84,
+          "hpBefore": 100,
+          "hpAfter": 16
+        },
+        {
+          "id": "r20-e50",
+          "at": 24,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.44607755328271725,
+            "aim": 0.11875,
+            "role": 0,
+            "positioning": 0.042,
+            "tactical": 0.06444444444444444,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0,
+            "headshot": false
+          },
+          "actor": "team-3-p3",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r20-e51",
+          "at": 24,
+          "kind": "damage",
+          "causes": [
+            "r20-e50"
+          ],
+          "detail": {},
+          "actor": "team-3-p3",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r20-e52",
+          "at": 24,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.4330176512074241,
+            "aim": 0.13125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.042222222222222223,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0,
+            "headshot": false
+          },
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r20-e53",
+          "at": 24,
+          "kind": "damage",
+          "causes": [
+            "r20-e52"
+          ],
+          "detail": {},
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 73,
+          "hpAfter": 46
+        },
+        {
+          "id": "r20-e54",
+          "at": 25,
+          "kind": "position",
+          "causes": [
+            "r20-e40"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 18,
+            "travelSeconds": 7
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r20-e55",
+          "at": 25,
+          "kind": "fire",
+          "causes": [],
+          "detail": {
+            "item": "fire",
+            "familiarity": 60.55999999999999
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r20-e56",
+          "at": 25,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.3686076831628115,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.044,
+            "tactical": 0.04,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 2,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0.12,
+            "headshot": false
+          },
+          "actor": "team-7-p2",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r20-e57",
+          "at": 25,
+          "kind": "damage",
+          "causes": [
+            "r20-e56"
+          ],
+          "detail": {},
+          "actor": "team-7-p2",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47",
+          "damage": 16,
+          "hpBefore": 16,
+          "hpAfter": 0
+        },
+        {
+          "id": "r20-e58",
+          "at": 25,
+          "kind": "kill",
+          "causes": [
+            "r20-e57"
+          ],
+          "detail": {},
+          "actor": "team-7-p2",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "AK-47",
+          "alive": [
+            4,
+            5
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "text": "开局先抢图权，图权丢了中期就坐大牢！ Nuke，黑豹进攻，小蜜蜂防守。小蜜蜂的地图赛点，这一分就能收图。",
+          "briefText": "Nuke，黑豹进攻，小蜜蜂防守。小蜜蜂的地图赛点，这一分就能收图。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r20-e11",
+            "r20-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r20-setup-0"
+          ],
+          "templateId": "RQ-1-14",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "OK这把T准备直接慢慢控中路。 黑豹选择争夺关键通道，小蜜蜂用关键通道前压应对。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r20-e11",
+            "r20-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r20-plan-1"
+          ],
+          "templateId": "RB-10-16",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图二 Mirage"
+        },
+        {
+          "text": "外场 AK47 混烟，好吧！ 外场先交火！卡神（KSCERATO）用AK-47拿下憨豆（apEX），场上变成5打4。 这一枪是隔着烟打的。",
+          "briefText": "外场先交火！卡神（KSCERATO）用AK-47拿下憨豆（apEX），场上变成5打4。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 25,
+          "sourceType": "quote",
+          "eventIds": [
+            "r20-e58",
+            "r20-e56",
+            "r20-e57"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r20-opening-3",
+            "nuke-r20-smoke-kill-4"
+          ],
+          "templateId": "RF-6-7",
+          "quoteSource": "IEM 里约总决赛 Vitality vs Spirit 图二Nuke"
+        },
+        {
+          "text": "那现在火仔（flameZ）什么时候补枪的！ 火仔（flameZ）只隔3秒就把枪补上，场上是3打4。",
+          "briefText": "火仔（flameZ）只隔3秒就把枪补上，场上是3打4。",
+          "stage": "接触交锋",
+          "at": 28,
+          "sourceType": "adapted-quote",
+          "eventIds": [
+            "r20-e58",
+            "r20-e80",
+            "r20-e81"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r20-trade-8"
+          ],
+          "templateId": "RF-2-11",
+          "quoteSource": "IEM 里约总决赛 Vitality vs Spirit 图一Mirage"
+        },
+        {
+          "text": "看兄弟们的精妙配合！ 闪给到了！第一时间英一手（mezii）把molodoy闪白，火仔（flameZ）第二时间接上击杀。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 32,
+          "sourceType": "quote",
+          "eventIds": [
+            "r20-e86",
+            "r20-e85",
+            "r20-e95"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r20-flash-conversion-10"
+          ],
+          "templateId": "RQ-9-32",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "不是这人打得真的太变态了！ 火仔（flameZ）！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 36,
+          "sourceType": "quote",
+          "eventIds": [
+            "r20-e80",
+            "r20-e95",
+            "r20-e113"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "nuke-r20-multikill-17"
+          ],
+          "templateId": "RW-10-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "然后他们就直接启动了这局战术。 黑豹这波动了，目标就是B 下层。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 37,
+          "sourceType": "quote",
+          "eventIds": [
+            "r20-e117"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r20-phase-execution-15"
+          ],
+          "templateId": "RB-9-24",
+          "supportTemplateId": "PH-039",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图二 Inferno"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到13:7。",
+          "briefText": "对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到13:7。",
+          "stage": "回合结算",
+          "at": 42,
+          "sourceType": "original",
+          "eventIds": [
+            "r20-e128"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "nuke-r20-close-18"
+          ]
+        },
+        {
+          "text": "终结了整场比赛！ 小蜜蜂收下Nuke这张图！系列赛也拿下了。",
+          "briefText": "小蜜蜂收下Nuke这张图！系列赛也拿下了。",
+          "stage": "回合结算",
+          "at": 42,
+          "sourceType": "quote",
+          "eventIds": [
+            "r20-e128"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r20-map-win-19"
+          ],
+          "templateId": "RB-7-20",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图三 Dust2"
+        }
+      ],
+      "brief": "Nuke，黑豹进攻，小蜜蜂防守。小蜜蜂的地图赛点，这一分就能收图。\n外场先交火！卡神（KSCERATO）用AK-47拿下憨豆（apEX），场上变成5打4。 这一枪是隔着烟打的。\n火仔（flameZ）只隔3秒就把枪补上，场上是3打4。\n对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到13:7。\n小蜜蜂收下Nuke这张图！系列赛也拿下了。"
+    },
+    {
+      "id": "RF-6-7",
+      "map": "nuke",
+      "profile": "split-contest",
+      "seed": 2,
+      "round": 5,
+      "score": [
+        1,
+        4
+      ],
+      "decisions": [
+        {
+          "tactic": "midControl",
+          "buy": "fullBuy",
+          "risk": "balanced",
+          "adaptive": false,
+          "phases": {
+            "utility": "normal",
+            "smoke": "cross",
+            "execution": "regroup"
+          },
+          "positions": {
+            "team-3-p1": "nuke-6",
+            "team-3-p2": "nuke-6",
+            "team-3-p3": "nuke-6",
+            "team-3-p4": "nuke-2",
+            "team-3-p5": "nuke-3"
+          }
+        },
+        {
+          "tactic": "midContest",
+          "buy": "fullBuy",
+          "risk": "balanced",
+          "adaptive": false,
+          "phases": {
+            "utility": "normal",
+            "smoke": "cross",
+            "postPlant": "retake"
+          },
+          "positions": {
+            "team-7-p1": "nuke-6",
+            "team-7-p2": "nuke-6",
+            "team-7-p3": "nuke-6",
+            "team-7-p4": "nuke-2",
+            "team-7-p5": "nuke-3"
+          }
+        }
+      ],
+      "initial": [
+        {
+          "id": "team-3-p1",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 0,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": false,
+            "kit": false,
+            "utility": [
+              "flash"
+            ]
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": true
+        },
+        {
+          "id": "team-3-p2",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 0,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": true,
+            "kit": false,
+            "utility": []
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p3",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 0,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": true,
+            "kit": false,
+            "utility": []
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p4",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 50,
+          "equipment": {
+            "weapon": "AK-47",
+            "pistol": "Glock",
+            "armor": 100,
+            "helmet": false,
+            "kit": false,
+            "utility": []
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-3-p5",
+          "team": 0,
+          "side": "T",
+          "hp": 100,
+          "alive": true,
+          "cash": 100,
+          "equipment": {
+            "weapon": "Galil",
+            "pistol": "Glock",
+            "armor": 95,
+            "helmet": true,
+            "kit": false,
+            "utility": [
+              "smoke"
+            ]
+          },
+          "zone": "nuke-0",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p1",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 3350,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 100,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p2",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 10300,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 100,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "fire",
+              "smoke",
+              "flash",
+              "he"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p3",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 8400,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 100,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p4",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 2850,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 100,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "smoke",
+              "flash",
+              "he",
+              "fire"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        },
+        {
+          "id": "team-7-p5",
+          "team": 1,
+          "side": "CT",
+          "hp": 100,
+          "alive": true,
+          "cash": 5150,
+          "equipment": {
+            "weapon": "M4A1-S",
+            "pistol": "USP-S",
+            "armor": 75,
+            "helmet": true,
+            "kit": true,
+            "utility": [
+              "flash",
+              "he",
+              "fire",
+              "smoke"
+            ]
+          },
+          "zone": "nuke-1",
+          "blindedUntil": 0,
+          "hasBomb": false
+        }
+      ],
+      "beat": {
+        "id": "nuke-r5-smoke-kill-5",
+        "at": 24,
+        "category": "smoke-kill",
+        "priority": 83,
+        "eventIds": [
+          "r5-e57",
+          "r5-e58",
+          "r5-e59"
+        ],
+        "candidates": [
+          "WJ-116"
+        ],
+        "facts": {
+          "T": "小蜜蜂",
+          "CT": "黑豹",
+          "MAP": "Nuke",
+          "地图": "Nuke",
+          "攻方": "小蜜蜂",
+          "守方": "黑豹",
+          "获胜队": "小蜜蜂",
+          "失败队": "黑豹",
+          "比分": "0:4",
+          "actorName": "apEX",
+          "targetName": "FalleN",
+          "actorTeamName": "Vitality",
+          "选手A": "憨豆（apEX）"
+        },
+        "fallback": "憨豆（apEX）隔着烟带走了对手，这一枪穿得漂亮！",
+        "emphasis": "hype"
+      },
+      "eventPrefix": [
+        {
+          "id": "r5-e1",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3550,
+            "spend": 3550,
+            "cashAfter": 0,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r5-e2",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3700,
+            "spend": 3700,
+            "cashAfter": 0,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r5-e3",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 0,
+            "spend": 0,
+            "cashAfter": 0,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e4",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3400,
+            "spend": 3350,
+            "cashAfter": 50,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r5-e5",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 400,
+            "spend": 300,
+            "cashAfter": 100,
+            "armor": 95,
+            "helmet": true
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "weapon": "Galil"
+        },
+        {
+          "id": "r5-e6",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 8950,
+            "spend": 5600,
+            "cashAfter": 3350,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e7",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 10800,
+            "spend": 500,
+            "cashAfter": 10300,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e8",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 9700,
+            "spend": 1300,
+            "cashAfter": 8400,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e9",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 8450,
+            "spend": 5600,
+            "cashAfter": 2850,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e10",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 5450,
+            "spend": 300,
+            "cashAfter": 5150,
+            "armor": 75,
+            "helmet": true
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e11",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "midControl",
+            "name": "争夺关键通道",
+            "side": "T",
+            "target": "B"
+          },
+          "team": 0
+        },
+        {
+          "id": "r5-e12",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "midContest",
+            "name": "关键通道前压",
+            "side": "CT",
+            "target": "adaptive"
+          },
+          "team": 1
+        },
+        {
+          "id": "r5-e13",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e14",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e15",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e16",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e17",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e18",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e19",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e20",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e21",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e22",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e23",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e24",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e25",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e26",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-2",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e27",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-2",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-1"
+        },
+        {
+          "id": "r5-e28",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r5-e23"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r5-e29",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r5-e24"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r5-e30",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r5-e25"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r5-e31",
+          "at": 6,
+          "kind": "position",
+          "causes": [
+            "r5-e26"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r5-e32",
+          "at": 6,
+          "kind": "position",
+          "causes": [
+            "r5-e27"
+          ],
+          "detail": {
+            "from": "nuke-1",
+            "departAt": 1,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r5-e33",
+          "at": 6,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-9",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-2"
+        },
+        {
+          "id": "r5-e34",
+          "at": 10,
+          "kind": "position",
+          "causes": [
+            "r5-e33"
+          ],
+          "detail": {
+            "from": "nuke-2",
+            "departAt": 6,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-9"
+        },
+        {
+          "id": "r5-e35",
+          "at": 10,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-9"
+        },
+        {
+          "id": "r5-e36",
+          "at": 14,
+          "kind": "position",
+          "causes": [
+            "r5-e35"
+          ],
+          "detail": {
+            "from": "nuke-9",
+            "departAt": 10,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "nuke-3"
+        },
+        {
+          "id": "r5-e37",
+          "at": 16,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e38",
+          "at": 16,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-4",
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e39",
+          "at": 17,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e40",
+          "at": 18,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-5",
+            "travelSeconds": 10
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e41",
+          "at": 19,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "nuke-0"
+        },
+        {
+          "id": "r5-e42",
+          "at": 23,
+          "kind": "position",
+          "causes": [
+            "r5-e37"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 16,
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r5-e43",
+          "at": 23,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-3-p3",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r5-e44",
+          "at": 23,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.619272393078363,
+            "aim": 0.11875,
+            "role": 0,
+            "positioning": 0.042,
+            "tactical": 0.037142857142857144,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0.12,
+            "headshot": false
+          },
+          "actor": "team-3-p3",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e45",
+          "at": 23,
+          "kind": "damage",
+          "causes": [
+            "r5-e44"
+          ],
+          "detail": {},
+          "actor": "team-3-p3",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r5-e46",
+          "at": 23,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.9350278245228785,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.044444444444444446,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0,
+            "headshot": false
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p3",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e47",
+          "at": 23,
+          "kind": "damage",
+          "causes": [
+            "r5-e46"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p3",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r5-e48",
+          "at": 23,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.9101801892814722,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.044,
+            "tactical": 0.04,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0,
+            "headshot": false
+          },
+          "actor": "team-7-p2",
+          "target": "team-3-p3",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e49",
+          "at": 23,
+          "kind": "damage",
+          "causes": [
+            "r5-e48"
+          ],
+          "detail": {},
+          "actor": "team-7-p2",
+          "target": "team-3-p3",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 73,
+          "hpAfter": 46
+        },
+        {
+          "id": "r5-e50",
+          "at": 23,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.770845542153036,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 3,
+            "cover": 0.008,
+            "movingPenalty": 0,
+            "headshot": false
+          },
+          "actor": "team-7-p1",
+          "target": "team-3-p3",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r5-e51",
+          "at": 23,
+          "kind": "damage",
+          "causes": [
+            "r5-e50"
+          ],
+          "detail": {},
+          "actor": "team-7-p1",
+          "target": "team-3-p3",
+          "team": 1,
+          "zone": "nuke-6",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 46,
+          "hpAfter": 19
+        },
+        {
+          "id": "r5-e52",
+          "at": 24,
+          "kind": "position",
+          "causes": [
+            "r5-e39"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 17,
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r5-e53",
+          "at": 24,
+          "kind": "position",
+          "causes": [
+            "r5-e38"
+          ],
+          "detail": {
+            "from": "nuke-0",
+            "departAt": 16,
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-4"
+        },
+        {
+          "id": "r5-e54",
+          "at": 24,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "nuke-2",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "nuke-4"
+        },
+        {
+          "id": "r5-e55",
+          "at": 24,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.31999999999999
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r5-e56",
+          "at": 24,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.31999999999999
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "nuke-6"
+        },
+        {
+          "id": "r5-e57",
+          "at": 24,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.2979703451278845,
+            "aim": 0.05,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": -0.008571428571428572,
+            "synergy": 0.046,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 0.48,
+            "allies": 2,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0.12,
+            "headshot": true
+          },
+          "actor": "team-3-p1",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r5-e58",
+          "at": 24,
+          "kind": "damage",
+          "causes": [
+            "r5-e57"
+          ],
+          "detail": {},
+          "actor": "team-3-p1",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "AK-47",
+          "damage": 73,
+          "hpBefore": 73,
+          "hpAfter": 0
+        },
+        {
+          "id": "r5-e59",
+          "at": 24,
+          "kind": "kill",
+          "causes": [
+            "r5-e58"
+          ],
+          "detail": {},
+          "actor": "team-3-p1",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "nuke-6",
+          "weapon": "AK-47",
+          "alive": [
+            5,
+            4
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "text": "连续4分，黑豹现在这口气得续住。 当前比分0比4。 小蜜蜂选择争夺关键通道，黑豹用关键通道前压应对。",
+          "briefText": "Nuke，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r5-e11",
+            "r5-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r5-setup-0",
+            "nuke-r5-plan-1"
+          ],
+          "templateId": "CX-009"
+        },
+        {
+          "text": "外场 AK47 混烟，好吧！ 外场先交火！憨豆（apEX）用AK-47爆头拿下教父（FalleN），场上变成5打4。 这一枪是隔着烟打的。",
+          "briefText": "外场先交火！憨豆（apEX）用AK-47爆头拿下教父（FalleN），场上变成5打4。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 24,
+          "sourceType": "quote",
+          "eventIds": [
+            "r5-e59",
+            "r5-e57",
+            "r5-e58"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r5-opening-3",
+            "nuke-r5-smoke-kill-5"
+          ],
+          "templateId": "RF-6-7",
+          "quoteSource": "IEM 里约总决赛 Vitality vs Spirit 图二Nuke"
+        },
+        {
+          "text": "这波 T 直接丢闪送人强出，过路费得交！ 闪给到了！第一时间憨豆（apEX）把卡神（KSCERATO）闪白，火仔（flameZ）第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间憨豆（apEX）把卡神（KSCERATO）闪白，火仔（flameZ）第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 28,
+          "sourceType": "quote",
+          "eventIds": [
+            "r5-e71",
+            "r5-e70",
+            "r5-e81"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r5-flash-conversion-9"
+          ],
+          "templateId": "RQ-2-2",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图一 Mirage"
+        },
+        {
+          "text": "这边先杀人再埋包！ 憨豆（apEX）把包下在B 下层，40 秒回防倒计时开始。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 58,
+          "sourceType": "quote",
+          "eventIds": [
+            "r5-e165"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r5-plant-22"
+          ],
+          "templateId": "RB-8-33",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图一 Mirage"
+        },
+        {
+          "text": "但队友的补枪那是随便补补了！ molodoy只隔1秒就把枪补上，场上是1打0。",
+          "briefText": "molodoy只隔1秒就把枪补上，场上是1打0。",
+          "stage": "接触交锋",
+          "at": 78,
+          "sourceType": "quote",
+          "eventIds": [
+            "r5-e180",
+            "r5-e183",
+            "r5-e184"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r5-trade-24"
+          ],
+          "templateId": "RW-2-5",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "哈哈，这太牛逼了！ molodoy！这一回合已经拿到4杀，枪械与道具的贡献都得算上。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 80,
+          "sourceType": "quote",
+          "eventIds": [
+            "r5-e108",
+            "r5-e115",
+            "r5-e183",
+            "r5-e187"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "nuke-r5-multikill-25"
+          ],
+          "templateId": "RD-10-9",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "molodoy已经打掉2个，可这个一打2还是没能拿下来。",
+          "briefText": "",
+          "stage": "回合结算",
+          "at": 98,
+          "sourceType": "original",
+          "eventIds": [
+            "r5-e164",
+            "r5-e180",
+            "r5-e183",
+            "r5-e187",
+            "r5-e189",
+            "r5-e188"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r5-clutch-loss-26"
+          ]
+        },
+        {
+          "text": "但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到1:4。",
+          "briefText": "时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到1:4。",
+          "stage": "回合结算",
+          "at": 98,
+          "sourceType": "quote",
+          "eventIds": [
+            "r5-e189",
+            "r5-e188"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "nuke-r5-close-27"
+          ],
+          "templateId": "RQ-8-29",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图二 Anubis"
+        }
+      ],
+      "brief": "Nuke，小蜜蜂进攻，黑豹防守。\n外场先交火！憨豆（apEX）用AK-47爆头拿下教父（FalleN），场上变成5打4。 这一枪是隔着烟打的。\n闪给到了！第一时间憨豆（apEX）把卡神（KSCERATO）闪白，火仔（flameZ）第二时间接上击杀。\nmolodoy只隔1秒就把枪补上，场上是1打0。\n时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到1:4。"
+    }
+  ]
+}

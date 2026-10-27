@@ -20,11 +20,12 @@ export function validateRound(r: RoundResult): string[] {
         weapon: string;
         zone: string;
     }>();
-    const kinds = new Set(['buy', 'position', 'move', 'sight', 'info', 'misread', 'flash', 'smoke', 'fire', 'he', 'blind', 'duel', 'damage', 'kill', 'trade', 'plant', 'defuse', 'save', 'explode', 'timerEnd', 'roundEnd', 'tactic', 'coachTimeout', 'pickup', 'donation', 'extinguish']);
+    const kinds = new Set(['buy', 'position', 'move', 'sight', 'info', 'misread', 'flash', 'smoke', 'fire', 'he', 'blind', 'duel', 'damage', 'kill', 'trade', 'plant', 'defuseStart', 'defuseStop', 'defuse', 'save', 'explode', 'timerEnd', 'roundEnd', 'tactic', 'coachTimeout', 'pickup', 'donation', 'extinguish']);
     check(r.events.filter(e => e.kind === 'roundEnd').length === 1 && r.events.at(-1)?.kind === 'roundEnd', '回合终止事件必须唯一且在最后');
     const hp = new Map(r.initial.map(f => [f.id, 100]));
     const killed = new Set<string>();
     const ids = new Set<string>();
+    let activeDefuseStart:RoundResult['events'][number]|undefined;
     let time = -1;
     for (const e of r.events) {
         check(e.at >= time, '事件时间倒退');
@@ -40,8 +41,24 @@ export function validateRound(r: RoundResult): string[] {
             check(fighterIds.has(e.target), '未知行为目标');
         if (e.zone)
             check(map.zones.some(z => z.id === e.zone), '非法区域');
-        if (['damage', 'kill', 'plant', 'defuse', 'duel', 'move', 'pickup', 'flash', 'smoke', 'fire', 'he'].includes(e.kind) && e.actor && e.weapon !== 'fire')
+        if (['damage', 'kill', 'plant', 'defuseStart', 'defuse', 'duel', 'move', 'pickup', 'flash', 'smoke', 'fire', 'he'].includes(e.kind) && e.actor && e.weapon !== 'fire')
             check(!killed.has(e.actor), '死者行动');
+        if(e.kind==='defuseStart'){
+            const plant=r.events.find(x=>e.causes.includes(x.id)&&x.kind==='plant');
+            const fighter=r.initial.find(f=>f.id===e.actor),kit=equipment.get(e.actor!)?.kit;
+            check(Boolean(plant)&&plant!.zone===e.zone&&e.at<Number(plant!.detail.explodeAt),'拆包开始缺少有效炸弹');
+            check(Boolean(fighter)&&fighter!.side==='CT'&&fighter!.team===e.team&&zones.get(e.actor!)===e.zone&&!moving.has(e.actor!),'拆包者位置或阵营错误');
+            check(e.detail.kit===kit&&e.detail.duration===(kit?5:10),'拆包开始工具或时间错误');
+            check(!activeDefuseStart,'已有拆包未中断或完成');
+            activeDefuseStart=e;
+        }
+        if(e.kind==='defuseStop'){
+            const start=r.events.find(x=>e.causes.includes(x.id)&&x.kind==='defuseStart');
+            check(Boolean(start)&&start!.actor===e.actor&&start!.team===e.team&&start!.zone===e.zone&&start!.at<=e.at,'拆包中断缺少对应开始事件');
+            check(Boolean(activeDefuseStart)&&e.causes.includes(activeDefuseStart!.id),'拆包中断不是当前进行的拆包');
+            activeDefuseStart=undefined;
+        }
+        if(e.kind==='defuse'&&activeDefuseStart){check(e.causes.includes(activeDefuseStart.id)&&e.actor===activeDefuseStart.actor,'拆包完成与开始事件不一致');activeDefuseStart=undefined;}
         if (['flash', 'smoke', 'fire', 'he'].includes(e.kind) && e.actor) {
             const stock = equipment.get(e.actor)?.utility;
             const index = stock?.indexOf(e.kind) ?? -1;

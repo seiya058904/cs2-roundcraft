@@ -1,0 +1,992 @@
+[
+ {
+  "section": 1,
+  "index": 1,
+  "beat": "setup"
+ },
+ {
+  "section": 1,
+  "index": 2,
+  "beat": "setup"
+ },
+ {
+  "section": 1,
+  "index": 3,
+  "beat": "setup"
+ },
+ {
+  "section": 1,
+  "index": 4,
+  "beat": "setup"
+ },
+ {
+  "section": 1,
+  "index": 5,
+  "beat": "setup"
+ },
+ {
+  "section": 1,
+  "index": 6,
+  "beat": "setup"
+ },
+ {
+  "section": 1,
+  "index": 7,
+  "beat": "plan"
+ },
+ {
+  "section": 1,
+  "index": 8,
+  "beat": "setup"
+ },
+ {
+  "section": 1,
+  "index": 9,
+  "beat": "setup"
+ },
+ {
+  "section": 1,
+  "index": 10,
+  "beat": "smoke"
+ },
+ {
+  "section": 1,
+  "index": 11,
+  "beat": "setup"
+ },
+ {
+  "section": 1,
+  "index": 12,
+  "beat": "plan"
+ },
+ {
+  "section": 1,
+  "index": 13,
+  "beat": "setup"
+ },
+ {
+  "section": 2,
+  "index": 1,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 2,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 3,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 4,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 5,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 6,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 7,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 8,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 9,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 10,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 11,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 12,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 13,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 14,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 15,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 16,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 17,
+  "beat": "even"
+ },
+ {
+  "section": 2,
+  "index": 18,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 19,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 2,
+  "index": 20,
+  "beat": "trade"
+ },
+ {
+  "section": 2,
+  "index": 21,
+  "beat": "flash-conversion"
+ },
+ {
+  "section": 2,
+  "index": 22,
+  "beat": "trade"
+ },
+ {
+  "section": 3,
+  "index": 1,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 2,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 3,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 4,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 5,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 6,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 7,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 8,
+  "beat": "plant"
+ },
+ {
+  "section": 3,
+  "index": 9,
+  "beat": "disadvantage"
+ },
+ {
+  "section": 3,
+  "index": 10,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 11,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 12,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 13,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 14,
+  "beat": "clutch-start"
+ },
+ {
+  "section": 3,
+  "index": 15,
+  "beat": "disadvantage"
+ },
+ {
+  "section": 4,
+  "index": 1,
+  "beat": "multikill"
+ },
+ {
+  "section": 4,
+  "index": 2,
+  "beat": "multikill"
+ },
+ {
+  "section": 4,
+  "index": 3,
+  "beat": "multikill"
+ },
+ {
+  "section": 4,
+  "index": 4,
+  "beat": "multikill"
+ },
+ {
+  "section": 4,
+  "index": 5,
+  "beat": "multikill"
+ },
+ {
+  "section": 4,
+  "index": 6,
+  "beat": "multikill"
+ },
+ {
+  "section": 4,
+  "index": 7,
+  "beat": "headshot"
+ },
+ {
+  "section": 4,
+  "index": 8,
+  "beat": "headshot"
+ },
+ {
+  "section": 4,
+  "index": 9,
+  "beat": "headshot"
+ },
+ {
+  "section": 4,
+  "index": 10,
+  "beat": "headshot"
+ },
+ {
+  "section": 4,
+  "index": 11,
+  "beat": "headshot"
+ },
+ {
+  "section": 4,
+  "index": 12,
+  "beat": "headshot"
+ },
+ {
+  "section": 4,
+  "index": 13,
+  "beat": "headshot"
+ },
+ {
+  "section": 4,
+  "index": 14,
+  "beat": "headshot"
+ },
+ {
+  "section": 5,
+  "index": 1,
+  "beat": "eco-win"
+ },
+ {
+  "section": 5,
+  "index": 2,
+  "beat": "eco-win"
+ },
+ {
+  "section": 5,
+  "index": 3,
+  "beat": "eco-win"
+ },
+ {
+  "section": 5,
+  "index": 4,
+  "beat": "save-decision"
+ },
+ {
+  "section": 5,
+  "index": 5,
+  "beat": "save-decision"
+ },
+ {
+  "section": 5,
+  "index": 6,
+  "beat": "eco-win"
+ },
+ {
+  "section": 5,
+  "index": 7,
+  "beat": "pickup"
+ },
+ {
+  "section": 5,
+  "index": 8,
+  "beat": "eco-win"
+ },
+ {
+  "section": 5,
+  "index": 9,
+  "beat": "eco-win"
+ },
+ {
+  "section": 6,
+  "index": 1,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 2,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 3,
+  "beat": "fire-damage"
+ },
+ {
+  "section": 6,
+  "index": 4,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 5,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 6,
+  "beat": "grenade"
+ },
+ {
+  "section": 6,
+  "index": 7,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 8,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 9,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 10,
+  "beat": "smoke"
+ },
+ {
+  "section": 6,
+  "index": 11,
+  "beat": "smoke"
+ },
+ {
+  "section": 6,
+  "index": 12,
+  "beat": "smoke"
+ },
+ {
+  "section": 6,
+  "index": 13,
+  "beat": "smoke"
+ },
+ {
+  "section": 6,
+  "index": 14,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 15,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 16,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 17,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 18,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 19,
+  "beat": "economy"
+ },
+ {
+  "section": 6,
+  "index": 20,
+  "beat": "smoke"
+ },
+ {
+  "section": 6,
+  "index": 21,
+  "beat": "flash"
+ },
+ {
+  "section": 7,
+  "index": 1,
+  "beat": "match-point"
+ },
+ {
+  "section": 7,
+  "index": 2,
+  "beat": "match-point"
+ },
+ {
+  "section": 7,
+  "index": 3,
+  "beat": "match-point"
+ },
+ {
+  "section": 7,
+  "index": 4,
+  "beat": "overtime-threat"
+ },
+ {
+  "section": 7,
+  "index": 5,
+  "beat": "overtime-threat"
+ },
+ {
+  "section": 7,
+  "index": 6,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 8,
+  "index": 1,
+  "beat": "plant"
+ },
+ {
+  "section": 8,
+  "index": 2,
+  "beat": "plant"
+ },
+ {
+  "section": 8,
+  "index": 3,
+  "beat": "plant"
+ },
+ {
+  "section": 8,
+  "index": 4,
+  "beat": "defuse-timing"
+ },
+ {
+  "section": 8,
+  "index": 5,
+  "beat": "defuse-timing"
+ },
+ {
+  "section": 8,
+  "index": 6,
+  "beat": "defuse-timing"
+ },
+ {
+  "section": 8,
+  "index": 7,
+  "beat": "smoke"
+ },
+ {
+  "section": 8,
+  "index": 8,
+  "beat": "smoke"
+ },
+ {
+  "section": 8,
+  "index": 9,
+  "beat": "defuse-timing"
+ },
+ {
+  "section": 8,
+  "index": 10,
+  "beat": "smoke"
+ },
+ {
+  "section": 8,
+  "index": 11,
+  "beat": "defuse-timing"
+ },
+ {
+  "section": 8,
+  "index": 12,
+  "beat": "defuse-timing"
+ },
+ {
+  "section": 8,
+  "index": 13,
+  "beat": "pickup"
+ },
+ {
+  "section": 9,
+  "index": 1,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 2,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 3,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 4,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 5,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 6,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 7,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 8,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 9,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 10,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 11,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 12,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 13,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 14,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 15,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 16,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 17,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 18,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 19,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 20,
+  "beat": "rotation"
+ },
+ {
+  "section": 9,
+  "index": 21,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 22,
+  "beat": "rotation"
+ },
+ {
+  "section": 9,
+  "index": 23,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 24,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 25,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 26,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 27,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 28,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 29,
+  "beat": "plan"
+ },
+ {
+  "section": 9,
+  "index": 30,
+  "beat": "plan"
+ },
+ {
+  "section": 10,
+  "index": 1,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 2,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 3,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 4,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 5,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 6,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 7,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 8,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 9,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 10,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 11,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 12,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 10,
+  "index": 13,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 11,
+  "index": 1,
+  "beat": "timeout"
+ },
+ {
+  "section": 11,
+  "index": 2,
+  "beat": "timeout"
+ },
+ {
+  "section": 11,
+  "index": 3,
+  "beat": "timeout"
+ },
+ {
+  "section": 11,
+  "index": 4,
+  "beat": "timeout"
+ },
+ {
+  "section": 11,
+  "index": 5,
+  "beat": "timeout"
+ },
+ {
+  "section": 11,
+  "index": 6,
+  "beat": "timeout"
+ },
+ {
+  "section": 11,
+  "index": 7,
+  "beat": "timeout"
+ },
+ {
+  "section": 11,
+  "index": 8,
+  "beat": "half-time"
+ },
+ {
+  "section": 11,
+  "index": 9,
+  "beat": "half-time"
+ },
+ {
+  "section": 11,
+  "index": 10,
+  "beat": "NEW:highlight-shout"
+ },
+ {
+  "section": 12,
+  "index": 1,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 2,
+  "beat": "rifle-v-awp"
+ },
+ {
+  "section": 12,
+  "index": 3,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 4,
+  "beat": "rifle-v-awp"
+ },
+ {
+  "section": 12,
+  "index": 5,
+  "beat": "smoke-kill"
+ },
+ {
+  "section": 12,
+  "index": 6,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 7,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 8,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 9,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 10,
+  "beat": "rifle-v-awp"
+ },
+ {
+  "section": 12,
+  "index": 11,
+  "beat": "rifle-v-awp"
+ },
+ {
+  "section": 12,
+  "index": 12,
+  "beat": "rifle-v-awp"
+ },
+ {
+  "section": 12,
+  "index": 13,
+  "beat": "rifle-v-awp"
+ },
+ {
+  "section": 12,
+  "index": 14,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 15,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 16,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 17,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 18,
+  "beat": "plan"
+ },
+ {
+  "section": 12,
+  "index": 19,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 20,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 21,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 22,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 23,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 24,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 25,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 26,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 27,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 28,
+  "beat": "pickup"
+ },
+ {
+  "section": 12,
+  "index": 29,
+  "beat": "pickup"
+ },
+ {
+  "section": 12,
+  "index": 30,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 31,
+  "beat": "awp-opening"
+ },
+ {
+  "section": 12,
+  "index": 32,
+  "beat": "headshot"
+ }
+]

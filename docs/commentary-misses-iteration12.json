@@ -1,0 +1,1858 @@
+{
+  "generatedAt": "2026-10-27T05:29:42.045Z",
+  "simulationSourceSha256": "12588b97f825bb6149fabf336779d0753318f2c6db20fe86f43bed138b3859ec",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "scope": "150普通AI种子与120场独立AWP优先/合法中区站位配置分开统计；无事件注入、手工选句或重掷。",
+  "counts": {
+    "ordinary": {
+      "matches": 150,
+      "rounds": 2875,
+      "eligible": 67,
+      "shown": 0,
+      "spoken": 0
+    },
+    "awp-priority": {
+      "matches": 120,
+      "rounds": 2588,
+      "eligible": 167,
+      "shown": 1,
+      "spoken": 1
+    }
+  },
+  "samples": [
+    {
+      "profile": "awp-priority",
+      "seed": 925,
+      "map": "dust2",
+      "round": 8,
+      "beat": {
+        "id": "dust2-r8-awp-repeat-miss-14",
+        "at": 41,
+        "category": "awp-repeat-miss",
+        "priority": 72,
+        "eventIds": [
+          "r8-e84",
+          "r8-e91",
+          "r8-e97"
+        ],
+        "candidates": [],
+        "facts": {
+          "T": "小蜜蜂",
+          "CT": "黑豹",
+          "MAP": "Dust II",
+          "地图": "Dust II",
+          "攻方": "小蜜蜂",
+          "守方": "黑豹",
+          "获胜队": "黑豹",
+          "失败队": "小蜜蜂",
+          "比分": "5:2",
+          "prior2v2:team-3-p3": 1,
+          "prior2v2:team-3-p5": 1,
+          "prior2v2:team-7-p3": 1,
+          "prior2v2:team-7-p4": 1,
+          "bestOf": 1,
+          "pointLeader": -1,
+          "totalTimeouts": 0,
+          "name:team-3-p1": "apEX",
+          "name:team-3-p2": "flameZ",
+          "name:team-3-p3": "mezii",
+          "name:team-3-p4": "ropz",
+          "name:team-3-p5": "ZywOo",
+          "name:team-7-p1": "FalleN",
+          "name:team-7-p2": "KSCERATO",
+          "name:team-7-p3": "molodoy",
+          "name:team-7-p4": "YEKINDAR",
+          "name:team-7-p5": "yuurih",
+          "teamName:0": "Vitality",
+          "priorForceUpsets:0": 0,
+          "priorSemiUpsets:0": 0,
+          "maxDeficit:0": 2,
+          "teamName:1": "FURIA",
+          "priorForceUpsets:1": 0,
+          "priorSemiUpsets:1": 0,
+          "maxDeficit:1": 3,
+          "actorName": "ropz",
+          "targetName": "yuurih",
+          "actorTeamName": "Vitality",
+          "missInterval": 12
+        },
+        "fallback": "ropz的AWP再次没能命中，距上次空枪12秒。",
+        "emphasis": "tense"
+      },
+      "prefix": [
+        {
+          "id": "r8-e1",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 10350,
+            "spend": 6950,
+            "cashAfter": 3400,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e2",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 16000,
+            "spend": 6950,
+            "cashAfter": 9050,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e3",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 9850,
+            "spend": 1200,
+            "cashAfter": 8650,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e4",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 9250,
+            "spend": 6950,
+            "cashAfter": 2300,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e5",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 9050,
+            "spend": 800,
+            "cashAfter": 8250,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e6",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3650,
+            "spend": 3550,
+            "cashAfter": 100,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e7",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 4000,
+            "spend": 3900,
+            "cashAfter": 100,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e8",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3650,
+            "spend": 3550,
+            "cashAfter": 100,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e9",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3550,
+            "spend": 3550,
+            "cashAfter": 0,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e10",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3650,
+            "spend": 3550,
+            "cashAfter": 100,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e11",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "midControl",
+            "name": "争夺关键通道",
+            "side": "T",
+            "target": "B"
+          },
+          "team": 0
+        },
+        {
+          "id": "r8-e12",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "midContest",
+            "name": "关键通道前压",
+            "side": "CT",
+            "target": "adaptive"
+          },
+          "team": 1
+        },
+        {
+          "id": "r8-e13",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e14",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e15",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e16",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e17",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e18",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e19",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e20",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e21",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e22",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e23",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e24",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e25",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-2",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e26",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-2",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e27",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-6",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "dust2-1"
+        },
+        {
+          "id": "r8-e28",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r8-e23"
+          ],
+          "detail": {
+            "from": "dust2-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "dust2-8"
+        },
+        {
+          "id": "r8-e29",
+          "at": 5,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-3",
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "dust2-8"
+        },
+        {
+          "id": "r8-e30",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r8-e24"
+          ],
+          "detail": {
+            "from": "dust2-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "dust2-8"
+        },
+        {
+          "id": "r8-e31",
+          "at": 5,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-3",
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "dust2-8"
+        },
+        {
+          "id": "r8-e32",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r8-e27"
+          ],
+          "detail": {
+            "from": "dust2-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "dust2-6"
+        },
+        {
+          "id": "r8-e33",
+          "at": 6,
+          "kind": "position",
+          "causes": [
+            "r8-e25"
+          ],
+          "detail": {
+            "from": "dust2-1",
+            "departAt": 1,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "dust2-2"
+        },
+        {
+          "id": "r8-e34",
+          "at": 6,
+          "kind": "position",
+          "causes": [
+            "r8-e26"
+          ],
+          "detail": {
+            "from": "dust2-1",
+            "departAt": 1,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "dust2-2"
+        },
+        {
+          "id": "r8-e35",
+          "at": 6,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-4",
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "dust2-2"
+        },
+        {
+          "id": "r8-e36",
+          "at": 8,
+          "kind": "position",
+          "causes": [
+            "r8-e29"
+          ],
+          "detail": {
+            "from": "dust2-8",
+            "departAt": 5,
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "dust2-3"
+        },
+        {
+          "id": "r8-e37",
+          "at": 8,
+          "kind": "position",
+          "causes": [
+            "r8-e31"
+          ],
+          "detail": {
+            "from": "dust2-8",
+            "departAt": 5,
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "dust2-3"
+        },
+        {
+          "id": "r8-e38",
+          "at": 8,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-5",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "dust2-3"
+        },
+        {
+          "id": "r8-e39",
+          "at": 13,
+          "kind": "position",
+          "causes": [
+            "r8-e38"
+          ],
+          "detail": {
+            "from": "dust2-3",
+            "departAt": 8,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "dust2-5"
+        },
+        {
+          "id": "r8-e40",
+          "at": 14,
+          "kind": "position",
+          "causes": [
+            "r8-e35"
+          ],
+          "detail": {
+            "from": "dust2-2",
+            "departAt": 6,
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "dust2-4"
+        },
+        {
+          "id": "r8-e41",
+          "at": 16,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-5",
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e42",
+          "at": 17,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-5",
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e43",
+          "at": 17,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-6",
+            "travelSeconds": 6
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e44",
+          "at": 18,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-5",
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e45",
+          "at": 19,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-6",
+            "travelSeconds": 6
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "dust2-0"
+        },
+        {
+          "id": "r8-e46",
+          "at": 23,
+          "kind": "position",
+          "causes": [
+            "r8-e43"
+          ],
+          "detail": {
+            "from": "dust2-0",
+            "departAt": 17,
+            "travelSeconds": 6
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "dust2-6"
+        },
+        {
+          "id": "r8-e47",
+          "at": 23,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-8",
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "dust2-6"
+        },
+        {
+          "id": "r8-e48",
+          "at": 25,
+          "kind": "position",
+          "causes": [
+            "r8-e41"
+          ],
+          "detail": {
+            "from": "dust2-0",
+            "departAt": 16,
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "dust2-5"
+        },
+        {
+          "id": "r8-e49",
+          "at": 25,
+          "kind": "position",
+          "causes": [
+            "r8-e45"
+          ],
+          "detail": {
+            "from": "dust2-0",
+            "departAt": 19,
+            "travelSeconds": 6
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "dust2-6"
+        },
+        {
+          "id": "r8-e50",
+          "at": 25,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-8",
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "dust2-6"
+        },
+        {
+          "id": "r8-e51",
+          "at": 25,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-3-p1",
+          "team": 1,
+          "zone": "dust2-5"
+        },
+        {
+          "id": "r8-e52",
+          "at": 25,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.94,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.044,
+            "tactical": 0.04,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.026000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": true
+          },
+          "actor": "team-7-p2",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e53",
+          "at": 25,
+          "kind": "damage",
+          "causes": [
+            "r8-e52"
+          ],
+          "detail": {},
+          "actor": "team-7-p2",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "M4A1-S",
+          "damage": 80,
+          "hpBefore": 100,
+          "hpAfter": 20
+        },
+        {
+          "id": "r8-e54",
+          "at": 25,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.035,
+            "aim": 0.05,
+            "role": -0.075,
+            "positioning": 0.016,
+            "tactical": -0.008571428571428572,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.26249999999999996,
+            "movingPenalty": 0.12,
+            "hit": false
+          },
+          "actor": "team-3-p1",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "dust2-3",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e55",
+          "at": 25,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.8085128690000151,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0.045,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.026000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": true
+          },
+          "actor": "team-7-p1",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e56",
+          "at": 25,
+          "kind": "damage",
+          "causes": [
+            "r8-e55"
+          ],
+          "detail": {},
+          "actor": "team-7-p1",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "M4A1-S",
+          "damage": 20,
+          "hpBefore": 20,
+          "hpAfter": 0
+        },
+        {
+          "id": "r8-e57",
+          "at": 25,
+          "kind": "kill",
+          "causes": [
+            "r8-e56"
+          ],
+          "detail": {},
+          "actor": "team-7-p1",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "M4A1-S",
+          "alive": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "r8-e58",
+          "at": 26,
+          "kind": "position",
+          "causes": [
+            "r8-e42"
+          ],
+          "detail": {
+            "from": "dust2-0",
+            "departAt": 17,
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "dust2-5"
+        },
+        {
+          "id": "r8-e59",
+          "at": 26,
+          "kind": "pickup",
+          "causes": [],
+          "detail": {
+            "item": "bomb"
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "dust2-5"
+        },
+        {
+          "id": "r8-e60",
+          "at": 26,
+          "kind": "position",
+          "causes": [
+            "r8-e47"
+          ],
+          "detail": {
+            "from": "dust2-6",
+            "departAt": 23,
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "dust2-8"
+        },
+        {
+          "id": "r8-e61",
+          "at": 26,
+          "kind": "pickup",
+          "causes": [
+            "r8-e57"
+          ],
+          "detail": {
+            "fromPlayer": "team-3-p1"
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e62",
+          "at": 26,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.5455501458254031,
+            "aim": 0.125,
+            "role": -0.075,
+            "positioning": 0.05,
+            "tactical": 0,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.26249999999999996,
+            "movingPenalty": 0.12,
+            "hit": false
+          },
+          "actor": "team-3-p4",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "dust2-3",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e63",
+          "at": 26,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.15493268471191102,
+            "aim": 0.13125,
+            "role": -0.075,
+            "positioning": 0.016,
+            "tactical": 0,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.26249999999999996,
+            "movingPenalty": 0.12,
+            "hit": false
+          },
+          "actor": "team-3-p2",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "dust2-3",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e64",
+          "at": 26,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.8494133049294345,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.022000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-7-p5",
+          "target": "team-3-p4",
+          "team": 1,
+          "zone": "dust2-8",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e65",
+          "at": 26,
+          "kind": "damage",
+          "causes": [
+            "r8-e64"
+          ],
+          "detail": {},
+          "actor": "team-7-p5",
+          "target": "team-3-p4",
+          "team": 1,
+          "zone": "dust2-8",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r8-e66",
+          "at": 27,
+          "kind": "position",
+          "causes": [
+            "r8-e44"
+          ],
+          "detail": {
+            "from": "dust2-0",
+            "departAt": 18,
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "dust2-5"
+        },
+        {
+          "id": "r8-e67",
+          "at": 27,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.782512869000015,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0.045,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.022000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-7-p1",
+          "target": "team-3-p4",
+          "team": 1,
+          "zone": "dust2-8",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e68",
+          "at": 27,
+          "kind": "damage",
+          "causes": [
+            "r8-e67"
+          ],
+          "detail": {},
+          "actor": "team-7-p1",
+          "target": "team-3-p4",
+          "team": 1,
+          "zone": "dust2-8",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 73,
+          "hpAfter": 46
+        },
+        {
+          "id": "r8-e69",
+          "at": 27,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.22736638502803075,
+            "aim": 0.11875,
+            "role": -0.075,
+            "positioning": 0.042,
+            "tactical": 0,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 3,
+            "cover": 0.26249999999999996,
+            "movingPenalty": 0.12,
+            "hit": false
+          },
+          "actor": "team-3-p3",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "dust2-3",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e70",
+          "at": 28,
+          "kind": "position",
+          "causes": [
+            "r8-e50"
+          ],
+          "detail": {
+            "from": "dust2-6",
+            "departAt": 25,
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "dust2-8"
+        },
+        {
+          "id": "r8-e71",
+          "at": 28,
+          "kind": "fire",
+          "causes": [],
+          "detail": {
+            "item": "fire",
+            "familiarity": 60.55999999999999
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "dust2-3"
+        },
+        {
+          "id": "r8-e72",
+          "at": 28,
+          "kind": "damage",
+          "causes": [
+            "r8-e71"
+          ],
+          "detail": {},
+          "actor": "team-3-p5",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "dust2-3",
+          "weapon": "fire",
+          "damage": 12,
+          "hpBefore": 100,
+          "hpAfter": 88
+        },
+        {
+          "id": "r8-e73",
+          "at": 28,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.5986647612616721,
+            "aim": 0.125,
+            "role": -0.075,
+            "positioning": 0.044,
+            "tactical": 0.04,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.026000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-7-p2",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e74",
+          "at": 28,
+          "kind": "damage",
+          "causes": [
+            "r8-e73"
+          ],
+          "detail": {},
+          "actor": "team-7-p2",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "AWP",
+          "damage": 100,
+          "hpBefore": 100,
+          "hpAfter": 0
+        },
+        {
+          "id": "r8-e75",
+          "at": 28,
+          "kind": "kill",
+          "causes": [
+            "r8-e74"
+          ],
+          "detail": {},
+          "actor": "team-7-p2",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "AWP",
+          "alive": [
+            3,
+            5
+          ]
+        },
+        {
+          "id": "r8-e76",
+          "at": 28,
+          "kind": "info",
+          "causes": [
+            "r8-e75"
+          ],
+          "detail": {
+            "reason": "队友倒下后的补枪反应",
+            "readyAt": 29,
+            "reactionSeconds": 1
+          },
+          "actor": "team-3-p3",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "dust2-5"
+        },
+        {
+          "id": "r8-e77",
+          "at": 28,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.8494133049294345,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.022000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-7-p5",
+          "target": "team-3-p4",
+          "team": 1,
+          "zone": "dust2-8",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r8-e78",
+          "at": 28,
+          "kind": "damage",
+          "causes": [
+            "r8-e77"
+          ],
+          "detail": {},
+          "actor": "team-7-p5",
+          "target": "team-3-p4",
+          "team": 1,
+          "zone": "dust2-8",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 46,
+          "hpAfter": 19
+        },
+        {
+          "id": "r8-e79",
+          "at": 28,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.7445322229012697,
+            "aim": 0.1625,
+            "role": 0.14,
+            "positioning": 0.016,
+            "tactical": 0,
+            "synergy": 0.075,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 3,
+            "cover": 0.26249999999999996,
+            "movingPenalty": 0.12,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p5",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "dust2-3",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e80",
+          "at": 28,
+          "kind": "damage",
+          "causes": [
+            "r8-e79"
+          ],
+          "detail": {},
+          "actor": "team-3-p5",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "dust2-3",
+          "weapon": "AWP",
+          "damage": 88,
+          "hpBefore": 88,
+          "hpAfter": 0
+        },
+        {
+          "id": "r8-e81",
+          "at": 28,
+          "kind": "kill",
+          "causes": [
+            "r8-e80"
+          ],
+          "detail": {},
+          "actor": "team-3-p5",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "dust2-3",
+          "weapon": "AWP",
+          "alive": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": "r8-e82",
+          "at": 28,
+          "kind": "info",
+          "causes": [
+            "r8-e81"
+          ],
+          "detail": {
+            "reason": "队友倒下后的补枪反应",
+            "readyAt": 29,
+            "reactionSeconds": 1
+          },
+          "actor": "team-7-p5",
+          "target": "team-3-p5",
+          "team": 1,
+          "zone": "dust2-8"
+        },
+        {
+          "id": "r8-e83",
+          "at": 29,
+          "kind": "pickup",
+          "causes": [],
+          "detail": {
+            "item": "bomb"
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "dust2-5"
+        },
+        {
+          "id": "r8-e84",
+          "at": 29,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.8580501458254031,
+            "aim": 0.125,
+            "role": -0.075,
+            "positioning": 0.05,
+            "tactical": 0,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.06999999999999999,
+            "movingPenalty": 0,
+            "hit": false
+          },
+          "actor": "team-3-p4",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "dust2-6",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e85",
+          "at": 30,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60.55999999999999
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "dust2-6"
+        },
+        {
+          "id": "r8-e86",
+          "at": 30,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.30736638502803076,
+            "aim": 0.11875,
+            "role": -0.075,
+            "positioning": 0.042,
+            "tactical": 0,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.22749999999999998,
+            "movingPenalty": 0,
+            "hit": false
+          },
+          "actor": "team-3-p3",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "dust2-5",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e87",
+          "at": 31,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.5611647612616721,
+            "aim": 0.125,
+            "role": -0.075,
+            "positioning": 0.044,
+            "tactical": 0.04,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.026000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-7-p2",
+          "target": "team-3-p3",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r8-e88",
+          "at": 31,
+          "kind": "damage",
+          "causes": [
+            "r8-e87"
+          ],
+          "detail": {},
+          "actor": "team-7-p2",
+          "target": "team-3-p3",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "AWP",
+          "damage": 100,
+          "hpBefore": 100,
+          "hpAfter": 0
+        },
+        {
+          "id": "r8-e89",
+          "at": 31,
+          "kind": "kill",
+          "causes": [
+            "r8-e88"
+          ],
+          "detail": {},
+          "actor": "team-7-p2",
+          "target": "team-3-p3",
+          "team": 1,
+          "zone": "dust2-5",
+          "weapon": "AWP",
+          "alive": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "r8-e90",
+          "at": 37,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "regroup",
+            "status": "executing",
+            "reason": "结束集结等待，2 名队员已就位",
+            "version": "plans-1"
+          },
+          "team": 0
+        },
+        {
+          "id": "r8-e91",
+          "at": 37,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "execution",
+            "status": "executing",
+            "reason": "进攻队伍开始向目标包点推进",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "zone": "dust2-3"
+        },
+        {
+          "id": "r8-e92",
+          "at": 38,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-3",
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "dust2-8"
+        },
+        {
+          "id": "r8-e93",
+          "at": 38,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "dust2-3",
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "dust2-8"
+        },
+        {
+          "id": "r8-e94",
+          "at": 41,
+          "kind": "position",
+          "causes": [
+            "r8-e92"
+          ],
+          "detail": {
+            "from": "dust2-8",
+            "departAt": 38,
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "dust2-3"
+        },
+        {
+          "id": "r8-e95",
+          "at": 41,
+          "kind": "position",
+          "causes": [
+            "r8-e93"
+          ],
+          "detail": {
+            "from": "dust2-8",
+            "departAt": 38,
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "dust2-3"
+        },
+        {
+          "id": "r8-e96",
+          "at": 41,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 2
+          },
+          "actor": "team-3-p5",
+          "team": 1,
+          "zone": "dust2-3"
+        },
+        {
+          "id": "r8-e97",
+          "at": 41,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "close",
+            "chance": 0.24055014582540285,
+            "aim": 0.125,
+            "role": -0.075,
+            "positioning": 0.05,
+            "tactical": 0,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.22749999999999998,
+            "movingPenalty": 0.12,
+            "hit": false
+          },
+          "actor": "team-3-p4",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "dust2-5",
+          "weapon": "AWP"
+        }
+      ],
+      "lines": [
+        {
+          "text": "开局先抢图权，图权丢了中期就坐大牢！ Dust II，小蜜蜂进攻，黑豹防守。",
+          "briefText": "Dust II，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e11",
+            "r8-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r8-setup-0"
+          ],
+          "templateId": "RQ-1-14",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "这把 T 好像要玩中路！ 进攻方小蜜蜂的计划是争夺关键通道，另一边黑豹选择关键通道前压。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e11",
+            "r8-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r8-plan-1"
+          ],
+          "templateId": "RD-9-6",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "憨豆（apEX）的AWP第一枪没有命中教父（FalleN）。",
+          "briefText": "憨豆（apEX）的AWP第一枪没有命中教父（FalleN）。",
+          "stage": "接触交锋",
+          "at": 25,
+          "sourceType": "original",
+          "eventIds": [
+            "r8-e54"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r8-awp-first-miss-3"
+          ]
+        },
+        {
+          "text": "我直接一个爆头打出去！ 首杀出现在B 洞！教父（FalleN）用M4A1-S拿下憨豆（apEX），场上变成4打5。 对面这把大狙也掉了。",
+          "briefText": "首杀出现在B 洞！教父（FalleN）用M4A1-S爆头拿下憨豆（apEX），场上变成4打5。 对面这把大狙也掉了。",
+          "stage": "接触交锋",
+          "at": 25,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e57"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r8-opening-4",
+            "dust2-r8-rifle-v-awp-5"
+          ],
+          "templateId": "RF-12-7",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        },
+        {
+          "text": "这把枪摸回来，这把就还有机会！ 卡神（KSCERATO）在B 洞捡到AWP，这把枪留在手里了。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 26,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e61"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r8-pickup-7"
+          ],
+          "templateId": "RQ-5-14",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图三 Nuke"
+        },
+        {
+          "text": "狙击手就不能缺自信，好吧！ 卡神（KSCERATO）在对狙中击杀了火仔（flameZ）。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 28,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e75"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r8-awp-duel-9"
+          ],
+          "templateId": "RB-12-36",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "首杀拿不到，不耽误后续进攻！ 小蜜蜂这波动了，目标就是B 包点。",
+          "briefText": "小蜜蜂这波动了，目标就是B 包点。",
+          "stage": "局势变化",
+          "at": 37,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e91"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r8-phase-execution-13"
+          ],
+          "templateId": "RQ-2-8",
+          "supportTemplateId": "PH-039",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "第二时间大狙再空一枪！ ropz两次出手相隔12秒。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 41,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e84",
+            "r8-e91",
+            "r8-e97"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r8-awp-repeat-miss-14"
+          ],
+          "templateId": "RD-12-3",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs Aurora 图二 Mirage"
+        },
+        {
+          "text": "确实，不需要防守道具也能守得住啊！ 时间到了，进攻方没能下包。黑豹拿下这一分，比分来到5:3。",
+          "briefText": "时间到了，进攻方没能下包。黑豹拿下这一分，比分来到5:3。",
+          "stage": "回合结算",
+          "at": 115,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e112",
+            "r8-e106"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "dust2-r8-close-16"
+          ],
+          "templateId": "RW-6-9",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        }
+      ]
+    }
+  ]
+}

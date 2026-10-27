@@ -39,7 +39,11 @@
 用户授权使用的素材：
 
 - `quotes_draft.md`：364 条字幕整理语录，最高优先级，保留比赛出处和 AI 字幕整理说明。
+- `quotes_batch2.md`、`quotes_batch2_beats.json`：第二批用户材料原件（458 条及对应标签），使用独立 RB 编号；归一化去重排除 1 条、不确定字幕排除 9 条，导入 448 条。素材标签不直接控制播放，启用仍须满足 `realQuotes.ts` 的事实条件。第一批原文与编号保持不变。
+- `quotes_iem-rio-day3.md`、`quotes_iem-rio-finals.md`、`quotes_blast-wolfsburg.md` 及各自 `_beats.json`：用户提供的三个新精选包原件，分别有 198、134、140 条，使用 RD、RF、RW 编号。Day3 的 RD-7-3 含义不明，排除后新导入 471 条，未改写其余原文与出处。比赛名、日期和整理说明为用户材料自述，未扩大逐字听录认证；不能把导入条数当作实际触发条数。
 - `CS2_Commentary_Event_Lines_v1.jsonl` 与用户 ZIP 中的扩展 JSONL：各 180 条原创模板。
+- `commentary-lines-phase.jsonl`：本地补写的 84 条阶段原创表达，不是真人原句。运行库单独保留 `assistant-authored-original-template` 来源；原有 360 条文本与来源不变。阶段句随对应事实状态触发，作为真实语录的事实衔接时另记辅助模板 ID。
+- `commentary-lines-context.jsonl`：本地补写的 24 条短开头，分普通、近期连分、近期连丢分、接近比分四类，各六条。明确为原创，连分和比分只读当前地图的已结束回合前缀。此前 444 条完整记录保持不变，真实语录仍先选。
 - 两份研究 Markdown 保存在 `docs/COMMENTARY_MATERIAL_V1.md` 与 `docs/COMMENTARY_RESEARCH_EXPANDED.md`。
 
 用户授权本地项目使用，不等于项目自行宣告这些材料的通用再授权许可证。本地保留原文与归属，不伪造现场逐字录音认证。
@@ -55,3 +59,7 @@ Valve Supplemental Rulebook 本地文本仍写淘汰赛全 BO3，但 [Valve 2025
 ## 选手表现与职责证据
 
 已核对 HLTV 2025 Top 20 全部 20 位选手的年度文章，保留 59 条数值事实及各自年份、样本范围、原文链接；结合年度职责评审及 2026 年职责变动报道。来源、模型换算和缺口见 [选手资料核查](PLAYER_DATA_AUDIT.md)。年度排名不冒充实时排名，资料事实不等于十二项游戏能力。
+
+## 第九轮语料审读记录
+
+`docs/commentary-quote-review-iteration9.json` 与对应345条Markdown表是本项目的逐句分析，不是新增真人语录。它们保留原文与出处，另外记录事实条件/暂缓原因；不并入 `src/data/quotes.json`，不提高导入总数。本地既有绰号映射优先于猜测，新增接线仍需事件前缀证据，材料标签不授权播放。

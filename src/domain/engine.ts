@@ -164,6 +164,13 @@ export function resolveRound(series: Series, manual?: Partial<Record<TeamIndex, 
     for (const f of ms.fighters)
         emit('position', { actor: f.id, team: f.team, zone: f.zone, detail: { side: f.side } });
     let plantAt: number | null = null, plantStart: number | null = null, planter: string | null = null, bombZone: string | null = null, defuseStart: number | null = null, defuser: string | null = null;
+    let defuseStartEvent: RoundEvent | null = null;
+    const recordDefuseStop=()=>{
+        if(!planned||!defuseStartEvent)return;
+        const death=events.slice(events.indexOf(defuseStartEvent)+1).find(e=>e.kind==='kill'&&e.target===defuseStartEvent!.actor);
+        emit('defuseStop',{actor:defuseStartEvent.actor,team:defuseStartEvent.team,zone:defuseStartEvent.zone,causes:[defuseStartEvent.id,...(death?[death.id]:[])],detail:{}});
+        defuseStartEvent=null;
+    };
     let winner: TeamIndex | null = null, reason: RoundResult['reason'] = 'time';
     let observedAt: number | null = null, observedZone: string | null = null, rotated = false, executing = false;
     let lastReport = -20;
@@ -446,7 +453,9 @@ export function resolveRound(series: Series, manual?: Partial<Record<TeamIndex, 
             const movingPenalty = now - (arrivedAt.get(f.id) ?? 0) < 2 ? .12 : 0;
             const chance = clamp((gun.accuracy[ri] + aim + role + positioning + tactical + synergy + mapSkill + (lone ? (p.attributes.clutch - 70) / 350 : 0) + (form.get(f.id) ?? 0) + belief - cover - movingPenalty) * blindness * smoke, .035, .94);
             const duel = emit('duel', { actor: f.id, target: enemy.id, team: f.team, zone: enemy.zone, weapon: gun.id, detail: { range, chance, aim, role, positioning, tactical, synergy, mapSkill, blindness, smoke, allies, cover, movingPenalty } });
-            if (rng.next() < chance) {
+            const hitShot = rng.next() < chance;
+            if (planned) duel.detail.hit = hitShot;
+            if (hitShot) {
                 const headshot = rng.next() < .1 + p.attributes.aim / 650;
                 duel.detail.headshot = headshot;
                 const armored = enemy.equipment.armor > 0 && (!headshot || enemy.equipment.helmet);
@@ -502,21 +511,28 @@ export function resolveRound(series: Series, manual?: Partial<Record<TeamIndex, 
             if(defender && !clearRequired && ruleStates.get('clear:'+defender.id)?.status==='waiting')rule('clear','completed',ctTeam,'对手已经清空，可以开始拆包',defender.id,bombZone!,events.filter(e=>e.kind==='kill').slice(-1).map(e=>e.id));
             if (defender && !clearRequired && !ta.some(f => !transit.has(f.id) && visible(defender, f))) {
                 if (defuser !== defender.id) {
+                    recordDefuseStop();
                     defuser = defender.id;
                     defuseStart = now;
+                    if(planned&&now<plantAt+ECONOMY.bombSeconds){
+                        const plant=events.find(e=>e.kind==='plant')!;
+                        defuseStartEvent=emit('defuseStart',{actor:defender.id,team:ctTeam,zone:bombZone!,causes:[plant.id],detail:{kit:defender.equipment.kit,duration:defender.equipment.kit?5:10}});
+                    }
                 }
                 const duration = defender.equipment.kit ? 5 : 10;
                 if (defuseStart !== null && now - defuseStart >= duration && now < plantAt + 40) {
                     winner = ctTeam;
                     reason = 'defuse';
                     cashBook(defender.id).objectiveRewards += ECONOMY.defusePersonal;
-                    emit('defuse', { actor: defender.id, team: ctTeam, zone: bombZone!, detail: { startAt: defuseStart, duration, kit: defender.equipment.kit } });
+                    emit('defuse', { actor: defender.id, team: ctTeam, zone: bombZone!, ...(planned&&defuseStartEvent?{causes:[defuseStartEvent.id]}:{}), detail: { startAt: defuseStart, duration, kit: defender.equipment.kit } });
                     break;
                 }
             }
             else {
+                recordDefuseStop();
                 defuser = null;
                 defuseStart = null;
+                defuseStartEvent = null;
             }
             if (now >= plantAt + 40) {
                 winner = tTeam;

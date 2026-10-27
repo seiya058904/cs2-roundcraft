@@ -1,0 +1,4518 @@
+{
+  "generatedAt": "2026-10-27T05:30:07.328Z",
+  "simulationSourceSha256": "12588b97f825bb6149fabf336779d0753318f2c6db20fe86f43bed138b3859ec",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "scope": "150场普通AI和七图各40场AWP优先、快A/回防配置分开统计；真实事件，不强制原句。",
+  "counts": {
+    "ordinary": {
+      "matches": 150,
+      "rounds": 2875,
+      "eligible": 2,
+      "shown": 2,
+      "spoken": 2
+    },
+    "targeted": {
+      "matches": 280,
+      "rounds": 11299,
+      "eligible": 0,
+      "shown": 0,
+      "spoken": 0
+    }
+  },
+  "samples": [
+    {
+      "profile": "ordinary",
+      "seed": 96,
+      "map": "inferno",
+      "round": 12,
+      "beat": {
+        "id": "inferno-r12-awp-followup-16",
+        "at": 68,
+        "category": "awp-followup",
+        "priority": 85,
+        "eventIds": [
+          "r12-e129",
+          "r12-e140"
+        ],
+        "candidates": [],
+        "facts": {
+          "T": "小蜜蜂",
+          "CT": "黑豹",
+          "MAP": "Inferno",
+          "地图": "Inferno",
+          "攻方": "小蜜蜂",
+          "守方": "黑豹",
+          "获胜队": "黑豹",
+          "失败队": "小蜜蜂",
+          "比分": "7:4",
+          "prior2v2:team-3-p3": 1,
+          "prior2v2:team-3-p5": 1,
+          "prior2v2:team-7-p1": 1,
+          "prior2v2:team-7-p2": 1,
+          "bestOf": 1,
+          "pointLeader": -1,
+          "totalTimeouts": 3,
+          "name:team-3-p1": "apEX",
+          "name:team-3-p2": "flameZ",
+          "name:team-3-p3": "mezii",
+          "name:team-3-p4": "ropz",
+          "name:team-3-p5": "ZywOo",
+          "name:team-7-p1": "FalleN",
+          "name:team-7-p2": "KSCERATO",
+          "name:team-7-p3": "molodoy",
+          "name:team-7-p4": "YEKINDAR",
+          "name:team-7-p5": "yuurih",
+          "teamName:0": "Vitality",
+          "priorForceUpsets:0": 0,
+          "priorSemiUpsets:0": 0,
+          "maxDeficit:0": 2,
+          "teamName:1": "FURIA",
+          "priorForceUpsets:1": 0,
+          "priorSemiUpsets:1": 0,
+          "maxDeficit:1": 3,
+          "actorName": "molodoy",
+          "targetName": "flameZ",
+          "actorTeamName": "FURIA"
+        },
+        "fallback": "molodoy又用AWP击杀了火仔（flameZ），这次目标在警家。",
+        "emphasis": "tense"
+      },
+      "prefix": [
+        {
+          "id": "r12-e1",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 14950,
+            "spend": 0,
+            "cashAfter": 14950,
+            "armor": 90,
+            "helmet": true
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r12-e2",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 9850,
+            "spend": 700,
+            "cashAfter": 9150,
+            "armor": 95,
+            "helmet": true
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e3",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 11250,
+            "spend": 300,
+            "cashAfter": 10950,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e4",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 8150,
+            "spend": 4900,
+            "cashAfter": 3250,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r12-e5",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 13450,
+            "spend": 0,
+            "cashAfter": 13450,
+            "armor": 70,
+            "helmet": true
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r12-e6",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 5600,
+            "spend": 5600,
+            "cashAfter": 0,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e7",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 5450,
+            "spend": 5200,
+            "cashAfter": 250,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e8",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 5550,
+            "spend": 5400,
+            "cashAfter": 150,
+            "armor": 100,
+            "helmet": false
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r12-e9",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 5700,
+            "spend": 5600,
+            "cashAfter": 100,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e10",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 5500,
+            "spend": 5200,
+            "cashAfter": 300,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e11",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "fakeA",
+            "name": "佯攻 A 转 B",
+            "side": "T",
+            "target": "B"
+          },
+          "team": 0
+        },
+        {
+          "id": "r12-e12",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "stackB",
+            "name": "重兵防 B",
+            "side": "CT",
+            "target": "B"
+          },
+          "team": 1
+        },
+        {
+          "id": "r12-e13",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e14",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e15",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e16",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e17",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e18",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e19",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e20",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e21",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e22",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e23",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e24",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e25",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-10",
+            "travelSeconds": 6
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e26",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-11",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e27",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e28",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r12-e23"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e29",
+          "at": 5,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e30",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r12-e24"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e31",
+          "at": 5,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e32",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r12-e26"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-11"
+        },
+        {
+          "id": "r12-e33",
+          "at": 5,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-2",
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-11"
+        },
+        {
+          "id": "r12-e34",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r12-e27"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e35",
+          "at": 5,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e36",
+          "at": 7,
+          "kind": "position",
+          "causes": [
+            "r12-e25"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 1,
+            "travelSeconds": 6
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r12-e37",
+          "at": 7,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-4",
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r12-e38",
+          "at": 8,
+          "kind": "position",
+          "causes": [
+            "r12-e33"
+          ],
+          "detail": {
+            "from": "inferno-11",
+            "departAt": 5,
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-2"
+        },
+        {
+          "id": "r12-e39",
+          "at": 9,
+          "kind": "position",
+          "causes": [
+            "r12-e29"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 5,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e40",
+          "at": 9,
+          "kind": "position",
+          "causes": [
+            "r12-e31"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 5,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e41",
+          "at": 9,
+          "kind": "position",
+          "causes": [
+            "r12-e35"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 5,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e42",
+          "at": 10,
+          "kind": "position",
+          "causes": [
+            "r12-e37"
+          ],
+          "detail": {
+            "from": "inferno-10",
+            "departAt": 7,
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e43",
+          "at": 10,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-6",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e44",
+          "at": 15,
+          "kind": "position",
+          "causes": [
+            "r12-e43"
+          ],
+          "detail": {
+            "from": "inferno-4",
+            "departAt": 10,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r12-e45",
+          "at": 34,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-5",
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e46",
+          "at": 35,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e47",
+          "at": 35,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-5",
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e48",
+          "at": 36,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-5",
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e49",
+          "at": 37,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r12-e50",
+          "at": 42,
+          "kind": "position",
+          "causes": [
+            "r12-e46"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 35,
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r12-e51",
+          "at": 42,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-4",
+            "travelSeconds": 5
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r12-e52",
+          "at": 42,
+          "kind": "position",
+          "causes": [
+            "r12-e45"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 34,
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r12-e53",
+          "at": 42,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-3-p3",
+          "team": 1,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r12-e54",
+          "at": 42,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r12-e55",
+          "at": 43,
+          "kind": "position",
+          "causes": [
+            "r12-e47"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 35,
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r12-e56",
+          "at": 43,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r12-e57",
+          "at": 44,
+          "kind": "position",
+          "causes": [
+            "r12-e49"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 37,
+            "travelSeconds": 7
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r12-e58",
+          "at": 44,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-4",
+            "travelSeconds": 5
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r12-e59",
+          "at": 44,
+          "kind": "position",
+          "causes": [
+            "r12-e48"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 36,
+            "travelSeconds": 8
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r12-e60",
+          "at": 44,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r12-e61",
+          "at": 46,
+          "kind": "info",
+          "causes": [],
+          "detail": {
+            "delay": 4,
+            "observedAt": 42,
+            "informationAge": 4
+          },
+          "team": 1,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r12-e62",
+          "at": 47,
+          "kind": "position",
+          "causes": [
+            "r12-e51"
+          ],
+          "detail": {
+            "from": "inferno-6",
+            "departAt": 42,
+            "travelSeconds": 5
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e63",
+          "at": 47,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-4",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r12-e64",
+          "at": 47,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-3-p1",
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e65",
+          "at": 47,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-2"
+        },
+        {
+          "id": "r12-e66",
+          "at": 49,
+          "kind": "position",
+          "causes": [
+            "r12-e58"
+          ],
+          "detail": {
+            "from": "inferno-6",
+            "departAt": 44,
+            "travelSeconds": 5
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e67",
+          "at": 51,
+          "kind": "info",
+          "causes": [],
+          "detail": {
+            "delay": 4,
+            "observedAt": 47,
+            "informationAge": 4
+          },
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e68",
+          "at": 52,
+          "kind": "position",
+          "causes": [
+            "r12-e56"
+          ],
+          "detail": {
+            "from": "inferno-5",
+            "departAt": 43,
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e69",
+          "at": 52,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e70",
+          "at": 52,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e71",
+          "at": 52,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e72",
+          "at": 52,
+          "kind": "position",
+          "causes": [
+            "r12-e63"
+          ],
+          "detail": {
+            "from": "inferno-6",
+            "departAt": 47,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e73",
+          "at": 52,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-10",
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e74",
+          "at": 53,
+          "kind": "position",
+          "causes": [
+            "r12-e60"
+          ],
+          "detail": {
+            "from": "inferno-5",
+            "departAt": 44,
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e75",
+          "at": 53,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e76",
+          "at": 55,
+          "kind": "position",
+          "causes": [
+            "r12-e73"
+          ],
+          "detail": {
+            "from": "inferno-4",
+            "departAt": 52,
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r12-e77",
+          "at": 55,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-1",
+            "travelSeconds": 6
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r12-e78",
+          "at": 55,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "regroup",
+            "status": "executing",
+            "reason": "结束集结等待，3 名队员已就位",
+            "version": "plans-1"
+          },
+          "team": 0
+        },
+        {
+          "id": "r12-e79",
+          "at": 55,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "execution",
+            "status": "executing",
+            "reason": "进攻队伍开始向目标包点推进",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e80",
+          "at": 56,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-10",
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e81",
+          "at": 56,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-10",
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r12-e82",
+          "at": 56,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r12-e83",
+          "at": 56,
+          "kind": "position",
+          "causes": [
+            "r12-e69"
+          ],
+          "detail": {
+            "from": "inferno-3",
+            "departAt": 52,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e84",
+          "at": 56,
+          "kind": "position",
+          "causes": [
+            "r12-e70"
+          ],
+          "detail": {
+            "from": "inferno-3",
+            "departAt": 52,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e85",
+          "at": 56,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-1",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e86",
+          "at": 56,
+          "kind": "position",
+          "causes": [
+            "r12-e71"
+          ],
+          "detail": {
+            "from": "inferno-3",
+            "departAt": 52,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e87",
+          "at": 56,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-1",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e88",
+          "at": 56,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-3-p5",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e89",
+          "at": 56,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e90",
+          "at": 57,
+          "kind": "position",
+          "causes": [
+            "r12-e75"
+          ],
+          "detail": {
+            "from": "inferno-3",
+            "departAt": 53,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e91",
+          "at": 57,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e92",
+          "at": 58,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e93",
+          "at": 59,
+          "kind": "position",
+          "causes": [
+            "r12-e80"
+          ],
+          "detail": {
+            "from": "inferno-4",
+            "departAt": 56,
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r12-e94",
+          "at": 59,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-1",
+            "travelSeconds": 6
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r12-e95",
+          "at": 59,
+          "kind": "position",
+          "causes": [
+            "r12-e81"
+          ],
+          "detail": {
+            "from": "inferno-4",
+            "departAt": 56,
+            "travelSeconds": 3
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r12-e96",
+          "at": 59,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-1",
+            "travelSeconds": 6
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r12-e97",
+          "at": 60,
+          "kind": "position",
+          "causes": [
+            "r12-e85"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 56,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e98",
+          "at": 60,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-11",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e99",
+          "at": 60,
+          "kind": "position",
+          "causes": [
+            "r12-e87"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 56,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e100",
+          "at": 60,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-11",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e101",
+          "at": 60,
+          "kind": "info",
+          "causes": [],
+          "detail": {
+            "delay": 4,
+            "observedAt": 56,
+            "informationAge": 4
+          },
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e102",
+          "at": 61,
+          "kind": "position",
+          "causes": [
+            "r12-e91"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 57,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e103",
+          "at": 61,
+          "kind": "position",
+          "causes": [
+            "r12-e77"
+          ],
+          "detail": {
+            "from": "inferno-10",
+            "departAt": 55,
+            "travelSeconds": 6
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e104",
+          "at": 61,
+          "kind": "tactic",
+          "causes": [
+            "r12-e89"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p3",
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e105",
+          "at": 61,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-3-p5",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e106",
+          "at": 61,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.8056671499256836,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.006666666666666667,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.032,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-7-p5",
+          "target": "team-3-p5",
+          "team": 1,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e107",
+          "at": 61,
+          "kind": "damage",
+          "causes": [
+            "r12-e106"
+          ],
+          "detail": {},
+          "actor": "team-7-p5",
+          "target": "team-3-p5",
+          "team": 1,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r12-e108",
+          "at": 61,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.7630181054134636,
+            "aim": 0.1625,
+            "role": 0.14,
+            "positioning": 0.016,
+            "tactical": 0.05142857142857143,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.27999999999999997,
+            "movingPenalty": 0.12,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p5",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r12-e109",
+          "at": 61,
+          "kind": "damage",
+          "causes": [
+            "r12-e108"
+          ],
+          "detail": {},
+          "actor": "team-3-p5",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "AWP",
+          "damage": 100,
+          "hpBefore": 100,
+          "hpAfter": 0
+        },
+        {
+          "id": "r12-e110",
+          "at": 61,
+          "kind": "kill",
+          "causes": [
+            "r12-e109"
+          ],
+          "detail": {},
+          "actor": "team-3-p5",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "AWP",
+          "alive": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "r12-e111",
+          "at": 62,
+          "kind": "position",
+          "causes": [
+            "r12-e92"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 58,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e112",
+          "at": 62,
+          "kind": "pickup",
+          "causes": [
+            "r12-e110"
+          ],
+          "detail": {
+            "fromPlayer": "team-7-p5"
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e113",
+          "at": 64,
+          "kind": "position",
+          "causes": [
+            "r12-e98"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 60,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-11"
+        },
+        {
+          "id": "r12-e114",
+          "at": 64,
+          "kind": "tactic",
+          "causes": [
+            "r12-e65"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p1",
+          "zone": "inferno-2"
+        },
+        {
+          "id": "r12-e115",
+          "at": 64,
+          "kind": "position",
+          "causes": [
+            "r12-e100"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 60,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-11"
+        },
+        {
+          "id": "r12-e116",
+          "at": 64,
+          "kind": "tactic",
+          "causes": [
+            "r12-e65"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p2",
+          "zone": "inferno-2"
+        },
+        {
+          "id": "r12-e117",
+          "at": 65,
+          "kind": "position",
+          "causes": [
+            "r12-e94"
+          ],
+          "detail": {
+            "from": "inferno-10",
+            "departAt": 59,
+            "travelSeconds": 6
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e118",
+          "at": 65,
+          "kind": "tactic",
+          "causes": [
+            "r12-e89"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p1",
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e119",
+          "at": 65,
+          "kind": "position",
+          "causes": [
+            "r12-e96"
+          ],
+          "detail": {
+            "from": "inferno-10",
+            "departAt": 59,
+            "travelSeconds": 6
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e120",
+          "at": 65,
+          "kind": "tactic",
+          "causes": [
+            "r12-e89"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p2",
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r12-e121",
+          "at": 65,
+          "kind": "position",
+          "causes": [
+            "r12-e82"
+          ],
+          "detail": {
+            "from": "inferno-5",
+            "departAt": 56,
+            "travelSeconds": 9
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e122",
+          "at": 65,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "smoke",
+            "status": "completed",
+            "reason": "当前路线不再受烟雾阻挡，恢复推进",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p1",
+          "zone": "inferno-2"
+        },
+        {
+          "id": "r12-e123",
+          "at": 65,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-2",
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-11"
+        },
+        {
+          "id": "r12-e124",
+          "at": 65,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "smoke",
+            "status": "completed",
+            "reason": "当前路线不再受烟雾阻挡，恢复推进",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p2",
+          "zone": "inferno-2"
+        },
+        {
+          "id": "r12-e125",
+          "at": 65,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-2",
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-11"
+        },
+        {
+          "id": "r12-e126",
+          "at": 65,
+          "kind": "info",
+          "causes": [],
+          "detail": {
+            "delay": 4,
+            "observedAt": 61,
+            "informationAge": 4
+          },
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r12-e127",
+          "at": 65,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.94,
+            "aim": 0.125,
+            "role": 0.125,
+            "positioning": 0.016,
+            "tactical": 0.044444444444444446,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "inferno-1",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r12-e128",
+          "at": 65,
+          "kind": "damage",
+          "causes": [
+            "r12-e127"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "inferno-1",
+          "weapon": "AWP",
+          "damage": 100,
+          "hpBefore": 100,
+          "hpAfter": 0
+        },
+        {
+          "id": "r12-e129",
+          "at": 65,
+          "kind": "kill",
+          "causes": [
+            "r12-e128"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "inferno-1",
+          "weapon": "AWP",
+          "alive": [
+            4,
+            4
+          ]
+        },
+        {
+          "id": "r12-e130",
+          "at": 65,
+          "kind": "info",
+          "causes": [
+            "r12-e129"
+          ],
+          "detail": {
+            "reason": "队友倒下后的补枪反应",
+            "readyAt": 66,
+            "reactionSeconds": 1
+          },
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e131",
+          "at": 66,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-3-p2",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r12-e132",
+          "at": 66,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.775838740936246,
+            "aim": 0.13125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0,
+            "movingPenalty": 0.12,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e133",
+          "at": 66,
+          "kind": "damage",
+          "causes": [
+            "r12-e132"
+          ],
+          "detail": {},
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r12-e134",
+          "at": 68,
+          "kind": "position",
+          "causes": [
+            "r12-e123"
+          ],
+          "detail": {
+            "from": "inferno-11",
+            "departAt": 65,
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-2"
+        },
+        {
+          "id": "r12-e135",
+          "at": 68,
+          "kind": "position",
+          "causes": [
+            "r12-e125"
+          ],
+          "detail": {
+            "from": "inferno-11",
+            "departAt": 65,
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-2"
+        },
+        {
+          "id": "r12-e136",
+          "at": 68,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.895838740936246,
+            "aim": 0.13125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r12-e137",
+          "at": 68,
+          "kind": "damage",
+          "causes": [
+            "r12-e136"
+          ],
+          "detail": {},
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 73,
+          "hpAfter": 46
+        },
+        {
+          "id": "r12-e138",
+          "at": 68,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.94,
+            "aim": 0.125,
+            "role": 0.125,
+            "positioning": 0.016,
+            "tactical": 0.044444444444444446,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-7-p3",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "inferno-1",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r12-e139",
+          "at": 68,
+          "kind": "damage",
+          "causes": [
+            "r12-e138"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "inferno-1",
+          "weapon": "AWP",
+          "damage": 100,
+          "hpBefore": 100,
+          "hpAfter": 0
+        },
+        {
+          "id": "r12-e140",
+          "at": 68,
+          "kind": "kill",
+          "causes": [
+            "r12-e139"
+          ],
+          "detail": {},
+          "actor": "team-7-p3",
+          "target": "team-3-p2",
+          "team": 1,
+          "zone": "inferno-1",
+          "weapon": "AWP",
+          "alive": [
+            3,
+            4
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "text": "小蜜蜂连拿4分，黑豹这边得回应了。 当前比分7比4。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r12-e11",
+            "r12-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r12-setup-0"
+          ],
+          "templateId": "CX-018"
+        },
+        {
+          "text": "然后我打一个假打探点！ 小蜜蜂选择佯攻 A 转 B，黑豹这边是重兵防 B。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e11",
+            "r12-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r12-plan-1"
+          ],
+          "templateId": "RD-9-26",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "那个就是随时可以爆弹启动的状态哇！ 兄弟们，小蜜蜂动起来了，先往B 包点顶。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 55,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e79"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r12-phase-execution-5"
+          ],
+          "templateId": "RW-6-20",
+          "supportTemplateId": "PH-042",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图一 Overpass"
+        },
+        {
+          "text": "载物（ZywOo）在B 包点用AWP拿下yuurih，首杀之后是5打4。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 61,
+          "sourceType": "original",
+          "eventIds": [
+            "r12-e110"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r12-opening-7"
+          ]
+        },
+        {
+          "text": "教父（FalleN）不用再等这一步了，继续往前。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 65,
+          "sourceType": "template",
+          "eventIds": [
+            "r12-e122"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r12-phase-smoke-13"
+          ],
+          "templateId": "PH-009"
+        },
+        {
+          "text": "再狙一个，警家方向！ molodoy拿下火仔（flameZ），两次击杀相隔3秒。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 68,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e129",
+            "r12-e140"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r12-awp-followup-16"
+          ],
+          "templateId": "RF-12-6",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "卧槽，是不是太变态了！ molodoy拿到3个击杀，这3杀横跨17秒。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 82,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e129",
+            "r12-e140",
+            "r12-e150"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r12-multikill-31"
+          ],
+          "templateId": "RD-10-1",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图三 Overpass"
+        },
+        {
+          "text": "非常扎实的补枪啊！ 英一手（mezii）只隔1秒就补掉molodoy，场上是2打3。",
+          "briefText": "英一手（mezii）只隔1秒就补掉molodoy，场上是2打3。",
+          "stage": "接触交锋",
+          "at": 83,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e150",
+            "r12-e158",
+            "r12-e159"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r12-trade-22"
+          ],
+          "templateId": "RF-2-8",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "这波 T 直接丢闪送人强出，过路费得交！ 闪给到了！第一时间英一手（mezii）把卡神（KSCERATO）闪白，ropz第二时间用AWP完成击杀。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 102,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e179",
+            "r12-e178",
+            "r12-e186"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r12-flash-conversion-27"
+          ],
+          "templateId": "RQ-2-2",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图一 Mirage"
+        },
+        {
+          "text": "残局打得也不错，是吧！ 狂哥（YEKINDAR）在一打2中存活到回合结束。他坚持到了时间耗尽，进攻方没能完成下包。",
+          "briefText": "狂哥（YEKINDAR）在一打2中存活到回合结束。他坚持到了时间耗尽，进攻方没能完成下包。",
+          "stage": "接触交锋",
+          "at": 115,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e186",
+            "r12-e193",
+            "r12-e187"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r12-clutch-win-32"
+          ],
+          "templateId": "RB-3-34",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图三 Nuke"
+        },
+        {
+          "text": "反直觉，双狙输了一把！ 黑豹拿下这一分，比分来到7:5。",
+          "briefText": "黑豹拿下这一分，比分来到7:5。",
+          "stage": "回合结算",
+          "at": 115,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e193",
+            "r12-e187"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r12-close-33"
+          ],
+          "templateId": "RD-5-8",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "我们来看下半场！ 上半场结束，7:5。换边之后重新进入手枪局。",
+          "briefText": "上半场结束，7:5。换边之后重新进入手枪局。",
+          "stage": "回合结算",
+          "at": 115,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e193"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r12-half-time-34"
+          ],
+          "templateId": "RD-11-8",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        }
+      ]
+    },
+    {
+      "profile": "ordinary",
+      "seed": 96,
+      "map": "inferno",
+      "round": 18,
+      "beat": {
+        "id": "inferno-r18-awp-followup-17",
+        "at": 70,
+        "category": "awp-followup",
+        "priority": 85,
+        "eventIds": [
+          "r18-e109",
+          "r18-e116"
+        ],
+        "candidates": [],
+        "facts": {
+          "T": "黑豹",
+          "CT": "小蜜蜂",
+          "MAP": "Inferno",
+          "地图": "Inferno",
+          "攻方": "黑豹",
+          "守方": "小蜜蜂",
+          "获胜队": "小蜜蜂",
+          "失败队": "黑豹",
+          "比分": "11:6",
+          "prior2v2:team-3-p3": 1,
+          "prior2v2:team-3-p5": 1,
+          "prior2v2:team-7-p1": 1,
+          "prior2v2:team-7-p2": 1,
+          "prior2v2:team-3-p4": 1,
+          "prior2v2:team-7-p4": 1,
+          "bestOf": 1,
+          "pointLeader": -1,
+          "totalTimeouts": 6,
+          "name:team-3-p1": "apEX",
+          "name:team-3-p2": "flameZ",
+          "name:team-3-p3": "mezii",
+          "name:team-3-p4": "ropz",
+          "name:team-3-p5": "ZywOo",
+          "name:team-7-p1": "FalleN",
+          "name:team-7-p2": "KSCERATO",
+          "name:team-7-p3": "molodoy",
+          "name:team-7-p4": "YEKINDAR",
+          "name:team-7-p5": "yuurih",
+          "teamName:0": "Vitality",
+          "priorForceUpsets:0": 0,
+          "priorSemiUpsets:0": 0,
+          "maxDeficit:0": 2,
+          "teamName:1": "FURIA",
+          "priorForceUpsets:1": 0,
+          "priorSemiUpsets:1": 0,
+          "maxDeficit:1": 6,
+          "actorName": "ZywOo",
+          "targetName": "YEKINDAR",
+          "actorTeamName": "Vitality"
+        },
+        "fallback": "载物（ZywOo）又用AWP击杀了狂哥（YEKINDAR），这次目标在警家。",
+        "emphasis": "tense"
+      },
+      "prefix": [
+        {
+          "id": "r18-e1",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 10750,
+            "spend": 5600,
+            "cashAfter": 5150,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e2",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 10250,
+            "spend": 0,
+            "cashAfter": 10250,
+            "armor": 70,
+            "helmet": true
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e3",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 10750,
+            "spend": 5600,
+            "cashAfter": 5150,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e4",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 11500,
+            "spend": 5600,
+            "cashAfter": 5900,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e5",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 11350,
+            "spend": 7450,
+            "cashAfter": 3900,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r18-e6",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 4000,
+            "spend": 4000,
+            "cashAfter": 0,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "weapon": "AK-47"
+        },
+        {
+          "id": "r18-e7",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 4000,
+            "spend": 300,
+            "cashAfter": 3700,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e8",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 3700,
+            "spend": 1550,
+            "cashAfter": 2150,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "weapon": "AWP"
+        },
+        {
+          "id": "r18-e9",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 4600,
+            "spend": 0,
+            "cashAfter": 4600,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e10",
+          "at": 0,
+          "kind": "buy",
+          "causes": [],
+          "detail": {
+            "cashBefore": 4300,
+            "spend": 300,
+            "cashAfter": 4000,
+            "armor": 100,
+            "helmet": true
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e11",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "retake",
+            "name": "放点回防",
+            "side": "CT",
+            "target": "adaptive"
+          },
+          "team": 0
+        },
+        {
+          "id": "r18-e12",
+          "at": 0,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "id": "fakeA",
+            "name": "佯攻 A 转 B",
+            "side": "T",
+            "target": "B"
+          },
+          "team": 1
+        },
+        {
+          "id": "r18-e13",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e14",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e15",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e16",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e17",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "CT"
+          },
+          "actor": "team-3-p5",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e18",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e19",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e20",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e21",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e22",
+          "at": 0,
+          "kind": "position",
+          "causes": [],
+          "detail": {
+            "side": "T"
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e23",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e24",
+          "at": 1,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e25",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r18-e23"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e26",
+          "at": 5,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e27",
+          "at": 5,
+          "kind": "position",
+          "causes": [
+            "r18-e24"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 1,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e28",
+          "at": 5,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e29",
+          "at": 9,
+          "kind": "position",
+          "causes": [
+            "r18-e26"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 5,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e30",
+          "at": 9,
+          "kind": "position",
+          "causes": [
+            "r18-e28"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 5,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p4",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e31",
+          "at": 34,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e32",
+          "at": 35,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-6",
+            "travelSeconds": 7
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e33",
+          "at": 35,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-5",
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e34",
+          "at": 36,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-5",
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e35",
+          "at": 37,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-5",
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-0"
+        },
+        {
+          "id": "r18-e36",
+          "at": 41,
+          "kind": "position",
+          "causes": [
+            "r18-e31"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 34,
+            "travelSeconds": 7
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r18-e37",
+          "at": 41,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-4",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r18-e38",
+          "at": 42,
+          "kind": "position",
+          "causes": [
+            "r18-e32"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 35,
+            "travelSeconds": 7
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r18-e39",
+          "at": 42,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-4",
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-6"
+        },
+        {
+          "id": "r18-e40",
+          "at": 43,
+          "kind": "position",
+          "causes": [
+            "r18-e33"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 35,
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p5",
+          "team": 1,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r18-e41",
+          "at": 43,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r18-e42",
+          "at": 43,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.27832100663928167,
+            "aim": 0.03125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": -0.002857142857142857,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.27999999999999997,
+            "movingPenalty": 0.12,
+            "hit": false
+          },
+          "actor": "team-7-p5",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e43",
+          "at": 43,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.7313903427505257,
+            "aim": 0.05,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.0022222222222222222,
+            "synergy": 0.046,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.026000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p1",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-5",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e44",
+          "at": 43,
+          "kind": "damage",
+          "causes": [
+            "r18-e43"
+          ],
+          "detail": {},
+          "actor": "team-3-p1",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-5",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r18-e45",
+          "at": 43,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.8781550042667696,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.05,
+            "tactical": 0.04666666666666667,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.026000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p4",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-5",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e46",
+          "at": 43,
+          "kind": "damage",
+          "causes": [
+            "r18-e45"
+          ],
+          "detail": {},
+          "actor": "team-3-p4",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-5",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 73,
+          "hpAfter": 46
+        },
+        {
+          "id": "r18-e47",
+          "at": 44,
+          "kind": "position",
+          "causes": [
+            "r18-e34"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 36,
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r18-e48",
+          "at": 44,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 9
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r18-e49",
+          "at": 45,
+          "kind": "position",
+          "causes": [
+            "r18-e35"
+          ],
+          "detail": {
+            "from": "inferno-0",
+            "departAt": 37,
+            "travelSeconds": 8
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r18-e50",
+          "at": 45,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 9
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r18-e51",
+          "at": 45,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "long",
+            "chance": 0.8781550042667696,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.05,
+            "tactical": 0.04666666666666667,
+            "synergy": 0.0375,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 2,
+            "cover": 0.026000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": true
+          },
+          "actor": "team-3-p4",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-5",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e52",
+          "at": 45,
+          "kind": "damage",
+          "causes": [
+            "r18-e51"
+          ],
+          "detail": {},
+          "actor": "team-3-p4",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-5",
+          "weapon": "M4A1-S",
+          "damage": 46,
+          "hpBefore": 46,
+          "hpAfter": 0
+        },
+        {
+          "id": "r18-e53",
+          "at": 45,
+          "kind": "kill",
+          "causes": [
+            "r18-e52"
+          ],
+          "detail": {},
+          "actor": "team-3-p4",
+          "target": "team-7-p5",
+          "team": 0,
+          "zone": "inferno-5",
+          "weapon": "M4A1-S",
+          "alive": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "r18-e54",
+          "at": 46,
+          "kind": "position",
+          "causes": [
+            "r18-e37"
+          ],
+          "detail": {
+            "from": "inferno-6",
+            "departAt": 41,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r18-e55",
+          "at": 47,
+          "kind": "position",
+          "causes": [
+            "r18-e39"
+          ],
+          "detail": {
+            "from": "inferno-6",
+            "departAt": 42,
+            "travelSeconds": 5
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r18-e56",
+          "at": 48,
+          "kind": "info",
+          "causes": [],
+          "detail": {
+            "delay": 5,
+            "observedAt": 43,
+            "informationAge": 5
+          },
+          "team": 0,
+          "zone": "inferno-5"
+        },
+        {
+          "id": "r18-e57",
+          "at": 49,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e58",
+          "at": 49,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e59",
+          "at": 53,
+          "kind": "position",
+          "causes": [
+            "r18-e57"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 49,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e60",
+          "at": 53,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e61",
+          "at": 53,
+          "kind": "position",
+          "causes": [
+            "r18-e58"
+          ],
+          "detail": {
+            "from": "inferno-1",
+            "departAt": 49,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e62",
+          "at": 53,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e63",
+          "at": 53,
+          "kind": "position",
+          "causes": [
+            "r18-e48"
+          ],
+          "detail": {
+            "from": "inferno-5",
+            "departAt": 44,
+            "travelSeconds": 9
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e64",
+          "at": 53,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e65",
+          "at": 54,
+          "kind": "position",
+          "causes": [
+            "r18-e50"
+          ],
+          "detail": {
+            "from": "inferno-5",
+            "departAt": 45,
+            "travelSeconds": 9
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e66",
+          "at": 54,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-8",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e67",
+          "at": 55,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "regroup",
+            "status": "waiting",
+            "reason": "等待分路队友就位，当前 2/4",
+            "version": "plans-1"
+          },
+          "team": 1
+        },
+        {
+          "id": "r18-e68",
+          "at": 57,
+          "kind": "position",
+          "causes": [
+            "r18-e60"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 53,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p2",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e69",
+          "at": 57,
+          "kind": "position",
+          "causes": [
+            "r18-e62"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 53,
+            "travelSeconds": 4
+          },
+          "actor": "team-3-p3",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e70",
+          "at": 57,
+          "kind": "position",
+          "causes": [
+            "r18-e64"
+          ],
+          "detail": {
+            "from": "inferno-3",
+            "departAt": 53,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p2",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e71",
+          "at": 57,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e72",
+          "at": 57,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "regroup",
+            "status": "executing",
+            "reason": "结束集结等待，3 名队员已就位",
+            "version": "plans-1"
+          },
+          "team": 1
+        },
+        {
+          "id": "r18-e73",
+          "at": 57,
+          "kind": "tactic",
+          "causes": [],
+          "detail": {
+            "rule": "execution",
+            "status": "executing",
+            "reason": "进攻队伍开始向目标包点推进",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e74",
+          "at": 57,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.94,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.05,
+            "tactical": 0.04666666666666667,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 4,
+            "cover": 0.022000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p4",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e75",
+          "at": 57,
+          "kind": "damage",
+          "causes": [
+            "r18-e74"
+          ],
+          "detail": {},
+          "actor": "team-3-p4",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r18-e76",
+          "at": 57,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.4963475307692581,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.044,
+            "tactical": 0,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0.27999999999999997,
+            "movingPenalty": 0.12,
+            "hit": false
+          },
+          "actor": "team-7-p2",
+          "target": "team-3-p1",
+          "team": 1,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e77",
+          "at": 57,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.8593903427505256,
+            "aim": 0.05,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.0022222222222222222,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 4,
+            "cover": 0.022000000000000002,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p1",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e78",
+          "at": 57,
+          "kind": "damage",
+          "causes": [
+            "r18-e77"
+          ],
+          "detail": {},
+          "actor": "team-3-p1",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 73,
+          "hpAfter": 46
+        },
+        {
+          "id": "r18-e79",
+          "at": 57,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.9008748582981357,
+            "aim": 0.11875,
+            "role": 0,
+            "positioning": 0.042,
+            "tactical": 0.06444444444444444,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 4,
+            "cover": 0.022000000000000002,
+            "movingPenalty": 0.12,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p3",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e80",
+          "at": 57,
+          "kind": "damage",
+          "causes": [
+            "r18-e79"
+          ],
+          "detail": {},
+          "actor": "team-3-p3",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 46,
+          "hpAfter": 19
+        },
+        {
+          "id": "r18-e81",
+          "at": 57,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.8900980709211991,
+            "aim": 0.13125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.042222222222222223,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 4,
+            "cover": 0.022000000000000002,
+            "movingPenalty": 0.12,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p2",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e82",
+          "at": 57,
+          "kind": "damage",
+          "causes": [
+            "r18-e81"
+          ],
+          "detail": {},
+          "actor": "team-3-p2",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8",
+          "weapon": "M4A1-S",
+          "damage": 19,
+          "hpBefore": 19,
+          "hpAfter": 0
+        },
+        {
+          "id": "r18-e83",
+          "at": 57,
+          "kind": "kill",
+          "causes": [
+            "r18-e82"
+          ],
+          "detail": {},
+          "actor": "team-3-p2",
+          "target": "team-7-p2",
+          "team": 0,
+          "zone": "inferno-8",
+          "weapon": "M4A1-S",
+          "alive": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "r18-e84",
+          "at": 58,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-10",
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r18-e85",
+          "at": 58,
+          "kind": "position",
+          "causes": [
+            "r18-e66"
+          ],
+          "detail": {
+            "from": "inferno-3",
+            "departAt": 54,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e86",
+          "at": 58,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-10",
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-4"
+        },
+        {
+          "id": "r18-e87",
+          "at": 58,
+          "kind": "smoke",
+          "causes": [],
+          "detail": {
+            "item": "smoke",
+            "familiarity": 60
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e88",
+          "at": 59,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-3",
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e89",
+          "at": 61,
+          "kind": "position",
+          "causes": [
+            "r18-e84"
+          ],
+          "detail": {
+            "from": "inferno-4",
+            "departAt": 58,
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r18-e90",
+          "at": 61,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-1",
+            "travelSeconds": 6
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r18-e91",
+          "at": 61,
+          "kind": "position",
+          "causes": [
+            "r18-e86"
+          ],
+          "detail": {
+            "from": "inferno-4",
+            "departAt": 58,
+            "travelSeconds": 3
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r18-e92",
+          "at": 61,
+          "kind": "move",
+          "causes": [],
+          "detail": {
+            "to": "inferno-1",
+            "travelSeconds": 6
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-10"
+        },
+        {
+          "id": "r18-e93",
+          "at": 62,
+          "kind": "info",
+          "causes": [],
+          "detail": {
+            "delay": 5,
+            "observedAt": 57,
+            "informationAge": 5
+          },
+          "team": 0,
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e94",
+          "at": 63,
+          "kind": "tactic",
+          "causes": [
+            "r18-e87"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 0,
+          "actor": "team-3-p5",
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e95",
+          "at": 63,
+          "kind": "position",
+          "causes": [
+            "r18-e88"
+          ],
+          "detail": {
+            "from": "inferno-8",
+            "departAt": 59,
+            "travelSeconds": 4
+          },
+          "actor": "team-7-p3",
+          "team": 1,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e96",
+          "at": 63,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-3"
+        },
+        {
+          "id": "r18-e97",
+          "at": 63,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.94,
+            "aim": 0.125,
+            "role": 0,
+            "positioning": 0.05,
+            "tactical": 0.04666666666666667,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 4,
+            "cover": 0.032,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-3-p4",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e98",
+          "at": 63,
+          "kind": "damage",
+          "causes": [
+            "r18-e97"
+          ],
+          "detail": {},
+          "actor": "team-3-p4",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r18-e99",
+          "at": 63,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.94,
+            "aim": 0.13125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0.042222222222222223,
+            "synergy": 0.08,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 4,
+            "cover": 0.032,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": true
+          },
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e100",
+          "at": 63,
+          "kind": "damage",
+          "causes": [
+            "r18-e99"
+          ],
+          "detail": {},
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S",
+          "damage": 73,
+          "hpBefore": 73,
+          "hpAfter": 0
+        },
+        {
+          "id": "r18-e101",
+          "at": 63,
+          "kind": "kill",
+          "causes": [
+            "r18-e100"
+          ],
+          "detail": {},
+          "actor": "team-3-p2",
+          "target": "team-7-p3",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "M4A1-S",
+          "alive": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "r18-e102",
+          "at": 64,
+          "kind": "pickup",
+          "causes": [
+            "r18-e101"
+          ],
+          "detail": {
+            "fromPlayer": "team-7-p3"
+          },
+          "actor": "team-3-p1",
+          "team": 0,
+          "zone": "inferno-3",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r18-e103",
+          "at": 67,
+          "kind": "position",
+          "causes": [
+            "r18-e90"
+          ],
+          "detail": {
+            "from": "inferno-10",
+            "departAt": 61,
+            "travelSeconds": 6
+          },
+          "actor": "team-7-p1",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e104",
+          "at": 67,
+          "kind": "tactic",
+          "causes": [
+            "r18-e87"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p1",
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e105",
+          "at": 67,
+          "kind": "position",
+          "causes": [
+            "r18-e92"
+          ],
+          "detail": {
+            "from": "inferno-10",
+            "departAt": 61,
+            "travelSeconds": 6
+          },
+          "actor": "team-7-p4",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e106",
+          "at": 67,
+          "kind": "tactic",
+          "causes": [
+            "r18-e87"
+          ],
+          "detail": {
+            "rule": "smoke",
+            "status": "waiting",
+            "reason": "前方烟雾尚未散去，暂缓穿越",
+            "version": "plans-1"
+          },
+          "team": 1,
+          "actor": "team-7-p4",
+          "zone": "inferno-8"
+        },
+        {
+          "id": "r18-e107",
+          "at": 67,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.94,
+            "aim": 0.1625,
+            "role": 0.14,
+            "positioning": 0.016,
+            "tactical": 0.04888888888888889,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": true
+          },
+          "actor": "team-3-p5",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r18-e108",
+          "at": 67,
+          "kind": "damage",
+          "causes": [
+            "r18-e107"
+          ],
+          "detail": {},
+          "actor": "team-3-p5",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "AWP",
+          "damage": 100,
+          "hpBefore": 100,
+          "hpAfter": 0
+        },
+        {
+          "id": "r18-e109",
+          "at": 67,
+          "kind": "kill",
+          "causes": [
+            "r18-e108"
+          ],
+          "detail": {},
+          "actor": "team-3-p5",
+          "target": "team-7-p1",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "AWP",
+          "alive": [
+            5,
+            1
+          ]
+        },
+        {
+          "id": "r18-e110",
+          "at": 67,
+          "kind": "info",
+          "causes": [
+            "r18-e109"
+          ],
+          "detail": {
+            "reason": "队友倒下后的补枪反应",
+            "readyAt": 68,
+            "reactionSeconds": 1
+          },
+          "actor": "team-7-p4",
+          "target": "team-3-p5",
+          "team": 1,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e111",
+          "at": 68,
+          "kind": "sight",
+          "causes": [],
+          "detail": {
+            "observedBy": "CT",
+            "visibleAttackers": 1
+          },
+          "actor": "team-7-p4",
+          "team": 0,
+          "zone": "inferno-1"
+        },
+        {
+          "id": "r18-e112",
+          "at": 68,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.7540050493156212,
+            "aim": 0.1125,
+            "role": 0,
+            "positioning": 0.016,
+            "tactical": 0,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0,
+            "movingPenalty": 0.12,
+            "hit": true,
+            "headshot": false
+          },
+          "actor": "team-7-p4",
+          "target": "team-3-p5",
+          "team": 1,
+          "zone": "inferno-1",
+          "weapon": "M4A1-S"
+        },
+        {
+          "id": "r18-e113",
+          "at": 68,
+          "kind": "damage",
+          "causes": [
+            "r18-e112"
+          ],
+          "detail": {},
+          "actor": "team-7-p4",
+          "target": "team-3-p5",
+          "team": 1,
+          "zone": "inferno-1",
+          "weapon": "M4A1-S",
+          "damage": 27,
+          "hpBefore": 100,
+          "hpAfter": 73
+        },
+        {
+          "id": "r18-e114",
+          "at": 70,
+          "kind": "duel",
+          "causes": [],
+          "detail": {
+            "range": "mid",
+            "chance": 0.94,
+            "aim": 0.1625,
+            "role": 0.14,
+            "positioning": 0.016,
+            "tactical": 0.04888888888888889,
+            "synergy": 0,
+            "mapSkill": 0.008333333333333333,
+            "blindness": 1,
+            "smoke": 1,
+            "allies": 1,
+            "cover": 0,
+            "movingPenalty": 0,
+            "hit": true,
+            "headshot": true
+          },
+          "actor": "team-3-p5",
+          "target": "team-7-p4",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "AWP"
+        },
+        {
+          "id": "r18-e115",
+          "at": 70,
+          "kind": "damage",
+          "causes": [
+            "r18-e114"
+          ],
+          "detail": {},
+          "actor": "team-3-p5",
+          "target": "team-7-p4",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "AWP",
+          "damage": 100,
+          "hpBefore": 100,
+          "hpAfter": 0
+        },
+        {
+          "id": "r18-e116",
+          "at": 70,
+          "kind": "kill",
+          "causes": [
+            "r18-e115"
+          ],
+          "detail": {},
+          "actor": "team-3-p5",
+          "target": "team-7-p4",
+          "team": 0,
+          "zone": "inferno-1",
+          "weapon": "AWP",
+          "alive": [
+            5,
+            0
+          ]
+        }
+      ],
+      "lines": [
+        {
+          "text": "黑豹这边进攻，别急，先看第一拍。 当前比分11比6。",
+          "briefText": "Inferno，黑豹进攻，小蜜蜂防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r18-e11",
+            "r18-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r18-setup-0"
+          ],
+          "templateId": "CX-004"
+        },
+        {
+          "text": "然后我打一个假打探点！ 进攻方黑豹的计划是佯攻 A 转 B，另一边小蜜蜂选择放点回防。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r18-e11",
+            "r18-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r18-plan-1"
+          ],
+          "templateId": "RD-9-26",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "我直接一个爆头打出去！ ropz在香蕉道用M4A1-S拿下yuurih，首杀之后是4打5。",
+          "briefText": "ropz在香蕉道用M4A1-S爆头拿下yuurih，首杀之后是4打5。",
+          "stage": "接触交锋",
+          "at": 45,
+          "sourceType": "quote",
+          "eventIds": [
+            "r18-e53"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r18-opening-2"
+          ],
+          "templateId": "RF-12-7",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        },
+        {
+          "text": "小蜜蜂收到香蕉道的情报，火仔（flameZ）开始支援；这段轮转得实实在在跑4秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 49,
+          "sourceType": "original",
+          "eventIds": [
+            "r18-e56",
+            "r18-e57"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r18-rotation-4"
+          ]
+        },
+        {
+          "text": "那个就是随时可以爆弹启动的状态哇！ 兄弟们，黑豹动起来了，先往B 包点顶。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r18-e73"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r18-phase-execution-7"
+          ],
+          "templateId": "RW-6-20",
+          "supportTemplateId": "PH-042",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图一 Overpass"
+        },
+        {
+          "text": "我去，这给大狙头皮被秒了！ 火仔（flameZ）用M4A1-S拿下molodoy。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 63,
+          "sourceType": "quote",
+          "eventIds": [
+            "r18-e101"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r18-rifle-v-awp-12"
+          ],
+          "templateId": "RB-12-42",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图二 Inferno"
+        },
+        {
+          "text": "再狙一个，警家方向！ 载物（ZywOo）拿下狂哥（YEKINDAR），两次击杀相隔3秒。",
+          "briefText": "载物（ZywOo）又用AWP击杀了狂哥（YEKINDAR），这次目标在警家。",
+          "stage": "接触交锋",
+          "at": 70,
+          "sourceType": "quote",
+          "eventIds": [
+            "r18-e109",
+            "r18-e116"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r18-awp-followup-17"
+          ],
+          "templateId": "RF-12-6",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到12:6。",
+          "briefText": "对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到12:6。",
+          "stage": "回合结算",
+          "at": 70,
+          "sourceType": "original",
+          "eventIds": [
+            "r18-e125"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r18-close-20"
+          ]
+        },
+        {
+          "text": "先把赛点稳住，拿了赛点，再不济也是加时！ 小蜜蜂以12比6领先，再拿一分就能收图。",
+          "briefText": "小蜜蜂拿到常规时间赛点。",
+          "stage": "回合结算",
+          "at": 70,
+          "sourceType": "quote",
+          "eventIds": [
+            "r18-e125"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r18-match-point-21"
+          ],
+          "templateId": "RQ-7-34",
+          "quoteSource": "BLAST 鹿特丹公开赛总决赛 Vitality vs NAVI 图二 Anubis"
+        }
+      ]
+    }
+  ]
+}

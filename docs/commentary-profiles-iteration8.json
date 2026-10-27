@@ -1,0 +1,5022 @@
+{
+  "generatedAt": "2026-10-26T18:07:22.267Z",
+  "simulationSourceSha256": "1eda73d6d8eeeba04f3216d1dc395a7a2f174078ee1f6df38f8108e774c2ad8c",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "matches": 84,
+  "rounds": 1671,
+  "economies": {
+    "T/pistol": 168,
+    "CT/pistol": 168,
+    "T/full": 1304,
+    "CT/semi": 128,
+    "CT/full": 1354,
+    "T/force": 57,
+    "CT/force": 21,
+    "T/semi": 142
+  },
+  "generated": {
+    "setup": 1671,
+    "plan": 1671,
+    "opening": 1671,
+    "headshot": 1596,
+    "trade": 782,
+    "rotation": 1445,
+    "four-v-three": 377,
+    "regroup:executing": 1213,
+    "execution:executing": 1656,
+    "clutch-start": 1638,
+    "plant": 936,
+    "multikill": 717,
+    "close": 1671,
+    "economy": 217,
+    "smoke": 1396,
+    "smoke:waiting": 2738,
+    "flash": 1317,
+    "smoke:completed": 2453,
+    "five-v-three": 368,
+    "smoke-kill": 4079,
+    "flash-conversion": 874,
+    "save-decision": 194,
+    "grenade": 654,
+    "fire-damage": 228,
+    "pickup": 3173,
+    "extinguish": 172,
+    "disadvantage": 589,
+    "two-v-two": 152,
+    "rifle-v-awp": 528,
+    "clutch-loss": 155,
+    "awp-duel": 211,
+    "smoke:interrupted": 424,
+    "half-time": 84,
+    "match-point": 73,
+    "even": 207,
+    "match-point-saved": 73,
+    "map-win": 84,
+    "awp-opening": 160,
+    "overtime": 10,
+    "overtime-half": 13,
+    "defuse-timing": 44,
+    "overtime-match-point": 13,
+    "utility:waiting": 1103,
+    "utility:released": 680,
+    "utility:interrupted": 415,
+    "retake:executing": 688,
+    "clutch-win": 24,
+    "smoke:crossing": 1106,
+    "clear:waiting": 268,
+    "clear:interrupted": 249,
+    "clear:completed": 11,
+    "overtime-threat": 11,
+    "eco-win": 14,
+    "regroup:waiting": 16,
+    "overtime-repeat": 3
+  },
+  "emitted": {
+    "setup": 1671,
+    "plan": 1671,
+    "opening": 1511,
+    "trade": 782,
+    "execution:executing": 1308,
+    "clutch-start": 541,
+    "plant": 936,
+    "multikill": 701,
+    "close": 1671,
+    "economy": 213,
+    "flash-conversion": 874,
+    "save-decision": 194,
+    "grenade": 150,
+    "smoke-kill": 1026,
+    "extinguish": 165,
+    "clutch-loss": 153,
+    "smoke:completed": 242,
+    "rifle-v-awp": 189,
+    "headshot": 474,
+    "awp-duel": 71,
+    "half-time": 84,
+    "match-point": 73,
+    "rotation": 215,
+    "match-point-saved": 73,
+    "map-win": 84,
+    "four-v-three": 12,
+    "fire-damage": 72,
+    "awp-opening": 160,
+    "pickup": 72,
+    "disadvantage": 130,
+    "overtime": 10,
+    "overtime-half": 13,
+    "defuse-timing": 44,
+    "overtime-match-point": 13,
+    "smoke:interrupted": 147,
+    "utility:released": 42,
+    "retake:executing": 339,
+    "clutch-win": 24,
+    "utility:waiting": 3,
+    "clear:waiting": 165,
+    "clear:completed": 11,
+    "overtime-threat": 11,
+    "smoke:crossing": 4,
+    "eco-win": 14,
+    "regroup:waiting": 6,
+    "five-v-three": 4,
+    "two-v-two": 5,
+    "even": 2,
+    "overtime-repeat": 3,
+    "flash": 3,
+    "smoke:waiting": 12,
+    "smoke": 2
+  },
+  "rawLogs": 0,
+  "focusedEligibleIds": [
+    "RD-6-8",
+    "RF-6-5",
+    "RW-1-3"
+  ],
+  "focusedUsedIds": [
+    "RD-6-8",
+    "RW-1-3"
+  ],
+  "samples": [
+    {
+      "profile": "force-T",
+      "seed": 31,
+      "map": "dust2",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "full",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "semi",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "我说真的，就这种 212 的开局，好吧！ Dust II，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n其实我觉得五打四可以稳啊！ B 包点先交火！n1ssim用AK-47拿下Spinx，场上变成5打4。\n\n好，Legacy不再等了，B 包点这边开始进。\n\n太猛了，兄弟们！ n1ssim！这一回合已经拿到3杀，枪械与道具的贡献都得算上。\n\n第二时间这个人换人非常激烈！ 杜毛（dumau）只隔1秒就把枪补上，场上是4打1。\n\n包终于下去了，Legacy先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。\n\n我的建议是立即保枪好吧！ PR选择撤退保枪：人数劣势，保留长枪。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到3:0。",
+      "lines": [
+        {
+          "text": "我说真的，就这种 212 的开局，好吧！ Dust II，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Dust II，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-setup-0",
+            "dust2-r3-plan-1"
+          ],
+          "templateId": "RF-1-5",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ B 包点先交火！n1ssim用AK-47拿下Spinx，场上变成5打4。",
+          "briefText": "B 包点先交火！n1ssim用AK-47拿下Spinx，场上变成5打4。",
+          "stage": "接触交锋",
+          "at": 41,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e80"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-opening-5"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "好，Legacy不再等了，B 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e109"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-phase-execution-10"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "太猛了，兄弟们！ n1ssim！这一回合已经拿到3杀，枪械与道具的贡献都得算上。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 47,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e80",
+            "r3-e106",
+            "r3-e114"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "dust2-r3-multikill-17"
+          ],
+          "templateId": "RQ-10-10",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "第二时间这个人换人非常激烈！ 杜毛（dumau）只隔1秒就把枪补上，场上是4打1。",
+          "briefText": "杜毛（dumau）只隔1秒就把枪补上，场上是4打1。",
+          "stage": "接触交锋",
+          "at": 56,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e131",
+            "r3-e139",
+            "r3-e140"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-trade-14"
+          ],
+          "templateId": "RW-2-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "包终于下去了，Legacy先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 60,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e142"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-plant-15"
+          ],
+          "templateId": "C091"
+        },
+        {
+          "text": "我的建议是立即保枪好吧！ PR选择撤退保枪：人数劣势，保留长枪。",
+          "briefText": "PR选择撤退保枪：人数劣势，保留长枪。",
+          "stage": "局势变化",
+          "at": 61,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e143"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-save-decision-16"
+          ],
+          "templateId": "RB-6-30",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到3:0。",
+          "briefText": "时间走完，炸弹爆炸。Legacy拿下这一分，比分来到3:0。",
+          "stage": "回合结算",
+          "at": 100,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e152",
+            "r3-e146"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "dust2-r3-close-18"
+          ],
+          "templateId": "RQ-8-29",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图二 Anubis"
+        }
+      ]
+    },
+    {
+      "profile": "force-CT",
+      "seed": 31,
+      "map": "dust2",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "full",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "force",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "我说真的，就这种 212 的开局，好吧！ Dust II，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n其实我觉得五打四可以稳啊！ B 包点先交火！n1ssim用AK-47拿下Spinx，场上变成5打4。\n\n好，Legacy不再等了，B 包点这边开始进。\n\n太猛了，兄弟们！ n1ssim！这一回合已经拿到3杀，枪械与道具的贡献都得算上。\n\n第二时间这个人换人非常激烈！ 杜毛（dumau）只隔1秒就把枪补上，场上是4打1。\n\n包终于下去了，Legacy先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。\n\n我的建议是立即保枪好吧！ PR选择撤退保枪：人数劣势，保留长枪。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到3:0。",
+      "lines": [
+        {
+          "text": "我说真的，就这种 212 的开局，好吧！ Dust II，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Dust II，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-setup-0",
+            "dust2-r3-plan-1"
+          ],
+          "templateId": "RF-1-5",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ B 包点先交火！n1ssim用AK-47拿下Spinx，场上变成5打4。",
+          "briefText": "B 包点先交火！n1ssim用AK-47拿下Spinx，场上变成5打4。",
+          "stage": "接触交锋",
+          "at": 41,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e80"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-opening-5"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "好，Legacy不再等了，B 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e109"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-phase-execution-10"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "太猛了，兄弟们！ n1ssim！这一回合已经拿到3杀，枪械与道具的贡献都得算上。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 47,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e80",
+            "r3-e106",
+            "r3-e114"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "dust2-r3-multikill-17"
+          ],
+          "templateId": "RQ-10-10",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "第二时间这个人换人非常激烈！ 杜毛（dumau）只隔1秒就把枪补上，场上是4打1。",
+          "briefText": "杜毛（dumau）只隔1秒就把枪补上，场上是4打1。",
+          "stage": "接触交锋",
+          "at": 56,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e131",
+            "r3-e139",
+            "r3-e140"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-trade-14"
+          ],
+          "templateId": "RW-2-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "包终于下去了，Legacy先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 60,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e142"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-plant-15"
+          ],
+          "templateId": "C091"
+        },
+        {
+          "text": "我的建议是立即保枪好吧！ PR选择撤退保枪：人数劣势，保留长枪。",
+          "briefText": "PR选择撤退保枪：人数劣势，保留长枪。",
+          "stage": "局势变化",
+          "at": 61,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e143"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-save-decision-16"
+          ],
+          "templateId": "RB-6-30",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到3:0。",
+          "briefText": "时间走完，炸弹爆炸。Legacy拿下这一分，比分来到3:0。",
+          "stage": "回合结算",
+          "at": 100,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e152",
+            "r3-e146"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "dust2-r3-close-18"
+          ],
+          "templateId": "RQ-8-29",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图二 Anubis"
+        }
+      ]
+    },
+    {
+      "profile": "reserve",
+      "seed": 31,
+      "map": "dust2",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "full",
+          "tactic": "contact",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "retake",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "retake"
+        }
+      ],
+      "text": "双方重新起步，Legacy先来出题。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。\n\n啊，正常队伍五打四都可老实了啊！ B 洞先交火！xertioN用M4A1-S爆头拿下latto，场上变成4打5。\n\n第二时间这个人换人非常激烈！ n1ssim只隔4秒就把枪补上，场上是3打4。\n\n首杀拿不到，不耽误后续进攻！ 兄弟们，Legacy动起来了，先往B 包点顶。\n\n直接打残局了啊！ 只剩try，一打3。\n\n要不要再往包点里面灌道具！ 好，try这边可以交道具了，准备接这一波。\n\n第二时间的道具炸死一个！ 这颗雷直接带走try，道具伤害转成了击杀。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "双方重新起步，Legacy先来出题。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。",
+          "briefText": "Dust II，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-setup-0",
+            "dust2-r3-plan-1"
+          ],
+          "templateId": "CX-005"
+        },
+        {
+          "text": "啊，正常队伍五打四都可老实了啊！ B 洞先交火！xertioN用M4A1-S爆头拿下latto，场上变成4打5。",
+          "briefText": "B 洞先交火！xertioN用M4A1-S爆头拿下latto，场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 37,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e58"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-opening-9"
+          ],
+          "templateId": "RW-2-11",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "第二时间这个人换人非常激烈！ n1ssim只隔4秒就把枪补上，场上是3打4。",
+          "briefText": "n1ssim只隔4秒就把枪补上，场上是3打4。",
+          "stage": "接触交锋",
+          "at": 41,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e58",
+            "r3-e85",
+            "r3-e86"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-trade-13"
+          ],
+          "templateId": "RW-2-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "首杀拿不到，不耽误后续进攻！ 兄弟们，Legacy动起来了，先往B 包点顶。",
+          "briefText": "兄弟们，Legacy动起来了，先往B 包点顶。",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e117"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-phase-execution-17"
+          ],
+          "templateId": "RQ-2-8",
+          "supportTemplateId": "PH-042",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "直接打残局了啊！ 只剩try，一打3。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e120"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-clutch-start-18"
+          ],
+          "templateId": "RB-3-6",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "要不要再往包点里面灌道具！ 好，try这边可以交道具了，准备接这一波。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 53,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e131"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-phase-utility-20"
+          ],
+          "templateId": "RF-6-11",
+          "supportTemplateId": "PH-054",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        },
+        {
+          "text": "第二时间的道具炸死一个！ 这颗雷直接带走try，道具伤害转成了击杀。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 58,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e150",
+            "r3-e151",
+            "r3-e152"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-grenade-25"
+          ],
+          "templateId": "RD-6-6",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图三 Overpass"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 58,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e162"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "dust2-r3-close-32"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "dust2",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "fastB",
+          "smoke": "cross",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "clear"
+        }
+      ],
+      "text": "打这种局最怕的就是单走送枪。老鼠现在要做的反而是把阵型站稳。\n\n准备好了，Legacy要怎么打？看这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。\n\n然后他们就直接启动了这局战术。 来了，Legacy开始往B 包点压。\n\n其实我觉得五打四可以稳啊！ B 包点先交火！Spinx用M4A1-S拿下杜毛（dumau），场上变成4打5。 这一枪是隔着烟打的。\n\n这步枪太猛了，个人能力高强度在线！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n漏就死，漏就爆头！ Spinx爆头带走latto！\n\n第二时间这个人换人非常激烈！ try只隔4秒就把枪补上，场上是2打4。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "打这种局最怕的就是单走送枪。老鼠现在要做的反而是把阵型站稳。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-economy-2"
+          ],
+          "templateId": "WJ-125"
+        },
+        {
+          "text": "准备好了，Legacy要怎么打？看这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。",
+          "briefText": "Dust II，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-setup-0",
+            "dust2-r3-plan-1"
+          ],
+          "templateId": "CX-006"
+        },
+        {
+          "text": "然后他们就直接启动了这局战术。 来了，Legacy开始往B 包点压。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 20,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e59"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "dust2-r3-phase-execution-6"
+          ],
+          "templateId": "RB-9-24",
+          "supportTemplateId": "PH-038",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图二 Inferno"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ B 包点先交火！Spinx用M4A1-S拿下杜毛（dumau），场上变成4打5。 这一枪是隔着烟打的。",
+          "briefText": "B 包点先交火！Spinx用M4A1-S拿下杜毛（dumau），场上变成4打5。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 28,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e91",
+            "r3-e89",
+            "r3-e90"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-opening-13",
+            "dust2-r3-smoke-kill-14"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "这步枪太猛了，个人能力高强度在线！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 40,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e91",
+            "r3-e121",
+            "r3-e135"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "dust2-r3-multikill-27"
+          ],
+          "templateId": "RQ-10-14",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "漏就死，漏就爆头！ Spinx爆头带走latto！",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 40,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e133",
+            "r3-e134",
+            "r3-e135"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "dust2-r3-headshot-17"
+          ],
+          "templateId": "RQ-2-15",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图二 Dust2"
+        },
+        {
+          "text": "第二时间这个人换人非常激烈！ try只隔4秒就把枪补上，场上是2打4。",
+          "briefText": "try只隔4秒就把枪补上，场上是2打4。",
+          "stage": "接触交锋",
+          "at": 40,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e121",
+            "r3-e140",
+            "r3-e141"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "dust2-r3-trade-20"
+          ],
+          "templateId": "RW-2-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 56,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e182"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "dust2-r3-close-28"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "force-T",
+      "seed": 31,
+      "map": "mirage",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "force",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这把 T 是钢枪局啊！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n正常开局控图！ Mirage，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n好，Legacy不再等了，A 包点这边开始进。\n\n艺术哥（arT）这边能继续走了，先把A 包点这段路接上。\n\n其实我觉得五打四可以稳啊！ A 包点先交火！托神（torzsi）用M4A1-S拿下try，场上变成4打5。\n\n还能打出这个爆头，还是挺难得的！ PR爆头带走n1ssim！\n\n兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间Spinx把艺术哥（arT）闪白，xelex第二时间接上击杀。 这一枪是隔着烟打的。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这把 T 是钢枪局啊！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-economy-2"
+          ],
+          "templateId": "RW-1-3",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图一 Overpass"
+        },
+        {
+          "text": "正常开局控图！ Mirage，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Mirage，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-setup-0",
+            "mirage-r3-plan-1"
+          ],
+          "templateId": "RF-1-3",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "好，Legacy不再等了，A 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e83"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-phase-execution-9"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "艺术哥（arT）这边能继续走了，先把A 包点这段路接上。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 51,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e93"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-phase-smoke-15"
+          ],
+          "templateId": "PH-007"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ A 包点先交火！托神（torzsi）用M4A1-S拿下try，场上变成4打5。",
+          "briefText": "A 包点先交火！托神（torzsi）用M4A1-S拿下try，场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 55,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e120"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-opening-22"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "还能打出这个爆头，还是挺难得的！ PR爆头带走n1ssim！",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 55,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e122",
+            "r3-e123",
+            "r3-e124"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "mirage-r3-headshot-24"
+          ],
+          "templateId": "RD-4-10",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        },
+        {
+          "text": "兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间Spinx把艺术哥（arT）闪白，xelex第二时间接上击杀。 这一枪是隔着烟打的。",
+          "briefText": "闪给到了！第一时间Spinx把艺术哥（arT）闪白，xelex第二时间接上击杀。 这一枪是隔着烟打的。",
+          "stage": "道具配合",
+          "at": 61,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e145",
+            "r3-e144",
+            "r3-e158",
+            "r3-e156",
+            "r3-e157"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-flash-conversion-25",
+            "mirage-r3-smoke-kill-26"
+          ],
+          "templateId": "RD-6-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 71,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e213"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "mirage-r3-close-31"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "force-CT",
+      "seed": 31,
+      "map": "mirage",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n正常开局控图！ Mirage，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n好，Legacy不再等了，A 包点这边开始进。\n\n艺术哥（arT）这边能继续走了，先把A 包点这段路接上。\n\n其实我觉得五打四可以稳啊！ A 包点先交火！托神（torzsi）用M4A1-S拿下try，场上变成4打5。\n\n还能打出这个爆头，还是挺难得的！ PR爆头带走n1ssim！\n\n兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间Spinx把艺术哥（arT）闪白，xelex第二时间接上击杀。 这一枪是隔着烟打的。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "正常开局控图！ Mirage，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Mirage，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-setup-0",
+            "mirage-r3-plan-1"
+          ],
+          "templateId": "RF-1-3",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "好，Legacy不再等了，A 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e83"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-phase-execution-9"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "艺术哥（arT）这边能继续走了，先把A 包点这段路接上。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 51,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e93"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-phase-smoke-15"
+          ],
+          "templateId": "PH-007"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ A 包点先交火！托神（torzsi）用M4A1-S拿下try，场上变成4打5。",
+          "briefText": "A 包点先交火！托神（torzsi）用M4A1-S拿下try，场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 55,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e120"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-opening-22"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "还能打出这个爆头，还是挺难得的！ PR爆头带走n1ssim！",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 55,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e122",
+            "r3-e123",
+            "r3-e124"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "mirage-r3-headshot-24"
+          ],
+          "templateId": "RD-4-10",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        },
+        {
+          "text": "兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间Spinx把艺术哥（arT）闪白，xelex第二时间接上击杀。 这一枪是隔着烟打的。",
+          "briefText": "闪给到了！第一时间Spinx把艺术哥（arT）闪白，xelex第二时间接上击杀。 这一枪是隔着烟打的。",
+          "stage": "道具配合",
+          "at": 61,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e145",
+            "r3-e144",
+            "r3-e158",
+            "r3-e156",
+            "r3-e157"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-flash-conversion-25",
+            "mirage-r3-smoke-kill-26"
+          ],
+          "templateId": "RD-6-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 71,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e213"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "mirage-r3-close-31"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "reserve",
+      "seed": 31,
+      "map": "mirage",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "contact",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "retake",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "retake"
+        }
+      ],
+      "text": "好，下一分开始，先看Legacy怎么铺这一波。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。\n\nLegacy这波动了，目标就是A 包点。\n\n能拖吗？拖够时间就行！ 艺术哥（arT）把包下在A 包点，40 秒回防倒计时开始。\n\n但是回防路线已经被道具盖住了！ Spinx这边来不及等烟散了，要往前赶。\n\n看兄弟们的精妙配合！ A 包点先交火！PR用M4A1-S爆头拿下艺术哥（arT），场上变成4打5。 第一时间是托神（torzsi）这颗闪，先限制住了对手的视野。 这一枪是隔着烟打的。\n\n幸好这主要是第二个补枪的人！ xertioN只隔4秒就把枪补上，场上是3打3。\n\n这一分这个拆包的时间也是恰到好处啊。 拆掉了！托神（torzsi）有钳，这一拆用了5秒，离爆炸还剩3秒。\n\n老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "好，下一分开始，先看Legacy怎么铺这一波。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。",
+          "briefText": "Mirage，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-setup-0",
+            "mirage-r3-plan-1"
+          ],
+          "templateId": "CX-003"
+        },
+        {
+          "text": "Legacy这波动了，目标就是A 包点。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e42"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-phase-execution-3"
+          ],
+          "templateId": "PH-039"
+        },
+        {
+          "text": "能拖吗？拖够时间就行！ 艺术哥（arT）把包下在A 包点，40 秒回防倒计时开始。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e53"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-plant-4"
+          ],
+          "templateId": "RQ-8-16",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图三 Nuke"
+        },
+        {
+          "text": "但是回防路线已经被道具盖住了！ Spinx这边来不及等烟散了，要往前赶。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 69,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e101"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-phase-smoke-9"
+          ],
+          "templateId": "RD-9-22",
+          "supportTemplateId": "PH-022",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图三 Overpass"
+        },
+        {
+          "text": "看兄弟们的精妙配合！ A 包点先交火！PR用M4A1-S爆头拿下艺术哥（arT），场上变成4打5。 第一时间是托神（torzsi）这颗闪，先限制住了对手的视野。 这一枪是隔着烟打的。",
+          "briefText": "A 包点先交火！PR用M4A1-S爆头拿下艺术哥（arT），场上变成4打5。 第一时间是托神（torzsi）这颗闪，先限制住了对手的视野。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 69,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e121",
+            "r3-e111",
+            "r3-e110",
+            "r3-e119",
+            "r3-e120"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-opening-12",
+            "mirage-r3-flash-conversion-14",
+            "mirage-r3-smoke-kill-15"
+          ],
+          "templateId": "RQ-9-32",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "幸好这主要是第二个补枪的人！ xertioN只隔4秒就把枪补上，场上是3打3。",
+          "briefText": "xertioN只隔4秒就把枪补上，场上是3打3。",
+          "stage": "接触交锋",
+          "at": 87,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e202",
+            "r3-e220",
+            "r3-e221"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-trade-21"
+          ],
+          "templateId": "RB-2-42",
+          "quoteSource": "IEM 克拉科夫 Vitality vs Aurora"
+        },
+        {
+          "text": "这一分这个拆包的时间也是恰到好处啊。 拆掉了！托神（torzsi）有钳，这一拆用了5秒，离爆炸还剩3秒。",
+          "briefText": "拆掉了！托神（torzsi）有钳，这一拆用了5秒，离爆炸还剩3秒。",
+          "stage": "局势变化",
+          "at": 94,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e53",
+            "r3-e244"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "mirage-r3-defuse-timing-24"
+          ],
+          "templateId": "RB-8-4",
+          "quoteSource": "IEM 克拉科夫 Vitality vs FURIA 图二 Inferno"
+        },
+        {
+          "text": "老鼠拿下这一分，比分来到0:3。",
+          "briefText": "老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 94,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e248",
+            "r3-e244"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "mirage-r3-close-25"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "mirage",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "fastB",
+          "smoke": "cross",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "clear"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n双方重新起步，Legacy先来出题。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。\n\n还能打出这个爆头，还是挺难得的！ B 公寓先交火！Spinx用M4A1-S爆头拿下n1ssim，场上变成4打5。\n\n兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间xertioN把杜毛（dumau）闪白，Spinx第二时间接上击杀。\n\n哇，这压枪太舒适了，给个五杀呗！ Spinx！这一回合已经拿到4杀，关键枪线接连被他打穿。\n\n看兄弟们的精妙配合！ latto只隔3秒就把枪补上，场上是1打4。\n\n他这确实尽力了，好吧！ latto已经打掉1个，可这个一打5还是没能拿下来。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "双方重新起步，Legacy先来出题。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。",
+          "briefText": "Mirage，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-setup-0",
+            "mirage-r3-plan-1"
+          ],
+          "templateId": "CX-005"
+        },
+        {
+          "text": "还能打出这个爆头，还是挺难得的！ B 公寓先交火！Spinx用M4A1-S爆头拿下n1ssim，场上变成4打5。",
+          "briefText": "B 公寓先交火！Spinx用M4A1-S爆头拿下n1ssim，场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 12,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e54"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-opening-3"
+          ],
+          "templateId": "RD-4-10",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        },
+        {
+          "text": "兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间xertioN把杜毛（dumau）闪白，Spinx第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间xertioN把杜毛（dumau）闪白，Spinx第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 39,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e125",
+            "r3-e124",
+            "r3-e131"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-flash-conversion-17"
+          ],
+          "templateId": "RD-6-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        },
+        {
+          "text": "哇，这压枪太舒适了，给个五杀呗！ Spinx！这一回合已经拿到4杀，关键枪线接连被他打穿。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 45,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e54",
+            "r3-e106",
+            "r3-e131",
+            "r3-e149"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "mirage-r3-multikill-25"
+          ],
+          "templateId": "RQ-4-33",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图二 Dust2"
+        },
+        {
+          "text": "看兄弟们的精妙配合！ latto只隔3秒就把枪补上，场上是1打4。",
+          "briefText": "latto只隔3秒就把枪补上，场上是1打4。",
+          "stage": "接触交锋",
+          "at": 48,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e149",
+            "r3-e156",
+            "r3-e157"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "mirage-r3-trade-22"
+          ],
+          "templateId": "RQ-9-32",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "他这确实尽力了，好吧！ latto已经打掉1个，可这个一打5还是没能拿下来。",
+          "briefText": "",
+          "stage": "回合结算",
+          "at": 49,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e149",
+            "r3-e156",
+            "r3-e164",
+            "r3-e172"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "mirage-r3-clutch-loss-26"
+          ],
+          "templateId": "RD-3-11",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 49,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e172"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "mirage-r3-close-27"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "force-T",
+      "seed": 31,
+      "map": "inferno",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "full",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "semi",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "现在T这边两个人确实有道具可以抱一套！ Legacy装备占优，老鼠装备明显落后，得靠近点和补枪争取交换。\n\n正常开局控图！ Inferno，Legacy进攻，老鼠防守。\n\n就是跟长枪局一样思路慢慢控图了。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n其实我觉得五打四可以稳啊！ 香蕉道先交火！xertioN用Five-SeveN爆头拿下艺术哥（arT），场上变成4打5。 第一时间是Spinx这颗闪，先限制住了对手的视野。\n\n兄弟们，Legacy动起来了，先往B 包点顶。\n\n太猛了，兄弟们！ n1ssim！这一回合已经拿到4杀，关键枪线接连被他打穿。\n\n包终于下去了，Legacy先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。\n\n但 CT 都已经想好要保枪了！ PR选择撤退保枪：人数劣势，保留长枪。\n\n哦哦这个我我我跟他拖时间了啊。 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+      "lines": [
+        {
+          "text": "现在T这边两个人确实有道具可以抱一套！ Legacy装备占优，老鼠装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-economy-2"
+          ],
+          "templateId": "RB-6-44",
+          "quoteSource": "EPL 第 23 赛季 Astralis vs FUT 图三 Overpass"
+        },
+        {
+          "text": "正常开局控图！ Inferno，Legacy进攻，老鼠防守。",
+          "briefText": "Inferno，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-setup-0"
+          ],
+          "templateId": "RF-1-3",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "就是跟长枪局一样思路慢慢控图了。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-plan-1"
+          ],
+          "templateId": "RB-9-16",
+          "quoteSource": "BLAST 鹿特丹公开赛总决赛 Vitality vs NAVI 图二 Anubis"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ 香蕉道先交火！xertioN用Five-SeveN爆头拿下艺术哥（arT），场上变成4打5。 第一时间是Spinx这颗闪，先限制住了对手的视野。",
+          "briefText": "香蕉道先交火！xertioN用Five-SeveN爆头拿下艺术哥（arT），场上变成4打5。 第一时间是Spinx这颗闪，先限制住了对手的视野。",
+          "stage": "接触交锋",
+          "at": 36,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e67",
+            "r3-e63",
+            "r3-e62"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r3-opening-4",
+            "inferno-r3-flash-conversion-6"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "兄弟们，Legacy动起来了，先往B 包点顶。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e99"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-phase-execution-10"
+          ],
+          "templateId": "PH-042"
+        },
+        {
+          "text": "太猛了，兄弟们！ n1ssim！这一回合已经拿到4杀，关键枪线接连被他打穿。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 68,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e125",
+            "r3-e152",
+            "r3-e159",
+            "r3-e172"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r3-multikill-28"
+          ],
+          "templateId": "RQ-10-10",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "包终于下去了，Legacy先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。",
+          "briefText": "杜毛（dumau）把包下在B 包点，40 秒回防倒计时开始。",
+          "stage": "局势变化",
+          "at": 72,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e173"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r3-plant-25"
+          ],
+          "templateId": "C091"
+        },
+        {
+          "text": "但 CT 都已经想好要保枪了！ PR选择撤退保枪：人数劣势，保留长枪。",
+          "briefText": "PR选择撤退保枪：人数劣势，保留长枪。",
+          "stage": "局势变化",
+          "at": 73,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e174"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-save-decision-26"
+          ],
+          "templateId": "RD-5-5",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "哦哦这个我我我跟他拖时间了啊。 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+          "briefText": "时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+          "stage": "回合结算",
+          "at": 112,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e186",
+            "r3-e179"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r3-close-29"
+          ],
+          "templateId": "RB-8-9",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        }
+      ]
+    },
+    {
+      "profile": "force-CT",
+      "seed": 31,
+      "map": "inferno",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "full",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "force",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ Legacy装备占优，老鼠装备明显落后，得靠近点和补枪争取交换。\n\n正常开局控图！ Inferno，Legacy进攻，老鼠防守。\n\n就是跟长枪局一样思路慢慢控图了。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n其实我觉得五打四可以稳啊！ 香蕉道先交火！xertioN用Five-SeveN爆头拿下艺术哥（arT），场上变成4打5。 第一时间是Spinx这颗闪，先限制住了对手的视野。\n\n兄弟们，Legacy动起来了，先往B 包点顶。\n\n太猛了，兄弟们！ n1ssim！这一回合已经拿到4杀，关键枪线接连被他打穿。\n\n包终于下去了，Legacy先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。\n\n但 CT 都已经想好要保枪了！ PR选择撤退保枪：人数劣势，保留长枪。\n\n哦哦这个我我我跟他拖时间了啊。 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ Legacy装备占优，老鼠装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "正常开局控图！ Inferno，Legacy进攻，老鼠防守。",
+          "briefText": "Inferno，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-setup-0"
+          ],
+          "templateId": "RF-1-3",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "就是跟长枪局一样思路慢慢控图了。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-plan-1"
+          ],
+          "templateId": "RB-9-16",
+          "quoteSource": "BLAST 鹿特丹公开赛总决赛 Vitality vs NAVI 图二 Anubis"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ 香蕉道先交火！xertioN用Five-SeveN爆头拿下艺术哥（arT），场上变成4打5。 第一时间是Spinx这颗闪，先限制住了对手的视野。",
+          "briefText": "香蕉道先交火！xertioN用Five-SeveN爆头拿下艺术哥（arT），场上变成4打5。 第一时间是Spinx这颗闪，先限制住了对手的视野。",
+          "stage": "接触交锋",
+          "at": 36,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e67",
+            "r3-e63",
+            "r3-e62"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r3-opening-4",
+            "inferno-r3-flash-conversion-6"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "兄弟们，Legacy动起来了，先往B 包点顶。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e99"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-phase-execution-10"
+          ],
+          "templateId": "PH-042"
+        },
+        {
+          "text": "太猛了，兄弟们！ n1ssim！这一回合已经拿到4杀，关键枪线接连被他打穿。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 68,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e125",
+            "r3-e152",
+            "r3-e159",
+            "r3-e172"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r3-multikill-28"
+          ],
+          "templateId": "RQ-10-10",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "包终于下去了，Legacy先别急着拉出去杀人，交叉站位搭起来，这分才算真正到手一半。 包一落地，比赛的任务就变了：进攻方可以围绕时间组织，防守方必须在计时结束前完成拆除。",
+          "briefText": "杜毛（dumau）把包下在B 包点，40 秒回防倒计时开始。",
+          "stage": "局势变化",
+          "at": 72,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e173"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r3-plant-25"
+          ],
+          "templateId": "C091"
+        },
+        {
+          "text": "但 CT 都已经想好要保枪了！ PR选择撤退保枪：人数劣势，保留长枪。",
+          "briefText": "PR选择撤退保枪：人数劣势，保留长枪。",
+          "stage": "局势变化",
+          "at": 73,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e174"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-save-decision-26"
+          ],
+          "templateId": "RD-5-5",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "哦哦这个我我我跟他拖时间了啊。 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+          "briefText": "时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+          "stage": "回合结算",
+          "at": 112,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e186",
+            "r3-e179"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r3-close-29"
+          ],
+          "templateId": "RB-8-9",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        }
+      ]
+    },
+    {
+      "profile": "reserve",
+      "seed": 31,
+      "map": "inferno",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "contact",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "retake",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "retake"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n双方重新起步，Legacy先来出题。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。\n\n啊，正常队伍五打四都可老实了啊！ 香蕉道先交火！Spinx用M4A1-S拿下杜毛（dumau），场上变成4打5。\n\n老鼠收到香蕉道的情报，PR开始支援；这段轮转得实实在在跑4秒。 这次轮转有情报依据，接下来就看赶到现场的时间。\n\n好，Legacy不再等了，B 包点这边开始进。\n\nn1ssim的道具可以用起来了，刚才的等待结束。\n\nPR隔着烟带走了对手，这一枪穿得漂亮！\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "双方重新起步，Legacy先来出题。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。",
+          "briefText": "Inferno，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-setup-0",
+            "inferno-r3-plan-1"
+          ],
+          "templateId": "CX-005"
+        },
+        {
+          "text": "啊，正常队伍五打四都可老实了啊！ 香蕉道先交火！Spinx用M4A1-S拿下杜毛（dumau），场上变成4打5。",
+          "briefText": "香蕉道先交火！Spinx用M4A1-S拿下杜毛（dumau），场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 38,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e63"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r3-opening-11"
+          ],
+          "templateId": "RW-2-11",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "老鼠收到香蕉道的情报，PR开始支援；这段轮转得实实在在跑4秒。 这次轮转有情报依据，接下来就看赶到现场的时间。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 39,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e60",
+            "r3-e70"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-rotation-10"
+          ]
+        },
+        {
+          "text": "好，Legacy不再等了，B 包点这边开始进。",
+          "briefText": "好，Legacy不再等了，B 包点这边开始进。",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e114"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-phase-execution-16"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "n1ssim的道具可以用起来了，刚才的等待结束。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 57,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e126"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-phase-utility-17"
+          ],
+          "templateId": "PH-053"
+        },
+        {
+          "text": "PR隔着烟带走了对手，这一枪穿得漂亮！",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 57,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e139",
+            "r3-e140",
+            "r3-e141"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r3-smoke-kill-24"
+          ]
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 59,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e165"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r3-close-30"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "inferno",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "fastB",
+          "smoke": "cross",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "clear"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n好，接着看这一分，Legacy来打进攻。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。\n\n这边 T 直接 B 爆弹！ Legacy启动了，往B 包点走！\n\nB 包点这条路能接着走，托神（torzsi）开始动。\n\n啊，正常队伍五打四都可老实了啊！ B 包点先交火！xertioN用M4A1-S爆头拿下latto，场上变成4打5。 这一枪是隔着烟打的。\n\n第二时间的道具炸死一个！ 这颗雷直接带走杜毛（dumau），道具伤害转成了击杀。\n\n这个残局只能说也挺看运气的吧。 只剩n1ssim，一打5。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "好，接着看这一分，Legacy来打进攻。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。",
+          "briefText": "Inferno，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-setup-0",
+            "inferno-r3-plan-1"
+          ],
+          "templateId": "CX-001"
+        },
+        {
+          "text": "这边 T 直接 B 爆弹！ Legacy启动了，往B 包点走！",
+          "briefText": "Legacy启动了，往B 包点走！",
+          "stage": "局势变化",
+          "at": 20,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e65"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-phase-execution-5"
+          ],
+          "templateId": "RW-6-3",
+          "supportTemplateId": "PH-037",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "B 包点这条路能接着走，托神（torzsi）开始动。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 28,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e80"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-phase-smoke-12"
+          ],
+          "templateId": "PH-011"
+        },
+        {
+          "text": "啊，正常队伍五打四都可老实了啊！ B 包点先交火！xertioN用M4A1-S爆头拿下latto，场上变成4打5。 这一枪是隔着烟打的。",
+          "briefText": "B 包点先交火！xertioN用M4A1-S爆头拿下latto，场上变成4打5。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 32,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e103",
+            "r3-e101",
+            "r3-e102"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r3-opening-13",
+            "inferno-r3-smoke-kill-15"
+          ],
+          "templateId": "RW-2-11",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "第二时间的道具炸死一个！ 这颗雷直接带走杜毛（dumau），道具伤害转成了击杀。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 40,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e144",
+            "r3-e145",
+            "r3-e146"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r3-grenade-19"
+          ],
+          "templateId": "RD-6-6",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图三 Overpass"
+        },
+        {
+          "text": "这个残局只能说也挺看运气的吧。 只剩n1ssim，一打5。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 45,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e172"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r3-clutch-start-20"
+          ],
+          "templateId": "RB-3-16",
+          "quoteSource": "IEM 克拉科夫 Vitality vs FURIA 图一 Mirage"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 48,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e188"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r3-close-22"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "force-T",
+      "seed": 31,
+      "map": "nuke",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "force",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这把 T 是钢枪局啊！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n开局先默认，别急着送！ Nuke，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n兄弟们，Legacy动起来了，先往B 下层顶。\n\n啊，正常队伍五打四都可老实了啊！ 秘密通道先交火！try用MAC-10拿下xelex，场上变成5打4。 这一枪是隔着烟打的。\n\n艺术哥（arT）不用再等这一步了，继续往前。\n\n看兄弟们的精妙配合！ 闪给到了！第一时间Spinx把try闪白，托神（torzsi）第二时间接上击杀。\n\n突然来了个包点三杀，好吧！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这把 T 是钢枪局啊！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-economy-2"
+          ],
+          "templateId": "RW-1-3",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图一 Overpass"
+        },
+        {
+          "text": "开局先默认，别急着送！ Nuke，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Nuke，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-setup-0",
+            "nuke-r3-plan-1"
+          ],
+          "templateId": "RQ-1-12",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "兄弟们，Legacy动起来了，先往B 下层顶。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e67"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-phase-execution-7"
+          ],
+          "templateId": "PH-042"
+        },
+        {
+          "text": "啊，正常队伍五打四都可老实了啊！ 秘密通道先交火！try用MAC-10拿下xelex，场上变成5打4。 这一枪是隔着烟打的。",
+          "briefText": "秘密通道先交火！try用MAC-10拿下xelex，场上变成5打4。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 52,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e91",
+            "r3-e89",
+            "r3-e90"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r3-opening-14",
+            "nuke-r3-smoke-kill-15"
+          ],
+          "templateId": "RW-2-11",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "艺术哥（arT）不用再等这一步了，继续往前。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 56,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e92"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-phase-smoke-16"
+          ],
+          "templateId": "PH-009"
+        },
+        {
+          "text": "看兄弟们的精妙配合！ 闪给到了！第一时间Spinx把try闪白，托神（torzsi）第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间Spinx把try闪白，托神（torzsi）第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 76,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e170",
+            "r3-e169",
+            "r3-e176"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r3-flash-conversion-27"
+          ],
+          "templateId": "RQ-9-32",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "突然来了个包点三杀，好吧！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 80,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e130",
+            "r3-e151",
+            "r3-e195"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "nuke-r3-multikill-32"
+          ],
+          "templateId": "RD-4-3",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs G2 图二 Dust2"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 80,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e201"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "nuke-r3-close-33"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "force-CT",
+      "seed": 31,
+      "map": "nuke",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n开局先默认，别急着送！ Nuke，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n兄弟们，Legacy动起来了，先往B 下层顶。\n\n啊，正常队伍五打四都可老实了啊！ 秘密通道先交火！try用MAC-10拿下xelex，场上变成5打4。 这一枪是隔着烟打的。\n\n艺术哥（arT）不用再等这一步了，继续往前。\n\n看兄弟们的精妙配合！ 闪给到了！第一时间Spinx把try闪白，托神（torzsi）第二时间接上击杀。\n\n突然来了个包点三杀，好吧！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "开局先默认，别急着送！ Nuke，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Nuke，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-setup-0",
+            "nuke-r3-plan-1"
+          ],
+          "templateId": "RQ-1-12",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "兄弟们，Legacy动起来了，先往B 下层顶。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e67"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-phase-execution-7"
+          ],
+          "templateId": "PH-042"
+        },
+        {
+          "text": "啊，正常队伍五打四都可老实了啊！ 秘密通道先交火！try用MAC-10拿下xelex，场上变成5打4。 这一枪是隔着烟打的。",
+          "briefText": "秘密通道先交火！try用MAC-10拿下xelex，场上变成5打4。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 52,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e91",
+            "r3-e89",
+            "r3-e90"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r3-opening-14",
+            "nuke-r3-smoke-kill-15"
+          ],
+          "templateId": "RW-2-11",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "艺术哥（arT）不用再等这一步了，继续往前。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 56,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e92"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-phase-smoke-16"
+          ],
+          "templateId": "PH-009"
+        },
+        {
+          "text": "看兄弟们的精妙配合！ 闪给到了！第一时间Spinx把try闪白，托神（torzsi）第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间Spinx把try闪白，托神（torzsi）第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 76,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e170",
+            "r3-e169",
+            "r3-e176"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r3-flash-conversion-27"
+          ],
+          "templateId": "RQ-9-32",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "突然来了个包点三杀，好吧！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 80,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e130",
+            "r3-e151",
+            "r3-e195"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "nuke-r3-multikill-32"
+          ],
+          "templateId": "RD-4-3",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs G2 图二 Dust2"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 80,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e201"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "nuke-r3-close-33"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "reserve",
+      "seed": 31,
+      "map": "nuke",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "contact",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "retake",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "retake"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n好，接着看这一分，Legacy来打进攻。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。\n\n啊，正常队伍五打四都可老实了啊！ 铁板坡道先交火！xertioN用M4A1-S爆头拿下杜毛（dumau），场上变成4打5。\n\n这一拍开始打，Legacy往B 下层靠！\n\n要不要再往包点里面灌道具！ n1ssim不再按刚才那个留道具的节奏打了。\n\n太夸张了，太夸张了！ xertioN！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间xertioN把try闪白，托神（torzsi）第二时间接上击杀。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "好，接着看这一分，Legacy来打进攻。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。",
+          "briefText": "Nuke，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-setup-0",
+            "nuke-r3-plan-1"
+          ],
+          "templateId": "CX-001"
+        },
+        {
+          "text": "啊，正常队伍五打四都可老实了啊！ 铁板坡道先交火！xertioN用M4A1-S爆头拿下杜毛（dumau），场上变成4打5。",
+          "briefText": "铁板坡道先交火！xertioN用M4A1-S爆头拿下杜毛（dumau），场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 38,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e61"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r3-opening-10"
+          ],
+          "templateId": "RW-2-11",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "这一拍开始打，Legacy往B 下层靠！",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e106"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-phase-execution-15"
+          ],
+          "templateId": "PH-041"
+        },
+        {
+          "text": "要不要再往包点里面灌道具！ n1ssim不再按刚才那个留道具的节奏打了。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 56,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e118"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-phase-utility-16"
+          ],
+          "templateId": "RF-6-11",
+          "supportTemplateId": "PH-051",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        },
+        {
+          "text": "太夸张了，太夸张了！ xertioN！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "xertioN！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 56,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e61",
+            "r3-e73",
+            "r3-e124"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "nuke-r3-multikill-26"
+          ],
+          "templateId": "RQ-10-25",
+          "quoteSource": "EPL 第 23 赛季 Liquid vs OG 图 Ancient，副场"
+        },
+        {
+          "text": "兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间xertioN把try闪白，托神（torzsi）第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间xertioN把try闪白，托神（torzsi）第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 58,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e135",
+            "r3-e134",
+            "r3-e138"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r3-flash-conversion-22"
+          ],
+          "templateId": "RD-6-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 58,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e147"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "nuke-r3-close-27"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "nuke",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "fastB",
+          "smoke": "cross",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "clear"
+        }
+      ],
+      "text": "好，下一分开始，先看Legacy怎么铺这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。\n\n老鼠收到铁板坡道的情报，托神（torzsi）开始支援；这段轮转得实实在在跑4秒。 这次轮转有情报依据，接下来就看赶到现场的时间。\n\n还能打出这个爆头，还是挺难得的！ B 下层先交火！Spinx用M4A1-S爆头拿下艺术哥（arT），场上变成4打5。 这一枪是隔着烟打的。\n\n能拖吗？拖够时间就行！ 杜毛（dumau）把包下在B 下层，40 秒回防倒计时开始。\n\n托神（torzsi）到点了，先找人，别急着低头拆。\n\n满血三杀不在话下！ n1ssim！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n只能说，最终可能残局是差一点。 xelex已经打掉2个，可这个一打3还是没能拿下来。\n\n哦哦这个我我我跟他拖时间了啊。 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到1:2。",
+      "lines": [
+        {
+          "text": "好，下一分开始，先看Legacy怎么铺这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。",
+          "briefText": "Nuke，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-setup-0",
+            "nuke-r3-plan-1"
+          ],
+          "templateId": "CX-003"
+        },
+        {
+          "text": "老鼠收到铁板坡道的情报，托神（torzsi）开始支援；这段轮转得实实在在跑4秒。 这次轮转有情报依据，接下来就看赶到现场的时间。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 19,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e66",
+            "r3-e67"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-rotation-3"
+          ]
+        },
+        {
+          "text": "还能打出这个爆头，还是挺难得的！ B 下层先交火！Spinx用M4A1-S爆头拿下艺术哥（arT），场上变成4打5。 这一枪是隔着烟打的。",
+          "briefText": "B 下层先交火！Spinx用M4A1-S爆头拿下艺术哥（arT），场上变成4打5。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 31,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e98",
+            "r3-e96",
+            "r3-e97"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r3-opening-12",
+            "nuke-r3-smoke-kill-14"
+          ],
+          "templateId": "RD-4-10",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        },
+        {
+          "text": "能拖吗？拖够时间就行！ 杜毛（dumau）把包下在B 下层，40 秒回防倒计时开始。",
+          "briefText": "杜毛（dumau）把包下在B 下层，40 秒回防倒计时开始。",
+          "stage": "局势变化",
+          "at": 58,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e163"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "nuke-r3-plant-23"
+          ],
+          "templateId": "RQ-8-16",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图三 Nuke"
+        },
+        {
+          "text": "托神（torzsi）到点了，先找人，别急着低头拆。",
+          "briefText": "托神（torzsi）到点了，先找人，别急着低头拆。",
+          "stage": "局势变化",
+          "at": 65,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e178"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-phase-clear-26"
+          ],
+          "templateId": "PH-067"
+        },
+        {
+          "text": "满血三杀不在话下！ n1ssim！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 71,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e139",
+            "r3-e192",
+            "r3-e204"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "nuke-r3-multikill-38"
+          ],
+          "templateId": "RB-4-13",
+          "quoteSource": "PGL 克卢日-纳波卡 图三 Inferno"
+        },
+        {
+          "text": "只能说，最终可能残局是差一点。 xelex已经打掉2个，可这个一打3还是没能拿下来。",
+          "briefText": "",
+          "stage": "回合结算",
+          "at": 98,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e204",
+            "r3-e224",
+            "r3-e238",
+            "r3-e251",
+            "r3-e257",
+            "r3-e252"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "nuke-r3-clutch-loss-39"
+          ],
+          "templateId": "RW-3-5",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "哦哦这个我我我跟他拖时间了啊。 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到1:2。",
+          "briefText": "时间走完，炸弹爆炸。Legacy拿下这一分，比分来到1:2。",
+          "stage": "回合结算",
+          "at": 98,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e257",
+            "r3-e252"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "nuke-r3-close-40"
+          ],
+          "templateId": "RB-8-9",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        }
+      ]
+    },
+    {
+      "profile": "force-T",
+      "seed": 31,
+      "map": "ancient",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "full",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "semi",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ Legacy装备占优，老鼠装备明显落后，得靠近点和补枪争取交换。\n\n正常开局控图！ Ancient，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n这就是爆头游戏啊，就是爆头好吧！ 中路先交火！try用M4A1-S爆头拿下xelex，场上变成5打4。\n\n老鼠收到B 主道的情报，托神（torzsi）开始支援；这段轮转得实实在在跑3秒。 这次轮转有情报依据，接下来就看赶到现场的时间。\n\n来了，Legacy开始往B 包点压。\n\n这边先杀人再埋包！ 艺术哥（arT）把包下在B 包点，40 秒回防倒计时开始。\n\n这真正的大哥该醒的时候就得杀，好吧！ 艺术哥（arT）！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ Legacy装备占优，老鼠装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "正常开局控图！ Ancient，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Ancient，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-setup-0",
+            "ancient-r3-plan-1"
+          ],
+          "templateId": "RF-1-3",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "这就是爆头游戏啊，就是爆头好吧！ 中路先交火！try用M4A1-S爆头拿下xelex，场上变成5打4。",
+          "briefText": "中路先交火！try用M4A1-S爆头拿下xelex，场上变成5打4。",
+          "stage": "接触交锋",
+          "at": 41,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e81"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-opening-5"
+          ],
+          "templateId": "RQ-2-25",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "老鼠收到B 主道的情报，托神（torzsi）开始支援；这段轮转得实实在在跑3秒。 这次轮转有情报依据，接下来就看赶到现场的时间。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 42,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e76",
+            "r3-e84"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-rotation-4"
+          ]
+        },
+        {
+          "text": "来了，Legacy开始往B 包点压。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e88"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-phase-execution-8"
+          ],
+          "templateId": "PH-038"
+        },
+        {
+          "text": "这边先杀人再埋包！ 艺术哥（arT）把包下在B 包点，40 秒回防倒计时开始。",
+          "briefText": "艺术哥（arT）把包下在B 包点，40 秒回防倒计时开始。",
+          "stage": "局势变化",
+          "at": 78,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e165"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-plant-29"
+          ],
+          "templateId": "RB-8-33",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图一 Mirage"
+        },
+        {
+          "text": "这真正的大哥该醒的时候就得杀，好吧！ 艺术哥（arT）！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "艺术哥（arT）！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 92,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e132",
+            "r3-e157",
+            "r3-e175"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "ancient-r3-multikill-31"
+          ],
+          "templateId": "RW-10-3",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图三 Mirage"
+        },
+        {
+          "text": "但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+          "briefText": "时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+          "stage": "回合结算",
+          "at": 118,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e181",
+            "r3-e176"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "ancient-r3-close-32"
+          ],
+          "templateId": "RQ-8-29",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图二 Anubis"
+        }
+      ]
+    },
+    {
+      "profile": "force-CT",
+      "seed": 31,
+      "map": "ancient",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "full",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "force",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ Legacy装备占优，老鼠装备明显落后，得靠近点和补枪争取交换。\n\n正常开局控图！ Ancient，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n这就是爆头游戏啊，就是爆头好吧！ 中路先交火！try用M4A1-S爆头拿下xelex，场上变成5打4。\n\n老鼠收到B 主道的情报，托神（torzsi）开始支援；这段轮转得实实在在跑3秒。 这次轮转有情报依据，接下来就看赶到现场的时间。\n\n来了，Legacy开始往B 包点压。\n\n这边先杀人再埋包！ 艺术哥（arT）把包下在B 包点，40 秒回防倒计时开始。\n\n这真正的大哥该醒的时候就得杀，好吧！ 艺术哥（arT）！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ Legacy装备占优，老鼠装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "正常开局控图！ Ancient，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Ancient，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-setup-0",
+            "ancient-r3-plan-1"
+          ],
+          "templateId": "RF-1-3",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "这就是爆头游戏啊，就是爆头好吧！ 中路先交火！try用M4A1-S爆头拿下xelex，场上变成5打4。",
+          "briefText": "中路先交火！try用M4A1-S爆头拿下xelex，场上变成5打4。",
+          "stage": "接触交锋",
+          "at": 41,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e81"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-opening-5"
+          ],
+          "templateId": "RQ-2-25",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "老鼠收到B 主道的情报，托神（torzsi）开始支援；这段轮转得实实在在跑3秒。 这次轮转有情报依据，接下来就看赶到现场的时间。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 42,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e76",
+            "r3-e84"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-rotation-4"
+          ]
+        },
+        {
+          "text": "来了，Legacy开始往B 包点压。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e88"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-phase-execution-8"
+          ],
+          "templateId": "PH-038"
+        },
+        {
+          "text": "这边先杀人再埋包！ 艺术哥（arT）把包下在B 包点，40 秒回防倒计时开始。",
+          "briefText": "艺术哥（arT）把包下在B 包点，40 秒回防倒计时开始。",
+          "stage": "局势变化",
+          "at": 78,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e165"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-plant-29"
+          ],
+          "templateId": "RB-8-33",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图一 Mirage"
+        },
+        {
+          "text": "这真正的大哥该醒的时候就得杀，好吧！ 艺术哥（arT）！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "艺术哥（arT）！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 92,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e132",
+            "r3-e157",
+            "r3-e175"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "ancient-r3-multikill-31"
+          ],
+          "templateId": "RW-10-3",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图三 Mirage"
+        },
+        {
+          "text": "但是这个时间好像已经拖够了，反正这一波拖够了啊！ 时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+          "briefText": "时间走完，炸弹爆炸。Legacy拿下这一分，比分来到2:1。",
+          "stage": "回合结算",
+          "at": 118,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e181",
+            "r3-e176"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "ancient-r3-close-32"
+          ],
+          "templateId": "RQ-8-29",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图二 Anubis"
+        }
+      ]
+    },
+    {
+      "profile": "reserve",
+      "seed": 31,
+      "map": "ancient",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "contact",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "retake",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "retake"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n双方重新起步，Legacy先来出题。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。\n\n能拖吗？拖够时间就行！ 艺术哥（arT）把包下在A 包点，40 秒回防倒计时开始。\n\n首杀给得还是非常致命！ A 包点先交火！xelex用M4A1-S爆头拿下艺术哥（arT），场上变成4打5。 这一枪是隔着烟打的。\n\n一个闪光看包点补枪了。 闪给到了！第一时间xelex把杜毛（dumau）闪白，托神（torzsi）第二时间接上击杀。\n\n满血三杀不在话下！ 托神（torzsi）！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n这个回防太有思路了！ 拆掉了！PR有钳，这一拆用了5秒，离爆炸还剩6秒。\n\n老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "双方重新起步，Legacy先来出题。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。",
+          "briefText": "Ancient，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-setup-0",
+            "ancient-r3-plan-1"
+          ],
+          "templateId": "CX-005"
+        },
+        {
+          "text": "能拖吗？拖够时间就行！ 艺术哥（arT）把包下在A 包点，40 秒回防倒计时开始。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e49"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-plant-5"
+          ],
+          "templateId": "RQ-8-16",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图三 Nuke"
+        },
+        {
+          "text": "首杀给得还是非常致命！ A 包点先交火！xelex用M4A1-S爆头拿下艺术哥（arT），场上变成4打5。 这一枪是隔着烟打的。",
+          "briefText": "A 包点先交火！xelex用M4A1-S爆头拿下艺术哥（arT），场上变成4打5。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 68,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e93",
+            "r3-e91",
+            "r3-e92"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-opening-9",
+            "ancient-r3-smoke-kill-11"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "一个闪光看包点补枪了。 闪给到了！第一时间xelex把杜毛（dumau）闪白，托神（torzsi）第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间xelex把杜毛（dumau）闪白，托神（torzsi）第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 72,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e117",
+            "r3-e116",
+            "r3-e131"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-flash-conversion-14"
+          ],
+          "templateId": "RB-2-8",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图二 Inferno"
+        },
+        {
+          "text": "满血三杀不在话下！ 托神（torzsi）！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 86,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e131",
+            "r3-e140",
+            "r3-e177"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "ancient-r3-multikill-23"
+          ],
+          "templateId": "RB-4-13",
+          "quoteSource": "PGL 克卢日-纳波卡 图三 Inferno"
+        },
+        {
+          "text": "这个回防太有思路了！ 拆掉了！PR有钳，这一拆用了5秒，离爆炸还剩6秒。",
+          "briefText": "拆掉了！PR有钳，这一拆用了5秒，离爆炸还剩6秒。",
+          "stage": "局势变化",
+          "at": 91,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e49",
+            "r3-e184"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-defuse-timing-22"
+          ],
+          "templateId": "RQ-9-33",
+          "quoteSource": "EPL 第 23 赛季 Astralis vs FUT 图三 Overpass"
+        },
+        {
+          "text": "老鼠拿下这一分，比分来到0:3。",
+          "briefText": "老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 91,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e190",
+            "r3-e184"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "ancient-r3-close-24"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "ancient",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "fastB",
+          "smoke": "cross",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "clear"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n准备好了，Legacy要怎么打？看这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。\n\n来了，Legacy开始往B 包点压。\n\n还能打出这个爆头，还是挺难得的！ B 包点先交火！xelex用M4A1-S爆头拿下n1ssim，场上变成4打5。 第一时间是Spinx这颗闪，先限制住了对手的视野。 这一枪是隔着烟打的。\n\n三打五还能不能找机会？Legacy必须先把对面的枪线拆开，不然直接冲进去就是挨打。\n\n突然来了个包点三杀，好吧！ xelex！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n这个残局只能说也挺看运气的吧。 只剩latto，一打5。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "准备好了，Legacy要怎么打？看这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。",
+          "briefText": "Ancient，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-setup-0",
+            "ancient-r3-plan-1"
+          ],
+          "templateId": "CX-006"
+        },
+        {
+          "text": "来了，Legacy开始往B 包点压。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 20,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e68"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "ancient-r3-phase-execution-5"
+          ],
+          "templateId": "PH-038"
+        },
+        {
+          "text": "还能打出这个爆头，还是挺难得的！ B 包点先交火！xelex用M4A1-S爆头拿下n1ssim，场上变成4打5。 第一时间是Spinx这颗闪，先限制住了对手的视野。 这一枪是隔着烟打的。",
+          "briefText": "B 包点先交火！xelex用M4A1-S爆头拿下n1ssim，场上变成4打5。 第一时间是Spinx这颗闪，先限制住了对手的视野。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 34,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e127",
+            "r3-e120",
+            "r3-e116",
+            "r3-e125",
+            "r3-e126"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-opening-7",
+            "ancient-r3-flash-conversion-9",
+            "ancient-r3-smoke-kill-10"
+          ],
+          "templateId": "RD-4-10",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        },
+        {
+          "text": "三打五还能不能找机会？Legacy必须先把对面的枪线拆开，不然直接冲进去就是挨打。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 42,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e161"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-disadvantage-12"
+          ],
+          "templateId": "WJ-076"
+        },
+        {
+          "text": "突然来了个包点三杀，好吧！ xelex！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "xelex！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 48,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e127",
+            "r3-e161",
+            "r3-e195"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "ancient-r3-multikill-18"
+          ],
+          "templateId": "RD-4-3",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs G2 图二 Dust2"
+        },
+        {
+          "text": "这个残局只能说也挺看运气的吧。 只剩latto，一打5。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 48,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e195"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "ancient-r3-clutch-start-16"
+          ],
+          "templateId": "RB-3-16",
+          "quoteSource": "IEM 克拉科夫 Vitality vs FURIA 图一 Mirage"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 52,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e216"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "ancient-r3-close-19"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "force-T",
+      "seed": 31,
+      "map": "anubis",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "force",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这把 T 是钢枪局啊！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n正常开局控图！ Anubis，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n好，Legacy不再等了，A 包点这边开始进。\n\n我直接一个爆头打出去！ A 连接先交火！n1ssim用MAC-10爆头拿下xelex，场上变成5打4。\n\n烟里面有人！哦，他真的给混死了一个！这个信息PR到底是怎么判断的？\n\n不是这人打得真的太变态了！ PR！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n看兄弟们的精妙配合！ 闪给到了！第一时间PR把try闪白，Spinx第二时间接上击杀。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这把 T 是钢枪局啊！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-economy-2"
+          ],
+          "templateId": "RW-1-3",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图一 Overpass"
+        },
+        {
+          "text": "正常开局控图！ Anubis，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Anubis，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-setup-0",
+            "anubis-r3-plan-1"
+          ],
+          "templateId": "RF-1-3",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "好，Legacy不再等了，A 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e78"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-phase-execution-6"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "我直接一个爆头打出去！ A 连接先交火！n1ssim用MAC-10爆头拿下xelex，场上变成5打4。",
+          "briefText": "A 连接先交火！n1ssim用MAC-10爆头拿下xelex，场上变成5打4。",
+          "stage": "接触交锋",
+          "at": 48,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e93"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-opening-13"
+          ],
+          "templateId": "RF-12-7",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        },
+        {
+          "text": "烟里面有人！哦，他真的给混死了一个！这个信息PR到底是怎么判断的？",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 62,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e120",
+            "r3-e121",
+            "r3-e122"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "anubis-r3-smoke-kill-22"
+          ],
+          "templateId": "WJ-116"
+        },
+        {
+          "text": "不是这人打得真的太变态了！ PR！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "PR！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 68,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e122",
+            "r3-e135",
+            "r3-e158"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "anubis-r3-multikill-31"
+          ],
+          "templateId": "RW-10-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "看兄弟们的精妙配合！ 闪给到了！第一时间PR把try闪白，Spinx第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间PR把try闪白，Spinx第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 71,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e155",
+            "r3-e153",
+            "r3-e174"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-flash-conversion-28"
+          ],
+          "templateId": "RQ-9-32",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 71,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e180"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "anubis-r3-close-32"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "force-CT",
+      "seed": 31,
+      "map": "anubis",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n正常开局控图！ Anubis，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n好，Legacy不再等了，A 包点这边开始进。\n\n我直接一个爆头打出去！ A 连接先交火！n1ssim用MAC-10爆头拿下xelex，场上变成5打4。\n\n烟里面有人！哦，他真的给混死了一个！这个信息PR到底是怎么判断的？\n\n不是这人打得真的太变态了！ PR！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n看兄弟们的精妙配合！ 闪给到了！第一时间PR把try闪白，Spinx第二时间接上击杀。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "正常开局控图！ Anubis，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Anubis，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-setup-0",
+            "anubis-r3-plan-1"
+          ],
+          "templateId": "RF-1-3",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "好，Legacy不再等了，A 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e78"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-phase-execution-6"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "我直接一个爆头打出去！ A 连接先交火！n1ssim用MAC-10爆头拿下xelex，场上变成5打4。",
+          "briefText": "A 连接先交火！n1ssim用MAC-10爆头拿下xelex，场上变成5打4。",
+          "stage": "接触交锋",
+          "at": 48,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e93"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-opening-13"
+          ],
+          "templateId": "RF-12-7",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        },
+        {
+          "text": "烟里面有人！哦，他真的给混死了一个！这个信息PR到底是怎么判断的？",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 62,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e120",
+            "r3-e121",
+            "r3-e122"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "anubis-r3-smoke-kill-22"
+          ],
+          "templateId": "WJ-116"
+        },
+        {
+          "text": "不是这人打得真的太变态了！ PR！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "PR！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 68,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e122",
+            "r3-e135",
+            "r3-e158"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "anubis-r3-multikill-31"
+          ],
+          "templateId": "RW-10-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "看兄弟们的精妙配合！ 闪给到了！第一时间PR把try闪白，Spinx第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间PR把try闪白，Spinx第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 71,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e155",
+            "r3-e153",
+            "r3-e174"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-flash-conversion-28"
+          ],
+          "templateId": "RQ-9-32",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 71,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e180"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "anubis-r3-close-32"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "reserve",
+      "seed": 31,
+      "map": "anubis",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "contact",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "retake",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "retake"
+        }
+      ],
+      "text": "Legacy这边进攻，别急，先看第一拍。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。\n\n好，Legacy不再等了，A 包点这边开始进。\n\n能拖吗？拖够时间就行！ 艺术哥（arT）把包下在A 包点，40 秒回防倒计时开始。\n\n但是回防路线已经被道具盖住了！ Spinx这边来不及等烟散了，要往前赶。\n\n首杀给得还是非常致命！ A 包点先交火！xelex用M4A1-S拿下艺术哥（arT），场上变成4打5。 这一枪是隔着烟打的。\n\n看兄弟们的精妙配合！ 闪给到了！第一时间PR把latto闪白，托神（torzsi）第二时间接上击杀。\n\n这个回防太有思路了！ 拆掉了！PR有钳，这一拆用了5秒，离爆炸还剩4秒。\n\n老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "Legacy这边进攻，别急，先看第一拍。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。",
+          "briefText": "Anubis，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-setup-0",
+            "anubis-r3-plan-1"
+          ],
+          "templateId": "CX-004"
+        },
+        {
+          "text": "好，Legacy不再等了，A 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e52"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-phase-execution-3"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "能拖吗？拖够时间就行！ 艺术哥（arT）把包下在A 包点，40 秒回防倒计时开始。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e63"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-plant-4"
+          ],
+          "templateId": "RQ-8-16",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图三 Nuke"
+        },
+        {
+          "text": "但是回防路线已经被道具盖住了！ Spinx这边来不及等烟散了，要往前赶。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 68,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e101"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-phase-smoke-7"
+          ],
+          "templateId": "RD-9-22",
+          "supportTemplateId": "PH-022",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图三 Overpass"
+        },
+        {
+          "text": "首杀给得还是非常致命！ A 包点先交火！xelex用M4A1-S拿下艺术哥（arT），场上变成4打5。 这一枪是隔着烟打的。",
+          "briefText": "A 包点先交火！xelex用M4A1-S拿下艺术哥（arT），场上变成4打5。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 72,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e126",
+            "r3-e124",
+            "r3-e125"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-opening-9",
+            "anubis-r3-smoke-kill-10"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "看兄弟们的精妙配合！ 闪给到了！第一时间PR把latto闪白，托神（torzsi）第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间PR把latto闪白，托神（torzsi）第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 79,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e172",
+            "r3-e171",
+            "r3-e179"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-flash-conversion-15"
+          ],
+          "templateId": "RQ-9-32",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "这个回防太有思路了！ 拆掉了！PR有钳，这一拆用了5秒，离爆炸还剩4秒。",
+          "briefText": "拆掉了！PR有钳，这一拆用了5秒，离爆炸还剩4秒。",
+          "stage": "局势变化",
+          "at": 93,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e63",
+            "r3-e226"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-defuse-timing-22"
+          ],
+          "templateId": "RQ-9-33",
+          "quoteSource": "EPL 第 23 赛季 Astralis vs FUT 图三 Overpass"
+        },
+        {
+          "text": "老鼠拿下这一分，比分来到0:3。",
+          "briefText": "老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 93,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e232",
+            "r3-e226"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "anubis-r3-close-23"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "anubis",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "fastB",
+          "smoke": "cross",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "clear"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n准备好了，Legacy要怎么打？看这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。\n\n首杀给得还是非常致命！ B 包点先交火！xertioN用M4A1-S拿下n1ssim，场上变成4打5。 这一枪是隔着烟打的。\n\n一个闪光看包点补枪了。 闪给到了！第一时间Spinx把try闪白，xertioN第二时间接上击杀。\n\n牛逼，兄弟们，这人能力太吓人了！ xertioN！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n还能打出这个爆头，还是挺难得的！ 艺术哥（arT）只隔5秒就把枪补上，场上是2打4。 补上的还是个爆头。\n\n兄弟们，尽力了，尽力了！ latto已经打掉1个，可这个一打4还是没能拿下来。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "准备好了，Legacy要怎么打？看这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。",
+          "briefText": "Anubis，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-setup-0",
+            "anubis-r3-plan-1"
+          ],
+          "templateId": "CX-006"
+        },
+        {
+          "text": "首杀给得还是非常致命！ B 包点先交火！xertioN用M4A1-S拿下n1ssim，场上变成4打5。 这一枪是隔着烟打的。",
+          "briefText": "B 包点先交火！xertioN用M4A1-S拿下n1ssim，场上变成4打5。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 27,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e90",
+            "r3-e88",
+            "r3-e89"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-opening-13",
+            "anubis-r3-smoke-kill-14"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "一个闪光看包点补枪了。 闪给到了！第一时间Spinx把try闪白，xertioN第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间Spinx把try闪白，xertioN第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 39,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e124",
+            "r3-e121",
+            "r3-e132"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-flash-conversion-17"
+          ],
+          "templateId": "RB-2-8",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图二 Inferno"
+        },
+        {
+          "text": "牛逼，兄弟们，这人能力太吓人了！ xertioN！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 45,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e90",
+            "r3-e132",
+            "r3-e151"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "anubis-r3-multikill-28"
+          ],
+          "templateId": "RQ-10-2",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图一 Mirage"
+        },
+        {
+          "text": "还能打出这个爆头，还是挺难得的！ 艺术哥（arT）只隔5秒就把枪补上，场上是2打4。 补上的还是个爆头。",
+          "briefText": "艺术哥（arT）只隔5秒就把枪补上，场上是2打4。 补上的还是个爆头。",
+          "stage": "接触交锋",
+          "at": 50,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e151",
+            "r3-e166",
+            "r3-e167",
+            "r3-e164",
+            "r3-e165"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "anubis-r3-trade-22",
+            "anubis-r3-headshot-20"
+          ],
+          "templateId": "RD-4-10",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        },
+        {
+          "text": "兄弟们，尽力了，尽力了！ latto已经打掉1个，可这个一打4还是没能拿下来。",
+          "briefText": "",
+          "stage": "回合结算",
+          "at": 62,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e187",
+            "r3-e193",
+            "r3-e208",
+            "r3-e213"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "anubis-r3-clutch-loss-29"
+          ],
+          "templateId": "RD-3-12",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs Aurora 图二 Mirage"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 62,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e213"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "anubis-r3-close-30"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "force-T",
+      "seed": 31,
+      "map": "cache",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "force",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n我说真的，就这种 212 的开局，好吧！ Cache，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n好，Legacy不再等了，B 包点这边开始进。\n\n烟线这边可以走，艺术哥（arT）准备往B 包点靠。\n\n漏就死，漏就爆头！ B 包点先交火！Spinx用M4A1-S爆头拿下杜毛（dumau），场上变成4打5。 这一枪是隔着烟打的。\n\n兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间xertioN把try闪白，Spinx第二时间接上击杀。\n\n枪法说话这一块来了！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "我说真的，就这种 212 的开局，好吧！ Cache，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Cache，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-setup-0",
+            "cache-r3-plan-1"
+          ],
+          "templateId": "RF-1-5",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "好，Legacy不再等了，B 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e73"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-phase-execution-7"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "烟线这边可以走，艺术哥（arT）准备往B 包点靠。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 57,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e83"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-phase-smoke-14"
+          ],
+          "templateId": "PH-008"
+        },
+        {
+          "text": "漏就死，漏就爆头！ B 包点先交火！Spinx用M4A1-S爆头拿下杜毛（dumau），场上变成4打5。 这一枪是隔着烟打的。",
+          "briefText": "B 包点先交火！Spinx用M4A1-S爆头拿下杜毛（dumau），场上变成4打5。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 62,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e116",
+            "r3-e114",
+            "r3-e115"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "cache-r3-opening-21",
+            "cache-r3-smoke-kill-23"
+          ],
+          "templateId": "RQ-2-15",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图二 Dust2"
+        },
+        {
+          "text": "兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间xertioN把try闪白，Spinx第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间xertioN把try闪白，Spinx第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 66,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e132",
+            "r3-e129",
+            "r3-e144"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "cache-r3-flash-conversion-26"
+          ],
+          "templateId": "RD-6-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        },
+        {
+          "text": "枪法说话这一块来了！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 70,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e116",
+            "r3-e144",
+            "r3-e168"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "cache-r3-multikill-32"
+          ],
+          "templateId": "RQ-4-32",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图一 Mirage"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 73,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e194"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "cache-r3-close-33"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "force-CT",
+      "seed": 31,
+      "map": "cache",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "default",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "save"
+        }
+      ],
+      "text": "打这种局最怕的就是单走送枪。老鼠现在要做的反而是把阵型站稳。\n\n我说真的，就这种 212 的开局，好吧！ Cache，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。\n\n好，Legacy不再等了，B 包点这边开始进。\n\n烟线这边可以走，艺术哥（arT）准备往B 包点靠。\n\n漏就死，漏就爆头！ B 包点先交火！Spinx用M4A1-S爆头拿下杜毛（dumau），场上变成4打5。 这一枪是隔着烟打的。\n\n兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间xertioN把try闪白，Spinx第二时间接上击杀。\n\n枪法说话这一块来了！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "打这种局最怕的就是单走送枪。老鼠现在要做的反而是把阵型站稳。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-economy-2"
+          ],
+          "templateId": "WJ-125"
+        },
+        {
+          "text": "我说真的，就这种 212 的开局，好吧！ Cache，Legacy进攻，老鼠防守。 Legacy选择默认控图，老鼠用标准 2-1-2应对。",
+          "briefText": "Cache，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-setup-0",
+            "cache-r3-plan-1"
+          ],
+          "templateId": "RF-1-5",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "好，Legacy不再等了，B 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e73"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-phase-execution-7"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "烟线这边可以走，艺术哥（arT）准备往B 包点靠。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 57,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e83"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-phase-smoke-14"
+          ],
+          "templateId": "PH-008"
+        },
+        {
+          "text": "漏就死，漏就爆头！ B 包点先交火！Spinx用M4A1-S爆头拿下杜毛（dumau），场上变成4打5。 这一枪是隔着烟打的。",
+          "briefText": "B 包点先交火！Spinx用M4A1-S爆头拿下杜毛（dumau），场上变成4打5。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 62,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e116",
+            "r3-e114",
+            "r3-e115"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "cache-r3-opening-21",
+            "cache-r3-smoke-kill-23"
+          ],
+          "templateId": "RQ-2-15",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图二 Dust2"
+        },
+        {
+          "text": "兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间xertioN把try闪白，Spinx第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间xertioN把try闪白，Spinx第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 66,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e132",
+            "r3-e129",
+            "r3-e144"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "cache-r3-flash-conversion-26"
+          ],
+          "templateId": "RD-6-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        },
+        {
+          "text": "枪法说话这一块来了！ Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "briefText": "Spinx！这一回合已经拿到3杀，关键枪线接连被他打穿。",
+          "stage": "接触交锋",
+          "at": 70,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e116",
+            "r3-e144",
+            "r3-e168"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "cache-r3-multikill-32"
+          ],
+          "templateId": "RQ-4-32",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图一 Mirage"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 73,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e194"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "cache-r3-close-33"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "reserve",
+      "seed": 31,
+      "map": "cache",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "full",
+          "tactic": "contact",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "regroup",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "retake",
+          "smoke": "respect",
+          "utility": "reserve",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "retake"
+        }
+      ],
+      "text": "来，Legacy打，老鼠守，看这一分。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。\n\n首杀给得还是非常致命！ B 包点先交火！艺术哥（arT）用Galil拿下Spinx，场上变成5打4。\n\n但队友的补枪那是随便补补了！ xertioN只隔5秒就把枪补上，场上是4打4。 补上的还是个爆头。\n\n好，Legacy不再等了，B 包点这边开始进。\n\n烟里面有人！哦，他真的给混死了一个！这个信息latto到底是怎么判断的？\n\n兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间n1ssim把托神（torzsi）闪白，latto第二时间接上击杀。\n\n烟线这边可以走，xelex准备往B 包点靠。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "来，Legacy打，老鼠守，看这一分。 当前比分0比2。 Legacy选择静步接触，老鼠用放点回防应对。",
+          "briefText": "Cache，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-setup-0",
+            "cache-r3-plan-1"
+          ],
+          "templateId": "CX-002"
+        },
+        {
+          "text": "首杀给得还是非常致命！ B 包点先交火！艺术哥（arT）用Galil拿下Spinx，场上变成5打4。",
+          "briefText": "B 包点先交火！艺术哥（arT）用Galil拿下Spinx，场上变成5打4。",
+          "stage": "接触交锋",
+          "at": 40,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e62"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "cache-r3-opening-9"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "但队友的补枪那是随便补补了！ xertioN只隔5秒就把枪补上，场上是4打4。 补上的还是个爆头。",
+          "briefText": "xertioN只隔5秒就把枪补上，场上是4打4。 补上的还是个爆头。",
+          "stage": "接触交锋",
+          "at": 45,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e62",
+            "r3-e80",
+            "r3-e81",
+            "r3-e78",
+            "r3-e79"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "cache-r3-trade-12",
+            "cache-r3-headshot-11"
+          ],
+          "templateId": "RW-2-5",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "好，Legacy不再等了，B 包点这边开始进。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e89"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-phase-execution-14"
+          ],
+          "templateId": "PH-040"
+        },
+        {
+          "text": "烟里面有人！哦，他真的给混死了一个！这个信息latto到底是怎么判断的？",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 53,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e118",
+            "r3-e119",
+            "r3-e120"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "cache-r3-smoke-kill-23"
+          ],
+          "templateId": "WJ-116"
+        },
+        {
+          "text": "兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间n1ssim把托神（torzsi）闪白，latto第二时间接上击杀。",
+          "briefText": "闪给到了！第一时间n1ssim把托神（torzsi）闪白，latto第二时间接上击杀。",
+          "stage": "道具配合",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e138",
+            "r3-e136",
+            "r3-e145"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "cache-r3-flash-conversion-29"
+          ],
+          "templateId": "RD-6-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        },
+        {
+          "text": "烟线这边可以走，xelex准备往B 包点靠。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 71,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e183"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-phase-smoke-35"
+          ],
+          "templateId": "PH-008"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 76,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e209"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "cache-r3-close-40"
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "clear",
+      "seed": 31,
+      "map": "cache",
+      "round": 3,
+      "plans": [
+        {
+          "version": "plans-1",
+          "side": "T",
+          "economy": "semi",
+          "tactic": "fastB",
+          "smoke": "cross",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "hold"
+        },
+        {
+          "version": "plans-1",
+          "side": "CT",
+          "economy": "full",
+          "tactic": "standard",
+          "smoke": "respect",
+          "utility": "normal",
+          "execution": "direct",
+          "rotation": "anchor",
+          "postPlant": "clear"
+        }
+      ],
+      "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。\n\n准备好了，Legacy要怎么打？看这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。\n\n首杀给得还是非常致命！ B 主道先交火！xertioN用M4A1-S拿下try，场上变成4打5。\n\n老鼠收到B 主道的情报，托神（torzsi）开始支援；这段轮转得实实在在跑5秒。 这次轮转有情报依据，接下来就看赶到现场的时间。\n\n然后他们就直接启动了这局战术。 来了，Legacy开始往B 包点压。\n\n这就是爆头游戏啊，就是爆头好吧！ Spinx隔着烟带走了对手，这一枪穿得漂亮！ 还是个爆头。\n\n烟线这边可以走，托神（torzsi）准备往B 包点靠。\n\n对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+      "lines": [
+        {
+          "text": "这就是枪械跟道具优势！ 老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "briefText": "老鼠装备占优，Legacy装备明显落后，得靠近点和补枪争取交换。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e1",
+            "r3-e2",
+            "r3-e3",
+            "r3-e4",
+            "r3-e5",
+            "r3-e6",
+            "r3-e7",
+            "r3-e8",
+            "r3-e9",
+            "r3-e10"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-economy-2"
+          ],
+          "templateId": "RD-6-16",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs HOTU 图二 Ancient"
+        },
+        {
+          "text": "准备好了，Legacy要怎么打？看这一波。 当前比分0比2。 Legacy选择快速 B 爆弹，老鼠用标准 2-1-2应对。",
+          "briefText": "Cache，Legacy进攻，老鼠防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e11",
+            "r3-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-setup-0",
+            "cache-r3-plan-1"
+          ],
+          "templateId": "CX-006"
+        },
+        {
+          "text": "首杀给得还是非常致命！ B 主道先交火！xertioN用M4A1-S拿下try，场上变成4打5。",
+          "briefText": "B 主道先交火！xertioN用M4A1-S拿下try，场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 13,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e65"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "cache-r3-opening-4"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "老鼠收到B 主道的情报，托神（torzsi）开始支援；这段轮转得实实在在跑5秒。 这次轮转有情报依据，接下来就看赶到现场的时间。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 17,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e73",
+            "r3-e74"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-rotation-6"
+          ]
+        },
+        {
+          "text": "然后他们就直接启动了这局战术。 来了，Legacy开始往B 包点压。",
+          "briefText": "来了，Legacy开始往B 包点压。",
+          "stage": "局势变化",
+          "at": 20,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e76"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-phase-execution-7"
+          ],
+          "templateId": "RB-9-24",
+          "supportTemplateId": "PH-038",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图二 Inferno"
+        },
+        {
+          "text": "这就是爆头游戏啊，就是爆头好吧！ Spinx隔着烟带走了对手，这一枪穿得漂亮！ 还是个爆头。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 28,
+          "sourceType": "quote",
+          "eventIds": [
+            "r3-e105",
+            "r3-e106",
+            "r3-e107"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "cache-r3-smoke-kill-16",
+            "cache-r3-headshot-15"
+          ],
+          "templateId": "RQ-2-25",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "烟线这边可以走，托神（torzsi）准备往B 包点靠。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 33,
+          "sourceType": "template",
+          "eventIds": [
+            "r3-e131"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "cache-r3-phase-smoke-18"
+          ],
+          "templateId": "PH-008"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "briefText": "对方全部倒下，这个回合结束。老鼠拿下这一分，比分来到0:3。",
+          "stage": "回合结算",
+          "at": 40,
+          "sourceType": "original",
+          "eventIds": [
+            "r3-e173"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "cache-r3-close-22"
+          ]
+        }
+      ]
+    }
+  ]
+}

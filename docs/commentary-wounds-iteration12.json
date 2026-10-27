@@ -1,0 +1,3443 @@
+{
+  "generatedAt": "2026-10-27T05:29:30.187Z",
+  "simulationSourceSha256": "12588b97f825bb6149fabf336779d0753318f2c6db20fe86f43bed138b3859ec",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "seeds": 150,
+  "rounds": 2875,
+  "generated": 2396,
+  "shown": 208,
+  "fireKills": 159,
+  "fireShown": 61,
+  "samples": [
+    {
+      "seed": 1,
+      "map": "inferno",
+      "round": 13,
+      "hit": {
+        "id": "r13-e150",
+        "at": 77,
+        "kind": "damage",
+        "causes": [
+          "r13-e149"
+        ],
+        "detail": {},
+        "actor": "team-3-p2",
+        "target": "team-7-p5",
+        "team": 0,
+        "zone": "inferno-2",
+        "weapon": "USP-S",
+        "damage": 18,
+        "hpBefore": 28,
+        "hpAfter": 10
+      },
+      "shot": {
+        "id": "r13-e149",
+        "at": 77,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "close",
+          "chance": 0.7477187629110879,
+          "aim": 0.13125,
+          "role": 0,
+          "positioning": 0.016,
+          "tactical": 0.042222222222222223,
+          "synergy": 0.075,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 3,
+          "cover": 0.03,
+          "movingPenalty": 0,
+          "hit": true,
+          "headshot": false
+        },
+        "actor": "team-3-p2",
+        "target": "team-7-p5",
+        "team": 0,
+        "zone": "inferno-2",
+        "weapon": "USP-S"
+      },
+      "lines": [
+        {
+          "text": "我们来看下半场的手枪局！ Inferno，黑豹进攻，小蜜蜂防守。小蜜蜂的地图赛点，这一分就能收图。 这一分黑豹选择慢速控 A，防守方小蜜蜂选择标准 2-1-2。",
+          "briefText": "Inferno，黑豹进攻，小蜜蜂防守。小蜜蜂的地图赛点，这一分就能收图。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e11",
+            "r13-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-setup-0",
+            "inferno-r13-plan-1"
+          ],
+          "templateId": "RD-1-6",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图二 Dust2"
+        },
+        {
+          "text": "这就是爆头游戏啊，就是爆头好吧！ 中路上段这边先掉人，载物（ZywOo）用USP-S拿下教父（FalleN），人数变成4打5。",
+          "briefText": "中路上段这边先掉人，载物（ZywOo）用USP-S爆头拿下教父（FalleN），人数变成4打5。",
+          "stage": "接触交锋",
+          "at": 62,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e82"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-opening-2"
+          ],
+          "templateId": "RQ-2-25",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "兄弟们，来了一个动态防守，好吧！ 小蜜蜂收到中路上段的情报，ropz开始支援；这段轮转得实实在在跑4秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 64,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e93",
+            "r13-e94"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-rotation-4"
+          ],
+          "templateId": "RW-9-8",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "首杀拿不到，不耽误后续进攻！ 黑豹启动了，往A 包点走！",
+          "briefText": "黑豹启动了，往A 包点走！",
+          "stage": "局势变化",
+          "at": 67,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e115"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-phase-execution-6"
+          ],
+          "templateId": "RQ-2-8",
+          "supportTemplateId": "PH-037",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "这个残局比想象中更难打！ 只剩yuurih，一打5。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 73,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e132"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-clutch-start-7"
+          ],
+          "templateId": "RB-3-18",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图三 Dust2"
+        },
+        {
+          "text": "yuurih吃到火仔（flameZ）的USP-S，现在只剩10血。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 77,
+          "sourceType": "original",
+          "eventIds": [
+            "r13-e149",
+            "r13-e150"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-gun-hurt-8"
+          ]
+        },
+        {
+          "text": "手枪局该杀人的兄弟们都在杀人！ 对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到13:0。 最后倒下的是yuurih，击杀记在载物（ZywOo）名下。",
+          "briefText": "对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到13:0。 最后倒下的是yuurih，击杀记在载物（ZywOo）名下。",
+          "stage": "回合结算",
+          "at": 78,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e156",
+            "r13-e162"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r13-close-9"
+          ],
+          "templateId": "RD-1-2",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        },
+        {
+          "text": "然后呢直接终结比赛！ 小蜜蜂以13比0收下Inferno。",
+          "briefText": "小蜜蜂收下Inferno这张图！系列赛也拿下了。",
+          "stage": "回合结算",
+          "at": 78,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e162"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-map-win-10"
+          ],
+          "templateId": "RF-7-3",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "map": "inferno",
+      "round": 13,
+      "hit": {
+        "id": "r13-e161",
+        "at": 57,
+        "kind": "damage",
+        "causes": [
+          "r13-e160"
+        ],
+        "detail": {},
+        "actor": "team-3-p4",
+        "target": "team-7-p4",
+        "team": 0,
+        "zone": "inferno-2",
+        "weapon": "USP-S",
+        "damage": 18,
+        "hpBefore": 28,
+        "hpAfter": 10
+      },
+      "shot": {
+        "id": "r13-e160",
+        "at": 57,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "close",
+          "chance": 0.6156875520857018,
+          "aim": 0.125,
+          "role": 0,
+          "positioning": 0.05,
+          "tactical": 0.04666666666666667,
+          "synergy": 0.075,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 3,
+          "cover": 0.03,
+          "movingPenalty": 0.12,
+          "hit": true,
+          "headshot": false
+        },
+        "actor": "team-3-p4",
+        "target": "team-7-p4",
+        "team": 0,
+        "zone": "inferno-2",
+        "weapon": "USP-S"
+      },
+      "lines": [
+        {
+          "text": "OK，我们来看一下手枪局啊！ Inferno，黑豹进攻，小蜜蜂防守。",
+          "briefText": "Inferno，黑豹进攻，小蜜蜂防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e11",
+            "r13-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-setup-0"
+          ],
+          "templateId": "RW-1-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "终究是要围绕着缓慢的默认去打！ 黑豹选择默认控图，小蜜蜂这边是情报快速轮转。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e11",
+            "r13-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-plan-1"
+          ],
+          "templateId": "RD-9-8",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图二 Dust2"
+        },
+        {
+          "text": "兄弟们，来了一个动态防守，好吧！ 小蜜蜂收到A 公寓的情报，ropz开始支援；这段轮转得实实在在跑4秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 42,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e77",
+            "r13-e81"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-rotation-2"
+          ],
+          "templateId": "RW-9-8",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "啊，正常队伍五打四都可老实了啊！ 首杀出现在中路上段！英一手（mezii）用USP-S爆头拿下教父（FalleN），场上变成4打5。",
+          "briefText": "首杀出现在中路上段！英一手（mezii）用USP-S爆头拿下教父（FalleN），场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 44,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e96"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-opening-3"
+          ],
+          "templateId": "RW-2-11",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "看兄弟们的精妙配合！ molodoy马上补掉英一手（mezii），场上是3打4。",
+          "briefText": "molodoy马上补掉英一手（mezii），场上是3打4。",
+          "stage": "接触交锋",
+          "at": 46,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e112",
+            "r13-e116",
+            "r13-e117"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-trade-6"
+          ],
+          "templateId": "RQ-9-32",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "然后他们就直接启动了这局战术。 黑豹这次目标是A 包点，还有3人。",
+          "briefText": "黑豹开始往A 包点进攻。",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e122"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-phase-execution-8"
+          ],
+          "templateId": "RB-9-24",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图二 Inferno"
+        },
+        {
+          "text": "ropz用USP-S把狂哥（YEKINDAR）打到10血，下一次交火的容错很低。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 57,
+          "sourceType": "original",
+          "eventIds": [
+            "r13-e160",
+            "r13-e161"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-gun-hurt-9"
+          ]
+        },
+        {
+          "text": "只剩你了，这可怎么办呢？ 眼前是yuurih一打4。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e164"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-clutch-start-10"
+          ],
+          "templateId": "RQ-3-12",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图二 Mirage"
+        },
+        {
+          "text": "确实，不需要防守道具也能守得住啊！ 对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到9:4。 最后倒下的是yuurih，击杀记在ropz名下。",
+          "briefText": "对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到9:4。 最后倒下的是yuurih，击杀记在ropz名下。",
+          "stage": "回合结算",
+          "at": 61,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e176",
+            "r13-e181"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r13-close-11"
+          ],
+          "templateId": "RW-6-9",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "map": "inferno",
+      "round": 1,
+      "hit": {
+        "id": "r1-e174",
+        "at": 68,
+        "kind": "damage",
+        "causes": [
+          "r1-e173"
+        ],
+        "detail": {},
+        "actor": "team-7-p3",
+        "target": "team-3-p4",
+        "team": 1,
+        "zone": "inferno-3",
+        "weapon": "USP-S",
+        "damage": 18,
+        "hpBefore": 28,
+        "hpAfter": 10
+      },
+      "shot": {
+        "id": "r1-e173",
+        "at": 68,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "mid",
+          "chance": 0.6091338241158777,
+          "aim": 0.125,
+          "role": 0,
+          "positioning": 0.016,
+          "tactical": 0.044444444444444446,
+          "synergy": 0.0375,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 2,
+          "cover": 0.032,
+          "movingPenalty": 0,
+          "hit": true,
+          "headshot": false
+        },
+        "actor": "team-7-p3",
+        "target": "team-3-p4",
+        "team": 1,
+        "zone": "inferno-3",
+        "weapon": "USP-S"
+      },
+      "lines": [
+        {
+          "text": "来看今天的手枪局！ Inferno，小蜜蜂进攻，黑豹防守。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-setup-0"
+          ],
+          "templateId": "RQ-1-8",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "然后我打一个假打探点！ 小蜜蜂选择佯攻 A 转 B，黑豹这边是标准 2-1-2。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-plan-1"
+          ],
+          "templateId": "RD-9-26",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "兄弟们，来了一个动态防守，好吧！ 黑豹收到香蕉道的情报，molodoy开始支援；这段轮转得实实在在跑3秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 49,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e75",
+            "r1-e84"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-rotation-2"
+          ],
+          "templateId": "RW-9-8",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "啊，正常队伍五打四都可老实了啊！ 香蕉道这边先掉人，卡神（KSCERATO）用USP-S爆头拿下英一手（mezii），人数变成4打5。",
+          "briefText": "香蕉道这边先掉人，卡神（KSCERATO）用USP-S爆头拿下英一手（mezii），人数变成4打5。",
+          "stage": "接触交锋",
+          "at": 50,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e94"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-opening-3"
+          ],
+          "templateId": "RW-2-11",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "这一波先别急，小蜜蜂还在等队友。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 55,
+          "sourceType": "template",
+          "eventIds": [
+            "r1-e111"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-phase-regroup-5"
+          ],
+          "templateId": "PH-026"
+        },
+        {
+          "text": "首杀拿不到，不耽误后续进攻！ 好，小蜜蜂不再等了，B 包点这边开始进。",
+          "briefText": "好，小蜜蜂不再等了，B 包点这边开始进。",
+          "stage": "局势变化",
+          "at": 56,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e118"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-phase-execution-7"
+          ],
+          "templateId": "RQ-2-8",
+          "supportTemplateId": "PH-040",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "molodoy用USP-S把ropz打到10血，下一次交火的容错很低。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 68,
+          "sourceType": "original",
+          "eventIds": [
+            "r1-e173",
+            "r1-e174"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-gun-hurt-8"
+          ]
+        },
+        {
+          "text": "只剩你了，这可怎么办呢？ 眼前是火仔（flameZ）一打4。",
+          "briefText": "只剩火仔（flameZ），一打4。",
+          "stage": "局势变化",
+          "at": 76,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e202"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-clutch-start-9"
+          ],
+          "templateId": "RQ-3-12",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图二 Mirage"
+        },
+        {
+          "text": "确实，不需要防守道具也能守得住啊！ 对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是火仔（flameZ），击杀记在教父（FalleN）名下。",
+          "briefText": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是火仔（flameZ），击杀记在教父（FalleN）名下。",
+          "stage": "回合结算",
+          "at": 82,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e225",
+            "r1-e230"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r1-close-10"
+          ],
+          "templateId": "RW-6-9",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "map": "inferno",
+      "round": 6,
+      "hit": {
+        "id": "r6-e108",
+        "at": 30,
+        "kind": "damage",
+        "causes": [
+          "r6-e107"
+        ],
+        "detail": {},
+        "actor": "team-3-p5",
+        "target": "team-7-p4",
+        "team": 0,
+        "zone": "inferno-2",
+        "weapon": "M4A1-S",
+        "damage": 38,
+        "hpBefore": 62,
+        "hpAfter": 24
+      },
+      "shot": {
+        "id": "r6-e107",
+        "at": 30,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "close",
+          "chance": 0.3832353890946816,
+          "aim": 0.1625,
+          "role": 0,
+          "positioning": 0.016,
+          "tactical": 0,
+          "synergy": 0.08,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 0.48,
+          "allies": 5,
+          "cover": 0.26249999999999996,
+          "movingPenalty": 0,
+          "hit": true,
+          "headshot": false
+        },
+        "actor": "team-3-p5",
+        "target": "team-7-p4",
+        "team": 0,
+        "zone": "inferno-2",
+        "weapon": "M4A1-S"
+      },
+      "lines": [
+        {
+          "text": "兄弟们，小蜜蜂这几分打顺了，接着看。 当前比分3比2。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r6-e11",
+            "r6-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r6-setup-0"
+          ],
+          "templateId": "CX-010"
+        },
+        {
+          "text": "就只走这个爆弹战术！ 小蜜蜂选择快速 A 爆弹，黑豹这边是近点埋伏。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r6-e11",
+            "r6-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r6-plan-1"
+          ],
+          "templateId": "RD-9-27",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图三 Overpass"
+        },
+        {
+          "text": "这就是爆头游戏啊，就是爆头好吧！ 中路这边先掉人，英一手（mezii）用M4A1-S拿下yuurih，人数变成5打4。",
+          "briefText": "中路这边先掉人，英一手（mezii）用M4A1-S爆头拿下yuurih，人数变成5打4。",
+          "stage": "接触交锋",
+          "at": 15,
+          "sourceType": "quote",
+          "eventIds": [
+            "r6-e71"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r6-opening-4"
+          ],
+          "templateId": "RQ-2-25",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "兄弟们，小蜜蜂动起来了，先往A 包点顶。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 20,
+          "sourceType": "template",
+          "eventIds": [
+            "r6-e75"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r6-phase-execution-6"
+          ],
+          "templateId": "PH-042"
+        },
+        {
+          "text": "然后再利用烟雾弹打包点喔！ 载物（ZywOo）隔着烟用M4A1-S拿下molodoy！",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 28,
+          "sourceType": "quote",
+          "eventIds": [
+            "r6-e97",
+            "r6-e98",
+            "r6-e99"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r6-smoke-kill-10"
+          ],
+          "templateId": "RW-6-7",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "狂哥（YEKINDAR）吃到载物（ZywOo）的M4A1-S，现在只剩24血。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 30,
+          "sourceType": "original",
+          "eventIds": [
+            "r6-e107",
+            "r6-e108"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r6-gun-hurt-12"
+          ]
+        },
+        {
+          "text": "憨豆（apEX）在A 包点下包成功，回防方现在有40秒时间。",
+          "briefText": "憨豆（apEX）在A 包点下包成功，回防方现在有40秒时间。",
+          "stage": "局势变化",
+          "at": 36,
+          "sourceType": "original",
+          "eventIds": [
+            "r6-e113"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r6-plant-13"
+          ]
+        },
+        {
+          "text": "我的建议是立即保枪好吧！ 教父（FalleN）选择撤退保枪：人数劣势，保留长枪。",
+          "briefText": "教父（FalleN）选择撤退保枪：人数劣势，保留长枪。",
+          "stage": "局势变化",
+          "at": 37,
+          "sourceType": "quote",
+          "eventIds": [
+            "r6-e114"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r6-save-decision-14"
+          ],
+          "templateId": "RB-6-30",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到4:2。",
+          "briefText": "时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到4:2。",
+          "stage": "回合结算",
+          "at": 76,
+          "sourceType": "original",
+          "eventIds": [
+            "r6-e133",
+            "r6-e124"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r6-close-16"
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "map": "inferno",
+      "round": 13,
+      "hit": {
+        "id": "r13-e72",
+        "at": 49,
+        "kind": "damage",
+        "causes": [
+          "r13-e71"
+        ],
+        "detail": {},
+        "actor": "team-7-p5",
+        "target": "team-3-p5",
+        "team": 1,
+        "zone": "inferno-5",
+        "weapon": "Glock",
+        "damage": 87,
+        "hpBefore": 100,
+        "hpAfter": 13
+      },
+      "shot": {
+        "id": "r13-e71",
+        "at": 49,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "close",
+          "chance": 0.3745902258181753,
+          "aim": 0.03125,
+          "role": 0,
+          "positioning": 0.016,
+          "tactical": 0,
+          "synergy": 0.0375,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 2,
+          "cover": 0.22749999999999998,
+          "movingPenalty": 0,
+          "hit": true,
+          "headshot": true
+        },
+        "actor": "team-7-p5",
+        "target": "team-3-p5",
+        "team": 1,
+        "zone": "inferno-5",
+        "weapon": "Glock"
+      },
+      "lines": [
+        {
+          "text": "我们来看下半场的手枪局！ Inferno，黑豹进攻，小蜜蜂防守。 这一分黑豹选择分散抓单，防守方小蜜蜂选择B 区前顶。",
+          "briefText": "Inferno，黑豹进攻，小蜜蜂防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e11",
+            "r13-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-setup-0",
+            "inferno-r13-plan-1"
+          ],
+          "templateId": "RD-1-6",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图二 Dust2"
+        },
+        {
+          "text": "这就是爆头游戏啊，就是爆头好吧！ 载物（ZywOo）在香蕉道用USP-S拿下教父（FalleN），首杀之后是4打5。",
+          "briefText": "载物（ZywOo）在香蕉道用USP-S爆头拿下教父（FalleN），首杀之后是4打5。",
+          "stage": "接触交锋",
+          "at": 47,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e61"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-opening-2"
+          ],
+          "templateId": "RQ-2-25",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图一 Mirage"
+        },
+        {
+          "text": "这一枪没有带走，载物（ZywOo）还剩13血；开枪的是yuurih，用的是Glock。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 49,
+          "sourceType": "original",
+          "eventIds": [
+            "r13-e71",
+            "r13-e72"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-gun-hurt-4"
+          ]
+        },
+        {
+          "text": "首杀拿不到，不耽误后续进攻！ 兄弟们，黑豹动起来了，先往B 包点顶。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 63,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e119"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-phase-execution-9"
+          ],
+          "templateId": "RQ-2-8",
+          "supportTemplateId": "PH-042",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "但打到残局，确实是另外一回事了！ 只剩卡神（KSCERATO），一打4。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 68,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e130"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-clutch-start-10"
+          ],
+          "templateId": "RD-3-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图一 Mirage"
+        },
+        {
+          "text": "但队友的补枪那是随便补补了！ ropz只隔5秒就补掉卡神（KSCERATO），场上是0打3。",
+          "briefText": "ropz只隔5秒就补掉卡神（KSCERATO），场上是0打3。",
+          "stage": "接触交锋",
+          "at": 85,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e164",
+            "r13-e177",
+            "r13-e178"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-trade-11"
+          ],
+          "templateId": "RW-2-5",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "他这确实尽力了，好吧！ 卡神（KSCERATO）已经打掉1个，可这个一打4还是没能拿下来。",
+          "briefText": "卡神（KSCERATO）已经打掉1个，可这个一打4还是没能拿下来。",
+          "stage": "回合结算",
+          "at": 85,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e130",
+            "r13-e164",
+            "r13-e177",
+            "r13-e182"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-clutch-loss-12"
+          ],
+          "templateId": "RD-3-11",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "手枪局该杀人的兄弟们都在杀人！ 对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到9:4。",
+          "briefText": "对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到9:4。",
+          "stage": "回合结算",
+          "at": 85,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e182"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r13-close-13"
+          ],
+          "templateId": "RD-1-2",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "map": "inferno",
+      "round": 1,
+      "hit": {
+        "id": "r1-e76",
+        "at": 52,
+        "kind": "damage",
+        "causes": [
+          "r1-e75"
+        ],
+        "detail": {},
+        "actor": "team-3-p3",
+        "target": "team-7-p1",
+        "team": 0,
+        "zone": "inferno-6",
+        "weapon": "Glock",
+        "damage": 87,
+        "hpBefore": 100,
+        "hpAfter": 13
+      },
+      "shot": {
+        "id": "r1-e75",
+        "at": 52,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "long",
+          "chance": 0.2821507323775219,
+          "aim": 0.11875,
+          "role": 0,
+          "positioning": 0.042,
+          "tactical": 0.037142857142857144,
+          "synergy": 0.075,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 3,
+          "cover": 0.06999999999999999,
+          "movingPenalty": 0.12,
+          "hit": true,
+          "headshot": true
+        },
+        "actor": "team-3-p3",
+        "target": "team-7-p1",
+        "team": 0,
+        "zone": "inferno-6",
+        "weapon": "Glock"
+      },
+      "lines": [
+        {
+          "text": "OK，我们来看一下手枪局啊！ Inferno，小蜜蜂进攻，黑豹防守。 进攻方小蜜蜂的计划是分散抓单，另一边黑豹选择A 区前顶。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-setup-0",
+            "inferno-r1-plan-1"
+          ],
+          "templateId": "RW-1-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "英一手（mezii）用Glock把教父（FalleN）打到13血，下一次交火的容错很低。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 52,
+          "sourceType": "original",
+          "eventIds": [
+            "r1-e75",
+            "r1-e76"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-gun-hurt-2"
+          ]
+        },
+        {
+          "text": "漏就死，漏就爆头！ 首杀出现在中路上段！狂哥（YEKINDAR）用USP-S拿下憨豆（apEX），场上变成4打5。",
+          "briefText": "首杀出现在中路上段！狂哥（YEKINDAR）用USP-S爆头拿下憨豆（apEX），场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 53,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e82"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-opening-3"
+          ],
+          "templateId": "RQ-2-15",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图二 Dust2"
+        },
+        {
+          "text": "三打五，他必须得 peek 啊，兄弟他三打五，他必须得瑞啊！ 小蜜蜂现在三打五，原定的推进要重新掂量。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 53,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e90"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-disadvantage-5"
+          ],
+          "templateId": "RQ-10-22",
+          "quoteSource": "IEM 里约小组赛 MOUZ vs Aurora 图二 Mirage"
+        },
+        {
+          "text": "兄弟们，来了一个动态防守，好吧！ 黑豹收到中路上段的情报，狂哥（YEKINDAR）开始支援；这段轮转得实实在在跑5秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 56,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e98",
+            "r1-e108"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-rotation-6"
+          ],
+          "templateId": "RW-9-8",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "然后他们就直接启动了这局战术。 小蜜蜂这次目标是A 包点，还有3人。",
+          "briefText": "小蜜蜂开始往A 包点进攻。",
+          "stage": "局势变化",
+          "at": 60,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e118"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-phase-execution-8"
+          ],
+          "templateId": "RB-9-24",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图二 Inferno"
+        },
+        {
+          "text": "但打到残局，确实是另外一回事了！ 只剩载物（ZywOo），一打4。",
+          "briefText": "只剩载物（ZywOo），一打4。",
+          "stage": "局势变化",
+          "at": 67,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e141"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-clutch-start-9"
+          ],
+          "templateId": "RD-3-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图一 Mirage"
+        },
+        {
+          "text": "手枪局该杀人的兄弟们都在杀人！ 对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是载物（ZywOo），击杀记在狂哥（YEKINDAR）名下。",
+          "briefText": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是载物（ZywOo），击杀记在狂哥（YEKINDAR）名下。",
+          "stage": "回合结算",
+          "at": 69,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e152",
+            "r1-e157"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r1-close-10"
+          ],
+          "templateId": "RD-1-2",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "map": "inferno",
+      "round": 5,
+      "hit": {
+        "id": "r5-e110",
+        "at": 81,
+        "kind": "damage",
+        "causes": [
+          "r5-e109"
+        ],
+        "detail": {},
+        "actor": "team-7-p2",
+        "target": "team-3-p1",
+        "team": 1,
+        "zone": "inferno-3",
+        "weapon": "M4A1-S",
+        "damage": 27,
+        "hpBefore": 46,
+        "hpAfter": 19
+      },
+      "shot": {
+        "id": "r5-e109",
+        "at": 81,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "mid",
+          "chance": 0.48602271368879973,
+          "aim": 0.125,
+          "role": 0,
+          "positioning": 0.044,
+          "tactical": 0.04,
+          "synergy": 0.08,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 0.48,
+          "allies": 4,
+          "cover": 0.032,
+          "movingPenalty": 0,
+          "hit": true,
+          "headshot": false
+        },
+        "actor": "team-7-p2",
+        "target": "team-3-p1",
+        "team": 1,
+        "zone": "inferno-3",
+        "weapon": "M4A1-S"
+      },
+      "lines": [
+        {
+          "text": "黑豹连着拿分，对面得想办法断一下了。 当前比分0比4。 小蜜蜂选择慢速控 B，黑豹这边是情报快速轮转。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r5-e11",
+            "r5-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r5-setup-0",
+            "inferno-r5-plan-1"
+          ],
+          "templateId": "CX-011"
+        },
+        {
+          "text": "小蜜蜂启动了，往B 包点走！",
+          "briefText": "小蜜蜂启动了，往B 包点走！",
+          "stage": "局势变化",
+          "at": 67,
+          "sourceType": "template",
+          "eventIds": [
+            "r5-e68"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r5-phase-execution-4"
+          ],
+          "templateId": "PH-037"
+        },
+        {
+          "text": "憨豆（apEX）这一拍接上了，往B 包点继续靠。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 72,
+          "sourceType": "template",
+          "eventIds": [
+            "r5-e78"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r5-phase-smoke-11"
+          ],
+          "templateId": "PH-012"
+        },
+        {
+          "text": "卡神（KSCERATO）用M4A1-S把憨豆（apEX）打到19血，下一次交火的容错很低。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 81,
+          "sourceType": "original",
+          "eventIds": [
+            "r5-e109",
+            "r5-e110"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r5-gun-hurt-17"
+          ]
+        },
+        {
+          "text": "首杀给得还是非常致命！ molodoy在B 包点用M4A1-S拿下憨豆（apEX），首杀之后是4打5。 这一枪是隔着烟打的。",
+          "briefText": "molodoy在B 包点用M4A1-S拿下憨豆（apEX），首杀之后是4打5。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 83,
+          "sourceType": "quote",
+          "eventIds": [
+            "r5-e121",
+            "r5-e119",
+            "r5-e120"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r5-opening-19",
+            "inferno-r5-smoke-kill-20"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "我直接一个爆头打出去！ 闪给到了！第一时间molodoy把火仔（flameZ）闪白，yuurih第二时间用M4A1-S完成击杀。",
+          "briefText": "闪给到了！第一时间molodoy把火仔（flameZ）闪白，yuurih第二时间用M4A1-S完成击杀。 还是个爆头。",
+          "stage": "道具配合",
+          "at": 85,
+          "sourceType": "quote",
+          "eventIds": [
+            "r5-e114",
+            "r5-e112",
+            "r5-e132",
+            "r5-e130",
+            "r5-e131"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r5-flash-conversion-23",
+            "inferno-r5-headshot-22"
+          ],
+          "templateId": "RF-12-7",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        },
+        {
+          "text": "这个残局比想象中更难打！ 只剩ropz，一打5。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 93,
+          "sourceType": "quote",
+          "eventIds": [
+            "r5-e183"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r5-clutch-start-28"
+          ],
+          "templateId": "RB-3-18",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图三 Dust2"
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:5。 最后倒下的是ropz，击杀记在教父（FalleN）名下。",
+          "briefText": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:5。 最后倒下的是ropz，击杀记在教父（FalleN）名下。",
+          "stage": "回合结算",
+          "at": 97,
+          "sourceType": "original",
+          "eventIds": [
+            "r5-e197",
+            "r5-e203"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r5-close-29"
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "map": "inferno",
+      "round": 1,
+      "hit": {
+        "id": "r1-e94",
+        "at": 50,
+        "kind": "damage",
+        "causes": [
+          "r1-e93"
+        ],
+        "detail": {},
+        "actor": "team-3-p1",
+        "target": "team-7-p4",
+        "team": 0,
+        "zone": "inferno-4",
+        "weapon": "Glock",
+        "damage": 87,
+        "hpBefore": 100,
+        "hpAfter": 13
+      },
+      "shot": {
+        "id": "r1-e93",
+        "at": 50,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "long",
+          "chance": 0.16259635990027654,
+          "aim": 0.05,
+          "role": 0,
+          "positioning": 0.016,
+          "tactical": 0,
+          "synergy": 0.046,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 2,
+          "cover": 0.12249999999999998,
+          "movingPenalty": 0,
+          "hit": true,
+          "headshot": true
+        },
+        "actor": "team-3-p1",
+        "target": "team-7-p4",
+        "team": 0,
+        "zone": "inferno-4",
+        "weapon": "Glock"
+      },
+      "lines": [
+        {
+          "text": "来看今天的手枪局！ Inferno，小蜜蜂进攻，黑豹防守。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-setup-0"
+          ],
+          "templateId": "RQ-1-8",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "然后我打一个假打探点！ 进攻方小蜜蜂的计划是佯攻 A 转 B，另一边黑豹选择前探后收。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-plan-1"
+          ],
+          "templateId": "RD-9-26",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "首杀给得还是非常致命！ 教父（FalleN）在香蕉道用USP-S爆头拿下英一手（mezii），首杀之后是4打5。",
+          "briefText": "教父（FalleN）在香蕉道用USP-S爆头拿下英一手（mezii），首杀之后是4打5。",
+          "stage": "接触交锋",
+          "at": 44,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e70"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-opening-2"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "兄弟们，来了一个动态防守，好吧！ 黑豹收到香蕉道的情报，卡神（KSCERATO）开始支援；这段轮转得实实在在跑9秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e72",
+            "r1-e79"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-rotation-4"
+          ],
+          "templateId": "RW-9-8",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "憨豆（apEX）用Glock把狂哥（YEKINDAR）打到13血，下一次交火的容错很低。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 50,
+          "sourceType": "original",
+          "eventIds": [
+            "r1-e93",
+            "r1-e94"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-gun-hurt-5"
+          ]
+        },
+        {
+          "text": "小蜜蜂这波先等集结，不急着单独往里送。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 55,
+          "sourceType": "template",
+          "eventIds": [
+            "r1-e104"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-phase-regroup-6"
+          ],
+          "templateId": "PH-030"
+        },
+        {
+          "text": "首杀拿不到，不耽误后续进攻！ 小蜜蜂这波动了，目标就是B 包点。",
+          "briefText": "小蜜蜂这波动了，目标就是B 包点。",
+          "stage": "局势变化",
+          "at": 56,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e109"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-phase-execution-8"
+          ],
+          "templateId": "RQ-2-8",
+          "supportTemplateId": "PH-039",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "这个残局只能说也挺看运气的吧。 只剩憨豆（apEX），一打5。",
+          "briefText": "只剩憨豆（apEX），一打5。",
+          "stage": "局势变化",
+          "at": 74,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e191"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-clutch-start-10"
+          ],
+          "templateId": "RB-3-16",
+          "quoteSource": "IEM 克拉科夫 Vitality vs FURIA 图一 Mirage"
+        },
+        {
+          "text": "确实，不需要防守道具也能守得住啊！ 对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是憨豆（apEX），击杀记在卡神（KSCERATO）名下。",
+          "briefText": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是憨豆（apEX），击杀记在卡神（KSCERATO）名下。",
+          "stage": "回合结算",
+          "at": 76,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e201",
+            "r1-e207"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r1-close-11"
+          ],
+          "templateId": "RW-6-9",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        }
+      ]
+    },
+    {
+      "seed": 6,
+      "map": "inferno",
+      "round": 1,
+      "hit": {
+        "id": "r1-e77",
+        "at": 34,
+        "kind": "damage",
+        "causes": [
+          "r1-e76"
+        ],
+        "detail": {},
+        "actor": "team-3-p3",
+        "target": "team-7-p1",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "Glock",
+        "damage": 87,
+        "hpBefore": 100,
+        "hpAfter": 13
+      },
+      "shot": {
+        "id": "r1-e76",
+        "at": 34,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "long",
+          "chance": 0.1606727388044598,
+          "aim": 0.11875,
+          "role": 0,
+          "positioning": 0.042,
+          "tactical": 0.037142857142857144,
+          "synergy": 0.075,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 3,
+          "cover": 0.27999999999999997,
+          "movingPenalty": 0,
+          "hit": true,
+          "headshot": true
+        },
+        "actor": "team-3-p3",
+        "target": "team-7-p1",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "Glock"
+      },
+      "lines": [
+        {
+          "text": "我们继续看手枪局吧！ Inferno，小蜜蜂进攻，黑豹防守。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-setup-0"
+          ],
+          "templateId": "RF-1-6",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "分开站好，第二时间这把准备直接打 B！ 这一分小蜜蜂选择双路夹 B，防守方黑豹选择标准 2-1-2。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-plan-1"
+          ],
+          "templateId": "RF-9-2",
+          "quoteSource": "IEM 里约总决赛 Vitality vs Spirit 图三Dust2"
+        },
+        {
+          "text": "这一枪没有带走，教父（FalleN）还剩13血；开枪的是英一手（mezii），用的是Glock。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 34,
+          "sourceType": "original",
+          "eventIds": [
+            "r1-e76",
+            "r1-e77"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-gun-hurt-3"
+          ]
+        },
+        {
+          "text": "首杀给得还是非常致命！ 首杀出现在香蕉道！卡神（KSCERATO）用USP-S拿下憨豆（apEX），场上变成4打5。",
+          "briefText": "首杀出现在香蕉道！卡神（KSCERATO）用USP-S拿下憨豆（apEX），场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 37,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e88"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-opening-4"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "一发入魂！ 教父（FalleN）爆头带走火仔（flameZ）！",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 39,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e101",
+            "r1-e102",
+            "r1-e103"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r1-headshot-6"
+          ],
+          "templateId": "RQ-4-11",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图二 Mirage"
+        },
+        {
+          "text": "然后他们就直接启动了这局战术。 小蜜蜂这次目标是B 包点，还有3人。",
+          "briefText": "小蜜蜂开始往B 包点进攻。",
+          "stage": "局势变化",
+          "at": 42,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e118"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-phase-execution-8"
+          ],
+          "templateId": "RB-9-24",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图二 Inferno"
+        },
+        {
+          "text": "这个补枪补的确实漂亮！ molodoy只隔2秒就补掉ropz，场上是2打4。",
+          "briefText": "molodoy只隔2秒就补掉ropz，场上是2打4。",
+          "stage": "接触交锋",
+          "at": 49,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e136",
+            "r1-e143",
+            "r1-e144"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-trade-9"
+          ],
+          "templateId": "RB-2-7",
+          "quoteSource": "EPL 第 23 赛季 Astralis vs FUT 图三 Overpass"
+        },
+        {
+          "text": "这个残局比想象中更难打！ 只剩英一手（mezii），一打4。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e171"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-clutch-start-10"
+          ],
+          "templateId": "RB-3-18",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图三 Dust2"
+        },
+        {
+          "text": "手枪局该杀人的兄弟们都在杀人！ 对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是英一手（mezii），击杀记在卡神（KSCERATO）名下。",
+          "briefText": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是英一手（mezii），击杀记在卡神（KSCERATO）名下。",
+          "stage": "回合结算",
+          "at": 61,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e187",
+            "r1-e192"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r1-close-11"
+          ],
+          "templateId": "RD-1-2",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图三 Nuke"
+        }
+      ]
+    },
+    {
+      "seed": 6,
+      "map": "inferno",
+      "round": 13,
+      "hit": {
+        "id": "r13-e86",
+        "at": 35,
+        "kind": "damage",
+        "causes": [
+          "r13-e85"
+        ],
+        "detail": {},
+        "actor": "team-3-p2",
+        "target": "team-7-p4",
+        "team": 0,
+        "zone": "inferno-4",
+        "weapon": "USP-S",
+        "damage": 18,
+        "hpBefore": 28,
+        "hpAfter": 10
+      },
+      "shot": {
+        "id": "r13-e85",
+        "at": 35,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "mid",
+          "chance": 0.7764204231700625,
+          "aim": 0.13125,
+          "role": 0,
+          "positioning": 0.016,
+          "tactical": 0.042222222222222223,
+          "synergy": 0.08,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 4,
+          "cover": 0.013999999999999999,
+          "movingPenalty": 0,
+          "hit": true,
+          "headshot": false
+        },
+        "actor": "team-3-p2",
+        "target": "team-7-p4",
+        "team": 0,
+        "zone": "inferno-4",
+        "weapon": "USP-S"
+      },
+      "lines": [
+        {
+          "text": "但这局我暂停肯定还是有战术的啊。 小蜜蜂这次希望调整重点区域。",
+          "briefText": "小蜜蜂用一个暂停来调整重点区域，接着看这一分。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-timeout-2"
+          ],
+          "templateId": "RB-11-2",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图二 Inferno"
+        },
+        {
+          "text": "OK，我们来看一下手枪局啊！ Inferno，黑豹进攻，小蜜蜂防守。 黑豹选择双路夹 A，小蜜蜂这边是重兵防 A。",
+          "briefText": "Inferno，黑豹进攻，小蜜蜂防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e11",
+            "r13-e13"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-setup-0",
+            "inferno-r13-plan-1"
+          ],
+          "templateId": "RW-1-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ 首杀出现在中路上段！火仔（flameZ）用USP-S爆头拿下教父（FalleN），场上变成4打5。",
+          "briefText": "首杀出现在中路上段！火仔（flameZ）用USP-S爆头拿下教父（FalleN），场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 33,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e67"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-opening-3"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "这一枪没有带走，狂哥（YEKINDAR）还剩10血；开枪的是火仔（flameZ），用的是USP-S。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 35,
+          "sourceType": "original",
+          "eventIds": [
+            "r13-e85",
+            "r13-e86"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-gun-hurt-5"
+          ]
+        },
+        {
+          "text": "三打五，他必须得 peek 啊，兄弟他三打五，他必须得瑞啊！ 黑豹现在三打五，原定的推进要重新掂量。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 35,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e89"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-disadvantage-6"
+          ],
+          "templateId": "RQ-10-22",
+          "quoteSource": "IEM 里约小组赛 MOUZ vs Aurora 图二 Mirage"
+        },
+        {
+          "text": "兄弟们，来了一个动态防守，好吧！ 小蜜蜂收到中路上段的情报，憨豆（apEX）开始支援；这段轮转得实实在在跑5秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 39,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e104",
+            "r13-e106"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r13-rotation-7"
+          ],
+          "templateId": "RW-9-8",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "这个残局比想象中更难打！ 只剩yuurih，一打5。",
+          "briefText": "只剩yuurih，一打5。",
+          "stage": "局势变化",
+          "at": 41,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e119"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r13-clutch-start-8"
+          ],
+          "templateId": "RB-3-18",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图三 Dust2"
+        },
+        {
+          "text": "确实，不需要防守道具也能守得住啊！ 对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到11:2。 最后倒下的是yuurih，击杀记在英一手（mezii）名下。",
+          "briefText": "对方全部倒下，这个回合结束。小蜜蜂拿下这一分，比分来到11:2。 最后倒下的是yuurih，击杀记在英一手（mezii）名下。",
+          "stage": "回合结算",
+          "at": 41,
+          "sourceType": "quote",
+          "eventIds": [
+            "r13-e123",
+            "r13-e129"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r13-close-9"
+          ],
+          "templateId": "RW-6-9",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "map": "inferno",
+      "round": 1,
+      "hit": {
+        "id": "r1-e99",
+        "at": 45,
+        "kind": "damage",
+        "causes": [
+          "r1-e98"
+        ],
+        "detail": {},
+        "actor": "team-7-p1",
+        "target": "team-3-p1",
+        "team": 1,
+        "zone": "inferno-5",
+        "weapon": "USP-S",
+        "damage": 18,
+        "hpBefore": 28,
+        "hpAfter": 10
+      },
+      "shot": {
+        "id": "r1-e98",
+        "at": 45,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "long",
+          "chance": 0.2857912810298148,
+          "aim": 0.03125,
+          "role": 0,
+          "positioning": 0.016,
+          "tactical": 0.006666666666666667,
+          "synergy": 0.045,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 2,
+          "cover": 0.026000000000000002,
+          "movingPenalty": 0,
+          "hit": true,
+          "headshot": false
+        },
+        "actor": "team-7-p1",
+        "target": "team-3-p1",
+        "team": 1,
+        "zone": "inferno-5",
+        "weapon": "USP-S"
+      },
+      "lines": [
+        {
+          "text": "OK，我们来看一下手枪局啊！ Inferno，小蜜蜂进攻，黑豹防守。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-setup-0"
+          ],
+          "templateId": "RW-1-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "终究是要围绕着缓慢的默认去打！ 进攻方小蜜蜂的计划是默认控图，另一边黑豹选择标准 2-1-2。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-plan-1"
+          ],
+          "templateId": "RD-9-8",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图二 Dust2"
+        },
+        {
+          "text": "憨豆（apEX）吃到教父（FalleN）的USP-S，现在只剩10血。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 45,
+          "sourceType": "original",
+          "eventIds": [
+            "r1-e98",
+            "r1-e99"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-gun-hurt-3"
+          ]
+        },
+        {
+          "text": "然后他们就直接启动了这局战术。 小蜜蜂这次目标是B 包点，还有5人。",
+          "briefText": "小蜜蜂开始往B 包点进攻。",
+          "stage": "局势变化",
+          "at": 47,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e105"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-phase-execution-5"
+          ],
+          "templateId": "RB-9-24",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图二 Inferno"
+        },
+        {
+          "text": "首杀给得还是非常致命！ 首杀出现在B 包点！教父（FalleN）用USP-S爆头拿下ropz，场上变成4打5。",
+          "briefText": "首杀出现在B 包点！教父（FalleN）用USP-S爆头拿下ropz，场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 52,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e128"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-opening-6"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "三打五，他必须得 peek 啊，兄弟他三打五，他必须得瑞啊！ 小蜜蜂现在三打五，原定的推进要重新掂量。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 55,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e142"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-disadvantage-8"
+          ],
+          "templateId": "RQ-10-22",
+          "quoteSource": "IEM 里约小组赛 MOUZ vs Aurora 图二 Mirage"
+        },
+        {
+          "text": "但队友的补枪那是随便补补了！ 英一手（mezii）只隔5秒就补掉教父（FalleN），场上是3打4。",
+          "briefText": "英一手（mezii）只隔5秒就补掉教父（FalleN），场上是3打4。",
+          "stage": "接触交锋",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e128",
+            "r1-e150",
+            "r1-e151"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-trade-9"
+          ],
+          "templateId": "RW-2-5",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "那接下来就是残局舞台！ 只剩英一手（mezii），一打4。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e161"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-clutch-start-10"
+          ],
+          "templateId": "RD-3-2",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图一 Mirage"
+        },
+        {
+          "text": "确实，不需要防守道具也能守得住啊！ 对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是英一手（mezii），击杀记在卡神（KSCERATO）名下。",
+          "briefText": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。 最后倒下的是英一手（mezii），击杀记在卡神（KSCERATO）名下。",
+          "stage": "回合结算",
+          "at": 63,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e177",
+            "r1-e182"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r1-close-11"
+          ],
+          "templateId": "RW-6-9",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        }
+      ]
+    },
+    {
+      "seed": 8,
+      "map": "inferno",
+      "round": 1,
+      "hit": {
+        "id": "r1-e98",
+        "at": 26,
+        "kind": "damage",
+        "causes": [
+          "r1-e97"
+        ],
+        "detail": {},
+        "actor": "team-3-p5",
+        "target": "team-7-p3",
+        "team": 0,
+        "zone": "inferno-2",
+        "weapon": "Glock",
+        "damage": 87,
+        "hpBefore": 100,
+        "hpAfter": 13
+      },
+      "shot": {
+        "id": "r1-e97",
+        "at": 26,
+        "kind": "duel",
+        "causes": [],
+        "detail": {
+          "range": "close",
+          "chance": 0.4052592709286449,
+          "aim": 0.1625,
+          "role": 0,
+          "positioning": 0.016,
+          "tactical": 0,
+          "synergy": 0.08,
+          "mapSkill": 0.008333333333333333,
+          "blindness": 1,
+          "smoke": 1,
+          "allies": 5,
+          "cover": 0.26249999999999996,
+          "movingPenalty": 0.12,
+          "hit": true,
+          "headshot": true
+        },
+        "actor": "team-3-p5",
+        "target": "team-7-p3",
+        "team": 0,
+        "zone": "inferno-2",
+        "weapon": "Glock"
+      },
+      "lines": [
+        {
+          "text": "我们继续看手枪局吧！ Inferno，小蜜蜂进攻，黑豹防守。 进攻方小蜜蜂的计划是快速 A 爆弹，另一边黑豹选择近点埋伏。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e11",
+            "r1-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-setup-0",
+            "inferno-r1-plan-1"
+          ],
+          "templateId": "RF-1-6",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ 憨豆（apEX）在中路用Glock爆头拿下yuurih，首杀之后是5打4。",
+          "briefText": "憨豆（apEX）在中路用Glock爆头拿下yuurih，首杀之后是5打4。",
+          "stage": "接触交锋",
+          "at": 17,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e77"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-opening-3"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "然后他们就直接启动了这局战术。 小蜜蜂这次目标是A 包点，还有5人。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 20,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e80"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r1-phase-execution-5"
+          ],
+          "templateId": "RB-9-24",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图二 Inferno"
+        },
+        {
+          "text": "载物（ZywOo）用Glock把molodoy打到13血，下一次交火的容错很低。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 26,
+          "sourceType": "original",
+          "eventIds": [
+            "r1-e97",
+            "r1-e98"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-gun-hurt-6"
+          ]
+        },
+        {
+          "text": "这补枪补的确实漂亮！ 狂哥（YEKINDAR）只隔4秒就补掉载物（ZywOo），场上是3打3。",
+          "briefText": "狂哥（YEKINDAR）只隔4秒就补掉载物（ZywOo），场上是3打3。",
+          "stage": "接触交锋",
+          "at": 32,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e111",
+            "r1-e122",
+            "r1-e123"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-trade-9"
+          ],
+          "templateId": "RQ-2-24",
+          "quoteSource": "EPL 第 23 赛季 Astralis vs FUT 图三 Overpass"
+        },
+        {
+          "text": "这个残局比想象中更难打！ 只剩ropz，一打3。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 50,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e164"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r1-clutch-start-10"
+          ],
+          "templateId": "RB-3-18",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图三 Dust2"
+        },
+        {
+          "text": "这人太吊了，无敌了！ 狂哥（YEKINDAR）站出来了！从第一个到第5个击杀，经过了30秒。",
+          "briefText": "狂哥（YEKINDAR）站出来了！从第一个到第5个击杀，经过了30秒。",
+          "stage": "接触交锋",
+          "at": 58,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e104",
+            "r1-e122",
+            "r1-e129",
+            "r1-e164",
+            "r1-e176"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r1-multikill-11"
+          ],
+          "templateId": "RQ-10-27",
+          "quoteSource": "EPL 第 23 赛季 Astralis vs FUT 图一 Dust2"
+        },
+        {
+          "text": "确实，不需要防守道具也能守得住啊！ 对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。",
+          "briefText": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:1。",
+          "stage": "回合结算",
+          "at": 58,
+          "sourceType": "quote",
+          "eventIds": [
+            "r1-e180"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r1-close-12"
+          ],
+          "templateId": "RW-6-9",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        }
+      ]
+    }
+  ],
+  "fireSamples": [
+    {
+      "seed": 3,
+      "map": "inferno",
+      "round": 11,
+      "hit": {
+        "id": "r11-e66",
+        "at": 45,
+        "kind": "damage",
+        "causes": [
+          "r11-e64"
+        ],
+        "detail": {},
+        "actor": "team-3-p2",
+        "target": "team-7-p2",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "damage": 8,
+        "hpBefore": 8,
+        "hpAfter": 0
+      },
+      "kill": {
+        "id": "r11-e67",
+        "at": 45,
+        "kind": "kill",
+        "causes": [
+          "r11-e66"
+        ],
+        "detail": {},
+        "actor": "team-3-p2",
+        "target": "team-7-p2",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "alive": [
+          5,
+          4
+        ]
+      },
+      "lines": [
+        {
+          "text": "来，小蜜蜂打，黑豹守，看这一分。 当前比分7比3。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r11-e11",
+            "r11-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r11-setup-0"
+          ],
+          "templateId": "CX-002"
+        },
+        {
+          "text": "然后我打一个假打探点！ 这一分小蜜蜂选择佯攻 B 转 A，防守方黑豹选择重兵防 A。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e11",
+            "r11-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r11-plan-1"
+          ],
+          "templateId": "RD-9-26",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "火仔（flameZ）在B 包点用燃烧弹拿下卡神（KSCERATO），首杀之后是5打4。",
+          "briefText": "火仔（flameZ）在B 包点用燃烧弹拿下卡神（KSCERATO），首杀之后是5打4。",
+          "stage": "接触交锋",
+          "at": 45,
+          "sourceType": "original",
+          "eventIds": [
+            "r11-e67",
+            "r11-e64",
+            "r11-e66"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r11-opening-4",
+            "inferno-r11-fire-kill-5"
+          ]
+        },
+        {
+          "text": "那个就是随时可以爆弹启动的状态哇！ 小蜜蜂启动了，往A 包点走！",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 55,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e102"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r11-phase-execution-10"
+          ],
+          "templateId": "RW-6-20",
+          "supportTemplateId": "PH-037",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图一 Overpass"
+        },
+        {
+          "text": "烟里面有人！哦，他真的给混死了一个！这个信息教父（FalleN）到底是怎么判断的？ 倒下的是ropz，这枪用的是M4A1-S。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 69,
+          "sourceType": "template",
+          "eventIds": [
+            "r11-e143",
+            "r11-e144",
+            "r11-e145"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r11-smoke-kill-14"
+          ],
+          "templateId": "WJ-116"
+        },
+        {
+          "text": "枪法说话这一块来了！ 教父（FalleN）站出来了！从第一个到第4个击杀，经过了53秒。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 99,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e79",
+            "r11-e145",
+            "r11-e179",
+            "r11-e194"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r11-multikill-29"
+          ],
+          "templateId": "RQ-4-32",
+          "quoteSource": "PGL 克卢日-纳波卡 MOUZ vs MongolZ 图一 Mirage"
+        },
+        {
+          "text": "先秒一个，队友马上补上，这就叫同步！ 火仔（flameZ）马上补掉教父（FalleN），场上是1打2。",
+          "briefText": "火仔（flameZ）马上补掉教父（FalleN），场上是1打2。",
+          "stage": "接触交锋",
+          "at": 99,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e194",
+            "r11-e197",
+            "r11-e198"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r11-trade-26"
+          ],
+          "templateId": "RQ-2-14",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图一 Mirage"
+        },
+        {
+          "text": "兄弟们，尽力了，尽力了！ 火仔（flameZ）已经打掉1个，可这个一打3还是没能拿下来。",
+          "briefText": "火仔（flameZ）已经打掉1个，可这个一打3还是没能拿下来。",
+          "stage": "回合结算",
+          "at": 115,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e194",
+            "r11-e197",
+            "r11-e227",
+            "r11-e223"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r11-clutch-loss-30"
+          ],
+          "templateId": "RD-3-12",
+          "quoteSource": "IEM 里约小组赛 Day3 NAVI vs Aurora 图二 Mirage"
+        },
+        {
+          "text": "时间到了，进攻方没能下包。黑豹拿下这一分，比分来到7:4。",
+          "briefText": "时间到了，进攻方没能下包。黑豹拿下这一分，比分来到7:4。",
+          "stage": "回合结算",
+          "at": 115,
+          "sourceType": "original",
+          "eventIds": [
+            "r11-e227",
+            "r11-e223"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r11-close-31"
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "map": "inferno",
+      "round": 8,
+      "hit": {
+        "id": "r8-e139",
+        "at": 52,
+        "kind": "damage",
+        "causes": [
+          "r8-e138"
+        ],
+        "detail": {},
+        "actor": "team-7-p2",
+        "target": "team-3-p4",
+        "team": 1,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "damage": 1,
+        "hpBefore": 1,
+        "hpAfter": 0
+      },
+      "kill": {
+        "id": "r8-e140",
+        "at": 52,
+        "kind": "kill",
+        "causes": [
+          "r8-e139"
+        ],
+        "detail": {},
+        "actor": "team-7-p2",
+        "target": "team-3-p4",
+        "team": 1,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "alive": [
+          1,
+          4
+        ]
+      },
+      "lines": [
+        {
+          "text": "黑豹这一段顺起来了，但下一分还得打。 当前比分0比7。 这一分小蜜蜂选择双路夹 B，防守方黑豹选择B 区前顶。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r8-e11",
+            "r8-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r8-setup-0",
+            "inferno-r8-plan-1"
+          ],
+          "templateId": "CX-008"
+        },
+        {
+          "text": "啊，正常队伍五打四都可老实了啊！ yuurih在香蕉道用M4A1-S爆头拿下憨豆（apEX），首杀之后是4打5。",
+          "briefText": "yuurih在香蕉道用M4A1-S爆头拿下憨豆（apEX），首杀之后是4打5。",
+          "stage": "接触交锋",
+          "at": 29,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e62"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r8-opening-2"
+          ],
+          "templateId": "RW-2-11",
+          "quoteSource": "BLAST 沃斯堡对抗赛 Astralis vs GL 图二 Inferno"
+        },
+        {
+          "text": "兄弟们，小蜜蜂动起来了，先往B 包点顶。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 43,
+          "sourceType": "template",
+          "eventIds": [
+            "r8-e95"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r8-phase-execution-10"
+          ],
+          "templateId": "PH-042"
+        },
+        {
+          "text": "这波反清肯定是要结合着道具的！ 闪给到了！第一时间教父（FalleN）把载物（ZywOo）闪白，卡神（KSCERATO）第二时间用M4A1-S完成击杀。",
+          "briefText": "闪给到了！第一时间教父（FalleN）把载物（ZywOo）闪白，卡神（KSCERATO）第二时间用M4A1-S完成击杀。",
+          "stage": "道具配合",
+          "at": 48,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e113",
+            "r8-e112",
+            "r8-e119"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r8-flash-conversion-12"
+          ],
+          "templateId": "RW-6-4",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图三 Mirage"
+        },
+        {
+          "text": "好火，这火就标准好吧！ ropz被火焰逼到1血，再不离开火区就危险了。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 51,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e135",
+            "r8-e134"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r8-fire-damage-14"
+          ],
+          "templateId": "RQ-6-30",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图四 Dust2"
+        },
+        {
+          "text": "这个残局只能说也挺看运气的吧。 只剩火仔（flameZ），一打4。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 52,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e140"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r8-clutch-start-16"
+          ],
+          "templateId": "RB-3-16",
+          "quoteSource": "IEM 克拉科夫 Vitality vs FURIA 图一 Mirage"
+        },
+        {
+          "text": "卡神（KSCERATO）隔3秒用燃烧弹换掉ropz，场上是1打4。",
+          "briefText": "卡神（KSCERATO）隔3秒用燃烧弹换掉ropz，场上是1打4。",
+          "stage": "接触交锋",
+          "at": 52,
+          "sourceType": "original",
+          "eventIds": [
+            "r8-e124",
+            "r8-e140",
+            "r8-e141",
+            "r8-e138",
+            "r8-e139"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r8-utility-trade-17",
+            "inferno-r8-fire-kill-15"
+          ]
+        },
+        {
+          "text": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:8。 最后倒下的是火仔（flameZ），击杀记在yuurih名下。",
+          "briefText": "对方全部倒下，这个回合结束。黑豹拿下这一分，比分来到0:8。 最后倒下的是火仔（flameZ），击杀记在yuurih名下。",
+          "stage": "回合结算",
+          "at": 55,
+          "sourceType": "original",
+          "eventIds": [
+            "r8-e159",
+            "r8-e164"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r8-close-20"
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "map": "inferno",
+      "round": 8,
+      "hit": {
+        "id": "r8-e89",
+        "at": 30,
+        "kind": "damage",
+        "causes": [
+          "r8-e53"
+        ],
+        "detail": {},
+        "actor": "team-3-p2",
+        "target": "team-7-p1",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "damage": 1,
+        "hpBefore": 1,
+        "hpAfter": 0
+      },
+      "kill": {
+        "id": "r8-e90",
+        "at": 30,
+        "kind": "kill",
+        "causes": [
+          "r8-e89"
+        ],
+        "detail": {},
+        "actor": "team-3-p2",
+        "target": "team-7-p1",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "alive": [
+          5,
+          4
+        ]
+      },
+      "lines": [
+        {
+          "text": "开局先抢图权，图权丢了中期就坐大牢！ Inferno，小蜜蜂进攻，黑豹防守。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e11",
+            "r8-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r8-setup-0"
+          ],
+          "templateId": "RQ-1-14",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "这把 T 好像要玩中路！ 这一分小蜜蜂选择争夺关键通道，防守方黑豹选择重兵防 B。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e11",
+            "r8-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r8-plan-1"
+          ],
+          "templateId": "RD-9-6",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图一 Mirage"
+        },
+        {
+          "text": "这个暂停叫得很有经验啊！ 黑豹这次希望稳住节奏。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e13"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r8-timeout-2"
+          ],
+          "templateId": "RW-11-1",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "首杀给得还是非常致命！ 首杀出现在B 包点！火仔（flameZ）用燃烧弹拿下教父（FalleN），场上变成5打4。",
+          "briefText": "首杀出现在B 包点！火仔（flameZ）用燃烧弹拿下教父（FalleN），场上变成5打4。",
+          "stage": "接触交锋",
+          "at": 30,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e90",
+            "r8-e53",
+            "r8-e89"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r8-opening-6",
+            "inferno-r8-fire-kill-7"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "非常扎实的补枪啊！ molodoy只隔5秒就补掉ropz，场上是4打2。 这一枪赢下了对狙。 这一枪是隔着烟打的。",
+          "briefText": "molodoy只隔5秒就补掉ropz，场上是4打2。 这一枪赢下了对狙。 这一枪是隔着烟打的。",
+          "stage": "接触交锋",
+          "at": 51,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e129",
+            "r8-e142",
+            "r8-e143",
+            "r8-e140",
+            "r8-e141"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r8-trade-16",
+            "inferno-r8-smoke-kill-15",
+            "inferno-r8-awp-duel-14"
+          ],
+          "templateId": "RF-2-8",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图一Dust2"
+        },
+        {
+          "text": "闪给到了！第一时间憨豆（apEX）把molodoy闪白，英一手（mezii）第二时间用M4A1-S完成击杀。 对面这把大狙也掉了。",
+          "briefText": "闪给到了！第一时间憨豆（apEX）把molodoy闪白，英一手（mezii）第二时间用M4A1-S完成击杀。 对面这把大狙也掉了。",
+          "stage": "道具配合",
+          "at": 56,
+          "sourceType": "original",
+          "eventIds": [
+            "r8-e157",
+            "r8-e156",
+            "r8-e167"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r8-flash-conversion-20",
+            "inferno-r8-rifle-v-awp-19"
+          ]
+        },
+        {
+          "text": "把狙秒了就能下包了！ 憨豆（apEX）在B 包点下包成功，回防方现在有40秒时间。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 60,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e170"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r8-plant-24"
+          ],
+          "templateId": "RF-8-2",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        },
+        {
+          "text": "第二时间选择了直接保甲！ 狂哥（YEKINDAR）选择撤退保枪：人数劣势，保留长枪。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 61,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e171"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r8-save-decision-25"
+          ],
+          "templateId": "RD-5-4",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图一 Mirage"
+        },
+        {
+          "text": "行了呀，兄弟们，六分了呀！ 时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到6:2。",
+          "briefText": "时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到6:2。",
+          "stage": "回合结算",
+          "at": 100,
+          "sourceType": "quote",
+          "eventIds": [
+            "r8-e182",
+            "r8-e176"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r8-close-26"
+          ],
+          "templateId": "RQ-7-20",
+          "quoteSource": "IEM 里约小组赛 MOUZ vs Aurora 图二 Mirage"
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "map": "inferno",
+      "round": 19,
+      "hit": {
+        "id": "r19-e122",
+        "at": 69,
+        "kind": "damage",
+        "causes": [
+          "r19-e105"
+        ],
+        "detail": {},
+        "actor": "team-7-p2",
+        "target": "team-3-p5",
+        "team": 1,
+        "zone": "inferno-2",
+        "weapon": "fire",
+        "damage": 10,
+        "hpBefore": 10,
+        "hpAfter": 0
+      },
+      "kill": {
+        "id": "r19-e123",
+        "at": 69,
+        "kind": "kill",
+        "causes": [
+          "r19-e122"
+        ],
+        "detail": {},
+        "actor": "team-7-p2",
+        "target": "team-3-p5",
+        "team": 1,
+        "zone": "inferno-2",
+        "weapon": "fire",
+        "alive": [
+          1,
+          2
+        ]
+      },
+      "lines": [
+        {
+          "text": "可能也是因为下半场打得太顺了！ Inferno，黑豹进攻，小蜜蜂防守。 黑豹选择慢速控 A，小蜜蜂这边是重兵防 A。",
+          "briefText": "Inferno，黑豹进攻，小蜜蜂防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r19-e11",
+            "r19-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r19-setup-0",
+            "inferno-r19-plan-1"
+          ],
+          "templateId": "RF-11-10",
+          "quoteSource": "IEM 里约总决赛 Vitality vs Spirit 图二Nuke"
+        },
+        {
+          "text": "漏就死，漏就爆头！ 中路这边先掉人，狂哥（YEKINDAR）用M4A1-S拿下憨豆（apEX），人数变成5打4。",
+          "briefText": "中路这边先掉人，狂哥（YEKINDAR）用M4A1-S爆头拿下憨豆（apEX），人数变成5打4。",
+          "stage": "接触交锋",
+          "at": 58,
+          "sourceType": "quote",
+          "eventIds": [
+            "r19-e66"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r19-opening-2"
+          ],
+          "templateId": "RQ-2-15",
+          "quoteSource": "IEM 里约小组赛 FURIA vs NAVI 图二 Dust2"
+        },
+        {
+          "text": "这补枪补的确实漂亮！ molodoy只隔1秒就补掉火仔（flameZ），场上是3打3。",
+          "briefText": "molodoy只隔1秒就补掉火仔（flameZ），场上是3打3。",
+          "stage": "接触交锋",
+          "at": 60,
+          "sourceType": "quote",
+          "eventIds": [
+            "r19-e80",
+            "r19-e88",
+            "r19-e89"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r19-trade-5"
+          ],
+          "templateId": "RQ-2-24",
+          "quoteSource": "EPL 第 23 赛季 Astralis vs FUT 图三 Overpass"
+        },
+        {
+          "text": "兄弟们，这个道具支援也非常给力！ 闪给到了！第一时间教父（FalleN）把英一手（mezii）闪白，molodoy第二时间用AWP完成击杀。",
+          "briefText": "闪给到了！第一时间教父（FalleN）把英一手（mezii）闪白，molodoy第二时间用AWP完成击杀。",
+          "stage": "道具配合",
+          "at": 63,
+          "sourceType": "quote",
+          "eventIds": [
+            "r19-e95",
+            "r19-e94",
+            "r19-e102"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r19-flash-conversion-8"
+          ],
+          "templateId": "RD-6-5",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        },
+        {
+          "text": "然后他们就直接启动了这局战术。 黑豹这次目标是A 包点，还有2人。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 67,
+          "sourceType": "quote",
+          "eventIds": [
+            "r19-e117"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r19-phase-execution-14"
+          ],
+          "templateId": "RB-9-24",
+          "quoteSource": "IEM 里约小组赛 Vitality vs G2 图二 Inferno"
+        },
+        {
+          "text": "卡神（KSCERATO）的火烧掉了载物（ZywOo），位置在A 包点。",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 69,
+          "sourceType": "original",
+          "eventIds": [
+            "r19-e105",
+            "r19-e122",
+            "r19-e123"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r19-fire-kill-16"
+          ]
+        },
+        {
+          "text": "A 包点的包落地，教父（FalleN）完成下包；距离爆炸还有40秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 80,
+          "sourceType": "original",
+          "eventIds": [
+            "r19-e128"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r19-plant-19"
+          ]
+        },
+        {
+          "text": "时间走完，炸弹爆炸。黑豹拿下这一分，比分来到11:8。",
+          "briefText": "时间走完，炸弹爆炸。黑豹拿下这一分，比分来到11:8。",
+          "stage": "回合结算",
+          "at": 120,
+          "sourceType": "original",
+          "eventIds": [
+            "r19-e150",
+            "r19-e147"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r19-close-21"
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 9,
+      "map": "inferno",
+      "round": 12,
+      "hit": {
+        "id": "r12-e71",
+        "at": 33,
+        "kind": "damage",
+        "causes": [
+          "r12-e68"
+        ],
+        "detail": {},
+        "actor": "team-3-p2",
+        "target": "team-7-p2",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "damage": 7,
+        "hpBefore": 7,
+        "hpAfter": 0
+      },
+      "kill": {
+        "id": "r12-e72",
+        "at": 33,
+        "kind": "kill",
+        "causes": [
+          "r12-e71"
+        ],
+        "detail": {},
+        "actor": "team-3-p2",
+        "target": "team-7-p2",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "alive": [
+          5,
+          4
+        ]
+      },
+      "lines": [
+        {
+          "text": "双方重新起步，小蜜蜂先来出题。 当前比分8比3。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r12-e11",
+            "r12-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r12-setup-0"
+          ],
+          "templateId": "CX-005"
+        },
+        {
+          "text": "分开站好，第二时间这把准备直接打 B！ 小蜜蜂选择双路夹 B，黑豹这边是重兵防 A。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e11",
+            "r12-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r12-plan-1"
+          ],
+          "templateId": "RF-9-2",
+          "quoteSource": "IEM 里约总决赛 Vitality vs Spirit 图三Dust2"
+        },
+        {
+          "text": "首杀给得还是非常致命！ 首杀出现在B 包点！火仔（flameZ）用燃烧弹拿下卡神（KSCERATO），场上变成5打4。",
+          "briefText": "首杀出现在B 包点！火仔（flameZ）用燃烧弹拿下卡神（KSCERATO），场上变成5打4。",
+          "stage": "接触交锋",
+          "at": 33,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e72",
+            "r12-e68",
+            "r12-e71"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r12-opening-5",
+            "inferno-r12-fire-kill-6"
+          ],
+          "templateId": "RQ-2-30",
+          "quoteSource": "PGL 克卢日-纳波卡 Vitality vs PARIVISION 图一 Overpass"
+        },
+        {
+          "text": "这一拍开始打，小蜜蜂往B 包点靠！",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 42,
+          "sourceType": "template",
+          "eventIds": [
+            "r12-e90"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r12-phase-execution-9"
+          ],
+          "templateId": "PH-041"
+        },
+        {
+          "text": "我直接一个爆头打出去！ ropz带走molodoy！",
+          "briefText": "",
+          "stage": "接触交锋",
+          "at": 51,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e123",
+            "r12-e124",
+            "r12-e125"
+          ],
+          "emphasis": "hype",
+          "sourceBeatIds": [
+            "inferno-r12-headshot-14"
+          ],
+          "templateId": "RF-12-7",
+          "quoteSource": "IEM 里约季军赛 Falcons vs FURIA 图二Mirage"
+        },
+        {
+          "text": "B 包点的包落地，憨豆（apEX）完成下包；距离爆炸还有40秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 56,
+          "sourceType": "original",
+          "eventIds": [
+            "r12-e131"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r12-plant-15"
+          ]
+        },
+        {
+          "text": "第二时间选择了直接保甲！ 狂哥（YEKINDAR）选择撤退保枪：人数劣势，保留长枪。",
+          "briefText": "狂哥（YEKINDAR）选择撤退保枪：人数劣势，保留长枪。",
+          "stage": "局势变化",
+          "at": 57,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e132"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r12-save-decision-16"
+          ],
+          "templateId": "RD-5-4",
+          "quoteSource": "IEM 里约小组赛 Day3 Falcons vs Vitality 图一 Mirage"
+        },
+        {
+          "text": "时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到9:3。",
+          "briefText": "时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到9:3。",
+          "stage": "回合结算",
+          "at": 96,
+          "sourceType": "original",
+          "eventIds": [
+            "r12-e157",
+            "r12-e150"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r12-close-19"
+          ]
+        },
+        {
+          "text": "我们来看下半场！ 上半场结束，9:3。换边之后重新进入手枪局。",
+          "briefText": "上半场结束，9:3。换边之后重新进入手枪局。",
+          "stage": "回合结算",
+          "at": 96,
+          "sourceType": "quote",
+          "eventIds": [
+            "r12-e157"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r12-half-time-20"
+          ],
+          "templateId": "RD-11-8",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图二 Ancient"
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "map": "inferno",
+      "round": 11,
+      "hit": {
+        "id": "r11-e115",
+        "at": 32,
+        "kind": "damage",
+        "causes": [
+          "r11-e114"
+        ],
+        "detail": {},
+        "actor": "team-3-p3",
+        "target": "team-7-p2",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "damage": 1,
+        "hpBefore": 1,
+        "hpAfter": 0
+      },
+      "kill": {
+        "id": "r11-e116",
+        "at": 32,
+        "kind": "kill",
+        "causes": [
+          "r11-e115"
+        ],
+        "detail": {},
+        "actor": "team-3-p3",
+        "target": "team-7-p2",
+        "team": 0,
+        "zone": "inferno-3",
+        "weapon": "fire",
+        "alive": [
+          4,
+          4
+        ]
+      },
+      "lines": [
+        {
+          "text": "小蜜蜂这一段顺起来了，但下一分还得打。 当前比分8比2。",
+          "briefText": "Inferno，小蜜蜂进攻，黑豹防守。",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "template",
+          "eventIds": [
+            "r11-e11",
+            "r11-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r11-setup-0"
+          ],
+          "templateId": "CX-008"
+        },
+        {
+          "text": "就只走这个爆弹战术！ 这一分小蜜蜂选择快速 B 爆弹，防守方黑豹选择重兵防 A。",
+          "briefText": "",
+          "stage": "开局部署",
+          "at": 0,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e11",
+            "r11-e12"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r11-plan-1"
+          ],
+          "templateId": "RD-9-27",
+          "quoteSource": "IEM 里约小组赛 Day3 Spirit vs RED Canids 图三 Overpass"
+        },
+        {
+          "text": "这边 T 直接 B 爆弹！ 小蜜蜂此时还有5人。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 20,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e70"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r11-phase-execution-6"
+          ],
+          "templateId": "RW-6-3",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图一 Dust2"
+        },
+        {
+          "text": "其实我觉得五打四可以稳啊！ 首杀出现在B 包点！卡神（KSCERATO）用M4A1-S拿下火仔（flameZ），场上变成4打5。",
+          "briefText": "首杀出现在B 包点！卡神（KSCERATO）用M4A1-S拿下火仔（flameZ），场上变成4打5。",
+          "stage": "接触交锋",
+          "at": 30,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e104"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r11-opening-16"
+          ],
+          "templateId": "RW-2-10",
+          "quoteSource": "BLAST 沃斯堡对抗赛 FaZe vs G2 图二 Ancient"
+        },
+        {
+          "text": "英一手（mezii）隔2秒用燃烧弹换掉卡神（KSCERATO），场上是4打4。",
+          "briefText": "英一手（mezii）隔2秒用燃烧弹换掉卡神（KSCERATO），场上是4打4。",
+          "stage": "接触交锋",
+          "at": 32,
+          "sourceType": "original",
+          "eventIds": [
+            "r11-e104",
+            "r11-e116",
+            "r11-e117",
+            "r11-e114",
+            "r11-e115"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r11-utility-trade-20",
+            "inferno-r11-fire-kill-19"
+          ]
+        },
+        {
+          "text": "这把这个烟雾弹太关键了！ 烟灭火！英一手（mezii）这颗烟把B 包点的火扑掉了，火区压力先解开。",
+          "briefText": "",
+          "stage": "道具配合",
+          "at": 34,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e134",
+            "r11-e114",
+            "r11-e133"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r11-extinguish-26"
+          ],
+          "templateId": "RQ-6-29",
+          "quoteSource": "EPL 第 23 赛季 NAVI vs Aurora 图二 Anubis"
+        },
+        {
+          "text": "B 包点的包落地，憨豆（apEX）完成下包；距离爆炸还有40秒。",
+          "briefText": "",
+          "stage": "局势变化",
+          "at": 40,
+          "sourceType": "original",
+          "eventIds": [
+            "r11-e144"
+          ],
+          "emphasis": "tense",
+          "sourceBeatIds": [
+            "inferno-r11-plant-28"
+          ]
+        },
+        {
+          "text": "我的建议是立即保枪好吧！ 狂哥（YEKINDAR）选择撤退保枪：人数劣势，保留长枪。",
+          "briefText": "狂哥（YEKINDAR）选择撤退保枪：人数劣势，保留长枪。",
+          "stage": "局势变化",
+          "at": 41,
+          "sourceType": "quote",
+          "eventIds": [
+            "r11-e145"
+          ],
+          "emphasis": "neutral",
+          "sourceBeatIds": [
+            "inferno-r11-save-decision-29"
+          ],
+          "templateId": "RB-6-30",
+          "quoteSource": "IEM 里约小组赛 Falcons vs Spirit 图一 Anubis"
+        },
+        {
+          "text": "时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到9:2。",
+          "briefText": "时间走完，炸弹爆炸。小蜜蜂拿下这一分，比分来到9:2。",
+          "stage": "回合结算",
+          "at": 80,
+          "sourceType": "original",
+          "eventIds": [
+            "r11-e168",
+            "r11-e162"
+          ],
+          "emphasis": "conclusion",
+          "sourceBeatIds": [
+            "inferno-r11-close-31"
+          ]
+        }
+      ]
+    }
+  ]
+}

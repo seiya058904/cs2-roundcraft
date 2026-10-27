@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-10-27T05:28:43.761Z",
+  "simulationSourceSha256": "12588b97f825bb6149fabf336779d0753318f2c6db20fe86f43bed138b3859ec",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "rawCount": 1294,
+  "checked": 1283,
+  "excluded": 11,
+  "scope": "逐条核对原始字幕整理稿与入库原文、出处，不代表已逐字听录。"
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-27",
+  "sourceRows": 1294,
+  "compiledRowsTextAndSourceEqual": 1283,
+  "allFiveOriginalMdSha256EqualManifest": true,
+  "exclusions": 11,
+  "originalZipAvailable": false,
+  "originalZipReverifiedThisIteration": false,
+  "quotesJsonSha256": "55adc1b6bab86d016b899f160b68141ceffe78f94b0f69b482e35f0ec99d9c70"
+}

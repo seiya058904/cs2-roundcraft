@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-10-27T05:29:26.070Z",
+  "simulationSourceSha256": "12588b97f825bb6149fabf336779d0753318f2c6db20fe86f43bed138b3859ec",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "scope": "150种子普通队列；只按列出的字面模式标记待人工抽读的可能重复，不把命中直接等同错误。",
+  "rounds": 2875,
+  "checked": 16554,
+  "counts": {
+    "headshot": 0,
+    "smoke": 0,
+    "no-kit": 0,
+    "two-v-two": 0,
+    "one-v-two": 0,
+    "one-v-four": 0,
+    "three-kills": 0,
+    "four-kills": 0,
+    "timeout": 0,
+    "explosion": 0
+  },
+  "examples": []
+}

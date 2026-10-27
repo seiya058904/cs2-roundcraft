@@ -1,4 +1,5 @@
 import {test,expect} from '@playwright/test';
+import quotes from '../../src/data/quotes.json' with {type:'json'};
 import {readFile} from 'node:fs/promises';
 test('快速 BO3 手动与自动、暂停、存档恢复及证据',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');await expect(page).toHaveTitle(/CS2 Roundcraft/);
@@ -27,7 +28,10 @@ test('沙盒自建队 BO5 禁选及完整系列',async({page})=>{
 });
 
 test('玩家语录出处、备份导出导入、非法导入不覆盖当前状态',async({page})=>{
- await page.goto('/');await page.getByRole('button',{name:'快速开赛 · Vitality vs FURIA →'}).click();await page.getByRole('button',{name:'执行下一回合 →'}).click();await page.getByLabel('播报速度').selectOption('0');await expect(page.locator('.segment').first()).toContainText('来看今天的手枪局！');await page.locator('.segment').first().locator('summary').click();await expect(page.locator('.segment').first()).toContainText('语录出处：IEM 里约小组赛 Falcons vs Spirit');
+ await page.goto('/');await page.getByRole('button',{name:'快速开赛 · Vitality vs FURIA →'}).click();await page.getByRole('button',{name:'执行下一回合 →'}).click();await page.getByLabel('播报速度').selectOption('0');
+ const first=page.locator('.segment').first();await expect(first).toContainText('手枪局');
+ const text=await first.innerText(),opening=quotes.filter(q=>['RQ-1-8','RF-1-6','RW-1-1'].includes(q.id)).find(q=>text.includes(q.text));
+ expect(opening).toBeDefined();await first.locator('summary').click();await expect(first).toContainText(`语录出处：${opening!.source}`);
  await expect(page.locator('.segment').first()).toContainText('小蜜蜂');await expect(page.getByRole('heading',{name:'Vitality',exact:true,level:1})).toBeVisible();await expect(page.getByRole('heading',{name:'黑豹',exact:true})).toHaveCount(0);
  await page.getByRole('button',{name:'存档',exact:true}).click();const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:'导出 JSON',exact:true}).click();const download=await downloadPromise;const path=await download.path();expect(path).toBeTruthy();
  await page.locator('input[type=file]').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{"schemaVersion":999}')});await expect(page.getByRole('alert')).toContainText('不支持的存档版本');

@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-10-27T04:33:46.339Z",
+  "simulationSourceSha256": "efeac2f2a3367f13c2402f5e8245d6b4b9562d70b8e2a2ff4e1c9e0334ee575b",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "seeds": 150,
+  "rounds": 2875,
+  "starts": 0,
+  "shown": 0,
+  "completions": 111,
+  "gameplayDigest": "b9482b2e905c84e95662961fc46dfd02ca153e97834f37a5bb382c2a1424f9e4",
+  "samples": []
+}
