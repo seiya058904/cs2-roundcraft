@@ -66,7 +66,16 @@ test('生涯对局不覆盖最近沙盒，沙盒可恢复原回合',async({page}
  await page.getByRole('button',{name:'开启赛事',exact:true}).first().click();await expect(page.locator('.breadcrumb')).toContainText('职业生涯');
  await page.getByRole('button',{name:'沙盒',exact:true}).click();await expect(page.getByRole('button',{name:'继续 / 回看最近沙盒对局',exact:true})).toBeDisabled();
  await page.getByRole('button',{name:'比赛指挥台',exact:true}).click();await page.getByRole('button',{name:'自动完成禁选',exact:true}).click();await page.getByRole('button',{name:'模拟 BO3',exact:true}).click();
- await expect(page.getByRole('button',{name:'结算并返回赛事',exact:true})).toBeVisible({timeout:15000});await page.getByRole('button',{name:'结算并返回赛事',exact:true}).click();
+ await expect(page.getByRole('button',{name:'结算并返回赛事',exact:true})).toBeVisible({timeout:15000});
+ await page.getByLabel('播报速度').selectOption('0');
+ const result=await page.locator('.result').innerText();
+ await page.getByRole('button',{name:'总览',exact:true}).click();
+ await page.getByRole('button',{name:'快速开赛 · Vitality vs FURIA →'}).click();
+ await expect(page.locator('.breadcrumb')).toContainText('职业生涯');
+ await expect(page.locator('.result')).toHaveText(result,{useInnerText:true});
+ await page.reload();await page.getByRole('button',{name:'比赛指挥台',exact:true}).click();
+ await expect(page.locator('.result')).toHaveText(result,{useInnerText:true});
+ await page.getByRole('button',{name:'结算并返回赛事',exact:true}).click();
  await page.getByRole('button',{name:'沙盒',exact:true}).click();await page.getByRole('button',{name:'继续 / 回看最近沙盒对局',exact:true}).click();await expect(page.locator('.breadcrumb')).toContainText('独立沙盒');await expect(page.getByText('回放第 1 回合',{exact:true})).toBeVisible();
 });
 

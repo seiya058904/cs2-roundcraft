@@ -21,7 +21,7 @@ export function MatchView({match,own,busy,onVeto,onAutoVeto,onOpponentVeto,onVet
  const allRounds=useMemo(()=>match.mapStates.flatMap(m=>m.rounds),[match]);
  const round=selected<0?allRounds.at(-1):allRounds[selected];
  const statistics=useMemo(()=>aggregateStats(allRounds.slice(0,selected<0?allRounds.length:selected+1)).sort((a,b)=>b.rating-a.rating),[allRounds,selected]);
- useEffect(()=>{setDecision(d=>({...d,tactic:defaultDecision(side).tactic,positions:undefined,stances:undefined,phases:undefined}));},[side]);
+ useEffect(()=>{setDecision(d=>({...d,tactic:defaultDecision(side).tactic,positions:undefined,stances:undefined,phases:undefined}));},[side,current?.map]);
  useEffect(()=>{setSelected(-1);},[allRounds.length]);
  useEffect(()=>{setRevealed(speed===0||skipBatch.current?999:1);setPaused(false);setFollow(true);if(!busy)skipBatch.current=false;},[round,speed,busy]);
  useEffect(()=>{try{localStorage.setItem('ctm-speed',String(speed));}catch{}},[speed]);
