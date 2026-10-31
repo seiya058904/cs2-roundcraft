@@ -1,6 +1,14 @@
 # Changelog
 
-## Unreleased — publication candidate
+## Unreleased — broadcast polish
+
+- Broadcast match view: a score HUD with series pips, a clickable round timeline and a round banner; an arena layout with both rosters beside the live feed; win-probability and kill-feed cards; HP damage trails, cash deltas and highlight badges.
+- A layered design system (tokens, base, layout, match, pages) replaces the two legacy stylesheets. Adds a self-hosted Barlow Condensed display face, sliding selection indicators, number tweens and route entrance motion. The reduced-motion settings still turn all of it off.
+- A two-voice commentary booth for new matches. An analyst cites equipment gaps, live win odds, post-plant and clutch chances, rivalries, form and round MVPs from the event ledger (87 new original lines).
+- Numbers: CTM Rating 2.0 (a public approximation, not an HLTV rating), a win-probability model fitted on simulated rounds (`npm run sim:winprob`), round highlights, round MVP and a next-round economy outlook.
+- Engine `causal-plans-v5`: post-plant holders keep less cover, so even-number retakes become winnable. Older engine versions replay byte-identically.
+
+## Publication candidate
 
 - Region-level, seeded CS2-inspired match simulation with round commands, economy, utility and phase plans.
 - Chinese event-linked commentary, replay controls and a mirrored ten-player observer board.
