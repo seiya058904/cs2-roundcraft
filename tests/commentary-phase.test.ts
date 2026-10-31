@@ -1,4 +1,5 @@
 import {it,expect} from 'vitest';
+import {renderCommentary} from '../src/domain/narrative';
 import {readFileSync} from 'node:fs';
 import templates from '../src/data/commentary.json';
 import {newWorld} from '../src/data';
@@ -62,7 +63,7 @@ it('自然模拟中的主素材与辅助素材均无同回合重复或五回合�
  let supports=0;
  for(let seed=1;seed<=12;seed++){
   const s=createSeries(newWorld(),'team-3','team-7',1,seed);autoVeto(s);simulateSeries(s);
-  for(const r of s.mapStates[0].rounds){const used=new Set<string>(),recent=new Set(s.mapStates[0].rounds.filter(old=>old.number<r.number&&old.number>=r.number-5).flatMap(old=>old.commentary.flatMap(line=>[line.templateId,line.supportTemplateId])));for(const line of r.commentary)for(const id of [line.templateId,line.supportTemplateId])if(id){expect(used.has(id)).toBe(false);expect(recent.has(id)).toBe(false);used.add(id);}supports+=r.commentary.filter(line=>line.supportTemplateId).length;expect(renderChineseCommentary(deriveCommentaryBeats(r,s),r,s)).toEqual(r.commentary);}
+  for(const r of s.mapStates[0].rounds){const used=new Set<string>(),recent=new Set(s.mapStates[0].rounds.filter(old=>old.number<r.number&&old.number>=r.number-5).flatMap(old=>old.commentary.flatMap(line=>[line.templateId,line.supportTemplateId])));for(const line of r.commentary)for(const id of [line.templateId,line.supportTemplateId])if(id){expect(used.has(id)).toBe(false);expect(recent.has(id)).toBe(false);used.add(id);}supports+=r.commentary.filter(line=>line.supportTemplateId).length;expect(renderCommentary(r,s)).toEqual(r.commentary);}
  }
  expect(supports).toBeGreaterThan(0);
 },20000);

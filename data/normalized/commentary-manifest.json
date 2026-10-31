@@ -1,10 +1,11 @@
 {
-  "count": 468,
+  "count": 555,
   "files": [
     "commentary-lines-v1.jsonl",
     "commentary-lines-expanded.jsonl",
     "commentary-lines-phase.jsonl",
-    "commentary-lines-context.jsonl"
+    "commentary-lines-context.jsonl",
+    "commentary-lines-duo.jsonl"
   ],
   "batches": [
     {
@@ -26,9 +27,14 @@
       "file": "commentary-lines-context.jsonl",
       "expected": 24,
       "provenance": "assistant-authored-original-template"
+    },
+    {
+      "file": "commentary-lines-duo.jsonl",
+      "expected": 87,
+      "provenance": "assistant-authored-original-template"
     }
   ],
-  "originalTemplates": 468,
+  "originalTemplates": 555,
   "verifiedSpokenQuotes": 0,
   "policy": "按结构化事件和逐句前置条件激活；不满足条件的素材不随机投放。AI 新写模板不冒充真人语录。"
 }

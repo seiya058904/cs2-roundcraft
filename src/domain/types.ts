@@ -197,6 +197,8 @@ export interface CommentarySegment {
     text: string;
     eventIds: string[];
     emphasis: 'neutral' | 'tense' | 'hype' | 'conclusion';
+    /** Engine v5 two-voice booth; absent on older narration (read as the caster). */
+    voice?: 'caster' | 'analyst';
     templateId?: string;
     sourceBeatIds?: string[];
     quoteSource?: string;
