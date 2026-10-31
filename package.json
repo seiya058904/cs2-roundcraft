@@ -24,6 +24,7 @@
     "sim:winprob": "tsx scripts/fit-win-probability.mts"
   },
   "dependencies": {
+    "@fontsource/barlow-condensed": "^5.3.0",
     "@gsap/react": "^2.1.2",
     "gsap": "^3.15.0",
     "lenis": "^1.3.27",

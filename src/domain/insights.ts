@@ -122,15 +122,15 @@ export function clutchOf(round: RoundResult) {
   return null;
 }
 
-/** Round MVP: winning side, weighted by kills, damage, objective and clutch. */
+/** Round MVP: winning side; kills first, then damage (≈ a quarter kill per 60 HP), objective and clutch. */
 export function roundMvp(round: RoundResult): {playerId: string; score: number; kills: number; damage: number} | null {
   const clutch = clutchOf(round);
   const rows = round.initial.filter(f => f.team === round.winner).map(f => {
     const kills = round.events.filter(e => e.kind === 'kill' && e.actor === f.id).length;
     const damage = round.events.filter(e => e.kind === 'damage' && e.actor === f.id).reduce((s, e) => s + (e.damage ?? 0), 0);
-    const objective = round.events.some(e => (e.kind === 'plant' || e.kind === 'defuse') && e.actor === f.id) ? .6 : 0;
+    const objective = round.events.some(e => (e.kind === 'plant' || e.kind === 'defuse') && e.actor === f.id) ? .5 : 0;
     const clutchBonus = clutch?.won && clutch.playerId === f.id ? clutch.versus * .5 : 0;
-    return {playerId: f.id, kills, damage, score: kills + damage / 100 + objective + clutchBonus};
+    return {playerId: f.id, kills, damage, score: kills + damage / 250 + objective + clutchBonus};
   }).sort((a, b) => b.score - a.score || b.damage - a.damage);
   return rows[0] && rows[0].score > 0 ? rows[0] : null;
 }

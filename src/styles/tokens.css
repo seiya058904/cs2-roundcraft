@@ -1,0 +1,98 @@
+/*
+ * CS2 Roundcraft design tokens — broadcast observer HUD.
+ * Graphite surfaces stacked by elevation, T amber and CT blue as the only identity colors,
+ * condensed display numerals over system CJK text. Every color and duration lives here.
+ */
+:root {
+  color-scheme: dark;
+
+  /* Surfaces, darkest to most raised */
+  --bg: #0c0f12;
+  --bg-2: #101419;
+  --surface: #151a1f;
+  --surface-2: #1b2127;
+  --surface-3: #232a31;
+  --surface-hover: #29313a;
+  --line-soft: #1f262c;
+  --line: #2a3239;
+  --line-strong: #3b4650;
+
+  /* Text */
+  --text: #eef0ea;
+  --text-2: #cdd4d8;
+  --muted: #9da9b2;
+  --subtle: #808c95;
+  --ink: #15110a;
+
+  /* Sides — the only identity colors */
+  --t: #f1b55e;
+  --t-strong: #ffcd80;
+  --t-soft: rgb(241 181 94 / .13);
+  --t-line: rgb(241 181 94 / .42);
+  --ct: #86c0ea;
+  --ct-strong: #ade0ff;
+  --ct-soft: rgb(134 192 234 / .13);
+  --ct-line: rgb(134 192 234 / .42);
+
+  /* Signals */
+  --win: #a3d99d;
+  --win-soft: rgb(163 217 157 / .14);
+  --loss: #ef9188;
+  --loss-soft: rgb(239 145 136 / .14);
+  --danger: #f39a90;
+  --gold: #ffd685;
+  --focus: #ffe2ad;
+
+  /* Legacy aliases kept for components that still read them */
+  --orange: var(--t);
+  --cyan: var(--ct);
+
+  /* Type */
+  --font-body: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-display: "Barlow Condensed", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-numeric: var(--font-display);
+  --fs-2xs: 10px;
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-md: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 20px;
+  --fs-2xl: 28px;
+  --fs-3xl: 40px;
+
+  /* Shape and depth */
+  --r-xs: 3px;
+  --r-sm: 5px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --radius: var(--r-md);
+  --edge: inset 0 1px 0 rgb(255 255 255 / .04);
+  --shadow-1: var(--edge), 0 6px 20px rgb(0 0 0 / .25);
+  --shadow-2: var(--edge), 0 18px 48px rgb(0 0 0 / .45);
+  --glow-t: 0 0 0 1px var(--t-line), 0 8px 28px rgb(241 181 94 / .18);
+  --glow-ct: 0 0 0 1px var(--ct-line), 0 8px 28px rgb(134 192 234 / .18);
+
+  /* Motion (DESIGN.md: controls 100–180ms, panels 180–320ms, match beats 400–700ms) */
+  --dur-fast: 140ms;
+  --dur: 220ms;
+  --dur-slow: 320ms;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ease-spring: cubic-bezier(.34, 1.56, .64, 1);
+  --fast: var(--dur-fast);
+  --normal: var(--dur);
+
+  /* Layout */
+  --sidebar: 212px;
+  --gutter: 24px;
+  --z-sticky: 20;
+  --z-nav: 30;
+  --z-toast: 40;
+}
+
+@media (max-width: 1200px) {
+  :root { --sidebar: 176px; --gutter: 18px; }
+}
+@media (max-width: 760px) {
+  :root { --sidebar: 0px; --gutter: 16px; }
+}

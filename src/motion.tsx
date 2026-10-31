@@ -37,11 +37,14 @@ export function useRosterMotion(anchor:string,hp:number,alive:boolean,cash:numbe
  useGSAP(()=>{
   const before=previous.current;previous.current={anchor,hp,alive,cash,gear};
   if(!enabled||!ref.current||before.anchor===anchor)return;
+  const row=ref.current,q=(sel:string)=>row.querySelector(sel);
   const tl=gsap.timeline({defaults:{duration:MOTION.normal,ease:MOTION.ease,overwrite:'auto'}});
-  if(before.alive&&!alive)tl.from(ref.current.querySelector('.dead-status'),{opacity:.2,x:4,clearProps:'transform,opacity'},0);
-  else if(before.hp!==hp)tl.from(ref.current.querySelector('.player-hp'),{scale:1.12,clearProps:'transform'},0);
-  if(before.cash!==cash)tl.from(ref.current.querySelector('.player-cash'),{opacity:.35,y:3,clearProps:'transform,opacity'},'<');
-  if(alive&&before.gear!==gear)tl.from(ref.current.querySelector('.player-loadout'),{opacity:.3,clearProps:'opacity'},'<');
+  const trail=q('.player-health>.trail');
+  if(trail&&before.hp!==hp)tl.fromTo(trail,{scaleX:Math.max(0,before.hp)/100},{scaleX:Math.max(0,alive?hp:0)/100,duration:.55,delay:.28,ease:'power2.in'},0);
+  if(before.alive&&!alive){tl.fromTo(row,{'--hit':1},{'--hit':0,duration:.8,ease:'power2.out'},0);tl.from(q('.dead-status'),{opacity:0,x:6,clearProps:'transform,opacity'},.1);}
+  else if(before.hp>hp){tl.fromTo(row,{'--hit':.7},{'--hit':0,duration:.6,ease:'power2.out'},0);tl.fromTo(q('.player-hp'),{scale:1.22},{scale:1,duration:.4,ease:'back.out(3)',clearProps:'transform'},0);}
+  if(before.cash!==cash)tl.from(q('.player-cash'),{opacity:.35,y:3,clearProps:'transform,opacity'},'<');
+  if(alive&&before.gear!==gear)tl.from(q('.player-loadout'),{opacity:.3,clearProps:'opacity'},'<');
  },{scope:ref,dependencies:[anchor,enabled,hp,alive,cash,gear],revertOnUpdate:true});
  return ref;
 }
@@ -54,4 +57,50 @@ export function MotionLayout(){
   document.addEventListener('toggle',refresh,true);
   return()=>{clearTimeout(timer);document.removeEventListener('toggle',refresh,true);};
  },[]);return null;
+}
+
+export function useMotionEnabled(){return useContext(MotionContext).enabled;}
+/** Tweens a displayed number toward `value`; snaps instantly when motion is off. */
+export function useTweenNumber(value:number,duration=.5){
+ const {enabled}=useContext(MotionContext);const [shown,setShown]=useState(value);const state=useRef({v:value});
+ useEffect(()=>{
+  if(!enabled||!Number.isFinite(value)){state.current.v=value;setShown(value);return;}
+  const tween=gsap.to(state.current,{v:value,duration,ease:'power3.out',onUpdate:()=>setShown(state.current.v)});
+  return()=>{tween.kill();};
+ },[value,enabled,duration]);
+ return shown;
+}
+/**
+ * Slides one `.indicator` child under whichever descendant matches `activeSelector`.
+ * Used by the sidebar, tabs and segmented controls so every selection change moves, not blinks.
+ */
+export function useIndicator<T extends HTMLElement>(activeSelector:string,deps:unknown[]){
+ const ref=useRef<T>(null);const {enabled}=useContext(MotionContext);const first=useRef(true);
+ useEffect(()=>{
+  const root=ref.current;if(!root)return;
+  const place=(animate:boolean)=>{
+   const indicator=root.querySelector<HTMLElement>(':scope>.indicator'),active=root.querySelector<HTMLElement>(activeSelector);
+   if(!indicator)return;if(!active){indicator.style.opacity='0';return;}
+   const r=root.getBoundingClientRect(),a=active.getBoundingClientRect();
+   const box={x:a.left-r.left+root.scrollLeft,y:a.top-r.top+root.scrollTop,width:a.width,height:a.height};
+   gsap.to(indicator,{...box,opacity:1,duration:animate&&enabled?.32:0,ease:'power3.out',overwrite:true});
+  };
+  place(!first.current);first.current=false;
+  const observer=new ResizeObserver(()=>place(false));observer.observe(root);
+  return()=>observer.disconnect();
+ // eslint-disable-next-line react-hooks/exhaustive-deps
+ },[activeSelector,enabled,...deps]);
+ return ref;
+}
+/** Staggers the direct children of the page body in on every navigation. */
+export function useRouteEnter(page:string){
+ const ref=useRef<HTMLDivElement>(null);const {enabled}=useContext(MotionContext);
+ useGSAP(()=>{if(!enabled||!ref.current)return;const items=[...ref.current.children].slice(0,8);gsap.from(items,{y:14,opacity:0,duration:.42,ease:'power3.out',stagger:.045,clearProps:'transform,opacity'});},{scope:ref,dependencies:[page,enabled],revertOnUpdate:true});
+ return ref;
+}
+/** One-shot pop when `key` changes (score digits, chips); never loops. */
+export function usePop<T extends HTMLElement>(key:unknown,from:gsap.TweenVars={yPercent:-40,opacity:0}){
+ const ref=useRef<T>(null);const {enabled}=useContext(MotionContext);const seen=useRef(key);
+ useGSAP(()=>{if(seen.current===key)return;seen.current=key;if(!enabled||!ref.current)return;gsap.from(ref.current,{...from,duration:.45,ease:'back.out(2)',clearProps:'transform,opacity'});},{dependencies:[key,enabled]});
+ return ref;
 }

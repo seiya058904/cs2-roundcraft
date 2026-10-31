@@ -16,9 +16,10 @@ for(const width of [1440,1280,1024,390])test(`观战布局与指挥入口 ${widt
  const dead=board.locator('.is-dead');expect(await dead.count()).toBeGreaterThan(0);await expect(dead.first().locator('.player-weapon')).toHaveCount(0);await expect(dead.first().locator('.player-cash')).toBeVisible();
 });
 test('吸顶与主操作共享执行，连续同轮点击不会重复提交',async({page})=>{
- await start(page);const button=page.locator('.execute-round');await button.evaluate(el=>{(el as HTMLButtonElement).click();(el as HTMLButtonElement).click();});
+ await page.setViewportSize({width:1440,height:700});await start(page);const button=page.locator('.execute-round');await button.evaluate(el=>{(el as HTMLButtonElement).click();(el as HTMLButtonElement).click();});
  await expect(page.getByText('回放第 1 回合',{exact:true})).toBeVisible();
- await page.locator('.match-main').scrollIntoViewIfNeeded();await expect(page.getByRole('region',{name:'战术指令',exact:true})).not.toBeInViewport();
+ // The arena keeps the feed beside the rosters, so the page only needs to scroll on shorter screens.
+ await page.locator('.page-footer').scrollIntoViewIfNeeded();await expect(page.getByRole('region',{name:'战术指令',exact:true})).not.toBeInViewport();
  const quick=page.getByRole('button',{name:'快捷执行下一回合 →',exact:true});await expect(quick).toBeVisible();await quick.click();await expect(page.getByText('回放第 2 回合',{exact:true})).toHaveCount(1);
  await page.getByRole('button',{name:'选手数据库',exact:true}).click();await expect(quick).toHaveCount(0);
 });
