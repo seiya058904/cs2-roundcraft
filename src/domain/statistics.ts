@@ -20,6 +20,17 @@ export interface PlayerStats {
     kast: number;
     rating: number;
 }
+/**
+ * CTM Rating 2.0 — the public community approximation of HLTV Rating 2.0
+ * (0.0073·KAST + 0.3591·KPR − 0.5329·DPR + 0.2372·Impact + 0.0032·ADR + 0.1587,
+ * Impact = 2.13·KPR + 0.42·APR − 0.41). A game metric, not an official HLTV rating.
+ */
+export function rating2(s: Pick<PlayerStats, 'rounds' | 'kills' | 'deaths' | 'assists' | 'damage' | 'kastRounds'>): number {
+    if (!s.rounds) return 0;
+    const kpr = s.kills / s.rounds, dpr = s.deaths / s.rounds, apr = s.assists / s.rounds, adr = s.damage / s.rounds, kast = 100 * s.kastRounds / s.rounds;
+    const impact = 2.13 * kpr + 0.42 * apr - 0.41;
+    return Math.max(0, 0.0073 * kast + 0.3591 * kpr - 0.5329 * dpr + 0.2372 * impact + 0.0032 * adr + 0.1587);
+}
 export const COUNT_STAT_KEYS = ['rounds', 'kills', 'deaths', 'assists', 'damage', 'kastRounds', 'openingKills', 'openingDeaths', 'clutchAttempts', 'clutchWins', 'multiKills', 'utilityDamage', 'flashAssists', 'ctRounds', 'tRounds'] as const;
 export function mergePlayerStats(groups: PlayerStats[][]): PlayerStats[] {
     const combined = new Map<string, PlayerStats>();
@@ -32,7 +43,7 @@ export function mergePlayerStats(groups: PlayerStats[][]): PlayerStats[] {
                 for (const key of COUNT_STAT_KEYS)
                     existing[key] += row[key];
         }
-    return [...combined.values()].map(s => ({ ...s, adr: s.rounds ? s.damage / s.rounds : 0, kast: s.rounds ? 100 * s.kastRounds / s.rounds : 0, rating: s.rounds ? .35 * s.kills / s.rounds + .25 * (1 - s.deaths / s.rounds) + .25 * s.damage / s.rounds / 80 + .15 * s.kastRounds / s.rounds : 0 }));
+    return [...combined.values()].map(s => ({ ...s, adr: s.rounds ? s.damage / s.rounds : 0, kast: s.rounds ? 100 * s.kastRounds / s.rounds : 0, rating: rating2(s) }));
 }
 export function aggregateStats(rounds: RoundResult[]): PlayerStats[] {
     const stats = new Map<string, PlayerStats>();
@@ -106,7 +117,7 @@ export function aggregateStats(rounds: RoundResult[]): PlayerStats[] {
                 stats.get(id)!.clutchWins++;
         }
     }
-    return [...stats.values()].map(s => ({ ...s, adr: s.damage / s.rounds, kast: 100 * s.kastRounds / s.rounds, rating: .35 * s.kills / s.rounds + .25 * (1 - s.deaths / s.rounds) + .25 * s.damage / s.rounds / 80 + .15 * s.kastRounds / s.rounds }));
+    return [...stats.values()].map(s => ({ ...s, adr: s.damage / s.rounds, kast: 100 * s.kastRounds / s.rounds, rating: rating2(s) }));
 }
 export const seriesStats = (s: Series) => aggregateStats(s.mapStates.flatMap(m => m.rounds));
 export const mvp = (s: Series) => seriesStats(s).sort((a, b) => b.rating - a.rating)[0];

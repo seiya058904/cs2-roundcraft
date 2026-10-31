@@ -20,7 +20,8 @@
     "sim:tactics": "tsx scripts/tactic-experiments.mts",
     "test:offline": "playwright test --config playwright.offline.config.ts",
     "sim:matrix": "tsx scripts/balance-matrix.mts",
-    "test:pages": "playwright test --config playwright.pages.config.ts"
+    "test:pages": "playwright test --config playwright.pages.config.ts",
+    "sim:winprob": "tsx scripts/fit-win-probability.mts"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
