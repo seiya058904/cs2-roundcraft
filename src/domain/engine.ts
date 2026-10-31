@@ -1,4 +1,4 @@
-import {BATTLE_ENGINE, classifyEconomy, resolveBattlePlan, validatePlanInput, shouldWaitForSmoke, regroupReady, shouldReserveUtility, shouldSave} from './battlePlan';
+import {BATTLE_ENGINE, PLANNED_ENGINES, classifyEconomy, resolveBattlePlan, validatePlanInput, shouldWaitForSmoke, regroupReady, shouldReserveUtility, shouldSave} from './battlePlan';
 import type {BattlePlan} from './battlePlan';
 import { DEFAULT_TIMEOUT_RULES } from './rules';
 import type { Series, Decision, Fighter, RoundEvent, EventKind, TeamIndex, RoundResult, EconomyEntry } from './types';
@@ -13,7 +13,9 @@ import { renderCommentary } from './narrative';
 export function resolveRound(series: Series, manual?: Partial<Record<TeamIndex, Decision>>): RoundResult {
     if (series.status !== 'playing')
         throw new Error('当前没有可执行的回合');
-    const planned = series.engineVersion === BATTLE_ENGINE;
+    const planned = PLANNED_ENGINES.includes(series.engineVersion ?? '');
+    // v5: retake utility clears close angles, so established post-plant holders keep less cover.
+    const postPlantCover = series.engineVersion === BATTLE_ENGINE ? .1 : .35;
     const modern = planned || series.engineVersion === 'causal-2026-10-v3';
     const ms = series.mapStates.at(-1)!;
     if (ms.winner !== null)
@@ -449,7 +451,7 @@ export function resolveRound(series: Series, manual?: Partial<Record<TeamIndex, 
             const belief = (team.dynamics.belief - 70) / 1500;
             const enemyAttacking = enemy.side === 'T' && plantAt === null;
             const established = now - (arrivedAt.get(enemy.id) ?? 0) >= 4 && !enemyAttacking;
-            const cover = zone.cover * (established ? .35 : .04);
+            const cover = zone.cover * (established ? (plantAt !== null && enemy.side === 'T' ? postPlantCover : .35) : .04);
             const movingPenalty = now - (arrivedAt.get(f.id) ?? 0) < 2 ? .12 : 0;
             const chance = clamp((gun.accuracy[ri] + aim + role + positioning + tactical + synergy + mapSkill + (lone ? (p.attributes.clutch - 70) / 350 : 0) + (form.get(f.id) ?? 0) + belief - cover - movingPenalty) * blindness * smoke, .035, .94);
             const duel = emit('duel', { actor: f.id, target: enemy.id, team: f.team, zone: enemy.zone, weapon: gun.id, detail: { range, chance, aim, role, positioning, tactical, synergy, mapSkill, blindness, smoke, allies, cover, movingPenalty } });

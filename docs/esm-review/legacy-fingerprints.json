@@ -28,5 +28,20 @@
     "version": "causal-2026-10-v3",
     "seed": 732,
     "hash": "fc73793c00bc3877ffaf8dbbc4998215576f4f74a3455be11f01b8b31f550fa6"
+  },
+  {
+    "version": "causal-plans-v4",
+    "seed": 1,
+    "hash": "fcd1353710312e15e4e4a8d98d087ec9ced613feee0483fe88d1636a1fc222f1"
+  },
+  {
+    "version": "causal-plans-v4",
+    "seed": 224,
+    "hash": "7f517f61823547ce056b27279a16b02d8abef6a94cc723e66e4f5b0c3464928a"
+  },
+  {
+    "version": "causal-plans-v4",
+    "seed": 732,
+    "hash": "df7742490f1deca87584efc78674f490bd2c56366729e10339d83029e579ea25"
   }
 ]

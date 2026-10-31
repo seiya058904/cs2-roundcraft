@@ -75,7 +75,8 @@ it('败方尽力语录要求已结束的真实败方残局及残局后的击杀�
  r.winner=1;r.events=[kill];expect(quoteCandidates(beat,r)).not.toContain('RD-3-11');
 });
 it('决胜阶段提示在真实结果之后，精简仍最多五段，所有主句与辅助句保持确定',()=>{
- const s=createSeries(newWorld(),'team-3','team-7',1,5);autoVeto(s);simulateSeries(s);const seen=new Set<string>();
+ // Scenario fixture: seed 5 reaches overtime under the frozen v4 engine; commentary rules are identical for v5.
+ const s=createSeries(newWorld(),'team-3','team-7',1,5);s.engineVersion='causal-plans-v4';autoVeto(s);simulateSeries(s);const seen=new Set<string>();
  for(const r of s.mapStates[0].rounds){const beats=deriveCommentaryBeats(r,s),categories=r.commentary.map(line=>line.sourceBeatIds?.map(id=>beats.find(b=>b.id===id)!.category)??[]),close=categories.findIndex(row=>row.includes('close'));
   for(const kind of ['map-win','overtime-match-point','overtime-half','match-point-saved'])if(beats.some(b=>b.category===kind)){const index=categories.findIndex(row=>row.includes(kind));expect(index).toBeGreaterThan(close);expect(r.commentary[index].briefText).toBeTruthy();seen.add(kind);}
   expect(r.commentary.filter(line=>line.briefText).length).toBeLessThanOrEqual(5);expect(renderChineseCommentary(beats,r,s)).toEqual(r.commentary);

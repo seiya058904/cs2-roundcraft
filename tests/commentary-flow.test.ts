@@ -93,7 +93,8 @@ it('赛点、换边、加时在详细与精简都接在比分结果后，仍保�
  expect([...seen].sort()).toEqual([...transitions].sort());
 },15000);
 it('拆包完成后还可以称赞残局，但详细与精简不再复述一次拆包完成',()=>{
- const s=createSeries(newWorld(),'team-3','team-7',1,11);autoVeto(s);simulateSeries(s);
+ // Scenario fixture: seed 11 R13 is a 1v2 defuse clutch under the frozen v4 engine.
+ const s=createSeries(newWorld(),'team-3','team-7',1,11);s.engineVersion='causal-plans-v4';autoVeto(s);simulateSeries(s);
  const r=s.mapStates[0].rounds.find(r=>r.number===13)!,beats=deriveCommentaryBeats(r,s);
  const defuse=r.commentary.find(line=>line.sourceBeatIds?.some(id=>beats.find(b=>b.id===id)!.category==='defuse-timing'));
  const clutch=r.commentary.find(line=>line.sourceBeatIds?.some(id=>beats.find(b=>b.id===id)!.category==='clutch-win'));

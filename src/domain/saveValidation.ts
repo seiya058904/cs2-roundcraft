@@ -1,4 +1,4 @@
-import {BATTLE_ENGINE,validateStoredPlan,validatePlanInput} from './battlePlan';
+import {PLANNED_ENGINES,validateStoredPlan,validatePlanInput} from './battlePlan';
 import { ATTRIBUTE_KEYS, type World, type Series, type Equipment, type Fighter, type TimeoutRules } from './types';
 import { COACH_LABELS } from './rules';
 import { timeoutLimit } from './coach';
@@ -80,7 +80,7 @@ function fighters(list: Fighter[], s: Series, map: string, allowSpawn = false) {
     }
 }
 export function validateSeries(s: Series) {
-    check(s.engineVersion === undefined || [BATTLE_ENGINE,'causal-2026-10-v3'].includes(s.engineVersion), '未知比赛引擎版本');
+    check(s.engineVersion === undefined || [...PLANNED_ENGINES,'causal-2026-10-v3'].includes(s.engineVersion), '未知比赛引擎版本');
     timeoutRules(s.timeoutRules);
     validateWorld({ teams: s.teams, players: s.players }, false);
     check(typeof s.id === 'string' && integer(s.seed, 0, 0xffffffff) && integer(s.rngState, 0, 0xffffffff), '比赛随机状态错误');
@@ -118,7 +118,7 @@ export function validateSeries(s: Series) {
             check(Array.isArray(r.sides) && r.sides.length === 2 && r.sides.every((side, i) => side === sidesForRound(m.startSide, ri)[i]), '回合攻守方错误');
             check(['elimination', 'defuse', 'explode', 'time'].includes(r.reason), '回合结束原因错误');
             check(Array.isArray(r.events) && r.events.length > 0 && r.events.length < 20000 && Array.isArray(r.economy) && r.economy.length === 10 && Array.isArray(r.commentary), '回合账本结构错误');
-            if(s.engineVersion===BATTLE_ENGINE){
+            if(PLANNED_ENGINES.includes(s.engineVersion??'')){
                 check(Array.isArray(r.plans)&&r.plans.length===2,'回合缺少执行计划');
                 for(const i of [0,1] as const){
                     validateStoredPlan(r.plans[i],r.sides[i]);

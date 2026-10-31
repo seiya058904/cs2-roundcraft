@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-26T10:10:37.526Z",
-  "simulationSourceSha256": "e8273d1c38800dc90882868e97e503e1c273f60af5ce5d94580298db5a23f5be",
+  "generatedAt": "2026-10-31T12:38:05.891Z",
+  "simulationSourceSha256": "91885f8413dc3b58e7078c63cebbd54af2207559dab5563a2c7dd3012c5620c4",
   "runtime": "v24.15.0",
   "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
   "logicalCpus": 16,
   "memoryGiB": 32,
   "sample": 500,
-  "wins": 387,
-  "firstTeamWinRate": 0.774,
-  "totalRounds": 9608,
-  "ctWinRate": 0.35876353039134057,
-  "plants": 6334,
-  "defuses": 287,
-  "explodes": 6047,
+  "wins": 401,
+  "firstTeamWinRate": 0.802,
+  "totalRounds": 9668,
+  "ctWinRate": 0.38467107985105503,
+  "plants": 6471,
+  "defuses": 564,
+  "explodes": 5907,
   "ots": 41,
   "reasons": {
-    "elimination": 3123,
-    "explode": 6047,
-    "time": 151,
-    "defuse": 287
+    "explode": 5907,
+    "elimination": 3016,
+    "time": 181,
+    "defuse": 564
   },
-  "durationSeconds": 13.8863079
+  "durationSeconds": 18.6131927
 }

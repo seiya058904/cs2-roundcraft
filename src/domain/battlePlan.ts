@@ -2,7 +2,9 @@ import type {BuyPolicy,Decision,EconomyEntry,Fighter,RoundResult,Side} from './t
 import {WEAPONS} from './economy';
 import {getTactic} from './tactics';
 
-export const BATTLE_ENGINE='causal-plans-v4';
+export const BATTLE_ENGINE='causal-plans-v5';
+/** Engines that freeze per-round battle plans. v5 only changes post-plant holder cover (see docs/GAME_BALANCE.md). */
+export const PLANNED_ENGINES:readonly string[]=['causal-plans-v4',BATTLE_ENGINE];
 export const ECONOMY_LABELS={pistol:'手枪局',full:'全起',semi:'半起',force:'强起',eco:'经济局'};
 export type EconomyClass=keyof typeof ECONOMY_LABELS;
 export type StrategyStyle='balanced'|'pressure'|'patient';
