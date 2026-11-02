@@ -327,3 +327,7 @@ The project contains material with different upstream terms, including equipment
   <sub>FIVE PLAYERS. ONE PLAN. ONE MORE ROUND TO GET IT RIGHT.</sub><br>
   <sub>CS2 Roundcraft · The decisions are yours. The simulation tells the story.</sub>
 </p>
+
+## Website analytics
+
+The public website uses Cloudflare Web Analytics for aggregate page visits and performance. The beacon loads only on `seiya058904.github.io`; local previews and offline copies do not load it. No game saves, journal entries, map contents, or form values are passed to the analytics integration. Statistics start after deployment and do not recover earlier traffic. See [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).
