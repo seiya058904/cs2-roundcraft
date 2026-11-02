@@ -28,11 +28,11 @@ const ObserverPlayer=memo(function ObserverPlayer({fighter:f,name,zone,kills,dea
  const ref=useRosterMotion(anchor,f.hp,f.alive,f.cash,[f.equipment.weapon,f.equipment.armor,f.equipment.helmet,f.equipment.kit,f.hasBomb,...f.equipment.utility].join(','));
  const cash=useTweenNumber(f.cash,.5);
  const utility=Object.entries(f.equipment.utility.reduce<Record<string,number>>((counts,item)=>{counts[item]=(counts[item]??0)+1;return counts;},{}));
- const hp=f.alive?f.hp:0;
+ const hp=f.alive?f.hp:0,hpShown=Math.round(useTweenNumber(hp,.35));
  return <article ref={ref} className={`match-player ${f.alive?'':'is-dead'} ${extras?.form==='hot'?'is-hot':''}`} data-testid="match-player" data-player-id={f.id}>
  <div className="player-identity"><strong title={name}>{name}</strong><span className="player-kd" aria-label={`击杀 ${kills} 死亡 ${deaths}`}><span>击杀 {kills}</span><span>死亡 {deaths}</span></span><span className="cash-line"><b className="player-cash">{money(cash)}</b>{extras?.delta?<em className={`cash-delta ${extras.delta>0?'up':'down'}`}>{extras.delta>0?'+':'−'}${Math.abs(extras.delta).toLocaleString('en-US')}</em>:null}</span></div>
  <div className="player-loadout">{f.alive?<><div className="player-weapon"><WeaponIcon weapon={f.equipment.weapon}/><span>{equipmentLabel(f.equipment.weapon)}</span></div><div className="player-gear">{f.equipment.armor>0&&<GearIcon kind="armor" label={`护甲 ${f.equipment.armor}`}/>} {f.equipment.helmet&&<GearIcon kind="helmet" label="头盔"/>}{utility.map(([kind,count])=><GearIcon key={kind} kind={kind as GearKind} label={`${kind==='fire'?(f.side==='T'?'燃烧瓶':'燃烧弹'):equipmentLabel(kind)} × ${count}`} count={count} side={f.side}/>)}{f.equipment.kit&&<GearIcon kind="kit" label="拆弹器"/>}{f.hasBomb&&<GearIcon kind="bomb" label="携带炸弹"/>}{!utility.length&&<span className="no-utility">无投掷物</span>}</div></>:<div className="dead-status"><GearIcon kind="dead" label="阵亡"/><span>本回合阵亡</span></div>}</div>
- <div className="player-vitals"><b className="player-hp" aria-label={`${name} 生命 ${hp}`}>{hp}</b><span title={zone}>{f.alive?zone:'阵亡'}</span></div>
+ <div className="player-vitals"><b className="player-hp" aria-label={`${name} 生命 ${hp}`}>{hpShown}</b><span title={zone}>{f.alive?zone:'阵亡'}</span></div>
  {extras?.badges?.length?<div className="player-badges" aria-label={`本回合高光：${extras.badges.join('、')}`}>{extras.badges.map(b=><span key={b}>{b}</span>)}</div>:null}
  {extras?.form==='hot'&&<span className="form-flame" title="近五回合手感火热" aria-label="手感火热"/>}
  <div className="player-health" role="meter" aria-label={`${name} 生命值`} aria-valuemin={0} aria-valuemax={100} aria-valuenow={hp}><span className="trail" style={{transform:`scaleX(${hp/100})`}}/><span className="fill" style={{transform:`scaleX(${hp/100})`}}/></div>

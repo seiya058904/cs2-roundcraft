@@ -5,7 +5,7 @@ test('快速 BO3 手动与自动、暂停、存档恢复及证据',async({page})
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');await expect(page).toHaveTitle(/CS2 Roundcraft/);
  await page.getByRole('button',{name:'快速开赛 · Vitality vs FURIA →'}).click();await expect(page.getByRole('heading',{name:'Vitality',exact:true,level:1})).toBeVisible();
  await page.getByRole('button',{name:'执行下一回合 →'}).click();await expect(page.getByText('回放第 1 回合',{exact:true})).toBeVisible();
- await page.getByLabel('播报速度').selectOption('0');await expect(page.locator('.segment.conclusion')).toContainText('比分来到');
+ await page.getByLabel('播报速度').selectOption('0');await expect(page.locator('.segment.conclusion')).toContainText(/\d+ ?[:比] ?\d+/);
  await page.getByRole('button',{name:'教练暂停 · 4 次'}).click();await expect(page.getByRole('heading',{name:'暂停建议 · 三选一'})).toBeVisible();await page.getByRole('button',{name:/稳住比赛节奏 当前比分/}).click();await expect(page.getByRole('button',{name:'教练暂停 · 3 次'})).toBeDisabled();
  await page.getByRole('button',{name:'自动 3 回合',exact:true}).click();await expect(page.getByText('回放第 4 回合',{exact:true})).toBeVisible();
  const score=await page.locator('.score-center strong').innerText();await page.getByRole('button',{name:'存档',exact:true}).click();await page.getByRole('button',{name:'保存',exact:true}).first().click();await expect(page.getByRole('status')).toContainText('已保存到槽位 1');
@@ -57,7 +57,7 @@ test('逐段解说同步现场存活，不提前展示结算统计',async({page}
  await expect(page.getByTestId('live-state')).toContainText('存活 5 : 5');await expect(page.getByRole('region',{name:'己方选手 · Vitality',exact:true}).getByTestId('match-player')).toHaveCount(5);await expect(page.getByRole('region',{name:'对方选手 · FURIA',exact:true}).getByTestId('match-player')).toHaveCount(5);for(const meter of await page.getByRole('meter').all())await expect(meter).toHaveAttribute('aria-valuenow','100');await expect(page.getByTestId('live-state')).toContainText('比分 0 : 0');await expect(page.locator('.map-strip>div').first()).toContainText('0 : 0');
  await expect(page.getByRole('heading',{name:'系列技术统计',exact:true})).toHaveCount(0);
  await page.getByRole('button',{name:'继续下一段',exact:true}).click();await expect(page.locator('.segment')).toHaveCount(2);
- await page.getByRole('button',{name:'展开本回合全部解说',exact:true}).click();await expect(page.getByTestId('live-state')).toContainText('回合结束');await expect(page.getByTestId('match-player')).toHaveCount(10);expect(await page.locator('.match-player.is-dead').count()).toBeGreaterThan(0);await page.locator('.statistics-disclosure>summary').click();await expect(page.getByRole('heading',{name:'系列技术统计',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'展开本回合全部解说',exact:true}).click();await expect(page.getByTestId('live-state')).toContainText('回合结束');await expect(page.getByTestId('match-player')).toHaveCount(10);expect(await page.locator('.match-player.is-dead').count()).toBeGreaterThan(0);await page.getByRole('button',{name:'场外分析',exact:true}).click();await expect(page.locator('.desk-leaders li')).toHaveCount(3);await page.locator('.statistics-disclosure>summary').click();await expect(page.locator('.analysis-desk .stats-table')).toBeVisible();
 });
 
 test('生涯对局不覆盖最近沙盒，沙盒可恢复原回合',async({page})=>{

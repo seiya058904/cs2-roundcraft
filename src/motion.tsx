@@ -39,10 +39,20 @@ export function useRosterMotion(anchor:string,hp:number,alive:boolean,cash:numbe
   if(!enabled||!ref.current||before.anchor===anchor)return;
   const row=ref.current,q=(sel:string)=>row.querySelector(sel);
   const tl=gsap.timeline({defaults:{duration:MOTION.normal,ease:MOTION.ease,overwrite:'auto'}});
+  // One-shot overlay nodes (damage numbers, kill slash) run CSS animations outside this GSAP context, so a
+  // revert on the next update cannot strand them; each removes itself when its animation ends.
+  const overlay=(className:string,text='')=>{const el=document.createElement('span');el.className=className;el.setAttribute('aria-hidden','true');el.textContent=text;row.appendChild(el);const done=()=>el.remove();el.addEventListener('animationend',done,{once:true});setTimeout(done,1600);return el;};
+  const float=(text:string,tone:string)=>overlay(`float-num ${tone}`,text);
   const trail=q('.player-health>.trail');
   if(trail&&before.hp!==hp)tl.fromTo(trail,{scaleX:Math.max(0,before.hp)/100},{scaleX:Math.max(0,alive?hp:0)/100,duration:.55,delay:.28,ease:'power2.in'},0);
-  if(before.alive&&!alive){tl.fromTo(row,{'--hit':1},{'--hit':0,duration:.8,ease:'power2.out'},0);tl.from(q('.dead-status'),{opacity:0,x:6,clearProps:'transform,opacity'},.1);}
-  else if(before.hp>hp){tl.fromTo(row,{'--hit':.7},{'--hit':0,duration:.6,ease:'power2.out'},0);tl.fromTo(q('.player-hp'),{scale:1.22},{scale:1,duration:.4,ease:'back.out(3)',clearProps:'transform'},0);}
+  if(before.alive&&!alive){
+   tl.fromTo(row,{'--hit':1},{'--hit':0,duration:.9,ease:'power2.out'},0);
+   tl.fromTo(row,{x:-7},{x:0,duration:.5,ease:'elastic.out(1,.35)',clearProps:'transform'},0);
+   tl.from(q('.dead-status'),{opacity:0,x:6,clearProps:'transform,opacity'},.1);
+   overlay('kill-slash');
+   if(before.hp>0)float(`-${before.hp}`,'lethal');
+  }
+  else if(before.hp>hp){tl.fromTo(row,{'--hit':.75},{'--hit':0,duration:.6,ease:'power2.out'},0);tl.fromTo(q('.player-hp'),{scale:1.28},{scale:1,duration:.42,ease:'back.out(3)',clearProps:'transform'},0);float(`-${before.hp-hp}`,before.hp-hp>=50?'heavy':'');}
   if(before.cash!==cash)tl.from(q('.player-cash'),{opacity:.35,y:3,clearProps:'transform,opacity'},'<');
   if(alive&&before.gear!==gear)tl.from(q('.player-loadout'),{opacity:.3,clearProps:'opacity'},'<');
  },{scope:ref,dependencies:[anchor,enabled,hp,alive,cash,gear],revertOnUpdate:true});
@@ -96,6 +106,15 @@ export function useIndicator<T extends HTMLElement>(activeSelector:string,deps:u
 export function useRouteEnter(page:string){
  const ref=useRef<HTMLDivElement>(null);const {enabled}=useContext(MotionContext);
  useGSAP(()=>{if(!enabled||!ref.current)return;const items=[...ref.current.children].slice(0,8);gsap.from(items,{y:14,opacity:0,duration:.42,ease:'power3.out',stagger:.045,clearProps:'transform,opacity'});},{scope:ref,dependencies:[page,enabled],revertOnUpdate:true});
+ return ref;
+}
+/** Score change: the digit drops in oversized with a glow that settles; never loops. */
+export function useBurst<T extends HTMLElement>(key:unknown){
+ const ref=useRef<T>(null);const {enabled}=useContext(MotionContext);const seen=useRef(key);
+ useGSAP(()=>{if(seen.current===key)return;seen.current=key;if(!enabled||!ref.current)return;
+  gsap.timeline().fromTo(ref.current,{yPercent:-70,opacity:0,scale:1.6},{yPercent:0,opacity:1,scale:1,duration:.6,ease:'back.out(2.2)',clearProps:'transform,opacity'})
+   .fromTo(ref.current,{textShadow:'0 0 34px currentColor'},{textShadow:'0 0 0px currentColor',duration:1.1,ease:'power2.out',clearProps:'textShadow'},0);
+ },{dependencies:[key,enabled]});
  return ref;
 }
 /** One-shot pop when `key` changes (score digits, chips); never loops. */

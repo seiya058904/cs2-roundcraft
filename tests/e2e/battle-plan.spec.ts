@@ -2,6 +2,7 @@ import {test,expect} from '@playwright/test';
 for(const width of [1440,1280,1024,390])test(`回合计划选择、调整与复盘 ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:1000});const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/');await page.getByRole('button',{name:'快速开赛 · Vitality vs FURIA →'}).click();
+ await page.getByRole('button',{name:'手动',exact:true}).click();
  await page.getByLabel('战术池',{exact:true}).selectOption('patient');
  await page.getByText('阶段调整',{exact:true}).click();
  await page.getByLabel('烟雾处理',{exact:true}).selectOption('respect');

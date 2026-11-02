@@ -26,10 +26,13 @@ test('same-side map transition clears previous map positions before another manu
  }),prepared.save);
  await page.reload();await page.getByRole('button',{name:'比赛指挥台',exact:true}).click();
  await page.getByLabel('播报速度').selectOption('0');
+ await page.getByRole('button',{name:'手动',exact:true}).click();
  await page.getByText('五人初始站位与路线',{exact:true}).click();
  const position=page.locator('.position-pair').first().locator('select').first();
  await position.selectOption(prepared.position);
  await page.getByRole('button',{name:'执行下一回合 →',exact:true}).click();
+ // Executing folds the manual drawer; reopen it to check the carried-over decision.
+ await page.getByRole('button',{name:'展开手动设置',exact:true}).click();
  await expect(position).toHaveValue('');
  await page.getByRole('button',{name:'执行下一回合 →',exact:true}).click();
  await expect(page.getByRole('alert')).toHaveCount(0);

@@ -1,8 +1,15 @@
 import type { RoundResult } from './types';
 /** Read-only reconstruction. A commentary step reveals its cited event prefix only. */
 export function commentarySnapshot(round: RoundResult, revealed: number) {
+    return snapshotAt(round, commentaryCutoff(round, revealed));
+}
+/** Index of the last event cited by the first `revealed` commentary segments (-1 before any). */
+export function commentaryCutoff(round: RoundResult, revealed: number) {
     const ids = new Set(round.commentary.slice(0, revealed).flatMap(segment => segment.eventIds));
-    const cutoff = round.events.reduce((last, event, index) => ids.has(event.id) ? index : last, -1);
+    return round.events.reduce((last, event, index) => ids.has(event.id) ? index : last, -1);
+}
+/** State after the event prefix ending at `cutoff`; lets the board play events one by one between lines. */
+export function snapshotAt(round: RoundResult, cutoff: number) {
     const events = round.events.slice(0, cutoff + 1);
     const complete = events.some(event => event.kind === 'roundEnd');
     const fighters = structuredClone(complete ? round.final : round.initial);

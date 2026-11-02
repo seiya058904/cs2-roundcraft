@@ -1,10 +1,10 @@
-import {useMemo,useRef,type ReactNode} from 'react';
+import {useMemo,useRef,useState,type ReactNode} from 'react';
 import gsap from 'gsap';
 import {useGSAP} from '@gsap/react';
 import type {RoundEvent,RoundResult,Series,Side,TeamIndex} from '../domain/types';
 import {SIDE_LABELS} from '../labels';
 import {WeaponIcon,GearIcon} from '../EquipmentIcon';
-import {useMotionEnabled,usePop,useTweenNumber} from '../motion';
+import {useMotionEnabled,usePop,useBurst,useTweenNumber} from '../motion';
 import {winCurve,biggestSwing,economyOutlook,roundMvp,roundHighlights,BUY_LABELS} from '../domain/insights';
 import {killFeed,timelineCells} from './feed';
 
@@ -19,9 +19,31 @@ export function ReasonIcon({reason}:{reason:RoundResult['reason']}){
 function HeadshotIcon(){return <svg className="hs-icon" viewBox="0 0 16 16" role="img" aria-label="爆头"><circle cx="8" cy="8" r="5" fill="none" stroke="currentColor" strokeWidth="1.4"/><path d="M8 1v4M8 11v4M1 8h4M11 8h4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/></svg>;}
 
 type Banner={key:string;text:string;side:Side;detail?:string};
-export function ScoreHud({match,own,score,sides,series,status,pendingNote,started,banner,children}:{match:Series;own:TeamIndex;score:readonly number[];sides:readonly Side[];series:readonly number[];status:string;pendingNote?:string;started:boolean;banner?:Banner;children?:ReactNode}){
+export type LiveState={alive:[number,number];at:number;complete:boolean;bomb?:{zone:string;state:'planted'|'defusing'|'defused'|'exploded';left:number}};
+const BOMB_LABELS={planted:'已下包',defusing:'正在拆包',defused:'已拆除',exploded:'已爆炸'} as const;
+/** Live strip under the score: who is still standing and where the bomb is, at the revealed moment. */
+function LiveStrip({live,own,sides}:{live:LiveState;own:TeamIndex;sides:readonly Side[]}){
+ const enemy=(1-own) as TeamIndex;
+ const pips=(team:TeamIndex)=><span className={`live-pips ${sideClass(sides[team])}`} aria-hidden="true">{Array.from({length:5},(_,i)=><i key={i} className={i<live.alive[team]?'on':''}/>)}</span>;
+ const bombRef=usePop<HTMLSpanElement>(live.bomb?.state);
+ // A pip that just went dark flares before it settles, so each death reads at a glance.
+ const strip=useRef<HTMLDivElement>(null);const motion=useMotionEnabled();const before=useRef(live.alive);
+ useGSAP(()=>{const was=before.current;before.current=live.alive;if(!motion||!strip.current)return;
+  ([own,enemy] as TeamIndex[]).forEach((team,slot)=>{if(live.alive[team]>=was[team])return;
+   const pips=strip.current!.querySelectorAll('.live-pips')[slot]?.querySelectorAll('i');
+   for(let i=live.alive[team];i<was[team];i++){const pip=pips?.[i];if(pip)gsap.fromTo(pip,{scale:2.1,backgroundColor:'#ef9188',boxShadow:'0 0 12px #ef9188'},{scale:1,backgroundColor:'',boxShadow:'0 0 0 transparent',duration:.7,ease:'power3.out',clearProps:'transform,backgroundColor,boxShadow'});}
+  });
+ },{dependencies:[live.alive[0],live.alive[1],motion]});
+ return <div ref={strip} className="live-strip" aria-label={`存活 ${live.alive[own]} 对 ${live.alive[enemy]}${live.bomb?` · ${BOMB_LABELS[live.bomb.state]} ${live.bomb.zone}`:''}`}>
+  {pips(own)}<b className="live-count">{live.alive[own]}<i>v</i>{live.alive[enemy]}</b>{pips(enemy)}
+  {live.bomb?<span ref={bombRef} className={`bomb-chip ${live.bomb.state}`}><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2.5" y="5" width="11" height="7" rx="1.5" fill="none" stroke="currentColor" strokeWidth="1.4"/><path d="M5 5V3.5h6V5M6 8.5h4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/></svg>{BOMB_LABELS[live.bomb.state]} · {live.bomb.zone}{(live.bomb.state==='planted'||live.bomb.state==='defusing')&&!live.complete&&<small>剩 {live.bomb.left} 秒</small>}</span>:<span className="live-clock">{live.complete?'回合结束':`${live.at} 秒`}</span>}
+ </div>;
+}
+export function ScoreHud({match,own,score,sides,series,status,pendingNote,started,banner,live,children}:{match:Series;own:TeamIndex;score:readonly number[];sides:readonly Side[];series:readonly number[];status:string;pendingNote?:string;started:boolean;banner?:Banner;live?:LiveState;children?:ReactNode}){
  const need=Math.ceil(match.bestOf/2);
- const ownRef=usePop<HTMLSpanElement>(score[own]),enemyRef=usePop<HTMLSpanElement>(score[1-own]);
+ const ownRef=useBurst<HTMLSpanElement>(score[own]),enemyRef=useBurst<HTMLSpanElement>(score[1-own]);
+ // The ring only marks score changes seen on this screen, never the initial render.
+ const total=score[0]+score[1];const [firstTotal]=useState(total);
  const bannerRef=useRef<HTMLDivElement>(null);const motion=useMotionEnabled();
  useGSAP(()=>{if(!motion||!banner||!bannerRef.current)return;const tl=gsap.timeline();tl.from(bannerRef.current,{clipPath:'inset(0 50% 0 50%)',duration:.5,ease:'power3.out',clearProps:'clipPath'}).from(bannerRef.current.children,{y:8,opacity:0,stagger:.06,duration:.3,ease:'power2.out',clearProps:'transform,opacity'},'-=.2');},{dependencies:[banner?.key,motion]});
  const team=(index:TeamIndex,mirrored:boolean)=><div className={`hud-team ${mirrored?'enemy':'own'} ${started?sideClass(sides[index]):'side-none'}`}>
@@ -32,7 +54,7 @@ export function ScoreHud({match,own,score,sides,series,status,pendingNote,starte
  return <header className="broadcast-hud scoreboard">
   <div className="hud-main">
    {team(own,false)}
-   <div className="score-center"><small>{status}</small>{pendingNote&&<small className="pending-note">{pendingNote}</small>}<strong><span ref={ownRef}>{score[own]}</span><i>:</i><span ref={enemyRef}>{score[1-own]}</span></strong></div>
+   <div className="score-center"><small>{status}</small>{pendingNote&&<small className="pending-note">{pendingNote}</small>}{total!==firstTotal&&<span key={total} className="score-ring" aria-hidden="true"/>}<strong><span ref={ownRef}>{score[own]}</span><i>:</i><span ref={enemyRef}>{score[1-own]}</span></strong>{live&&<LiveStrip live={live} own={own} sides={sides}/>}</div>
    {team((1-own) as TeamIndex,true)}
   </div>
   {children}
