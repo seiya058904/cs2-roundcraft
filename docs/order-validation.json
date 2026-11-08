@@ -1,0 +1,336 @@
+{
+  "generatedAt": "2026-11-08T15:14:18.381Z",
+  "simulationSourceSha256": "249ca635545ba37d15663336cdfe644f5230d353b309538b853eec1228289ccf",
+  "runtime": "v24.15.0",
+  "cpu": "AMD Ryzen 7 9700X 8-Core Processor             ",
+  "logicalCpus": 16,
+  "memoryGiB": 32,
+  "method": "Paired seeds; equal abilities/roles/map/team values; controlled second-round T $6000, CT $6000/$2000; fast A vs stack A; seven maps and both team slots; prior round stays valid, RNG reset for comparison. Diagnostic game estimates, not live career or professional win probabilities.",
+  "summary": {
+    "legacyMeanAbsoluteSlotGap": 0.1192857142857143,
+    "currentMeanAbsoluteSlotGap": 0.024047619047619047,
+    "maxCurrentAbsoluteSlotGap": 0.08
+  },
+  "reports": [
+    {
+      "map": "dust2",
+      "version": "causal-plans-v5",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        249,
+        149
+      ],
+      "gap": 0.3333333333333333
+    },
+    {
+      "map": "dust2",
+      "version": "causal-plans-v5",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        7,
+        2
+      ],
+      "gap": 0.016666666666666666
+    },
+    {
+      "map": "dust2",
+      "version": "causal-plans-v6",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        210,
+        200
+      ],
+      "gap": 0.03333333333333333
+    },
+    {
+      "map": "dust2",
+      "version": "causal-plans-v6",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        6,
+        2
+      ],
+      "gap": 0.013333333333333334
+    },
+    {
+      "map": "mirage",
+      "version": "causal-plans-v5",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        248,
+        186
+      ],
+      "gap": 0.20666666666666667
+    },
+    {
+      "map": "mirage",
+      "version": "causal-plans-v5",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        16,
+        4
+      ],
+      "gap": 0.04
+    },
+    {
+      "map": "mirage",
+      "version": "causal-plans-v6",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        222,
+        222
+      ],
+      "gap": 0
+    },
+    {
+      "map": "mirage",
+      "version": "causal-plans-v6",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        15,
+        5
+      ],
+      "gap": 0.03333333333333333
+    },
+    {
+      "map": "inferno",
+      "version": "causal-plans-v5",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        174,
+        157
+      ],
+      "gap": 0.056666666666666664
+    },
+    {
+      "map": "inferno",
+      "version": "causal-plans-v5",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        12,
+        7
+      ],
+      "gap": 0.016666666666666666
+    },
+    {
+      "map": "inferno",
+      "version": "causal-plans-v6",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        171,
+        161
+      ],
+      "gap": 0.03333333333333333
+    },
+    {
+      "map": "inferno",
+      "version": "causal-plans-v6",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        7,
+        19
+      ],
+      "gap": -0.04
+    },
+    {
+      "map": "nuke",
+      "version": "causal-plans-v5",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        212,
+        181
+      ],
+      "gap": 0.10333333333333333
+    },
+    {
+      "map": "nuke",
+      "version": "causal-plans-v5",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        18,
+        25
+      ],
+      "gap": -0.023333333333333334
+    },
+    {
+      "map": "nuke",
+      "version": "causal-plans-v6",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        224,
+        204
+      ],
+      "gap": 0.06666666666666667
+    },
+    {
+      "map": "nuke",
+      "version": "causal-plans-v6",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        29,
+        28
+      ],
+      "gap": 0.0033333333333333335
+    },
+    {
+      "map": "ancient",
+      "version": "causal-plans-v5",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        186,
+        121
+      ],
+      "gap": 0.21666666666666667
+    },
+    {
+      "map": "ancient",
+      "version": "causal-plans-v5",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        6,
+        0
+      ],
+      "gap": 0.02
+    },
+    {
+      "map": "ancient",
+      "version": "causal-plans-v6",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        160,
+        158
+      ],
+      "gap": 0.006666666666666667
+    },
+    {
+      "map": "ancient",
+      "version": "causal-plans-v6",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        4,
+        2
+      ],
+      "gap": 0.006666666666666667
+    },
+    {
+      "map": "anubis",
+      "version": "causal-plans-v5",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        217,
+        131
+      ],
+      "gap": 0.2866666666666667
+    },
+    {
+      "map": "anubis",
+      "version": "causal-plans-v5",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        5,
+        1
+      ],
+      "gap": 0.013333333333333334
+    },
+    {
+      "map": "anubis",
+      "version": "causal-plans-v6",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        191,
+        167
+      ],
+      "gap": 0.08
+    },
+    {
+      "map": "anubis",
+      "version": "causal-plans-v6",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        2,
+        1
+      ],
+      "gap": 0.0033333333333333335
+    },
+    {
+      "map": "cache",
+      "version": "causal-plans-v5",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        247,
+        147
+      ],
+      "gap": 0.3333333333333333
+    },
+    {
+      "map": "cache",
+      "version": "causal-plans-v5",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        2,
+        3
+      ],
+      "gap": -0.0033333333333333335
+    },
+    {
+      "map": "cache",
+      "version": "causal-plans-v6",
+      "ctCash": 6000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        215,
+        215
+      ],
+      "gap": 0
+    },
+    {
+      "map": "cache",
+      "version": "causal-plans-v6",
+      "ctCash": 2000,
+      "samples": 300,
+      "ctWinsBySlot": [
+        5,
+        0
+      ],
+      "gap": 0.016666666666666666
+    }
+  ],
+  "tactics": [
+    {
+      "ctTactic": "stackA",
+      "samples": 300,
+      "ctWins": 200
+    },
+    {
+      "ctTactic": "stackB",
+      "samples": 300,
+      "ctWins": 56
+    }
+  ]
+}

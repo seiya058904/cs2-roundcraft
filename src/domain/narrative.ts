@@ -1,14 +1,14 @@
 import type { RoundResult, Series } from './types';
 import { deriveCommentaryBeats, renderChineseCommentary, commentaryCatalog } from './commentaryBeats';
 import {realQuoteCatalog} from './realQuotes';
-import {BATTLE_ENGINE} from './battlePlan';
+import {BROADCAST_ENGINES} from './battlePlan';
 import {addDuoVoices} from './duo';
 import {speakCommentary} from './spoken';
 export { deriveCommentaryBeats, renderChineseCommentary } from './commentaryBeats';
 /** Caster narration; engine v5 matches add the two-voice booth on top, older engines keep their frozen narration. */
 export function renderCommentary(round: RoundResult, series: Series) {
     const caster = renderChineseCommentary(deriveCommentaryBeats(round, series), round, series);
-    return round.plans && series.engineVersion === BATTLE_ENGINE ? speakCommentary(addDuoVoices(caster, round, series), round, series) : caster;
+    return round.plans && BROADCAST_ENGINES.includes(series.engineVersion ?? '') ? speakCommentary(addDuoVoices(caster, round, series), round, series) : caster;
 }
 export function validateNarration(round: RoundResult): string[] {
     const ids = new Set(round.events.map(e => e.id));
