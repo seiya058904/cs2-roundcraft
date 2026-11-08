@@ -32,6 +32,8 @@ The maximum v6 cell gap was 8 percentage points. On the separate Dust II tactic 
 
 The first build caught a missing explicit type in the new diagnostic script; that was corrected. Initial browser/offline runs found an ambiguous global `series ended` text locator when a newly simulated series was lost. The assertions now target the scoreboard, and continue to require a real finished series.
 
+The first PR run completed 286 unit tests successfully but the new 200-seed paired regression took about six seconds on the hosted runner, exceeding Vitest's five-second default. This single 800-round test now has a 20-second limit; the sample size, assertion and global timeout are unchanged.
+
 ## Remaining boundaries
 
 Browser validation uses isolated Chromium storage. It does not certify physical phones, Safari, Firefox or assistive technology. Existing saved games intentionally continue on their original engine and retain the old simulation behavior. This change does not replace their historical results.

@@ -40,4 +40,4 @@ it('paired equal-budget rounds do not grant a persistent advantage to the first 
  }
  // Fixed seeds make this repeatable; the broad bound catches the former ~30-point gap.
  expect(Math.abs(wins[0]-wins[1]),JSON.stringify(wins)).toBeLessThan(25);
-});
+},20000); // 800 simulated rounds; allow slower CI CPUs without reducing sample coverage.
