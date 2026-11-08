@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-09 — simulation initiative and match sessions
+
+- New matches use `causal-plans-v6`: canonical fighter storage order and seeded initiative for movement/pickups and utility remove persistent first-in-array advantages. Existing engines keep their exact events, random streams and commentary.
+- Manual commands and the commentary/replay position survive navigation to other pages in the current app session. Returning pauses playback and leaves autoplay off. New matches and save replacements clear the session; side/map changes still clear incompatible positions and phase overrides.
+- Changing reading speed preserves the current position and pause state. Direct display still reveals the whole round explicitly.
+- Added array-permutation/legacy fingerprint regressions, match-session browser checks and a seven-map paired-seed diagnostic. See [validation](docs/VALIDATION_2026_11_09.md).
+
 ## Unreleased — broadcast polish
 
 - Desktop broadcast stage (windows at least 1240×760): the match fits one screen with no page scroll. The newest commentary line is pinned in large type under a scrolling history; statistics, the economy ledger and the map guide move into panel tabs.

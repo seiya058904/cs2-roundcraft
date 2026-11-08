@@ -8,7 +8,7 @@ import {commentarySnapshot} from '../src/domain/replay';
 
 describe('CS2 presentation and causal upgrade',()=>{
  it('records current engine, accepts a legacy series and rejects an unknown engine',()=>{
-  const s=createSeries(newWorld(),'team-3','team-7',1,424);expect(s.engineVersion).toBe('causal-plans-v5');
+  const s=createSeries(newWorld(),'team-3','team-7',1,424);expect(s.engineVersion).toBe('causal-plans-v6');
   delete s.engineVersion;expect(()=>validateSeries(s)).not.toThrow();s.engineVersion='future';expect(()=>validateSeries(s)).toThrow('未知比赛引擎版本');
  });
  it('brief and full readings share monotonic event anchors and never mutate match entropy',()=>{

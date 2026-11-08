@@ -1,6 +1,7 @@
 import {expect,it} from 'vitest';
 import {createHash} from 'node:crypto';
 import frozen from '../docs/esm-review/legacy-fingerprints.json';
+import plansFrozen from './fixtures/plans-legacy-fingerprints.json';
 import {newWorld} from '../src/data';
 import {createSeries,autoVeto} from '../src/domain/series';
 import {resolveRound,simulateSeries} from '../src/domain/engine';
@@ -8,7 +9,7 @@ import {validateSeries} from '../src/domain/saveValidation';
 import {defaultDecision} from '../src/domain/tactics';
 import {chooseAI} from '../src/domain/tactics';
 import {Random} from '../src/domain/random';
-it.each(frozen)('旧版本 $version seed=$seed 全部事件与存档字节保持一致',row=>{
+it.each([...frozen,...plansFrozen])('旧版本 $version seed=$seed 全部事件与存档字节保持一致',row=>{
  const s=createSeries(newWorld(),'team-3','team-7',1,row.seed);
  if(row.version==='legacy')delete s.engineVersion;else s.engineVersion=row.version;
  autoVeto(s);simulateSeries(s);

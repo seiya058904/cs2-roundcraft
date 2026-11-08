@@ -3,7 +3,7 @@ import {MatchCommand,decisionForMode,loadCommandMode,type CommandMode} from './M
 import {TeamRoster,ROSTER_MODE_LABELS,type PlayerExtras,type RosterMode} from './MatchRoster';
 import {EVENT_LABELS,equipmentLabel} from './labels';
 import {MapGuide} from './MapGuide';
-import {useEffect,useLayoutEffect,useMemo,useRef,useState,type CSSProperties} from 'react';
+import {useEffect,useLayoutEffect,useMemo,useRef,useState,type CSSProperties,type RefObject} from 'react';
 import {useEventMotion,useIndicator,useMotionEnabled} from './motion';
 import type {Series,Decision,TeamIndex,RoundResult,TimeoutEffect,Side,CommentarySegment} from './domain/types';
 import {MAPS,getMap} from './domain/maps';
@@ -21,24 +21,32 @@ import {usePlayhead} from './match/usePlayhead';
 import {Spotlight} from './match/Spotlight';
 import {ScoreHud,RoundTimeline,WinCard,KillCard,REASON_LABELS,type LiveState} from './match/Hud';
 import {AnalysisDesk} from './match/AnalysisDesk';
-type Props={match:Series;own:TeamIndex;busy:boolean;onVeto:(map:typeof MAPS[number]['id'])=>void;onAutoVeto:()=>void;onOpponentVeto:()=>void;onVetoOrder:(as:'A'|'B')=>void;onStartingSide:(side:Side)=>void;onRound:(d?:Decision,count?:number)=>void;onBatch:(limit:'map'|'series')=>void;onTimeout:(kind:TimeoutEffect['kind'])=>void;onFinish:()=>void;careerMatch:boolean};
+type Props={session:RefObject<MatchSession|null>;match:Series;own:TeamIndex;busy:boolean;onVeto:(map:typeof MAPS[number]['id'])=>void;onAutoVeto:()=>void;onOpponentVeto:()=>void;onVetoOrder:(as:'A'|'B')=>void;onStartingSide:(side:Side)=>void;onRound:(d?:Decision,count?:number)=>void;onBatch:(limit:'map'|'series')=>void;onTimeout:(kind:TimeoutEffect['kind'])=>void;onFinish:()=>void;careerMatch:boolean};
 type View='live'|'desk'|'review'|'ledger';
+/** In-memory page session only: never part of a save or the simulation random stream. */
+export interface MatchSession {matchId:string;map?:string;side:Side;decision:Decision;view:View;selected:number;revealed:number;follow:boolean;scrollTop:number}
 const VOICE_LABELS={caster:'主解说',analyst:'分析嘉宾'} as const;
 const BADGE_KINDS=new Set(['ace','4k','3k','clutch','ninja']);
 const VIEWS:[View,string][]=[['live','现场解说'],['desk','场外分析'],['review','战术复盘'],['ledger','精确账本']];
-export function MatchView({match,own,busy,onVeto,onAutoVeto,onOpponentVeto,onVetoOrder,onStartingSide,onRound,onBatch,onTimeout,onFinish,careerMatch}:Props){
+export function MatchView({session,match,own,busy,onVeto,onAutoVeto,onOpponentVeto,onVetoOrder,onStartingSide,onRound,onBatch,onTimeout,onFinish,careerMatch}:Props){
  const current=match.mapStates.at(-1);const side=current?sidesForRound(current.startSide,current.rounds.length)[own]:'T';
- const [paused,setPaused]=useState(false);const[detail,setDetail]=useState<'full'|'brief'>(()=>{try{return localStorage.getItem('ctm-commentary')==='brief'?'brief':'full';}catch{return 'full';}});const[follow,setFollow]=useState(true);const feed=useRef<HTMLDivElement>(null);const caption=useRef<HTMLDivElement>(null);const skipBatch=useRef(false);
- const[decision,setDecision]=useState<Decision>(defaultDecision(side));const[view,setView]=useState<View>('live');const[selected,setSelected]=useState(-1);const[revealed,setRevealed]=useState(1);const[speed,setSpeed]=useState(()=>{try{const v=Number(localStorage.getItem('ctm-speed')??1000);return [1000,2500,0,-1].includes(v)?v:1000;}catch{return 1000;}});
- const[mode,setMode]=useState<CommandMode>(loadCommandMode);const[autoplay,setAutoplay]=useState(false);
+ const [restored]=useState(()=>session.current?.matchId===match.id?session.current:null);
  const allRounds=useMemo(()=>match.mapStates.flatMap(m=>m.rounds),[match]);
+ const [speed,setSpeed]=useState(()=>{try{const v=Number(localStorage.getItem('ctm-speed')??1000);return [1000,2500,0,-1].includes(v)?v:1000;}catch{return 1000;}});
+ const [paused,setPaused]=useState(Boolean(restored));const[detail,setDetail]=useState<'full'|'brief'>(()=>{try{return localStorage.getItem('ctm-commentary')==='brief'?'brief':'full';}catch{return 'full';}});const[follow,setFollow]=useState(restored?.follow??true);const feed=useRef<HTMLDivElement>(null);const caption=useRef<HTMLDivElement>(null);const skipBatch=useRef(false);
+ const[decision,setDecision]=useState<Decision>(()=>restored?.map===current?.map&&restored?.side===side?restored.decision:defaultDecision(side));const[view,setView]=useState<View>(restored?.view??'live');const[selected,setSelected]=useState(restored&&restored.selected<allRounds.length?restored.selected:-1);const[revealed,setRevealed]=useState(restored?.revealed??(speed===0?999:1));
+ const[mode,setMode]=useState<CommandMode>(loadCommandMode);const[autoplay,setAutoplay]=useState(false);
  const round=selected<0?allRounds.at(-1):allRounds[selected];
- useEffect(()=>{setDecision(d=>({...d,tactic:defaultDecision(side).tactic,positions:undefined,stances:undefined,phases:undefined}));},[side,current?.map]);
- useEffect(()=>{setSelected(-1);},[allRounds.length]);
- useEffect(()=>{setRevealed(speed===0||skipBatch.current?999:1);setPaused(false);setFollow(true);if(!busy)skipBatch.current=false;},[round,speed,busy]);
+ const boundary=useRef({side,map:current?.map}),roundCount=useRef(allRounds.length);
+ useEffect(()=>{if(boundary.current.side===side&&boundary.current.map===current?.map)return;boundary.current={side,map:current?.map};setDecision(d=>({...d,tactic:defaultDecision(side).tactic,positions:undefined,stances:undefined,phases:undefined}));},[side,current?.map]);
+ useEffect(()=>{if(roundCount.current!==allRounds.length){roundCount.current=allRounds.length;setSelected(-1);}},[allRounds.length]);
+ const roundKey=round?`${round.map}:${round.number}`:'',previousRound=useRef(roundKey);
+ useEffect(()=>{if(previousRound.current!==roundKey||(!busy&&skipBatch.current)){previousRound.current=roundKey;setRevealed(speed===0||skipBatch.current?999:1);setPaused(false);setFollow(true);}if(!busy)skipBatch.current=false;},[roundKey,busy,speed]);
  useEffect(()=>{try{localStorage.setItem('ctm-speed',String(speed));}catch{/* preference only */}},[speed]);
  useEffect(()=>{try{localStorage.setItem('ctm-commentary',detail);}catch{/* preference only */}},[detail]);
  useEffect(()=>{try{localStorage.setItem('ctm-command-mode',mode);}catch{/* preference only */}},[mode]);
+ useLayoutEffect(()=>{if(restored&&!restored.follow&&feed.current)feed.current.scrollTop=restored.scrollTop;},[restored]);
+ useLayoutEffect(()=>{session.current={matchId:match.id,map:current?.map,side,decision,view,selected,revealed,follow,scrollTop:feed.current?.scrollTop??session.current?.scrollTop??0};});
  const motion=useMotionEnabled();
  // Auto-follow glides to the newest line; a scroll that moves up is the reader taking over, never the glide.
  const lastTop=useRef(0);
@@ -160,10 +168,10 @@ export function MatchView({match,own,busy,onVeto,onAutoVeto,onOpponentVeto,onVet
    {round&&snapshot&&<Spotlight round={round} events={snapshot.events} played={played} nick={nick}/>}
    {match.status==='finished'&&!livePending&&round===allRounds.at(-1)&&<div className={`result ${match.winner===own?'won':'lost'}`}><div><small>{match.winner===own?'胜利':'系列赛结束'}</small><h3>{match.teams[match.winner!].name} 赢下系列赛</h3><span>{match.mapStates.map(m=>`${getMap(m.map).name} ${orderedScore(m.score,':')}`).join(' · ')}</span></div><button className="primary" onClick={onFinish}>{careerMatch?'结算并返回赛事':'返回沙盒配置'}</button></div>}
    <Panel className="broadcast-panel" title="解说席">
-    <div className="tabs" ref={tabs}><span className="indicator" aria-hidden="true"/>{VIEWS.map(([id,name])=><button aria-pressed={view===id} className={view===id?'selected':''} key={id} onClick={()=>setView(id)}>{name}</button>)}<select className="speed-select" aria-label="播报速度" value={speed} onChange={e=>setSpeed(Number(e.target.value))}><option value={1000}>正常播报</option><option value={2500}>慢速阅读</option><option value={0}>直接显示</option><option value={-1}>手动逐段</option></select></div>
+    <div className="tabs" ref={tabs}><span className="indicator" aria-hidden="true"/>{VIEWS.map(([id,name])=><button aria-pressed={view===id} className={view===id?'selected':''} key={id} onClick={()=>setView(id)}>{name}</button>)}<select className="speed-select" aria-label="播报速度" value={speed} onChange={e=>{const value=Number(e.target.value);setSpeed(value);if(value===0)setRevealed(999);}}><option value={1000}>正常播报</option><option value={2500}>慢速阅读</option><option value={0}>直接显示</option><option value={-1}>手动逐段</option></select></div>
     {view==='live'&&<div className="broadcast-controls"><div className="button-row segmented"><button aria-pressed={detail==='full'} onClick={()=>setDetail('full')}>详解</button><button aria-pressed={detail==='brief'} onClick={()=>setDetail('brief')}>精简</button></div><button className="ghost" disabled={!round||revealed>=round.commentary.length||speed<=0} onClick={()=>setPaused(p=>!p)}>{paused?'继续播报':'暂停播报'}</button>{allRounds.length>0&&<label className="round-picker">回放<select aria-label="回放回合" value={selected} onChange={e=>setSelected(Number(e.target.value))}><option value={-1}>最新回合</option>{allRounds.map((r,i)=><option key={i} value={i}>{getMap(r.map).name} · R{r.number}{(selected>=0&&i>selected)||(r===round&&!snapshot?.complete)?'':` · ${orderedScore(r.score,':')}`}</option>)}</select></label>}{round&&<label className="progress-label">进度<input aria-label="解说事件进度" type="range" min={1} max={round.commentary.length} value={Math.min(revealed,round.commentary.length)} style={{'--progress':`${(Math.min(revealed,round.commentary.length)-1)/Math.max(1,round.commentary.length-1)*100}%`} as CSSProperties} onChange={e=>{setPaused(true);setRevealed(Number(e.target.value));}}/></label>}</div>}
     {!round?<div className="empty-state"><h3>第一回合，由你指挥。</h3><p>选一个指挥档位后执行，主解说与分析嘉宾会随真实事件逐段展开。想一直看下去，就打开「连播」。</p><p className="muted">敌方计划尚未暴露。首回合双方起始现金为每人 $800。</p></div>:view==='live'?<>
-     <div className="commentary commentary-feed" ref={feed} tabIndex={0} aria-label="现场解说" onScroll={e=>{const el=e.currentTarget,up=el.scrollTop<lastTop.current-1;lastTop.current=el.scrollTop;const atBottom=el.scrollHeight-el.clientHeight-el.scrollTop<45;if(atBottom)setFollow(true);else if(up)setFollow(false);}}>
+     <div className="commentary commentary-feed" ref={feed} tabIndex={0} aria-label="现场解说" onScroll={e=>{const el=e.currentTarget,up=el.scrollTop<lastTop.current-1;if(session.current)session.current.scrollTop=el.scrollTop;lastTop.current=el.scrollTop;const atBottom=el.scrollHeight-el.clientHeight-el.scrollTop<45;if(atBottom)setFollow(true);else if(up)setFollow(false);}}>
       <p className="round-label">{getMap(round.map).name} / 第 {round.number} 回合</p>
       <p className="live-state" data-testid="live-state">{snapshot!.at} 秒 · 存活 {orderedScore(snapshot!.alive)} · 比分 {orderedScore(snapshot!.score)}{snapshot!.complete?' · 回合结束':' · 播报进行中'}</p>
       {history.map(line=>renderSegment(line))}

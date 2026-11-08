@@ -1,4 +1,4 @@
-import {BATTLE_ENGINE, PLANNED_ENGINES, classifyEconomy, resolveBattlePlan, validatePlanInput, shouldWaitForSmoke, regroupReady, shouldReserveUtility, shouldSave} from './battlePlan';
+import {BROADCAST_ENGINES, PLANNED_ENGINES, classifyEconomy, resolveBattlePlan, validatePlanInput, shouldWaitForSmoke, regroupReady, shouldReserveUtility, shouldSave} from './battlePlan';
 import type {BattlePlan} from './battlePlan';
 import { DEFAULT_TIMEOUT_RULES } from './rules';
 import type { Series, Decision, Fighter, RoundEvent, EventKind, TeamIndex, RoundResult, EconomyEntry } from './types';
@@ -9,13 +9,23 @@ import { chooseAI, getTactic } from './tactics';
 import { aiTimeout } from './coach';
 import { sidesForRound, mapWinner, completeMap } from './series';
 import { renderCommentary } from './narrative';
+/** Seeded initiative for contested actions; storage order never grants first use of a drop or flash. */
+function initiativeOrder(fighters: Fighter[], rng: Random): Fighter[] {
+    const order = [...fighters];
+    for (let i = order.length - 1; i > 0; i--) {
+        const j = rng.int(i + 1);
+        [order[i], order[j]] = [order[j], order[i]];
+    }
+    return order;
+}
 /** Pure simulation boundary: all entropy is stored in Series.rngState. No UI or clock reads. */
 export function resolveRound(series: Series, manual?: Partial<Record<TeamIndex, Decision>>): RoundResult {
     if (series.status !== 'playing')
         throw new Error('当前没有可执行的回合');
     const planned = PLANNED_ENGINES.includes(series.engineVersion ?? '');
     // v5: retake utility clears close angles, so established post-plant holders keep less cover.
-    const postPlantCover = series.engineVersion === BATTLE_ENGINE ? .1 : .35;
+    const postPlantCover = BROADCAST_ENGINES.includes(series.engineVersion ?? '') ? .1 : .35;
+    const fairOrder = series.engineVersion === 'causal-plans-v6';
     const modern = planned || series.engineVersion === 'causal-2026-10-v3';
     const ms = series.mapStates.at(-1)!;
     if (ms.winner !== null)
@@ -40,6 +50,8 @@ export function resolveRound(series: Series, manual?: Partial<Record<TeamIndex, 
             if (!series.teams[index].startingFive.includes(id) || !['close', 'standard'].includes(stance))
                 throw new Error('无效架点方式');
     }
+    // Normalize serialized arrays before assigning random draws. Keep legacy byte streams untouched.
+    if (fairOrder) ms.fighters.sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
     const reset = n === 0 || n === 12 || n >= 24 && (n - 24) % 3 === 0;
     if (reset) {
         ms.lossTiers = [ECONOMY.initialLossTier, ECONOMY.initialLossTier];
@@ -246,7 +258,8 @@ export function resolveRound(series: Series, manual?: Partial<Record<TeamIndex, 
         }
     }
     for (now = 1; now <= 160; now++) {
-        for (const f of ms.fighters.filter(f => f.alive)) {
+        const movers = ms.fighters.filter(f => f.alive);
+        for (const f of fairOrder ? initiativeOrder(movers, rng) : movers) {
             const travel = transit.get(f.id);
             if (travel && now >= travel.at) {
                 f.zone = travel.to;
@@ -307,7 +320,8 @@ export function resolveRound(series: Series, manual?: Partial<Record<TeamIndex, 
             lastReport = now;
             emit('sight', { actor: contact.id, team: ctTeam, zone: contact.zone, detail: { observedBy: 'CT', visibleAttackers: seenAttackers.length } });
         }
-        for (const f of ms.fighters.filter(f => f.alive && !transit.has(f.id))) {
+        const throwers = ms.fighters.filter(f => f.alive && !transit.has(f.id));
+        for (const f of fairOrder ? initiativeOrder(throwers, rng) : throwers) {
             if (winner !== null)
                 break;
             if (!f.alive)
