@@ -5,7 +5,7 @@ import type {RoundEvent,RoundResult,Series,Side,TeamIndex} from '../domain/types
 import {SIDE_LABELS} from '../labels';
 import {WeaponIcon,GearIcon} from '../EquipmentIcon';
 import {useMotionEnabled,usePop,useBurst,useTweenNumber} from '../motion';
-import {winCurve,biggestSwing,economyOutlook,roundMvp,roundHighlights,BUY_LABELS} from '../domain/insights';
+import {winCurve,biggestSwing,economyOutlook,roundMvp,roundHighlights,BUY_LABELS,calibratedProbability,type ProbabilityContext} from '../domain/insights';
 import {killFeed,timelineCells} from './feed';
 
 export const REASON_LABELS:Record<RoundResult['reason'],string>={elimination:'全歼对手',defuse:'拆包成功',explode:'炸弹爆炸',time:'时间耗尽'};
@@ -75,24 +75,26 @@ export function RoundTimeline({rounds,allRounds,own,shown,pending,onSelect,sideO
 }
 
 const pct=(p:number)=>Math.round(p*100);
-export function WinCard({round,own,revealed,complete,names}:{round:RoundResult;own:TeamIndex;revealed:readonly RoundEvent[];complete:boolean;names:[string,string]}){
- const curve=useMemo(()=>winCurve(round,own),[round,own]);
+export function WinCard({round,own,revealed,complete,names,context}:{round:RoundResult;own:TeamIndex;revealed:readonly RoundEvent[];complete:boolean;names:[string,string];context:ProbabilityContext}){
+ const curve=useMemo(()=>winCurve(round,own,context),[round,own,context]);
  const shownIds=useMemo(()=>new Set(revealed.map(e=>e.id)),[revealed]);
  const visible=curve.filter(p=>p.kind==='start'||(p.eventId&&shownIds.has(p.eventId)));
  const current=complete?curve.at(-1)!.p:visible.at(-1)!.p;
- const shown=useTweenNumber(pct(current),.6);
+ const approximate=!complete&&visible.at(-1)?.approximate;
+ const displayedCurrent=approximate?Math.round(current*20)*5:pct(current);
+ const shown=useTweenNumber(displayedCurrent,.6);
  const end=Math.max(1,curve.at(-1)!.at),W=300,H=84,x=(at:number)=>at/end*W,y=(p:number)=>H-4-p*(H-8);
  const pts=(complete?curve:visible);
  const line=pts.map((p,i)=>`${i?'H':'M'}${x(p.at).toFixed(1)}${i?` V${y(p.p).toFixed(1)}`:` ${y(p.p).toFixed(1)}`}`).join(' ');
  const lastX=x(complete?end:Math.max(pts.at(-1)!.at,revealed.at(-1)?.at??0));
  const path=`${line} H${lastX.toFixed(1)}`;
- const swing=complete?biggestSwing(round,own):null;const swingPoint=swing?curve.find(p=>p.eventId===swing.eventId):undefined;
+ const swing=complete?biggestSwing(round,own,context):null;const swingPoint=swing?curve.find(p=>p.eventId===swing.eventId):undefined;
  const ownSide=round.sides[own],outlook=complete?economyOutlook(round):null;
  return <section className={`hud-card win-card ${sideClass(ownSide)}`} aria-label="胜率走势">
-  <header className="hud-card-head"><h3>实时胜率</h3><span>按模拟回合拟合 · 仅作参考</span></header>
+  <header className="hud-card-head"><h3>实时胜率</h3><span>{approximate?'样本不足 · 约数参考':calibratedProbability(context)?'已校准模拟估计 · 仅作参考':'旧版对局估计 · 仅作参考'}</span></header>
   {complete?<div className="win-figure settled"><b>{pct(curve[0].p)}<small>%</small></b><span>开局预测 · {names[own]}</span><span className={`win-result ${round.winner===own?"won":"lost"}`}>{round.winner===own?"实际：赢下":"实际：失利"}</span></div>:<div className="win-figure"><b>{Math.round(shown)}<small>%</small></b><span>{names[own]}</span><span className="win-other">{100-Math.round(shown)}% · {names[1-own]}</span></div>}
   <div className="win-bar" aria-hidden="true"><span style={{transform:`scaleX(${(complete?pct(curve[0].p):shown)/100})`}}/></div>
-  <svg className="win-curve" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" role="img" aria-label={`本回合 ${names[own]} 胜率从 ${pct(curve[0].p)}% 变化到 ${pct(current)}%`}>
+  <svg className="win-curve" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" role="img" aria-label={`本回合 ${names[own]} 胜率从 ${pct(curve[0].p)}% 变化到 ${approximate?'约 ':''}${displayedCurrent}%`}>
    <line x1="0" x2={W} y1={y(.5)} y2={y(.5)} className="mid"/>
    <path d={`${path} V${y(.5)} H0 Z`} className="area"/>
    <path d={path} className="line" vectorEffect="non-scaling-stroke"/>

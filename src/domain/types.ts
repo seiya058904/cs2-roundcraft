@@ -259,6 +259,8 @@ export interface VetoAction {
 }
 export interface Series {
     engineVersion?: string;
+    /** Omitted in existing saves: keep their original analyst numbers and narration. */
+    winProbabilityVersion?: 'wp-v6-1';
     higherSeed?: TeamIndex;
     timeoutRules?: TimeoutRules;
     id: string;

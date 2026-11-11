@@ -23,11 +23,11 @@ test('吸顶与主操作共享执行，连续同轮点击不会重复提交',asy
  const quick=page.getByRole('button',{name:'快捷执行下一回合 →',exact:true});await expect(quick).toBeVisible();await quick.click();await expect(page.getByText('回放第 2 回合',{exact:true})).toHaveCount(1);
  await page.getByRole('button',{name:'选手数据库',exact:true}).click();await expect(quick).toHaveCount(0);
 });
-test('规则阅读、空筛选、存档失败和键盘焦点',async({page})=>{
+test('规则阅读、空筛选、空存档提示和键盘焦点',async({page})=>{
  await page.goto('/');await page.getByRole('button',{name:'数据与规则',exact:true}).click();await page.getByText('模拟边界',{exact:true}).click();await expect(page.getByText(/MR12 常规赛/)).toBeVisible();
  await page.getByRole('button',{name:'选手数据库',exact:true}).click();await page.getByLabel('搜索选手').fill('不存在的选手abcdef');await expect(page.getByText('没有符合筛选条件的选手，请调整昵称或职责。')).toBeVisible();
  await page.getByLabel('搜索选手').focus();await page.keyboard.press('Tab');await expect(page.getByLabel('角色筛选')).toBeFocused();
- await page.getByRole('button',{name:'存档',exact:true}).click();await page.getByRole('button',{name:'载入',exact:true}).first().click();await expect(page.getByRole('alert')).toContainText('该槽位为空');
+ await page.getByRole('button',{name:'存档',exact:true}).click();await expect(page.locator('.save-slots').getByText('空槽位')).toHaveCount(3);await expect(page.getByRole('button',{name:'载入',exact:true}).first()).toBeDisabled();
 });
 
 test('窄屏长职业名与三位数生命值不会相互挤占',async({page})=>{

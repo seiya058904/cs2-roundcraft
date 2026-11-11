@@ -82,6 +82,8 @@
   border-bottom: 1px solid var(--line-soft);
 }
 .page-match .statusbar { height: 38px; margin-bottom: 6px; }
+.autosave-status { margin-left: auto; color: var(--muted); white-space: nowrap; }
+.save-failure { flex-wrap: wrap; gap: 10px; }
 .motion-settings { display: flex; gap: 6px; }
 .motion-settings button { padding: 4px 9px; font-size: var(--fs-xs); background: transparent; border-color: var(--line); white-space: nowrap; }
 .page-footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line-soft); color: var(--subtle); font-size: var(--fs-xs); letter-spacing: .04em; }

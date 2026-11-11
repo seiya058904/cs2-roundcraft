@@ -129,6 +129,9 @@ td.heat { --v: 70; font-family: var(--font-display); font-size: 14px; text-align
 .save-slots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .save-slots > .panel { margin: 0 0 18px; }
 .save-slots .button-row { margin: 4px 0; gap: 8px; }
+.save-summary { min-height: 92px; margin-bottom: 16px; color: var(--text-2); overflow-wrap: anywhere; }
+.save-summary time { color: var(--muted); font-size: var(--fs-sm); }
+.save-summary p { margin: 8px 0 0; line-height: 1.6; }
 
 /* ── Rules ──────────────────────────────────────────────── */
 .rules-article { border-bottom: 1px solid var(--line-soft); padding: 0 4px; }

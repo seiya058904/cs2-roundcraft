@@ -52,11 +52,11 @@ export function MatchView({session,match,own,busy,onVeto,onAutoVeto,onOpponentVe
  const lastTop=useRef(0);
  useEffect(()=>{const el=feed.current;if(follow&&el)el.scrollTo({top:el.scrollHeight,behavior:motion?'smooth':'instant'});},[revealed,follow,detail,view,motion]);
  useEventMotion(caption,`${round?.map}-${round?.number}-${revealed}-${detail}`);
- useEffect(()=>{if(paused||speed<=0||!round||revealed>=round.commentary.length)return;const id=setTimeoutFn(()=>setRevealed(n=>n+1),Math.max(speed,Math.min(8000,(round.commentary[revealed-1]?.text.length??30)*45)));return()=>clearTimeout(id);},[revealed,speed,round,paused]);
+ useEffect(()=>{if(view!=='live'||paused||speed<=0||!round||revealed>=round.commentary.length)return;const id=setTimeoutFn(()=>setRevealed(n=>n+1),Math.max(speed,Math.min(8000,(round.commentary[revealed-1]?.text.length??30)*45)));return()=>clearTimeout(id);},[revealed,speed,round,paused,view]);
  const tabs=useIndicator<HTMLDivElement>('button[aria-pressed=true]',[view,Boolean(round)]);
  const nick=(id?:string)=>match.players.find(p=>p.id===id)?.nickname??id??'—';
  // The board plays each revealed line's events one by one (damage, kills, bomb) instead of landing them in one frame.
- const target=useMemo(()=>round?commentaryCutoff(round,view==='live'?revealed:Infinity):-1,[round,view,revealed]);
+ const target=useMemo(()=>round?commentaryCutoff(round,revealed):-1,[round,revealed]);
  const seen=useRef({round,revealed,view});
  const natural=motion&&view==='live'&&seen.current.round===round&&seen.current.view===view&&revealed===seen.current.revealed+1;
  useEffect(()=>{seen.current={round,revealed,view};});
@@ -66,8 +66,9 @@ export function MatchView({session,match,own,busy,onVeto,onAutoVeto,onOpponentVe
  const hudStats=useMemo(()=>visibleMapStats(allRounds,round,snapshot?.events??[]),[allRounds,round,snapshot]);
  const eventIndex=useMemo(()=>new Map(round?.events.map(e=>[e.id,e])??[]),[round]);
  const roster=snapshot?.fighters??current?.fighters??[];const rosterMap=round?getMap(round.map):current?getMap(current.map):null;
- const livePending=view==='live'&&snapshot&&!snapshot.complete;
+ const livePending=snapshot&&!snapshot.complete;
  const complete=Boolean(snapshot?.complete);
+ const concealCommand=Boolean(round&&(!complete||round!==allRounds.at(-1)));
  const displaySides=round?.sides??(current?sidesForRound(current.startSide,current.rounds.length):['T','CT']);
  const displayScore=snapshot?.score??current?.score??[0,0];
  const replayMapIndex=round?match.maps.indexOf(round.map):-1;
@@ -115,17 +116,17 @@ export function MatchView({session,match,own,busy,onVeto,onAutoVeto,onOpponentVe
  const captionLine=visible.at(-1),history=visible.slice(0,-1);
  const planned=PLANNED_ENGINES.includes(match.engineVersion??'');
  const needSide=Boolean(match.status==='playing'&&current&&current.rounds.length===0&&sideChooser(match,current.map)===own);
- const execute=()=>onRound(decisionForMode(mode,decision,side,planned));
+ const execute=()=>{if(match.status==='finished'){setRevealed(999);setSelected(-1);}else onRound(decisionForMode(mode,decision,side,planned));};
  // Autoplay: once the round's narration has fully played, start the next round with the chosen mode.
  const roundDone=!round||(revealed>=round.commentary.length&&settled);
  const autoplayBlock=!autoplay?undefined:needSide?'连播已暂停：本图由你选边，选好后执行首回合。':selected>=0?'连播已暂停：正在回看历史回合，选择「最新回合」继续。':paused?'连播已暂停：播报暂停中。':undefined;
  useEffect(()=>{if(match.status!=='playing'&&autoplay)setAutoplay(false);},[match.status,autoplay]);
  const executeRef=useRef(execute);executeRef.current=execute;
  useEffect(()=>{
-  if(!autoplay||busy||match.status!=='playing'||autoplayBlock||!roundDone)return;
+   if(view!=='live'||!autoplay||busy||match.status!=='playing'||autoplayBlock||!roundDone)return;
   const id=setTimeoutFn(()=>executeRef.current(),speed===0?1600:Math.max(1800,speed*1.6));
   return()=>clearTimeout(id);
- },[autoplay,busy,match.status,autoplayBlock,roundDone,speed,round]);
+ },[autoplay,busy,match.status,autoplayBlock,roundDone,speed,round,view]);
  // Desktop stage: the arena fills the viewport below whatever sits above it, so watching never needs page scroll.
  const arena=useRef<HTMLElement>(null);
  useLayoutEffect(()=>{const el=arena.current;if(!el)return;
@@ -148,7 +149,7 @@ export function MatchView({session,match,own,busy,onVeto,onAutoVeto,onOpponentVe
   </div>
  </ScoreHud>
  {match.status==='veto'&&match.veto.length===0&&((match.higherSeed??(match.teams[0].initialRank<=match.teams[1].initialRank?0:1))===own)&&<Panel title="高种子顺序选择"><p>你可以选择 A / B 禁选顺序。选图方的对手选边，剩余图由 B 方选边。</p><div className="button-row"><button aria-pressed={(match.vetoA??0)===own} onClick={()=>onVetoOrder('A')}>选择 A 方</button><button aria-pressed={(match.vetoA??0)!==own} onClick={()=>onVetoOrder('B')}>选择 B 方</button></div></Panel>}
- {needSide&&<Panel className="side-panel" title="本图由你选边"><div className="button-row side-choice"><button className="side-t" aria-pressed={side==='T'} onClick={()=>onStartingSide('T')}>先打进攻方</button><button className="side-ct" aria-pressed={side==='CT'} onClick={()=>onStartingSide('CT')}>先打防守方</button></div></Panel>}
+  {needSide&&!concealCommand&&<Panel className="side-panel" title="本图由你选边"><div className="button-row side-choice"><button className="side-t" aria-pressed={side==='T'} onClick={()=>onStartingSide('T')}>先打进攻方</button><button className="side-ct" aria-pressed={side==='CT'} onClick={()=>onStartingSide('CT')}>先打防守方</button></div></Panel>}
  {match.status==='veto'&&careerMatch&&step?.team!==own&&<button onClick={onOpponentVeto}>对手执行本轮禁选</button>}
  {match.status==='veto'?<Panel className="veto-panel" title={`地图禁选 · ${match.teams[step!.team].name} ${step!.kind==='ban'?'禁图':'选图'}`} extra={<button onClick={onAutoVeto}>自动完成禁选</button>}>
   <div className="map-grid">{MAPS.map(m=>{const record=match.veto.find(v=>v.map===m.id),open=availableMaps(match).some(a=>a.id===m.id);const a=match.teams[own].dynamics.mapPreparation[m.id],b=match.teams[1-own].dynamics.mapPreparation[m.id];
@@ -159,7 +160,7 @@ export function MatchView({session,match,own,busy,onVeto,onAutoVeto,onOpponentVe
     <small>{record?`${match.teams[record.team].name} ${record.kind==='ban'?'已禁用':'已选择'}`:open?(step!.kind==='ban'?'禁用这张地图':'选择这张地图'):'剩余地图'}</small>
    </button>;})}</div>
   <ol className="veto-history">{match.veto.map((v,i)=><li key={i} className={v.kind}>{match.teams[v.team].name} {v.kind==='ban'?'禁用':'选择'} {getMap(v.map).name}</li>)}</ol></Panel>:<>
- <MatchCommand match={match} side={side} own={own} map={map!} decision={decision} busy={busy} mode={mode} onMode={setMode} autoplay={autoplay} onAutoplay={setAutoplay} autoplayNote={autoplayBlock??(roundDone?'连播中：下一回合即将开始…':'连播中：本回合播完后自动开下一回合。')} update={update} onExecute={execute} onRound={onRound} onBatch={limit=>{skipBatch.current=true;onBatch(limit);}} onTimeout={onTimeout}/>
+ <MatchCommand match={match} side={side} own={own} map={map!} decision={decision} busy={busy} conceal={concealCommand} mode={mode} onMode={setMode} autoplay={autoplay} onAutoplay={setAutoplay} autoplayNote={autoplayBlock??(roundDone?'连播中：下一回合即将开始…':'连播中：本回合播完后自动开下一回合。')} update={update} onExecute={execute} onRound={(d,count)=>{if(match.status==='finished')execute();else onRound(d,count);}} onBatch={limit=>{if(match.status==='finished'){execute();return;}skipBatch.current=true;onBatch(limit);}} onTimeout={onTimeout}/>
  <section ref={arena} className={`observer-board arena ${round?'has-round':''} ${live?.bomb&&!live.complete&&(live.bomb.state==='planted'||live.bomb.state==='defusing')?`bomb-${live.bomb.state}`:''}`} aria-label="双方选手对比">
   {played&&banner&&<span key={banner.key} className={`arena-flash ${banner.side==='CT'?'side-ct':'side-t'}`} aria-hidden="true"/>}
   <div className="observer-caption"><h2>双方阵容</h2><span>{ROSTER_MODE_LABELS[rosterMode]}</span></div>
@@ -168,7 +169,7 @@ export function MatchView({session,match,own,busy,onVeto,onAutoVeto,onOpponentVe
    {round&&snapshot&&<Spotlight round={round} events={snapshot.events} played={played} nick={nick}/>}
    {match.status==='finished'&&!livePending&&round===allRounds.at(-1)&&<div className={`result ${match.winner===own?'won':'lost'}`}><div><small>{match.winner===own?'胜利':'系列赛结束'}</small><h3>{match.teams[match.winner!].name} 赢下系列赛</h3><span>{match.mapStates.map(m=>`${getMap(m.map).name} ${orderedScore(m.score,':')}`).join(' · ')}</span></div><button className="primary" onClick={onFinish}>{careerMatch?'结算并返回赛事':'返回沙盒配置'}</button></div>}
    <Panel className="broadcast-panel" title="解说席">
-    <div className="tabs" ref={tabs}><span className="indicator" aria-hidden="true"/>{VIEWS.map(([id,name])=><button aria-pressed={view===id} className={view===id?'selected':''} key={id} onClick={()=>setView(id)}>{name}</button>)}<select className="speed-select" aria-label="播报速度" value={speed} onChange={e=>{const value=Number(e.target.value);setSpeed(value);if(value===0)setRevealed(999);}}><option value={1000}>正常播报</option><option value={2500}>慢速阅读</option><option value={0}>直接显示</option><option value={-1}>手动逐段</option></select></div>
+    <div className="tabs" ref={tabs}><span className="indicator" aria-hidden="true"/>{VIEWS.map(([id,name])=><button aria-pressed={view===id} className={view===id?'selected':''} key={id} title={id==='review'||id==='ledger'?'查看本回合完整结果（含未播出的事件）':undefined} onClick={()=>{setView(id);if(id==='review'||id==='ledger')setRevealed(999);}}>{name}</button>)}<select className="speed-select" aria-label="播报速度" value={speed} onChange={e=>{const value=Number(e.target.value);setSpeed(value);if(value===0)setRevealed(999);}}><option value={1000}>正常播报</option><option value={2500}>慢速阅读</option><option value={0}>直接显示</option><option value={-1}>手动逐段</option></select></div>
     {view==='live'&&<div className="broadcast-controls"><div className="button-row segmented"><button aria-pressed={detail==='full'} onClick={()=>setDetail('full')}>详解</button><button aria-pressed={detail==='brief'} onClick={()=>setDetail('brief')}>精简</button></div><button className="ghost" disabled={!round||revealed>=round.commentary.length||speed<=0} onClick={()=>setPaused(p=>!p)}>{paused?'继续播报':'暂停播报'}</button>{allRounds.length>0&&<label className="round-picker">回放<select aria-label="回放回合" value={selected} onChange={e=>setSelected(Number(e.target.value))}><option value={-1}>最新回合</option>{allRounds.map((r,i)=><option key={i} value={i}>{getMap(r.map).name} · R{r.number}{(selected>=0&&i>selected)||(r===round&&!snapshot?.complete)?'':` · ${orderedScore(r.score,':')}`}</option>)}</select></label>}{round&&<label className="progress-label">进度<input aria-label="解说事件进度" type="range" min={1} max={round.commentary.length} value={Math.min(revealed,round.commentary.length)} style={{'--progress':`${(Math.min(revealed,round.commentary.length)-1)/Math.max(1,round.commentary.length-1)*100}%`} as CSSProperties} onChange={e=>{setPaused(true);setRevealed(Number(e.target.value));}}/></label>}</div>}
     {!round?<div className="empty-state"><h3>第一回合，由你指挥。</h3><p>选一个指挥档位后执行，主解说与分析嘉宾会随真实事件逐段展开。想一直看下去，就打开「连播」。</p><p className="muted">敌方计划尚未暴露。首回合双方起始现金为每人 $800。</p></div>:view==='live'?<>
      <div className="commentary commentary-feed" ref={feed} tabIndex={0} aria-label="现场解说" onScroll={e=>{const el=e.currentTarget,up=el.scrollTop<lastTop.current-1;if(session.current)session.current.scrollTop=el.scrollTop;lastTop.current=el.scrollTop;const atBottom=el.scrollHeight-el.clientHeight-el.scrollTop<45;if(atBottom)setFollow(true);else if(up)setFollow(false);}}>
@@ -180,13 +181,13 @@ export function MatchView({session,match,own,busy,onVeto,onAutoVeto,onOpponentVe
      <div className="now-speaking" ref={caption} aria-live="polite" aria-label="正在播报">{captionLine&&renderSegment(captionLine,'caption')}</div>
      {recap&&<div className="half-recap" role="note"><b>{recap.title}</b><span>{recap.score}</span>{recap.best&&<span>本图最佳 {nick(recap.best.id)} · Rating {recap.best.rating.toFixed(2)}</span>}{recap.run&&recap.run.length>=3&&<span>最长连胜 {match.teams[recap.run.team].name} {recap.run.length} 连</span>}<button className="text-button" onClick={()=>setView('desk')}>看场外分析 →</button></div>}
      {revealed<round.commentary.length&&<div className="button-row feed-next"><button onClick={()=>setRevealed(n=>n+1)}>继续下一段</button><button className="ghost" onClick={()=>setRevealed(999)}>展开本回合全部解说</button></div>}
-    </>:view==='desk'?<div className="desk-scroll"><AnalysisDesk match={match} own={own} mapRounds={settledMapRounds} seriesRounds={settledRounds} nick={nick}/>{rosterMap&&<MapGuide map={rosterMap}/>}</div>
+    </>:view==='desk'?<div className="desk-scroll">{!complete&&<p className="fine muted">仅统计已揭示的完整回合。<button className="text-button" onClick={()=>setRevealed(999)}>显示本回合结果</button></p>}<AnalysisDesk match={match} own={own} mapRounds={settledMapRounds} seriesRounds={settledRounds} nick={nick}/>{rosterMap&&<MapGuide map={rosterMap}/>}</div>
     :view==='review'?<div className="review desk-scroll"><h3>{match.teams[round.winner].name}赢下回合</h3><p>胜利条件：{({elimination:'下包前消灭全部对手',defuse:'炸弹爆炸前完成拆除',explode:'炸弹计时结束',time:'下包前回合时间耗尽'})[round.reason]}</p><p>双方战术：{TACTICS.find(t=>t.id===round.decisions[0].tactic)?.name} / {TACTICS.find(t=>t.id===round.decisions[1].tactic)?.name}</p><p>实际交火 {round.events.filter(e=>e.kind==='duel').length} 次，轮转移动 {round.events.filter(e=>e.kind==='move').length} 次，击杀 {round.events.filter(e=>e.kind==='kill').length} 次。</p><p>这些结论来自本回合账本；单局胜败不能证明某战术一定有效。</p><BattlePlanReview round={round} names={match.teams.map(t=>t.name)}/></div>
     :<div className="desk-scroll"><Ledger round={round} nick={nick}/><details className="economy-ledger"><summary>逐人经济账本 · 第 {round.number} 回合</summary><div className="table-scroll" tabIndex={0}><table><thead><tr><th>选手</th><th>购买前</th><th>支出</th><th>击杀奖</th><th>目标奖</th><th>团队奖</th><th>结算</th><th>保枪</th></tr></thead><tbody>{round.economy.map(e=><tr key={e.playerId}><th>{nick(e.playerId)}</th><td>{e.cashBefore}</td><td>{e.spend}</td><td>{e.killRewards}</td><td>{e.objectiveRewards}</td><td>{e.teamRewards}</td><td>{e.cashAtEnd}</td><td>{e.carriedEquipment?.weapon??'无'}</td></tr>)}</tbody></table></div></details></div>}
    </Panel>
   </div>
   <TeamRoster match={match} team={(1-own) as TeamIndex} mirrored fighters={roster} map={rosterMap} stats={hudStats} anchor={`${round?.map}-${round?.number}-${snapshot?.cutoff}`} extras={extras}/>
-  {round&&snapshot&&<WinCard round={round} own={own} revealed={snapshot.events} complete={complete} names={[match.teams[0].name,match.teams[1].name]}/>}
+  {round&&snapshot&&<WinCard round={round} own={own} revealed={snapshot.events} complete={complete} names={[match.teams[0].name,match.teams[1].name]} context={match}/>}
   {round&&snapshot&&<KillCard round={round} own={own} revealed={snapshot.events} complete={complete} nick={nick}/>}
  </section>
  </>}

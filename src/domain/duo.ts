@@ -34,7 +34,7 @@ export function addDuoVoices(segments: CommentarySegment[], round: RoundResult, 
 
   // Setup: one framing line before the first contact.
   const ctValue = teamValue(round.initial, ct), tValue = teamValue(round.initial, t);
-  const preCt = preRoundCtWin(round.initial, ct);
+  const preCt = preRoundCtWin(round.initial, ct,series,round);
   const casterFramedRun = /连拿|连下|连胜|连续/.test(out[0].text);
   const leader = casterFramedRun ? undefined : ([0, 1] as TeamIndex[]).map(i => ({i, n: streak(prior, i)})).find(x => x.n === 3 || x.n === 5 || x.n >= 8);
   const hot = pistol ? undefined : round.initial.map(f => ({f, form: playerForm(prior, f.id)})).filter(x => x.form.form === 'hot').sort((a, b) => b.form.score - a.form.score)[0];
@@ -77,7 +77,7 @@ export function addDuoVoices(segments: CommentarySegment[], round: RoundResult, 
     if (tAlive && ctAlive && ctAlive >= tAlive - 1) lines.push({priority: 2, family: 'an-postplant', facts: {T: team(t), CT: team(ct), T人: tAlive, CT人: ctAlive, 胜率: pct(liveCtWin(s.fighters, ct, true))}, anchor: plant.id, voice: 'analyst'});
   }
   if (clutchOdds === undefined && !lines.some(l => l.family === 'an-postplant')) {
-    const swing = biggestSwing(round, 0);
+    const swing = biggestSwing(round, 0,series);
     if (swing && Math.abs(swing.delta) >= .2 && swing.after > .02 && swing.after < .98 && swing.eventId !== firstKill?.id) {
       const gainer = (swing.delta > 0 ? 0 : 1) as TeamIndex, view = (p: number) => gainer === 0 ? p : 1 - p;
       lines.push({priority: 2, family: 'an-swing', facts: {队: team(gainer), 前: pct(view(swing.before)), 后: pct(view(swing.after))}, anchor: swing.eventId, voice: 'analyst'});

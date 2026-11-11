@@ -81,6 +81,7 @@ function fighters(list: Fighter[], s: Series, map: string, allowSpawn = false) {
 }
 export function validateSeries(s: Series) {
     check(s.engineVersion === undefined || [...PLANNED_ENGINES,'causal-2026-10-v3'].includes(s.engineVersion), '未知比赛引擎版本');
+    check(s.winProbabilityVersion === undefined || s.winProbabilityVersion === 'wp-v6-1', '未知胜率模型版本');
     timeoutRules(s.timeoutRules);
     validateWorld({ teams: s.teams, players: s.players }, false);
     check(typeof s.id === 'string' && integer(s.seed, 0, 0xffffffff) && integer(s.rngState, 0, 0xffffffff), '比赛随机状态错误');

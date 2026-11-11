@@ -1,0 +1,53 @@
+{
+  "version": "wp-v6-1",
+  "engineVersion": "causal-plans-v6",
+  "training": {
+    "firstSeed": 100001,
+    "seeds": 48,
+    "matches": 672
+  },
+  "prior": {
+    "intercept": -0.481396,
+    "perThousand": 0.118423,
+    "mapOffsets": {
+      "dust2": 0.112248,
+      "mirage": 0.105654,
+      "inferno": 0.00019,
+      "nuke": 0.044309,
+      "ancient": -0.06685,
+      "anubis": -0.048212,
+      "cache": -0.147339
+    }
+  },
+  "pistol": {
+    "dust2": {
+      "p": 0.701031,
+      "samples": 192
+    },
+    "mirage": {
+      "p": 0.613402,
+      "samples": 192
+    },
+    "inferno": {
+      "p": 0.701031,
+      "samples": 192
+    },
+    "nuke": {
+      "p": 0.71134,
+      "samples": 192
+    },
+    "ancient": {
+      "p": 0.804124,
+      "samples": 192
+    },
+    "anubis": {
+      "p": 0.742268,
+      "samples": 192
+    },
+    "cache": {
+      "p": 0.721649,
+      "samples": 192
+    }
+  },
+  "liveSource": "legacy-v5 (unchanged; checked on held-out v6 rounds)"
+}

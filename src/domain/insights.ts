@@ -2,10 +2,11 @@
  * Read-only insights derived from round ledgers. Nothing here feeds back into the engine
  * or the random stream: it only turns recorded events into numbers worth showing.
  */
-import type {Fighter, MapState, RoundEvent, RoundResult, Side, TeamIndex} from './types';
+import type {Fighter, MapState, MapId, RoundEvent, RoundResult, Series, Side, TeamIndex} from './types';
 import {ECONOMY, UTILITY_PRICES, WEAPONS} from './economy';
 import {sidesForRound} from './series';
 import model from '../data/win-probability.json';
+import calibrated from '../data/win-probability-v6.json';
 
 export const sigmoid = (x: number) => 1 / (1 + Math.exp(-x));
 export const logit = (p: number) => Math.log(p / (1 - p));
@@ -33,8 +34,14 @@ export function buyKind(fighters: readonly Fighter[], team: TeamIndex, roundNumb
 type Model = {version: string; prior: {intercept: number; perThousand: number}; live: {table: Record<string, number>; perThousand: number}};
 const WP = model as Model;
 /** Pre-round CT win chance from the CT − T equipment value gap (fitted on simulated rounds). */
-export function preRoundCtWin(fighters: readonly Fighter[], ctTeam: TeamIndex): number {
+export type ProbabilityContext=Pick<Series,'engineVersion'|'winProbabilityVersion'>;
+export const calibratedProbability=(context?:ProbabilityContext)=>context?.engineVersion===calibrated.engineVersion&&context.winProbabilityVersion===calibrated.version;
+export function preRoundCtWin(fighters: readonly Fighter[], ctTeam: TeamIndex,context?:ProbabilityContext,round?:Pick<RoundResult,'map'|'number'>): number {
   const gap = (teamValue(fighters, ctTeam) - teamValue(fighters, (1 - ctTeam) as TeamIndex)) / 1000;
+  if(calibratedProbability(context)&&round){
+    if(round.number===1||round.number===13)return calibrated.pistol[round.map].p;
+    return sigmoid(calibrated.prior.intercept+calibrated.prior.mapOffsets[round.map as MapId]+calibrated.prior.perThousand*gap);
+  }
   return sigmoid(WP.prior.intercept + WP.prior.perThousand * gap);
 }
 /** Live CT win chance from survivors, bomb state and the surviving equipment gap. */
@@ -50,17 +57,21 @@ export function liveCtWin(fighters: readonly Fighter[], ctTeam: TeamIndex, plant
 }
 
 /** A round's win-probability curve, one point per kill/plant/defuse plus start and end (from team `own`'s view). */
-export interface WinPoint {at: number; p: number; eventId?: string; kind: 'start' | RoundEvent['kind']}
-export function winCurve(round: RoundResult, own: TeamIndex): WinPoint[] {
+export interface WinPoint {at: number; p: number; eventId?: string; kind: 'start' | RoundEvent['kind']; approximate?:boolean}
+export function winCurve(round: RoundResult, own: TeamIndex,context?:ProbabilityContext): WinPoint[] {
   const ct = (round.sides[0] === 'CT' ? 0 : 1) as TeamIndex;
   const view = (pCt: number) => own === ct ? pCt : 1 - pCt;
   const fighters = structuredClone(round.initial);
   let planted = false;
-  const points: WinPoint[] = [{at: 0, p: view(preRoundCtWin(fighters, ct)), kind: 'start'}];
+  const points: WinPoint[] = [{at: 0, p: view(preRoundCtWin(fighters, ct,context,round)), kind: 'start'}];
   for (const e of round.events) {
     if (e.kind === 'kill') { const target = fighters.find(f => f.id === e.target); if (target) target.alive = false; }
     if (e.kind === 'plant') planted = true;
-    if (e.kind === 'kill' || e.kind === 'plant') points.push({at: e.at, p: view(liveCtWin(fighters, ct, planted)), eventId: e.id, kind: e.kind});
+    if (e.kind === 'kill' || e.kind === 'plant') {
+      const tAlive=fighters.filter(f=>f.team!==ct&&f.alive).length,ctAlive=fighters.filter(f=>f.team===ct&&f.alive).length;
+      const sparse=calibratedProbability(context)&&ctAlive>0&&(tAlive>0||planted)&&WP.live.table[`${tAlive}${ctAlive}${planted?1:0}`]===undefined;
+      points.push({at: e.at, p: view(liveCtWin(fighters, ct, planted)), eventId: e.id, kind: e.kind,...(sparse?{approximate:true}:{})});
+    }
     if (e.kind === 'defuse' || e.kind === 'explode' || e.kind === 'roundEnd') {
       points.push({at: e.at, p: round.winner === own ? 1 : 0, eventId: e.id, kind: e.kind});
       break;
@@ -69,8 +80,8 @@ export function winCurve(round: RoundResult, own: TeamIndex): WinPoint[] {
   return points;
 }
 /** The single event that moved the win chance the most, with the swing size. */
-export function biggestSwing(round: RoundResult, own: TeamIndex) {
-  const curve = winCurve(round, own).filter(p => p.kind !== 'roundEnd');
+export function biggestSwing(round: RoundResult, own: TeamIndex,context?:ProbabilityContext) {
+  const curve = winCurve(round, own,context).filter(p => p.kind !== 'roundEnd');
   let best: {eventId: string; delta: number; before: number; after: number} | null = null;
   for (let i = 1; i < curve.length; i++) {
     const delta = curve[i].p - curve[i - 1].p;

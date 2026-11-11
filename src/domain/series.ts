@@ -36,7 +36,7 @@ export function createSeries(world: World, a: string, b: string, bestOf: 1 | 3 |
     const ids = [...ta.startingFive, ...tb.startingFive];
     if (ids.length !== 10 || new Set(ids).size !== 10 || ids.some(id => !world.players.some(p => p.id === id)))
         throw new Error('双方必须拥有不重复的五人阵容');
-    return { engineVersion: BATTLE_ENGINE, higherSeed: ta.initialRank <= tb.initialRank ? 0 : 1, timeoutRules: { ...timeoutRules }, id: `match-${seed}-${a}-${b}`, seed: seed >>> 0, rngState: seed >>> 0, bestOf, teams: structuredClone([ta, tb]), players: structuredClone(world.players.filter(p => ids.includes(p.id))), veto: [], vetoA: ta.initialRank <= tb.initialRank ? 0 : 1, startingSides: {}, maps: [], mapStates: [], score: [0, 0], winner: null, status: 'veto' };
+    return { engineVersion: BATTLE_ENGINE, winProbabilityVersion: 'wp-v6-1', higherSeed: ta.initialRank <= tb.initialRank ? 0 : 1, timeoutRules: { ...timeoutRules }, id: `match-${seed}-${a}-${b}`, seed: seed >>> 0, rngState: seed >>> 0, bestOf, teams: structuredClone([ta, tb]), players: structuredClone(world.players.filter(p => ids.includes(p.id))), veto: [], vetoA: ta.initialRank <= tb.initialRank ? 0 : 1, startingSides: {}, maps: [], mapStates: [], score: [0, 0], winner: null, status: 'veto' };
 }
 export function vetoStep(series: Series): {
     team: TeamIndex;
