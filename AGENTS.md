@@ -5,4 +5,4 @@ CS2 Roundcraft is a React, TypeScript, and Vite single-player tactical managemen
 
 Use the project lockfile and Node version in `package.json`. For relevant changes run focused checks, `npm test`, `npm run data:validate`, and `npm run build`; UI/delivery changes also need applicable `npm run test:e2e`, `npm run test:offline`, and `npm run test:pages` (gated by CI before Pages deploy). Docs-only work needs proportionate checks.
 
-Preserve user saves and use isolated browser test data. Do not publish, push, merge, change dependencies, or alter remote config without explicit authorization. Stage only intended files and report actual checks and limitations.
+Preserve user saves and use isolated browser test data.
